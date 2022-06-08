@@ -2,7 +2,7 @@
   <br>
   <img src="./img/ELN_kart.gif" alt="ELN Kart Logo" width="200" height="200">
   <br>
-  Hevs ELN Kart Summerschool Project - Adapted for the new [EBS3 Igloo board](https://gitlab.hevs.ch/course/ElN/fpga-ebs3)
+  Hevs ELN Kart Summerschool Project - Adapted for the new <a href="https://gitlab.hevs.ch/course/ElN/fpga-ebs3" target="_blank">EBS3 Igloo board</a>.
   <br>
 </h1>
 
@@ -17,9 +17,7 @@
   <a href="#find-us-on">Find us on</a>
 </p>
 
-<div align="center">
 ![screenshot](img/screenshot.png)
-</div>
 
 ## Description
 [(Back to top)](#table-of-contents)
