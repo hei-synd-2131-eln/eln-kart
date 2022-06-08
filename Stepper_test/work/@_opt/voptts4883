@@ -1,0 +1,113 @@
+m255
+K4
+z0
+13
+cModel Technology
+dC:/dev/eln_kart_sodimm200/Kart/Scripts
+Ebufferulogic
+Z0 w1652451037
+Z1 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 dC:/temp/eda/axel.amand/Libraries/gates/work
+8C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogic_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogic_entity.vhg
+l0
+L14
+VQgo[F3k2o1k27aojh54F21
+!s100 Kl6FKTKTV47[[?FdFBh490
+Z5 OE;C;10.7c;67
+33
+Z6 !s110 1652690334
+!i10b 1
+Z7 !s108 1652690333.000000
+Z8 !s90 -work|gates|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files6|
+Z9 !s107 C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogic_sim.vhd|C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogic_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogicVector_sim.vhd|C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogicvector_entity.vhg|
+!i113 0
+Z10 o-nologo -work gates -2008
+Z11 tExplicit 1 CvgOpt 0
+Asim
+R1
+R2
+R3
+DEx4 work 12 bufferulogic 0 22 Qgo[F3k2o1k27aojh54F21
+8C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogic_sim.vhd
+FC:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogic_sim.vhd
+l2
+L1
+V`e<?3Ylc4<GSO<EOG?XBM0
+!s100 JWPSJHBbEiQf0XXI]Bo753
+R5
+33
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Ebufferulogicvector
+R0
+R1
+R2
+R3
+R4
+8C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogicvector_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferulogicvector_entity.vhg
+l0
+L14
+VQP07LoXM9_<W:Wad``HhX0
+!s100 l7dgR3Namnl3>LAA89F>^2
+R5
+33
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Asim
+R1
+R2
+R3
+DEx4 work 18 bufferulogicvector 0 22 QP07LoXM9_<W:Wad``HhX0
+8C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogicVector_sim.vhd
+FC:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/bufferULogicVector_sim.vhd
+l2
+L1
+VB8cVElV]S^9T2a^YQgoKL2
+!s100 @:k2WLJXcD?UB`GBaFAKU3
+R5
+33
+R6
+!i10b 1
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Pgates
+R2
+R3
+w1652181941
+R4
+8C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/gates_pkg.vhd
+FC:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/gates_pkg.vhd
+l0
+L4
+V_Hi4cf]jV7iZg:nQ1?Yc60
+!s100 nB8UU>391kYo0GHWLaZFU1
+R5
+32
+!s110 1652690333
+!i10b 1
+R7
+!s90 -work|gates|-nologo|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files4|
+!s107 C:/dev/eln_kart_sodimm200/Kart/../Libs/Gates/hdl/gates_pkg.vhd|
+!i113 0
+o-nologo -work gates
+R11

@@ -1,0 +1,308 @@
+m255
+K4
+z0
+13
+cModel Technology
+dC:/dev/eln_kart_sodimm200/Kart/Scripts
+Pkart
+Z0 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+w1653488095
+Z3 dC:/temp/eda/axel.amand/Kart/Kart/work
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd
+l0
+L14
+V=Y`gK?ZYSUM2[mXWBzF@_0
+!s100 Q8Qn4IeZ34P=ca@;J:[:>2
+Z4 OE;C;10.7c;67
+33
+!s110 1653488148
+!i10b 1
+!s108 1653488148.000000
+!s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd|
+!i113 0
+Z5 o-nologo -work Kart -2008
+Z6 tExplicit 1 CvgOpt 0
+Ekartcontroller
+w1653477434
+Z7 DPx4 kart 4 kart 0 22 ZmfEcd<f76WfO`<>z6g:b2
+R0
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_entity.vhg
+l0
+L16
+VVL>05E>cU2j[K_GahedIS1
+!s100 fGTH=NP_^ao@3USQTM7@X2
+R4
+33
+!s110 1653485111
+!i10b 1
+!s108 1653485111.000000
+Z8 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files2|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_entity.vhg|
+!i113 0
+R5
+R6
+Astruct
+w1653484120
+Z9 DEx4 uart 14 uartcontroller 0 22 6@IM=RT9Ccc<hCj<U7z`[1
+DEx4 kart 8 txrouter 0 22 k>mS658Z]6L_ZSO9k1hJP3
+Z10 DEx7 stepper 22 steppermotorcontroller 0 22 37AAz<YWKXYPPkj<o_zhH3
+DEx7 sensors 17 sensorscontroller 0 22 ^=:O0adK_;mh;lB4]J3R93
+Z11 DEx7 dcmotor 17 dcmotorcontroller 0 22 `e6V8>M77V?`n11fiERg^2
+Z12 DEx16 controlregisters 26 controlregisterscontroller 0 22 Ekg_e_d[R?TDj[8[f[4?c1
+Z13 DEx5 gates 18 bufferulogicvector 0 22 QP07LoXM9_<W:Wad``HhX0
+Z14 DEx5 gates 8 and2inv2 0 22 ^_FQ<BOUoa><M9ie0kFX:1
+Z15 DEx6 memory 9 fifo_bram 0 22 b9_>zkMO6=HM1`2TTlfF:1
+Z16 DEx4 work 14 kartcontroller 0 22 VL>05E>cU2j[K_GahedIS1
+Z17 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+R7
+Z18 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+R0
+R1
+R2
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct.vhg
+l225
+L30
+Ve9N1:N<XgZCWi5:299MiE3
+!s100 QHNiLoI3PhLTDl6<nHEMV3
+R4
+33
+Z19 !s110 1653485113
+!i10b 1
+Z20 !s108 1653485113.000000
+Z21 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files12|
+Z22 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txRouter_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter_entity.vhg|
+!i113 0
+R5
+R6
+Astruct1
+Z23 w1653477435
+R9
+DEx4 kart 9 txrouter1 0 22 _a7L[?XzHFf_LE3]_6_h`3
+R10
+R11
+R12
+R13
+R14
+R15
+R16
+Z24 DPx4 kart 4 kart 0 22 0C^]m9iSnJo3memDgH=go0
+R17
+R0
+R1
+R2
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct1.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct1.vhg
+l194
+L26
+VgZjFb91_<zSlKV^cEbLDX1
+!s100 R5Mg@ISdX^Qo?XQKPkbi81
+R4
+33
+Z25 !s110 1653477437
+!i10b 1
+Z26 !s108 1653477437.000000
+Z27 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+Z28 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_generatedinstance.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/kartcontroller_entity.vhg|
+!i113 0
+R5
+R6
+Ereg_addr_decoder
+Z29 w1653466310
+Z30 DPx4 kart 4 kart 0 22 =Y`gK?ZYSUM2[mXWBzF@_0
+R18
+R0
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_entity.vhg
+l0
+L19
+VIzXJ?M@gU4_k>OU=VoScQ1
+!s100 NihgWcY]0hC?>>4d9h0Pd0
+R4
+33
+Z31 !s110 1653488149
+!i10b 1
+Z32 !s108 1653488149.000000
+R8
+Z33 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registermanager_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_entity.vhg|
+!i113 0
+R5
+R6
+Artl
+R18
+DEx4 work 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+R0
+R1
+R2
+R30
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd
+l18
+L14
+V@aVP<3@M`5bae@FiFIg^V3
+!s100 bM:nbXYR<QId>If38DUZ51
+R4
+33
+R31
+!i10b 1
+R32
+R8
+R33
+!i113 0
+R5
+R6
+Eregistermanager
+R29
+R30
+R18
+R0
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registermanager_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registermanager_entity.vhg
+l0
+L19
+V7Z>^VZIjd[dSJZ[bMWb8=3
+!s100 NfJHEjJiSa4;_<58LzL>D1
+R4
+33
+R31
+!i10b 1
+R32
+R8
+R33
+!i113 0
+R5
+R6
+Artl
+w1653488106
+R18
+DEx4 work 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+R0
+R1
+R2
+R30
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd
+l20
+L14
+VUl]XEakLjV<hio]BBNiCG1
+!s100 :GZRZa6dB0g6LeCLXkEPG1
+R4
+33
+R31
+!i10b 1
+R32
+R8
+R33
+!i113 0
+R5
+R6
+Etxrouter
+Z34 w1653466315
+R17
+R7
+R18
+R0
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter_entity.vhg
+l0
+L22
+Vk>mS658Z]6L_ZSO9k1hJP3
+!s100 >nZOf;CSePYS^A0eXF:Fg2
+R4
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R5
+R6
+Artl
+R17
+R18
+DEx4 work 8 txrouter 0 22 k>mS658Z]6L_ZSO9k1hJP3
+R0
+R1
+R2
+R7
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txRouter_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txRouter_rtl.vhd
+l25
+L14
+Vi=Lg>[Y@<aOmmUg24P5@l3
+!s100 B=@R2_7bL1;U`gBRhd5RP2
+R4
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R5
+R6
+Etxrouter1
+R23
+R24
+R17
+R0
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_entity.vhg
+l0
+L19
+V_a7L[?XzHFf_LE3]_6_h`3
+!s100 jl@E4D4f:>F>VaiiP^N4n0
+R4
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R5
+R6
+Ageneratedinstance
+R24
+R17
+R0
+R1
+R2
+DEx4 work 9 txrouter1 0 22 _a7L[?XzHFf_LE3]_6_h`3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_generatedinstance.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/txrouter1_generatedinstance.vhg
+l5
+L4
+VZ=mGiNZTlY@GVn^0VIX<z0
+!s100 0H@l1IRVcUjb7iWL;YC6[1
+R4
+33
+R25
+!i10b 1
+R26
+R27
+R28
+!i113 0
+R5
+R6

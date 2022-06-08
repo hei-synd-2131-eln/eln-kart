@@ -1,0 +1,560 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 21:25:53 on May 11,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "framePacker(RTL)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# do C:/dev/eln_kart_sodimm200/Kart/Simulation/serialReceiver.do
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/clock'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 3
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/reset'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 4
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_1/rs232OmitByte'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 6
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_1/busCRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 7
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_1/rs232Command'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 8
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_1/rs232RxByte'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 9
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/RxD'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 11
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/dataValid'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 12
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/dataOut'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 13
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_0/resetCRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 15
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_0/CRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 16
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_0/crc_done'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 17
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/state'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 19
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/calc_CRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 20
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/watchdogRunning'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 21
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/watchdogCnt'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 22
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/watchdogError'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 23
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/watchdogTarget'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 24
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/flushFrame'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 25
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/resetCRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 26
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_5/registerFrame'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 27
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/U_3/flush'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 29
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/frame'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 30
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/frameValid'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 31
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/newData'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 33
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/address'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 34
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/data'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 35
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/badCRC'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 36
+# ** Error: (vish-4014) No objects found matching '/serialreceiver_tb/U_0/watchdogError'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\serialReceiver.do line 37
+add wave -position 1  sim:/serialtransmitter_tb/U_0/address
+add wave -position 2  sim:/serialtransmitter_tb/U_0/data
+add wave -position 0  sim:/serialtransmitter_tb/U_0/reset
+add wave -position 0  sim:/serialtransmitter_tb/U_0/clock
+add wave -position 5  sim:/serialtransmitter_tb/U_0/startSending
+add wave -position end  sim:/serialtransmitter_tb/U_0/busySending
+add wave -position end  sim:/serialtransmitter_tb/U_0/TxD
+add wave -position 7  sim:/serialtransmitter_tb/U_1/dataOut
+add wave -position 8  sim:/serialtransmitter_tb/U_1/send
+add wave -position 9  sim:/serialtransmitter_tb/U_1/sendBusy
+add wave -position 10  sim:/serialtransmitter_tb/U_1/CRC
+add wave -position 10  sim:/serialtransmitter_tb/U_1/crc_done
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# 0
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 57112224 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 67
+add wave -position 7  sim:/serialtransmitter_tb/U_1/U_2/state
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 57112224 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 67
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+add wave -position 7  sim:/serialtransmitter_tb/U_1/U_2/p_data
+add wave -position 8  sim:/serialtransmitter_tb/U_1/U_2/p_addr
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 57112224 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 67
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 22390 ns  Iteration: 2  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 65
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "framePacker(RTL)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "framePacker(RTL)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 467570556 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 67
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+add wave -position end  sim:/serialtransmitter_tb/U_0/rs232RxByte
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 467570556 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 67
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 938870556 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 76
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+run
+# 0
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: Bad CRC - should be 0x1e
+#    Time: 458890 ns  Iteration: 2  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 63
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 938870556 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 82
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading uart.kart_uart
+# Loading work.serialtransmitter_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading uart.serialframetransmitter(struct)#1
+# Loading rs232.serialporttransmitter(rtl)#1
+# Loading uart.crc8itu(rtl)#1
+# Loading uart.framepacker(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.serialtransmitter_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /serialtransmitter_tb/U_1/U_0
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Note: Correct CRC 0x1E
+#    Time: 458890 ns  Iteration: 2  Instance: /serialtransmitter_tb/U_0
+# ** Note: Correct CRC 0x17
+#    Time: 930190 ns  Iteration: 2  Instance: /serialtransmitter_tb/U_0
+# ** Failure: End of simulation
+#    Time: 938870556 ps  Iteration: 0  Process: /serialtransmitter_tb/U_0/line__41 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd
+# Break in Process line__41 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialTransmitter_tester_test.vhd line 88
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/serialTransmitter.do
+# End time: 21:45:10 on May 11,2022, Elapsed time: 0:19:17
+# Errors: 88, Warnings: 1

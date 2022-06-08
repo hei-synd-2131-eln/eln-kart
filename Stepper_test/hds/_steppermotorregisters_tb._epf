@@ -1,0 +1,2 @@
+DEFAULT_FILE atom stepper@motor@registers_tb/struct.bd
+DEFAULT_ARCHITECTURE atom struct

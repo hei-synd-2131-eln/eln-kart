@@ -1,0 +1,2 @@
+@E: CD738 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2517:8:2517:15|Integer 0 out of range 1 to 2147483647
+

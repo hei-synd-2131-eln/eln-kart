@@ -1,0 +1,1412 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: WE7860
+
+# Thu May 19 08:52:30 2022
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":174:7:174:16|Top entity is set to Kart_Board.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":174:7:174:16|Synthesizing work.kart_board.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6026:7:6026:9|Synthesizing work.tff.sim.
+Post processing for work.tff.sim
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6080:7:6080:9|Synthesizing work.dff.sim.
+Post processing for work.dff.sim
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":223:7:223:20|Synthesizing work.kartcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":269:7:269:20|Synthesizing work.uartcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":309:7:309:28|Synthesizing work.serialframetransmitter.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":784:7:784:17|Synthesizing work.framepacker.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":824:18:824:19|Using onehot encoding for type statestype. For example, enumeration idle is mapped to "1000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":907:8:907:21|OTHERS clause is not synthesized.
+Post processing for work.framepacker.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":648:7:648:13|Synthesizing work.crc8itu.rtl.
+Post processing for work.crc8itu.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":340:7:340:27|Synthesizing work.serialporttransmitter.rtl.
+Post processing for work.serialporttransmitter.rtl
+Post processing for work.serialframetransmitter.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1070:7:1070:25|Synthesizing work.serialframereceiver.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1353:7:1353:26|Synthesizing work.framereceiverhandler.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1405:18:1405:19|Using onehot encoding for type statestype. For example, enumeration wait_header is mapped to "100000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1489:4:1489:17|OTHERS clause is not synthesized.
+Post processing for work.framereceiverhandler.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1257:7:1257:19|Synthesizing work.framecomposer.rtl.
+Post processing for work.framecomposer.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1102:7:1102:24|Synthesizing work.serialportreceiver.rtl.
+Post processing for work.serialportreceiver.rtl
+Post processing for work.serialframereceiver.struct
+Post processing for work.uartcontroller.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1958:7:1958:28|Synthesizing work.steppermotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2000:7:2000:27|Synthesizing work.steppermotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2271:7:2271:32|Synthesizing work.steppermotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2318:18:2318:19|Using sequential encoding for type statestype.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2356:30:2356:53|Index value 0 to 15 could be out of prefix range 2 downto 0. 
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2396:8:2396:21|OTHERS clause is not synthesized.
+Post processing for work.steppermotorregistersender.rtl
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2338:4:2338:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2338:4:2338:5|Pruning register bit 3 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2198:7:2198:33|Synthesizing work.sendactualangledeltamanager.rtl.
+Post processing for work.sendactualangledeltamanager.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2505:7:2505:18|Synthesizing work.edgedetector.rtl.
+Post processing for work.edgedetector.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2114:7:2114:21|Synthesizing work.registermanager.rtl.
+Post processing for work.registermanager.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2047:7:2047:22|Synthesizing work.reg_addr_decoder.rtl.
+Post processing for work.reg_addr_decoder.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2424:7:2424:24|Synthesizing work.bufferulogicvector.sim.
+Post processing for work.bufferulogicvector.sim
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2463:7:2463:18|Synthesizing work.bufferulogic.sim.
+Post processing for work.bufferulogic.sim
+Post processing for work.steppermotorregisters.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2841:7:2841:25|Synthesizing work.steppermotordivider.rtl.
+Post processing for work.steppermotordivider.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2948:7:2948:18|Synthesizing work.anglecontrol.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2989:7:2989:20|Synthesizing work.steppercounter.masterversion.
+Post processing for work.steppercounter.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3246:7:3246:17|Synthesizing work.coilcontrol.masterversion.
+Post processing for work.coilcontrol.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3106:7:3106:21|Synthesizing work.angledifference.masterversion.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3135:24:3135:25|Using onehot encoding for type turningstatetype. For example, enumeration uninitialized is mapped to "100000".
+Post processing for work.angledifference.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3054:7:3054:10|Synthesizing work.dffe.sim.
+Post processing for work.dffe.sim
+Post processing for work.anglecontrol.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2803:7:2803:9|Synthesizing work.or2.sim.
+Post processing for work.or2.sim
+Post processing for work.steppermotorcontroller.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4533:7:4533:23|Synthesizing work.sensorscontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4657:7:4657:22|Synthesizing work.ultrasoundranger.masterversion.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4683:25:4683:26|Using onehot encoding for type rangerstatetype. For example, enumeration idle is mapped to "100000".
+Post processing for work.ultrasoundranger.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4796:7:4796:22|Synthesizing work.sensorsregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5159:7:5159:31|Synthesizing work.sendhallcountdeltamanager.rtl.
+Post processing for work.sendhallcountdeltamanager.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4931:7:4931:26|Synthesizing work.sensorsregisterssend.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4978:18:4978:19|Using sequential encoding for type statestype.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5016:30:5016:53|Index value 0 to 15 could be out of prefix range 1 downto 0. 
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5067:8:5067:21|OTHERS clause is not synthesized.
+Post processing for work.sensorsregisterssend.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5237:7:5237:29|Synthesizing work.sendrangefinderonchange.rtl.
+Post processing for work.sendrangefinderonchange.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5101:7:5101:29|Synthesizing work.sendendswitchesonchange.rtl.
+Post processing for work.sendendswitchesonchange.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4875:7:4875:24|Synthesizing work.abortsendhallcount.rtl.
+Post processing for work.abortsendhallcount.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2114:7:2114:21|Synthesizing work.registermanager.rtl.
+Post processing for work.registermanager.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2047:7:2047:22|Synthesizing work.reg_addr_decoder.rtl.
+Post processing for work.reg_addr_decoder.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4835:7:4835:12|Synthesizing work.logic0.sim.
+Post processing for work.logic0.sim
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2424:7:2424:24|Synthesizing work.bufferulogicvector.sim.
+Post processing for work.bufferulogicvector.sim
+Post processing for work.sensorsregisters.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4571:7:4571:18|Synthesizing work.hallcounters.masterversion.
+Post processing for work.hallcounters.masterversion
+Post processing for work.sensorscontroller.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3683:7:3683:14|Synthesizing work.txrouter.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3727:18:3727:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3794:8:3794:21|OTHERS clause is not synthesized.
+Post processing for work.txrouter.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1814:7:1814:12|Synthesizing work.txfifo.rtl.
+Post processing for work.txfifo.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3827:7:3827:23|Synthesizing work.dcmotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4040:7:4040:22|Synthesizing work.dcmotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2047:7:2047:22|Synthesizing work.reg_addr_decoder.rtl.
+Post processing for work.reg_addr_decoder.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4087:7:4087:27|Synthesizing work.dcmotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4128:18:4128:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4175:8:4175:21|OTHERS clause is not synthesized.
+Post processing for work.dcmotorregistersender.rtl
+Post processing for work.dcmotorregisters.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3922:7:3922:16|Synthesizing work.dcmotorpwm.masterversion.
+Post processing for work.dcmotorpwm.masterversion
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3862:7:3862:22|Synthesizing work.dcmotorprescaler.rtl.
+Post processing for work.dcmotorprescaler.rtl
+Post processing for work.dcmotorcontroller.struct
+Post processing for work.kartcontroller.struct
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6167:7:6167:12|Synthesizing work.logic1.sim.
+Post processing for work.logic1.sim
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6129:7:6129:14|Synthesizing work.inverter.sim.
+Post processing for work.inverter.sim
+Post processing for work.kart_board.struct
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2052:8:2052:14|Input port bits 3 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1890:4:1890:5|Found RAM p_addrs, depth=4, width=8
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1890:4:1890:5|Found RAM p_data, depth=4, width=16
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3759:4:3759:5|Trying to extract state machine for register p_state.
+Extracted state machine for register p_state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4580:8:4580:14|Input zeroPos is unused.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2052:8:2052:14|Input port bits 3 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2119:8:2119:16|Input port bits 7 to 1 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4998:4:4998:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4998:4:4998:5|Pruning register bit 3 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4941:8:4941:16|Input port bits 31 to 16 of hallcount(31 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4712:4:4712:5|Trying to extract state machine for register rangerState.
+Extracted state machine for register rangerState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3154:4:3154:5|Trying to extract state machine for register turningState.
+Extracted state machine for register turningState
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2052:8:2052:14|Input port bits 3 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2119:8:2119:16|Input port bits 7 to 2 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1419:4:1419:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 9 reachable states with original encodings of:
+   000000001
+   000000010
+   000000100
+   000001000
+   000010000
+   000100000
+   001000000
+   010000000
+   100000000
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1359:8:1359:12|Input port bits 39 to 8 of frame(39 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":841:4:841:5|Trying to extract state machine for register state.
+Extracted state machine for register state
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 81MB peak: 83MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 19 08:52:31 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 19 08:52:31 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 19 08:52:31 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 71MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Thu May 19 08:52:32 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Thu May 19 08:52:32 2022
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\Kart_Board_scck.rpt 
+Printing clock  summary report in "C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\Kart_Board_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 107MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 104MB peak: 107MB)
+
+Renaming user netlist hierarchy view:work.or2(sim) to avoid clashing with Microsemi library name
+Renaming user netlist hierarchy view:work.DFFE(sim) to avoid clashing with Microsemi library name
+Renaming user netlist hierarchy view:work.DFF(sim) to avoid clashing with Microsemi library name
+@N: BN115 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5477:4:5477:7|Removing instance U_10 (in view: work.sensorsRegisters(struct)) of type view:work.logic0_0(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":6399:4:6399:5|Removing instance I5 (in view: work.Kart_Board(struct)) of type view:work.logic0_1(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":6403:4:6403:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5460:4:5460:6|Removing instance U_4 (in view: work.sensorsRegisters(struct)) of type view:work.bufferUlogic_2(sim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1302:1:1302:2|Removing sequential instance shiftInput\.frameHolder_4[7:0] (in view: work.FrameComposer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@W: MT462 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":6104:4:6104:5|Net I21.Q appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
+
+
+
+Clock Summary
+*****************
+
+Start                Requested     Requested     Clock        Clock                   Clock
+Clock                Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------
+Kart_Board|clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_0     727  
+System               100.0 MHz     10.000        system       system_clkgroup         1    
+===========================================================================================
+
+@W: MT532 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2539:4:2539:5|Found signal identified as System clock which controls 1 sequential elements including I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed.  Using this clock, which has no specified timing constraint, can adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3890:4:3890:5|Found inferred clock Kart_Board|clock which controls 727 sequential elements including I0.U_5.I_div.prescalerCounter[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\Kart_Board.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 113MB)
+
+Encoding state machine p_state[0:2] (in view: work.txRouter(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine rangerState[0:5] (in view: work.ultrasoundRanger(masterversion))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine turningState[0:5] (in view: work.angleDifference(masterversion))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+Encoding state machine state[0:8] (in view: work.frameReceiverHandler(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+Encoding state machine state[0:6] (in view: work.framePacker(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@W: MT462 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":6104:4:6104:5|Net I21.Q appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 113MB peak: 114MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 28MB peak: 114MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu May 19 08:52:33 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Thu May 19 08:52:33 2022
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@W: MT462 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":6104:4:6104:5|Net resetSynch_n appears to be an unidentified clock source. Assuming default frequency. If this is a required clock, declare a clock constraint on this net in your constraint file.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2879:4:2879:5|Removing sequential instance testPrescalerCounter[9:0] (in view: work.stepperMotorDivider(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3896:28:3896:47|Found 16-bit incrementor, 'un3_prescalercounter[15:0]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3901:28:3901:58|Found 16 by 16 bit less-than operator ('<') un4_prescalerdone (in view: work.dcMotorPrescaler(rtl))
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4001:4:4001:5|Found counter in view:work.dcMotorPwm(masterversion) instance sawtooth[14:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3997:18:3997:45|Found 15-bit incrementor, 'un7_speedamplitude_1[14:0]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4011:18:4011:43|Found 15 by 15 bit less-than operator ('<') un6_pwmout (in view: work.dcMotorPwm(masterversion))
+@N: MF135 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|RAM PROC_HEAD\.p_data[15:0] (in view: work.txFIFO(rtl)) is 4 words by 16 bits.
+@N: MF135 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|RAM PROC_HEAD\.p_addrs[7:0] (in view: work.txFIFO(rtl)) is 4 words by 8 bits.
+@N: MF135 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|RAM PROC_HEAD\.p_data[15:0] (in view: work.txFIFO(rtl)) is 4 words by 16 bits.
+@W: MF136 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Unknown RAM style no_rw_check
+@N: MF135 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|RAM PROC_HEAD\.p_addrs[7:0] (in view: work.txFIFO(rtl)) is 4 words by 8 bits.
+@W: MF136 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Unknown RAM style no_rw_check
+@N: MF184 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1931:4:1931:5|Found 2 by 2 bit subtractor, 'p_fill_count_0_0[1:0]'
+Encoding state machine p_state[0:2] (in view: work.txRouter(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4618:4:4618:5|Found counter in view:work.hallCounters(masterversion) instance counterSet_2[15:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4618:4:4618:5|Found counter in view:work.hallCounters(masterversion) instance counterSet_1[15:0] 
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5203:12:5203:43|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_p_last_hallcount_1 (in view: work.sendHallCountDeltaManager_1(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5204:8:5204:39|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_hallcount (in view: work.sendHallCountDeltaManager_1(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5278:9:5278:45|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_p_last_range_1 (in view: work.sendRangeFinderOnChange(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5279:8:5279:44|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_rangerdistance (in view: work.sendRangeFinderOnChange(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5203:12:5203:43|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_p_last_hallcount_1 (in view: work.sendHallCountDeltaManager_0(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":5204:8:5204:39|Found 17 by 17 bit less-than operator ('<') deltaSender\.un1_hallcount (in view: work.sendHallCountDeltaManager_0(rtl))
+Encoding state machine rangerState[0:5] (in view: work.ultrasoundRanger(masterversion))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4700:24:4700:39|Found 16-bit incrementor, 'un3_pulsecounter[15:0]'
+Encoding state machine turningState[0:5] (in view: work.angleDifference(masterversion))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+@N: MF176 |Default generator successful 
+@N: MF238 :"c:\microsemi\libero_soc_v11.9\synplifypro\lib\vhd2008\numeric.vhd":2090:9:2090:12|Found 5-bit incrementor, 'inf_abs0_a_0[4:0]'
+@N: MO230 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3019:4:3019:5|Found up-down counter in view:work.stepperCounter(masterversion) instance sMotorPosition[3:0]  
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2894:4:2894:5|Found counter in view:work.stepperMotorDivider(rtl) instance prescalerCounter[15:0] 
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2923:35:2923:61|Found 16 by 16 bit less-than operator ('<') un3_dividedone (in view: work.stepperMotorDivider(rtl))
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2917:28:2917:45|Found 16-bit incrementor, 'un1_dividercounter[15:0]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2239:9:2239:42|Found 5 by 5 bit less-than operator ('<') deltaSender\.un1_p_lastsent_angle_1 (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2240:8:2240:41|Found 5 by 5 bit less-than operator ('<') deltaSender\.un1_actualangle (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1217:4:1217:5|Found counter in view:work.serialPortReceiver(rtl) instance rxCounter[3:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1150:26:1150:43|Found 7-bit incrementor, 'un5_dividercounter[6:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1302:1:1302:2|Found counter in view:work.FrameComposer(rtl) instance shiftCnt[2:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":710:4:710:5|Found counter in view:work.crc8itu_0(rtl) instance counter[3:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1498:3:1498:4|Found counter in view:work.frameReceiverHandler(rtl) instance watchdogCnt[12:0] 
+Encoding state machine state[0:8] (in view: work.frameReceiverHandler(rtl))
+original code -> new code
+   000000001 -> 000000001
+   000000010 -> 000000010
+   000000100 -> 000000100
+   000001000 -> 000001000
+   000010000 -> 000010000
+   000100000 -> 000100000
+   001000000 -> 001000000
+   010000000 -> 010000000
+   100000000 -> 100000000
+@N: MF238 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":567:26:567:43|Found 7-bit incrementor, 'un4_dividercounter[6:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":710:4:710:5|Found counter in view:work.crc8itu_1(rtl) instance counter[3:0] 
+Encoding state machine state[0:6] (in view: work.framePacker(rtl))
+original code -> new code
+   0000001 -> 0000001
+   0000010 -> 0000010
+   0000100 -> 0000100
+   0001000 -> 0001000
+   0010000 -> 0010000
+   0100000 -> 0100000
+   1000000 -> 1000000
+@N: MF794 |RAM PROC_HEAD\.p_data[15:0] required 4 registers during mapping 
+@N: MF794 |RAM PROC_HEAD\.p_addrs[7:0] required 100 registers during mapping 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 116MB peak: 116MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 120MB peak: 120MB)
+
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 121MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 119MB peak: 121MB)
+
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2338:4:2338:5|Register bit I0.U_2.U_0.U_4.p_addr_out[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":2338:4:2338:5|Register bit I0.U_2.U_0.U_4.p_addr_out[6] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4998:4:4998:5|Register bit I0.U_6.I_regs.U_3.p_addr_out[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4148:4:4148:5|Register bit I0.U_5.I_regs.U_4.p_addr_out[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4148:4:4148:5|Register bit I0.U_5.I_regs.U_4.p_addr_out[6] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4148:4:4148:5|Register bit I0.U_5.I_regs.U_4.p_addr_out[5] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":3759:4:3759:5|Register bit I0.U_3.p_addr[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Register bit I0.U_1.PROC_HEAD\.p_addrs.PROC_HEAD\.p_addrs_ram3_[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Register bit I0.U_1.PROC_HEAD\.p_addrs.PROC_HEAD\.p_addrs_ram2_[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Register bit I0.U_1.PROC_HEAD\.p_addrs.PROC_HEAD\.p_addrs_ram1_[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":1890:4:1890:5|Register bit I0.U_1.PROC_HEAD\.p_addrs.PROC_HEAD\.p_addrs_ram0_[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":841:4:841:5|Register bit I0.U_0.U_0.U_2.p_addr[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_sodimm200\kart\board\concat\kart.vhd":4998:4:4998:5|Register bit I0.U_6.I_regs.U_3.p_addr_out[5] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 123MB peak: 126MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 124MB peak: 126MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 124MB peak: 126MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 126MB)
+
+@N: MF794 |RAM PROC_HEAD\.p_data[15:0] required 4 registers during mapping 
+@N: MF794 |RAM PROC_HEAD\.p_addrs[7:0] required 96 registers during mapping 
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 123MB peak: 126MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 122MB peak: 126MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name                    Fanout, notes                   
+------------------------------------------------------------------------------
+I0.U_0.U_1.address[0] / Q                     64                              
+I0.U_0.U_1.address[1] / Q                     47                              
+I0.U_2.U_0.U_4.p_request / Q                  25                              
+I0.U_0.U_1.U_1.rxDataValid / Q                27                              
+I0.U_0.U_1.U_5.state[0] / Q                   48                              
+I0.U_0.U_1.U_5.state[1] / Q                   26                              
+I0.U_1.p_tail[0] / Q                          57                              
+I0.U_1.p_tail[1] / Q                          31                              
+I0.U_5.I_div.un4_prescalerdone_0.I_65 / Y     31                              
+I0.U_1.PROC_HEAD.p_addrs.awe1 / Y             25                              
+I0.U_1.PROC_HEAD.p_addrs.awe0 / Y             25                              
+I0.U_2.U_0.U_0.un1_readregister / Y           27                              
+I0.U_0.U_1.U_3.un1_frameHolder_06 / Y         32                              
+I0.U_1.PROC_HEAD.p_addrs.awe2 / Y             25                              
+I0.U_1.PROC_HEAD.p_data.awe3 / Y              25                              
+I0.U_6.I_regs.U_0.un10_readregister / Y       25                              
+I0.U_0.U_0.U_2.p_addr_0_sqmuxa_0_o2 / Y       27                              
+I21.Q / QN                                    691 : 690 asynchronous set/reset
+==============================================================================
+
+@N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
+@N: FP130 |Promoting Net resetSynch_n_i_0_i on CLKINT  I_13 
+@N: FP130 |Promoting Net I0.addressIn[0] on CLKINT  I_14 
+@N: FP130 |Promoting Net I0.U_1.p_tail[0] on CLKINT  I_15 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 123MB peak: 126MB)
+
+Replicating Combinational Instance I0.U_0.U_0.U_2.p_addr_0_sqmuxa_0_o2, fanout 27 segments 2
+Replicating Combinational Instance I0.U_6.I_regs.U_0.un10_readregister, fanout 25 segments 2
+Replicating Combinational Instance I0.U_1.PROC_HEAD.p_data.awe3, fanout 25 segments 2
+Replicating Combinational Instance I0.U_1.PROC_HEAD.p_addrs.awe2, fanout 25 segments 2
+Replicating Combinational Instance I0.U_0.U_1.U_3.un1_frameHolder_06, fanout 32 segments 2
+Replicating Combinational Instance I0.U_2.U_0.U_0.un1_readregister, fanout 27 segments 2
+Replicating Combinational Instance I0.U_1.PROC_HEAD.p_addrs.awe0, fanout 25 segments 2
+Replicating Combinational Instance I0.U_1.PROC_HEAD.p_addrs.awe1, fanout 25 segments 2
+Replicating Combinational Instance I0.U_5.I_div.un4_prescalerdone_0.I_65, fanout 31 segments 2
+Replicating Sequential Instance I0.U_1.p_tail[1], fanout 31 segments 2
+Replicating Sequential Instance I0.U_0.U_1.U_5.state[1], fanout 26 segments 2
+Replicating Sequential Instance I0.U_0.U_1.U_5.state[0], fanout 49 segments 3
+Replicating Sequential Instance I0.U_0.U_1.U_1.rxDataValid, fanout 27 segments 2
+Replicating Sequential Instance I0.U_2.U_0.U_4.p_request, fanout 25 segments 2
+Replicating Sequential Instance I0.U_0.U_1.address[1], fanout 47 segments 2
+
+Added 0 Buffers
+Added 16 Cells via replication
+	Added 7 Sequential Cells via replication
+	Added 9 Combinational Cells via replication
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 123MB peak: 126MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 790 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+0 instances converted, 1 sequential instance remains driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       clock               port                   790        I11.q_int      
+=======================================================================================
+================================================================================ Gated/Generated Clocks =================================================================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                          Explanation                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       I21.Q               DFI1P0                 1          I0.U_6.I_regs.g0.1.U_5.pulse_delayed     No generated or derived clock directive on output of sequential instance
+=========================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 117MB peak: 126MB)
+
+Writing Analyst data base C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\synwork\Kart_Board_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:05s; Memory used current: 119MB peak: 126MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 122MB peak: 126MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 126MB)
+
+@W: MT420 |Found inferred clock Kart_Board|clock with period 10.00ns. Please declare a user-defined clock on object "p:clock"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Thu May 19 08:52:39 2022
+#
+
+
+Top view:               Kart_Board
+Library name:           IGLOO
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.85, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        IGLOO
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -15.573
+
+                     Requested     Estimated     Requested     Estimated                 Clock        Clock              
+Starting Clock       Frequency     Frequency     Period        Period        Slack       Type         Group              
+-------------------------------------------------------------------------------------------------------------------------
+Kart_Board|clock     100.0 MHz     39.1 MHz      10.000        25.573        -15.573     inferred     Inferred_clkgroup_0
+System               100.0 MHz     89.1 MHz      10.000        11.219        -1.219      system       system_clkgroup    
+=========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise     |    fall  to  fall   |    rise  to  fall   |    fall  to  rise  
+-----------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack 
+-----------------------------------------------------------------------------------------------------------------------------
+System            Kart_Board|clock  |  No paths    -        |  No paths    -      |  No paths    -      |  10.000      -1.219
+Kart_Board|clock  Kart_Board|clock  |  10.000      -15.573  |  No paths    -      |  No paths    -      |  No paths    -     
+=============================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Kart_Board|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                    Starting                                                        Arrival            
+Instance                                            Reference            Type         Pin     Net                   Time        Slack  
+                                                    Clock                                                                              
+---------------------------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_3.I_cnt.sMotorPosition[0]                  Kart_Board|clock     DFN1C0       Q       actual[0]             0.885       -15.573
+I0.U_2.U_2.dividerCounter[0]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[0]     0.697       -15.450
+I0.U_2.U_2.dividerCounter[1]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[1]     0.885       -15.302
+I0.U_2.U_2.dividerCounter[4]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[4]     0.885       -15.061
+I0.U_2.U_2.dividerCounter[3]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[3]     0.885       -15.005
+I0.U_2.U_2.dividerCounter[2]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[2]     0.885       -14.890
+I0.U_2.U_3.I_cnt.sMotorPosition[1]                  Kart_Board|clock     DFN1C0       Q       actual[1]             0.885       -14.811
+I0.U_2.U_2.dividerCounter[5]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[5]     0.885       -14.650
+I0.U_2.U_0.U_1.register_input\.p_registers_1[0]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[0]        0.697       -14.230
+I0.U_2.U_2.dividerCounter[8]                        Kart_Board|clock     DFN1E1C0     Q       dividerCounter[8]     0.885       -14.109
+=======================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                           Required            
+Instance                                Reference            Type         Pin     Net                      Time         Slack  
+                                        Clock                                                                                  
+-------------------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_0.U_4.p_addr_out[5]            Kart_Board|clock     DFN1C0       D       p_addr_out_RNO[5]        9.353        -15.573
+I0.U_2.U_3.I_phases.phaseCounter[1]     Kart_Board|clock     DFN1C0       D       phaseCounter_5[1]        9.353        -15.450
+I0.U_2.U_3.I_cnt.sMotorPosition[0]      Kart_Board|clock     DFN1C0       D       sMotorPosition_n0        9.311        -14.840
+I0.U_2.U_3.I_cnt.sMotorPosition[1]      Kart_Board|clock     DFN1C0       D       sMotorPosition_n1        9.353        -14.826
+I0.U_2.U_0.U_4.p_addr_out[0]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+I0.U_2.U_0.U_4.p_addr_out[1]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+I0.U_2.U_0.U_4.p_addr_out[2]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+I0.U_2.U_0.U_4.p_addr_out[4]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+I0.U_2.U_0.U_4.p_data_out[0]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+I0.U_2.U_0.U_4.p_data_out[1]            Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.478        -14.625
+===============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      24.926
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -15.573
+
+    Number of logic level(s):                13
+    Starting point:                          I0.U_2.U_3.I_cnt.sMotorPosition[0] / Q
+    Ending point:                            I0.U_2.U_0.U_4.p_addr_out[5] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_3.I_cnt.sMotorPosition[0]                      DFN1C0     Q        Out     0.885     0.885       -         
+actual[0]                                               Net        -        -       1.833     -           7         
+I0.U_2.U_3.I_diff.difference_0_0.m1                     NOR2A      A        In      -         2.719       -         
+I0.U_2.U_3.I_diff.difference_0_0.m1                     NOR2A      Y        Out     0.754     3.473       -         
+N_2_0                                                   Net        -        -       0.464     -           2         
+I0.U_2.U_3.I_diff.difference_0_0.m4                     AO13       B        In      -         3.936       -         
+I0.U_2.U_3.I_diff.difference_0_0.m4                     AO13       Y        Out     1.121     5.057       -         
+i2_mux                                                  Net        -        -       0.464     -           2         
+I0.U_2.U_3.I_diff.difference_0_0.m7                     AO13       B        In      -         5.521       -         
+I0.U_2.U_3.I_diff.difference_0_0.m7                     AO13       Y        Out     1.121     6.642       -         
+i4_mux                                                  Net        -        -       0.464     -           2         
+I0.U_2.U_3.I_diff.difference_0_0.m9                     XNOR3      C        In      -         7.106       -         
+I0.U_2.U_3.I_diff.difference_0_0.m9                     XNOR3      Y        Out     1.184     8.290       -         
+difference_i_1[3]                                       Net        -        -       0.969     -           3         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_9                      XOR2       B        In      -         9.259       -         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_9                      XOR2       Y        Out     1.125     10.384      -         
+inf_abs0_a_0[3]                                         Net        -        -       0.386     -           1         
+I0.U_2.U_3.I_diff.op_abs\.inf_abs0[3]                   MX2B       A        In      -         10.771      -         
+I0.U_2.U_3.I_diff.op_abs\.inf_abs0[3]                   MX2B       Y        Out     0.683     11.453      -         
+inf_abs0[3]                                             Net        -        -       0.386     -           1         
+I0.U_2.U_3.I_diff.op_le\.un11_reached_intlt3            OR3        C        In      -         11.840      -         
+I0.U_2.U_3.I_diff.op_le\.un11_reached_intlt3            OR3        Y        Out     0.821     12.660      -         
+un11_reached_intlto3                                    Net        -        -       1.422     -           4         
+I0.U_2.U_3.I_diff.turningState_ns_i_a4[5]               OR2A       A        In      -         14.082      -         
+I0.U_2.U_3.I_diff.turningState_ns_i_a4[5]               OR2A       Y        Out     0.645     14.727      -         
+pulse_i_1                                               Net        -        -       1.422     -           4         
+I0.U_2.U_0.U_8.pulse_delayed_RNIRNI031                  XOR2       A        In      -         16.149      -         
+I0.U_2.U_0.U_8.pulse_delayed_RNIRNI031                  XOR2       Y        Out     0.587     16.736      -         
+sendReached                                             Net        -        -       1.422     -           4         
+I0.U_2.U_0.U_4.register_send\.p_state_7_i_a4_1_3[0]     NOR3A      C        In      -         18.158      -         
+I0.U_2.U_0.U_4.register_send\.p_state_7_i_a4_1_3[0]     NOR3A      Y        Out     0.770     18.929      -         
+N_147_3                                                 Net        -        -       0.464     -           2         
+I0.U_2.U_0.U_4.un1_p_addr_out30                         OR2        B        In      -         19.392      -         
+I0.U_2.U_0.U_4.un1_p_addr_out30                         OR2        Y        Out     0.777     20.169      -         
+un1_p_addr_out30                                        Net        -        -       0.464     -           2         
+I0.U_2.U_0.U_4.p_state_RNIQMKB91[0]                     NOR2       A        In      -         20.633      -         
+I0.U_2.U_0.U_4.p_state_RNIQMKB91[0]                     NOR2       Y        Out     0.610     21.242      -         
+p_request_0_sqmuxa_1                                    Net        -        -       2.861     -           21        
+I0.U_2.U_0.U_4.p_addr_out_RNO[5]                        OR2        A        In      -         24.103      -         
+I0.U_2.U_0.U_4.p_addr_out_RNO[5]                        OR2        Y        Out     0.436     24.540      -         
+p_addr_out_RNO[5]                                       Net        -        -       0.386     -           1         
+I0.U_2.U_0.U_4.p_addr_out[5]                            DFN1C0     D        In      -         24.926      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 25.573 is 12.167(47.6%) logic and 13.406(52.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      24.803
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -15.450
+
+    Number of logic level(s):                13
+    Starting point:                          I0.U_2.U_2.dividerCounter[0] / Q
+    Ending point:                            I0.U_2.U_3.I_phases.phaseCounter[1] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_2.dividerCounter[0]                             DFN1E1C0     Q        Out     0.697     0.697       -         
+dividerCounter[0]                                        Net          -        -       1.710     -           6         
+I0.U_2.U_2.un1_dividercounter.I_10                       AND3         A        In      -         2.408       -         
+I0.U_2.U_2.un1_dividercounter.I_10                       AND3         Y        Out     0.631     3.038       -         
+DWACT_FINC_E[0]                                          Net          -        -       1.833     -           7         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         A        In      -         4.872       -         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         Y        Out     0.631     5.502       -         
+DWACT_FINC_E[6]                                          Net          -        -       1.537     -           5         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         A        In      -         7.039       -         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         Y        Out     0.631     7.670       -         
+N_3                                                      Net          -        -       0.386     -           1         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         A        In      -         8.056       -         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         Y        Out     0.491     8.547       -         
+I_40_2                                                   Net          -        -       1.537     -           5         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         B        In      -         10.084      -         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         Y        Out     0.777     10.860      -         
+ACT_LT3_E[1]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        B        In      -         11.247      -         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        Y        Out     1.119     12.366      -         
+ACT_LT3_E[3]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        A        In      -         12.752      -         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        Y        Out     1.082     13.834      -         
+DWACT_CMPLE_PO0_DWACT_COMP0_E[0]                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          C        In      -         14.220      -         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          Y        Out     0.787     15.007      -         
+DWACT_COMP0_E[0]                                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          C        In      -         15.394      -         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          Y        Out     0.787     16.181      -         
+I_65_0                                                   Net          -        -       2.894     -           22        
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        B        In      -         19.075      -         
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        Y        Out     0.464     19.538      -         
+un1_encoils                                              Net          -        -       1.537     -           5         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         C        In      -         21.075      -         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         Y        Out     0.856     21.932      -         
+un2_encoils[0]                                           Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         B        In      -         22.318      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         Y        Out     1.125     23.443      -         
+DWACT_ADD_CI_0_partial_sum[1]                            Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         A        In      -         23.830      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         Y        Out     0.587     24.416      -         
+phaseCounter_5[1]                                        Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.phaseCounter[1]                      DFN1C0       D        In      -         24.803      -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 25.450 is 11.311(44.4%) logic and 14.139(55.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      24.654
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -15.301
+
+    Number of logic level(s):                13
+    Starting point:                          I0.U_2.U_2.dividerCounter[1] / Q
+    Ending point:                            I0.U_2.U_3.I_phases.phaseCounter[1] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_2.dividerCounter[1]                             DFN1E1C0     Q        Out     0.885     0.885       -         
+dividerCounter[1]                                        Net          -        -       1.422     -           4         
+I0.U_2.U_2.un1_dividercounter.I_10                       AND3         B        In      -         2.307       -         
+I0.U_2.U_2.un1_dividercounter.I_10                       AND3         Y        Out     0.729     3.036       -         
+DWACT_FINC_E[0]                                          Net          -        -       1.833     -           7         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         A        In      -         4.869       -         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         Y        Out     0.558     5.427       -         
+DWACT_FINC_E[6]                                          Net          -        -       1.537     -           5         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         A        In      -         6.964       -         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         Y        Out     0.558     7.521       -         
+N_3                                                      Net          -        -       0.386     -           1         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         A        In      -         7.908       -         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         Y        Out     0.491     8.398       -         
+I_40_2                                                   Net          -        -       1.537     -           5         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         B        In      -         9.935       -         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         Y        Out     0.777     10.712      -         
+ACT_LT3_E[1]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        B        In      -         11.098      -         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        Y        Out     1.119     12.217      -         
+ACT_LT3_E[3]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        A        In      -         12.604      -         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        Y        Out     1.082     13.685      -         
+DWACT_CMPLE_PO0_DWACT_COMP0_E[0]                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          C        In      -         14.072      -         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          Y        Out     0.787     14.859      -         
+DWACT_COMP0_E[0]                                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          C        In      -         15.245      -         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          Y        Out     0.787     16.032      -         
+I_65_0                                                   Net          -        -       2.894     -           22        
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        B        In      -         18.927      -         
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        Y        Out     0.464     19.390      -         
+un1_encoils                                              Net          -        -       1.537     -           5         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         C        In      -         20.927      -         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         Y        Out     0.856     21.783      -         
+un2_encoils[0]                                           Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         B        In      -         22.169      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         Y        Out     1.125     23.295      -         
+DWACT_ADD_CI_0_partial_sum[1]                            Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         A        In      -         23.681      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         Y        Out     0.587     24.268      -         
+phaseCounter_5[1]                                        Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.phaseCounter[1]                      DFN1C0       D        In      -         24.654      -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 25.301 is 11.451(45.3%) logic and 13.851(54.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      24.414
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -15.061
+
+    Number of logic level(s):                13
+    Starting point:                          I0.U_2.U_2.dividerCounter[4] / Q
+    Ending point:                            I0.U_2.U_3.I_phases.phaseCounter[1] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                     Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_2.dividerCounter[4]                             DFN1E1C0     Q        Out     0.885     0.885       -         
+dividerCounter[4]                                        Net          -        -       1.422     -           4         
+I0.U_2.U_2.un1_dividercounter.I_18                       AND3         B        In      -         2.307       -         
+I0.U_2.U_2.un1_dividercounter.I_18                       AND3         Y        Out     0.729     3.036       -         
+DWACT_FINC_E[2]                                          Net          -        -       1.422     -           4         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         B        In      -         4.458       -         
+I0.U_2.U_2.un1_dividercounter.I_30                       AND3         Y        Out     0.729     5.187       -         
+DWACT_FINC_E[6]                                          Net          -        -       1.537     -           5         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         A        In      -         6.724       -         
+I0.U_2.U_2.un1_dividercounter.I_39                       AND3         Y        Out     0.558     7.281       -         
+N_3                                                      Net          -        -       0.386     -           1         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         A        In      -         7.667       -         
+I0.U_2.U_2.un1_dividercounter.I_40                       XOR2         Y        Out     0.491     8.158       -         
+I_40_2                                                   Net          -        -       1.537     -           5         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         B        In      -         9.695       -         
+I0.U_2.U_2.un3_dividedone_0.I_18                         OR2A         Y        Out     0.777     10.472      -         
+ACT_LT3_E[1]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        B        In      -         10.858      -         
+I0.U_2.U_2.un3_dividedone_0.I_20                         AOI1A        Y        Out     1.119     11.977      -         
+ACT_LT3_E[3]                                             Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        A        In      -         12.364      -         
+I0.U_2.U_2.un3_dividedone_0.I_23                         AOI1A        Y        Out     1.082     13.445      -         
+DWACT_CMPLE_PO0_DWACT_COMP0_E[0]                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          C        In      -         13.832      -         
+I0.U_2.U_2.un3_dividedone_0.I_35                         AO1          Y        Out     0.787     14.619      -         
+DWACT_COMP0_E[0]                                         Net          -        -       0.386     -           1         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          C        In      -         15.005      -         
+I0.U_2.U_2.un3_dividedone_0.I_65                         AO1          Y        Out     0.787     15.792      -         
+I_65_0                                                   Net          -        -       2.894     -           22        
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        B        In      -         18.686      -         
+I0.U_2.U_3.I_cnt.count\.un4_step                         NOR2A        Y        Out     0.464     19.150      -         
+un1_encoils                                              Net          -        -       1.537     -           5         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         C        In      -         20.687      -         
+I0.U_2.U_3.I_phases.un2_encoils[0]                       XA1A         Y        Out     0.856     21.543      -         
+un2_encoils[0]                                           Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         B        In      -         21.929      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_7      XOR2         Y        Out     1.125     23.055      -         
+DWACT_ADD_CI_0_partial_sum[1]                            Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         A        In      -         23.441      -         
+I0.U_2.U_3.I_phases.countPhases\.phaseCounter_5.I_10     XOR2         Y        Out     0.587     24.028      -         
+phaseCounter_5[1]                                        Net          -        -       0.386     -           1         
+I0.U_2.U_3.I_phases.phaseCounter[1]                      DFN1C0       D        In      -         24.414      -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 25.061 is 11.622(46.4%) logic and 13.439(53.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      24.412
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -15.059
+
+    Number of logic level(s):                13
+    Starting point:                          I0.U_2.U_3.I_cnt.sMotorPosition[0] / Q
+    Ending point:                            I0.U_2.U_0.U_4.p_addr_out[5] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                    Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+I0.U_2.U_3.I_cnt.sMotorPosition[0]                      DFN1C0     Q        Out     0.885     0.885       -         
+actual[0]                                               Net        -        -       1.833     -           7         
+I0.U_2.U_3.I_diff.difference_0_0.m1                     NOR2A      A        In      -         2.719       -         
+I0.U_2.U_3.I_diff.difference_0_0.m1                     NOR2A      Y        Out     0.754     3.473       -         
+N_2_0                                                   Net        -        -       0.464     -           2         
+I0.U_2.U_3.I_diff.difference_0_0.m4                     AO13       B        In      -         3.936       -         
+I0.U_2.U_3.I_diff.difference_0_0.m4                     AO13       Y        Out     1.121     5.057       -         
+i2_mux                                                  Net        -        -       0.464     -           2         
+I0.U_2.U_3.I_diff.difference_0_0.m11                    XNOR3      C        In      -         5.521       -         
+I0.U_2.U_3.I_diff.difference_0_0.m11                    XNOR3      Y        Out     1.184     6.705       -         
+difference_i_1[2]                                       Net        -        -       1.422     -           4         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_8                      AND3       C        In      -         8.127       -         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_8                      AND3       Y        Out     0.770     8.897       -         
+N_3                                                     Net        -        -       0.386     -           1         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_9                      XOR2       A        In      -         9.284       -         
+I0.U_2.U_3.I_diff.inf_abs0_a_0.I_9                      XOR2       Y        Out     0.587     9.870       -         
+inf_abs0_a_0[3]                                         Net        -        -       0.386     -           1         
+I0.U_2.U_3.I_diff.op_abs\.inf_abs0[3]                   MX2B       A        In      -         10.257      -         
+I0.U_2.U_3.I_diff.op_abs\.inf_abs0[3]                   MX2B       Y        Out     0.683     10.940      -         
+inf_abs0[3]                                             Net        -        -       0.386     -           1         
+I0.U_2.U_3.I_diff.op_le\.un11_reached_intlt3            OR3        C        In      -         11.326      -         
+I0.U_2.U_3.I_diff.op_le\.un11_reached_intlt3            OR3        Y        Out     0.821     12.146      -         
+un11_reached_intlto3                                    Net        -        -       1.422     -           4         
+I0.U_2.U_3.I_diff.turningState_ns_i_a4[5]               OR2A       A        In      -         13.568      -         
+I0.U_2.U_3.I_diff.turningState_ns_i_a4[5]               OR2A       Y        Out     0.645     14.214      -         
+pulse_i_1                                               Net        -        -       1.422     -           4         
+I0.U_2.U_0.U_8.pulse_delayed_RNIRNI031                  XOR2       A        In      -         15.636      -         
+I0.U_2.U_0.U_8.pulse_delayed_RNIRNI031                  XOR2       Y        Out     0.587     16.222      -         
+sendReached                                             Net        -        -       1.422     -           4         
+I0.U_2.U_0.U_4.register_send\.p_state_7_i_a4_1_3[0]     NOR3A      C        In      -         17.644      -         
+I0.U_2.U_0.U_4.register_send\.p_state_7_i_a4_1_3[0]     NOR3A      Y        Out     0.770     18.415      -         
+N_147_3                                                 Net        -        -       0.464     -           2         
+I0.U_2.U_0.U_4.un1_p_addr_out30                         OR2        B        In      -         18.878      -         
+I0.U_2.U_0.U_4.un1_p_addr_out30                         OR2        Y        Out     0.777     19.655      -         
+un1_p_addr_out30                                        Net        -        -       0.464     -           2         
+I0.U_2.U_0.U_4.p_state_RNIQMKB91[0]                     NOR2       A        In      -         20.119      -         
+I0.U_2.U_0.U_4.p_state_RNIQMKB91[0]                     NOR2       Y        Out     0.610     20.729      -         
+p_request_0_sqmuxa_1                                    Net        -        -       2.861     -           21        
+I0.U_2.U_0.U_4.p_addr_out_RNO[5]                        OR2        A        In      -         23.589      -         
+I0.U_2.U_0.U_4.p_addr_out_RNO[5]                        OR2        Y        Out     0.436     24.026      -         
+p_addr_out_RNO[5]                                       Net        -        -       0.386     -           1         
+I0.U_2.U_0.U_4.p_addr_out[5]                            DFN1C0     D        In      -         24.412      -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 25.059 is 11.278(45.0%) logic and 13.782(55.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                           Arrival           
+Instance                                   Reference     Type       Pin     Net               Time        Slack 
+                                           Clock                                                                
+----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed     System        DFN0C1     Q       pulse_delayed     0.785       -1.219
+================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                    Starting                                                Required           
+Instance                            Reference     Type         Pin     Net                  Time         Slack 
+                                    Clock                                                                      
+---------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.U_3.p_data_out[0]     System        DFN1E0C0     D       p_data_out_10[0]     9.311        -1.219
+I0.U_6.I_regs.U_3.p_data_out[1]     System        DFN1E0C0     D       p_data_out_10[1]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[2]     System        DFN1E0C0     D       p_data_out_10[2]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[3]     System        DFN1E0C0     D       p_data_out_10[3]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[4]     System        DFN1E0C0     D       p_data_out_10[4]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[5]     System        DFN1E0C0     D       p_data_out_10[5]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[6]     System        DFN1E0C0     D       p_data_out_10[6]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[7]     System        DFN1E0C0     D       p_data_out_10[7]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[8]     System        DFN1E0C0     D       p_data_out_10[8]     9.311        -1.086
+I0.U_6.I_regs.U_3.p_data_out[9]     System        DFN1E0C0     D       p_data_out_10[9]     9.311        -1.086
+===============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      10.530
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.219
+
+    Number of logic level(s):                5
+    Starting point:                          I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed / Q
+    Ending point:                            I0.U_6.I_regs.U_3.p_data_out[0] / D
+    The start point is clocked by            System [falling] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed             DFN0C1       Q        Out     0.785     0.785       -         
+pulse_delayed                                      Net          -        -       0.464     -           2         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         B        In      -         1.249       -         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         Y        Out     1.125     2.374       -         
+ends_edges[1]                                      Net          -        -       1.422     -           4         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         A        In      -         3.796       -         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         Y        Out     0.436     4.233       -         
+p_addr_out39_0                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        A        In      -         4.619       -         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        Y        Out     0.754     5.373       -         
+p_addr_out39                                       Net          -        -       2.773     -           19        
+I0.U_6.I_regs.U_3.p_data_out_RNO_1[0]              NOR2B        B        In      -         8.146       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO_1[0]              NOR2B        Y        Out     0.754     8.900       -         
+hallCount_m[0]                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out_RNO[0]                OR3          B        In      -         9.286       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO[0]                OR3          Y        Out     0.858     10.144      -         
+p_data_out_10[0]                                   Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out[0]                    DFN1E0C0     D        In      -         10.530      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.219 is 5.402(48.1%) logic and 5.818(51.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      10.397
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.086
+
+    Number of logic level(s):                5
+    Starting point:                          I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed / Q
+    Ending point:                            I0.U_6.I_regs.U_3.p_data_out[4] / D
+    The start point is clocked by            System [falling] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed             DFN0C1       Q        Out     0.785     0.785       -         
+pulse_delayed                                      Net          -        -       0.464     -           2         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         B        In      -         1.249       -         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         Y        Out     1.125     2.374       -         
+ends_edges[1]                                      Net          -        -       1.422     -           4         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         A        In      -         3.796       -         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         Y        Out     0.436     4.233       -         
+p_addr_out39_0                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        A        In      -         4.619       -         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        Y        Out     0.754     5.373       -         
+p_addr_out39                                       Net          -        -       2.773     -           19        
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[4]              AO1          B        In      -         8.146       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[4]              AO1          Y        Out     0.718     8.864       -         
+p_data_out_10_0_iv_0[4]                            Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out_RNO[4]                AO1          C        In      -         9.250       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO[4]                AO1          Y        Out     0.760     10.010      -         
+p_data_out_10[4]                                   Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out[4]                    DFN1E0C0     D        In      -         10.397      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.086 is 5.268(47.5%) logic and 5.818(52.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      10.397
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.086
+
+    Number of logic level(s):                5
+    Starting point:                          I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed / Q
+    Ending point:                            I0.U_6.I_regs.U_3.p_data_out[9] / D
+    The start point is clocked by            System [falling] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed             DFN0C1       Q        Out     0.785     0.785       -         
+pulse_delayed                                      Net          -        -       0.464     -           2         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         B        In      -         1.249       -         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         Y        Out     1.125     2.374       -         
+ends_edges[1]                                      Net          -        -       1.422     -           4         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         A        In      -         3.796       -         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         Y        Out     0.436     4.233       -         
+p_addr_out39_0                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        A        In      -         4.619       -         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        Y        Out     0.754     5.373       -         
+p_addr_out39                                       Net          -        -       2.773     -           19        
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[9]              AO1          B        In      -         8.146       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[9]              AO1          Y        Out     0.718     8.864       -         
+p_data_out_10_0_iv_0[9]                            Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out_RNO[9]                AO1          C        In      -         9.250       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO[9]                AO1          Y        Out     0.760     10.010      -         
+p_data_out_10[9]                                   Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out[9]                    DFN1E0C0     D        In      -         10.397      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.086 is 5.268(47.5%) logic and 5.818(52.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      10.397
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.086
+
+    Number of logic level(s):                5
+    Starting point:                          I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed / Q
+    Ending point:                            I0.U_6.I_regs.U_3.p_data_out[7] / D
+    The start point is clocked by            System [falling] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed             DFN0C1       Q        Out     0.785     0.785       -         
+pulse_delayed                                      Net          -        -       0.464     -           2         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         B        In      -         1.249       -         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         Y        Out     1.125     2.374       -         
+ends_edges[1]                                      Net          -        -       1.422     -           4         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         A        In      -         3.796       -         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         Y        Out     0.436     4.233       -         
+p_addr_out39_0                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        A        In      -         4.619       -         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        Y        Out     0.754     5.373       -         
+p_addr_out39                                       Net          -        -       2.773     -           19        
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[7]              AO1          B        In      -         8.146       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[7]              AO1          Y        Out     0.718     8.864       -         
+p_data_out_10_0_iv_0[7]                            Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out_RNO[7]                AO1          C        In      -         9.250       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO[7]                AO1          Y        Out     0.760     10.010      -         
+p_data_out_10[7]                                   Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out[7]                    DFN1E0C0     D        In      -         10.397      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.086 is 5.268(47.5%) logic and 5.818(52.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      10.397
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -1.086
+
+    Number of logic level(s):                5
+    Starting point:                          I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed / Q
+    Ending point:                            I0.U_6.I_regs.U_3.p_data_out[11] / D
+    The start point is clocked by            System [falling] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                                  Pin      Pin               Arrival     No. of    
+Name                                               Type         Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed             DFN0C1       Q        Out     0.785     0.785       -         
+pulse_delayed                                      Net          -        -       0.464     -           2         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         B        In      -         1.249       -         
+I0.U_6.I_regs.g0\.1\.U_5.pulse_delayed_RNI72ID     XOR2         Y        Out     1.125     2.374       -         
+ends_edges[1]                                      Net          -        -       1.422     -           4         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         A        In      -         3.796       -         
+I0.U_6.I_regs.U_3.p_addr_out39_0                   NOR2         Y        Out     0.436     4.233       -         
+p_addr_out39_0                                     Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        A        In      -         4.619       -         
+I0.U_6.I_regs.U_3.p_addr_out39                     NOR2A        Y        Out     0.754     5.373       -         
+p_addr_out39                                       Net          -        -       2.773     -           19        
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[11]             AO1          B        In      -         8.146       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO_0[11]             AO1          Y        Out     0.718     8.864       -         
+p_data_out_10_0_iv_0[11]                           Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out_RNO[11]               AO1          C        In      -         9.250       -         
+I0.U_6.I_regs.U_3.p_data_out_RNO[11]               AO1          Y        Out     0.760     10.010      -         
+p_data_out_10[11]                                  Net          -        -       0.386     -           1         
+I0.U_6.I_regs.U_3.p_data_out[11]                   DFN1E0C0     D        In      -         10.397      -         
+=================================================================================================================
+Total path delay (propagation time + setup) of 11.086 is 5.268(47.5%) logic and 5.818(52.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 126MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 120MB peak: 126MB)
+
+--------------------------------------------------------------------------------
+Target Part: AGLN125V5_VQFP100_STD
+Report for cell Kart_Board.struct
+  Core Cell usage:
+              cell count     area count*area
+              AND2    30      1.0       30.0
+             AND2A    23      1.0       23.0
+              AND3   108      1.0      108.0
+             AND3A     1      1.0        1.0
+               AO1    83      1.0       83.0
+              AO13     2      1.0        2.0
+              AO18     1      1.0        1.0
+              AO1A    23      1.0       23.0
+              AO1B     5      1.0        5.0
+              AO1C    51      1.0       51.0
+              AO1D     3      1.0        3.0
+              AOI1     7      1.0        7.0
+             AOI1A    46      1.0       46.0
+             AOI1B     4      1.0        4.0
+               AX1    19      1.0       19.0
+              AX1A     4      1.0        4.0
+              AX1B     1      1.0        1.0
+              AX1C    60      1.0       60.0
+              AX1D     3      1.0        3.0
+              AX1E     3      1.0        3.0
+            CLKINT     3      0.0        0.0
+               GND    53      0.0        0.0
+               INV    17      1.0       17.0
+               MX2   232      1.0      232.0
+              MX2A     3      1.0        3.0
+              MX2B    12      1.0       12.0
+              MX2C     4      1.0        4.0
+              NOR2    62      1.0       62.0
+             NOR2A   176      1.0      176.0
+             NOR2B   136      1.0      136.0
+              NOR3    28      1.0       28.0
+             NOR3A    66      1.0       66.0
+             NOR3B    32      1.0       32.0
+             NOR3C   116      1.0      116.0
+               OA1    49      1.0       49.0
+              OA1A    40      1.0       40.0
+              OA1B     3      1.0        3.0
+              OA1C     4      1.0        4.0
+              OAI1     3      1.0        3.0
+               OR2    40      1.0       40.0
+              OR2A   118      1.0      118.0
+              OR2B    10      1.0       10.0
+               OR3    32      1.0       32.0
+              OR3A     9      1.0        9.0
+              OR3B     5      1.0        5.0
+              OR3C     4      1.0        4.0
+               VCC    53      0.0        0.0
+               XA1    13      1.0       13.0
+              XA1A     1      1.0        1.0
+              XA1B     9      1.0        9.0
+              XA1C     1      1.0        1.0
+             XNOR2   139      1.0      139.0
+             XNOR3     3      1.0        3.0
+               XO1     5      1.0        5.0
+              XOR2   167      1.0      167.0
+              XOR3     2      1.0        2.0
+
+
+            DFI1P0     1      1.0        1.0
+            DFN0C1     1      1.0        1.0
+            DFN1C0   169      1.0      169.0
+          DFN1E0C0   163      1.0      163.0
+            DFN1E1    92      1.0       92.0
+          DFN1E1C0   336      1.0      336.0
+          DFN1E1P0    18      1.0       18.0
+            DFN1P0    11      1.0       11.0
+                   -----          ----------
+             TOTAL  2918              2809.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     7
+            OUTBUF    14
+                   -----
+             TOTAL    22
+
+
+Core Cells         : 2809 of 3072 (91%)
+IO Cells           : 22
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 31MB peak: 126MB)
+
+Process took 0h:00m:06s realtime, 0h:00m:06s cputime
+# Thu May 19 08:52:39 2022
+
+###########################################################]

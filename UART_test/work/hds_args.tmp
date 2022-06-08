@@ -1,0 +1,1 @@
+ -do C:/dev/eln_kart_sodimm200/Kart/Simulation/serialReceiver.do -L UART_test -L Kart -L UART -L RS232 -L Common -L gates -l transcript.txt -i -t ps -multisource_delay latest +typdelays UART_test.serialTransmitter_tb(struct)

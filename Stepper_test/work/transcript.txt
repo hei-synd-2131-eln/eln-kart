@@ -1,0 +1,513 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 16:09:34 on May 25,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "stepperMotorRegisterSender(rtl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# ** Warning: (vsim-3479) Time unit 'fs' is less than the simulator resolution (1ps).
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_1
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# do C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_1/bankData'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 20
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_1/loadNew'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 21
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_0/p_module_selected'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 22
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/readRegister'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 24
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendActualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 25
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendReached'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 26
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendStepperEnd'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 27
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/actualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 29
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/p_lastsent_angle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 30
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/sendActualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 31
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/hwOrientation'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 35
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperEndBus'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 36
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/restart'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 37
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 10090 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# 0
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 74
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Fatal: (vsim-3421) Value 2 is out of range 0 to 1.
+#    Time: 15090 ns  Iteration: 1  Process: /steppermotorregisters_tb/U_0/U_manager/line__22 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd
+# Fatal error in Architecture rtl at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd line 22
+# 
+# HDL call sequence:
+# Stopped at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd 22 Architecture rtl
+# 
+run
+# 0
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/registerManager_rtl.vhd 22 Architecture rtl
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "stepperMotorRegisterSender(rtl)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 15090 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 74
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 15290 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 77
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 15290 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 76
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 15290 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 76
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: clockDivider is not loaded correctly
+#    Time: 15390 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 79
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: actualAngle should not be sent yet
+#    Time: 46590 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 149
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: actualAngle should not be sent yet
+#    Time: 46490 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 146
+add wave -position 18  sim:/steppermotorregisters_tb/U_0/loadRegister
+add wave -position 19  sim:/steppermotorregisters_tb/U_0/readRegister
+add wave -position 21  sim:/steppermotorregisters_tb/U_0/sendActualAngle
+add wave -position 23  sim:/steppermotorregisters_tb/U_0/sendHW
+add wave -position 29  sim:/steppermotorregisters_tb/U_0/sendReached
+add wave -position end  sim:/steppermotorregisters_tb/U_0/sendStepperEnd
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Stepper_test/work/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: actualAngle should not be sent yet
+#    Time: 46490 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 146
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: actualAngle should not be sent yet
+#    Time: 46490 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 146
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: actualAngle should not be sent yet
+#    Time: 46490 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 146
+add wave -position 28  sim:/steppermotorregisters_tb/U_0/U_reachedRising/pulse_delayed
+add wave -position 28  sim:/steppermotorregisters_tb/U_0/U_reachedRising/clock
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading work.steppermotorregisters_tb(struct)#1
+# Loading gates.gates
+# Loading common.commonlib(body)
+# Loading stepper.steppermotorregisters(struct)#1
+# Loading common.edgedetector(rtl)#1
+# Loading gates.or2(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading stepper.sendactualangledeltamanager(rtl)#1
+# Loading stepper.steppermotorregistersender(rtl)#1
+# Loading common_test.testutils(body)
+# Loading ieee.std_logic_textio(body)
+# Loading ieee.math_real(body)
+# Loading work.steppermotorregisters_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_sender
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorregisters_tb/U_0/U_manager
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Failure: End of simulation
+#    Time: 56790 ns  Iteration: 0  Process: /steppermotorregisters_tb/U_1/line__40 File: C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd
+# Break in Process line__40 at C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper_test/hdl/stepperMotorRegisters_tester_test.vhd line 163
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do
+# End time: 16:41:35 on May 25,2022, Elapsed time: 0:32:01
+# Errors: 42, Warnings: 2

@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.Kart_Board  -multisrs  C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\synwork\Kart_Board_comp.srs  -osyn  C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\synwork\Kart_Board_mult.srs  -log  C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\synlog\Kart_Board_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe -link -top work.Kart_Board -multisrs ..\synwork\Kart_Board_comp.srs -osyn ..\synwork\Kart_Board_mult.srs -log ..\synlog\Kart_Board_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\Kart_Board_comp.srs|io:i|time:1653486519|size:103144|exec:0|csum:89EA43424C0203F2D4F0EB4E03B810A3
+file:..\synwork\Kart_Board_mult.srs|io:o|time:1653486520|size:6408|exec:0|csum:
+file:..\synlog\Kart_Board_multi_srs_gen.srr|io:o|time:1653486520|size:524|exec:0|csum:
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\syn_nfilter.exe|io:i|time:1509008212|size:3128832|exec:1|csum:962D613D77B03012E41E67FDFAA0D819
+file:..\..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1509008484|size:3947520|exec:1|csum:17B0DA4185D3A16356E0044EDC31C9F0

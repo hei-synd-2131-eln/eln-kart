@@ -1,0 +1,146 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\dev\\eln_kart_sodimm200\\Kart\\Board\\libero\\Kart\\synthesis\\synwork\\Kart_Board_comp.srs|-top|work.Kart_Board|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509008428
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509014436
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1509008246
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509007928
+#CUR:"C:\\dev\\eln_kart_sodimm200\\Kart\\Board\\concat\\Kart.vhd":1653486507
+0 "C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work kart_board struct 0
+arch work kartcontroller struct 0
+arch work txrouter rtl 0
+module work txrouter 0
+arch work fifo_bram rtl 0
+module work fifo_bram 0
+arch work bufferulogicvector sim 0
+module work bufferulogicvector 0
+arch work and2inv2 sim 0
+module work and2inv2 0
+arch work controlregisterscontroller struct 0
+arch work controlregistersregisters struct 0
+module work controlregistersregisters 0
+module work controlregisterscontroller 0
+arch work uartcontroller struct 0
+arch work serialframetransmitter struct 0
+arch work serialporttransmitter rtl 0
+module work serialporttransmitter 0
+arch work framepacker rtl 0
+module work framepacker 0
+module work serialframetransmitter 0
+arch work serialframereceiver struct 0
+arch work serialportreceiver rtl 0
+module work serialportreceiver 0
+arch work framereceiverhandler rtl 0
+module work framereceiverhandler 0
+arch work crc8itu rtl 0
+module work crc8itu 0
+arch work framecomposer rtl 0
+module work framecomposer 0
+module work serialframereceiver 0
+module work uartcontroller 0
+arch work steppermotorcontroller struct 0
+arch work steppermotorregisters struct 0
+arch work steppermotorregistersender rtl 0
+module work steppermotorregistersender 0
+arch work sendactualangledeltamanager rtl 0
+module work sendactualangledeltamanager 0
+arch work edgedetector rtl 0
+module work edgedetector 0
+module work steppermotorregisters 0
+arch work steppermotordivider rtl 0
+module work steppermotordivider 0
+arch work or2 sim 0
+module work or2 0
+arch work anglecontrol masterversion 0
+arch work coilcontrol masterversion 0
+module work coilcontrol 0
+arch work angledifference masterversion 0
+module work angledifference 0
+arch work dffe sim 0
+module work dffe 0
+arch work steppercounter masterversion 0
+module work steppercounter 0
+module work anglecontrol 0
+module work steppermotorcontroller 0
+arch work sensorscontroller struct 0
+arch work proximitysensorinterface struct 0
+arch work proximitysensorsequencer rtl 0
+module work proximitysensorsequencer 0
+module work proximitysensorinterface 0
+arch work sensorsregisters struct 0
+arch work led_blinker rtl 0
+module work led_blinker 0
+arch work anyedgedetector rtl 0
+module work anyedgedetector 0
+arch work sensorsregisterssend rtl 0
+module work sensorsregisterssend 0
+arch work sendendswitchesonchange rtl 0
+module work sendendswitchesonchange 0
+arch work senddeltamanager rtl 0
+module work senddeltamanager 0
+arch work freqdivider rtl 0
+module work freqdivider 0
+arch work transulogunsigned sim 0
+module work transulogunsigned 0
+arch work hallcountmanager rtl 0
+module work hallcountmanager 0
+module work sensorsregisters 0
+arch work ultrasoundranger masterversion 0
+module work ultrasoundranger 0
+arch work hallcounters masterversion 0
+module work hallcounters 0
+arch work batterylevelinterface struct 0
+arch work i2ctransmitter rtl 0
+module work i2ctransmitter 0
+arch work batterylevelsequencer rtl 0
+module work batterylevelsequencer 0
+arch work i2creceiver rtl 0
+module work i2creceiver 0
+module work batterylevelinterface 0
+module work sensorscontroller 0
+arch work dcmotorcontroller struct 0
+arch work dcmotorregisters struct 0
+arch work dcmotorregistersender rtl 0
+module work dcmotorregistersender 0
+arch work registermanager rtl 0
+module work registermanager 0
+arch work reg_addr_decoder rtl 0
+module work reg_addr_decoder 0
+module work dcmotorregisters 0
+arch work dcmotorpwm masterversion 0
+module work dcmotorpwm 0
+arch work dcmotorprescaler rtl 0
+module work dcmotorprescaler 0
+module work dcmotorcontroller 0
+module work kartcontroller 0
+arch work logic0 sim 0
+module work logic0 0
+arch work logic1 sim 0
+module work logic1 0
+arch work inverter sim 0
+module work inverter 0
+arch work dff sim 0
+module work dff 0
+arch work bufferulogic sim 0
+module work bufferulogic 0
+arch work tff sim 0
+module work tff 0
+module work kart_board 0
+
+
+# Configuration files used

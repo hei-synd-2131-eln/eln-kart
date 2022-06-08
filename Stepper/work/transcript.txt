@@ -1,0 +1,71 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 11:32:27 on May 16,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart
+# Loading gates.gates
+# Loading work.sendactualangledeltamanager(rtl)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# do C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/clock'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 3
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/reset'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 4
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_1/testInfo'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 5
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/addressIn'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 7
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/dataIn'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 8
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/regWr'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 9
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperAddressToSend'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 11
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperDataToSend'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 12
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperSendRequest'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 13
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperSendAuth'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 14
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_1/bankData'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 16
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_1/loadNew'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 17
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_0/p_module_selected'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 18
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/readRegister'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 20
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendActualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 21
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendReached'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 22
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_4/sendStepperEnd'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 23
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/actualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 25
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/p_lastsent_angle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 26
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/U_0/U_10/sendActualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 27
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/clockDivider'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 29
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/targetAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 30
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/hwOrientation'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 31
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperEndBus'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 32
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/restart'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 33
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/actualAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 35
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/reached'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 36
+# ** Error: (vish-4014) No objects found matching '/steppermotorregisters_tb/stepperEnd'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Kart\Simulation\Stepper\stepperMotorRegisters.do line 37
+# End time: 11:32:49 on May 16,2022, Elapsed time: 0:00:22
+# Errors: 84, Warnings: 0

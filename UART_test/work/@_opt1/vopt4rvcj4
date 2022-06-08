@@ -1,0 +1,122 @@
+m255
+K4
+z0
+13
+cModel Technology
+Z0 dC:/dev/eln_kart_sodimm200/Kart/UART_test/work
+T_opt
+!s110 1652261688
+VnFRC5dmzme4]RR8`R@U^U2
+Z1 04 17 6 work serialreceiver_tb struct 1
+=10-cc483a37a9a8-627b8338-94-2820
+o-quiet +acc -auto_acc_if_foreign -work UART_test -L UART_test -L UART -L Common -L gates
+Z2 tCvgOpt 0
+n@_opt
+Z3 OE;O;10.7c;67
+R0
+T_opt1
+!s110 1652292392
+V][WcIjVc15;^[4N;k9dKV1
+R1
+=1-cc483a37a9a8-627bfb28-a3-6c58
+o-quiet +acc -auto_acc_if_foreign -work UART_test -L UART_test -L Kart -L UART -L Common -L gates
+R2
+n@_opt1
+R3
+Eserialreceiver_tb
+w1652257477
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_entity.vhg
+l0
+L13
+V6VV9ZbUnZI0TR4[ig0z]X0
+!s100 X7E<HQKzc:Mekn64WOYh90
+Z7 OE;C;10.7c;67
+33
+!s110 1652292343
+!i10b 1
+!s108 1652292343.000000
+!s90 -work|UART_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_entity.vhg|
+!i113 0
+Z8 o-nologo -work UART_test -2008
+Z9 tExplicit 1 CvgOpt 0
+Astruct
+Z10 w1652292342
+DEx9 uart_test 21 serialreceiver_tester 0 22 7<DLnfa>?IaZHdkB0[TGU2
+DEx4 uart 19 serialframereceiver 0 22 eTfonmDzFH1]27amNRCcf3
+DEx4 work 17 serialreceiver_tb 0 22 6VV9ZbUnZI0TR4[ig0z]X0
+Z11 DPx4 kart 4 kart 0 22 5FlEz3Ta1IWbUFUKJ2TBm2
+Z12 DPx4 uart 9 kart_uart 0 22 JaL<=ZeFH9Ak6>DHP>IBN2
+R4
+R5
+R6
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_struct.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_struct.vhg
+l74
+L22
+V:nJn8ejmz5O;2gZmhK<lU2
+!s100 XLzD8;DK>_Rl5zQBmbF[@3
+R7
+33
+Z13 !s110 1652292344
+!i10b 1
+Z14 !s108 1652292344.000000
+Z15 !s90 -work|UART_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files2|
+Z16 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tb_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialReceiver_tester_test.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tester_entity.vhg|
+!i113 0
+R8
+R9
+Eserialreceiver_tester
+R10
+R11
+R12
+R4
+R5
+R6
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tester_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialreceiver_tester_entity.vhg
+l0
+L19
+V7<DLnfa>?IaZHdkB0[TGU2
+!s100 >4mNhnOO1^7GRec=WBUHB0
+R7
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R8
+R9
+Atest
+DEx4 work 21 serialreceiver_tester 0 22 7<DLnfa>?IaZHdkB0[TGU2
+DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R11
+R4
+R5
+R6
+R12
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialReceiver_tester_test.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART_test/hdl/serialReceiver_tester_test.vhd
+l45
+L21
+VkPWjX^jOjYcM2:@L?h`hH1
+!s100 2SE<N3n3oBYBkVgP9_mEo3
+R7
+33
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R8
+R9

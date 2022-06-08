@@ -1,0 +1,27 @@
+m255
+K4
+z0
+13
+cModel Technology
+dC:/dev/eln_kart_sodimm200/Kart/Scripts
+Pkart
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+w1652282042
+dC:/temp/eda/axel.amand/Kart/Kart/work
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd
+l0
+L13
+V5FlEz3Ta1IWbUFUKJ2TBm2
+!s100 z0j^iWgN2zO_5eAObF;c40
+OE;C;10.7c;67
+33
+!s110 1652296603
+!i10b 1
+!s108 1652296603.000000
+!s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Kart/hdl/Kart_pkg.vhd|
+!i113 0
+o-nologo -work Kart -2008
+tExplicit 1 CvgOpt 0

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\synlog\Kart_Board_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>Kart_Board|clock</data>
+<data>10.0 MHz</data>
+<data>32.2 MHz</data>
+<data>68.948</data>
+</row>
+<row>
+<data>System</data>
+<data>10.0 MHz</data>
+<data>66.7 MHz</data>
+<data>85.009</data>
+</row>
+</report_table>

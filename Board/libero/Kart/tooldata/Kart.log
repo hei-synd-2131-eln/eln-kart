@@ -1,0 +1,16 @@
+Project Name: Kart
+Location: C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart
+Description: AGLN125V5-VQ100 reimplementation of the Kart project to comply with the new EBS3 hardware.
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : AGLN250V5-VQ100
+Family         : IGLOO
+Die            : AGLN250V5
+Package        : 100 VQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

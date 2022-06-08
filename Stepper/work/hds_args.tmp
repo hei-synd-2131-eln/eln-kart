@@ -1,0 +1,1 @@
+ -do C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do -L Kart -L gates -L Stepper -l transcript.txt -i -t ps -multisource_delay latest +typdelays Stepper.sendActualAngleDeltaManager(rtl)

@@ -1,0 +1,102 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":241:7:241:16|Top entity is set to Kart_Board.
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":241:7:241:16|Synthesizing work.kart_board.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":394:7:394:9|Synthesizing work.dff.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":302:7:302:9|Synthesizing work.tff.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":551:7:551:20|Synthesizing work.kartcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6007:7:6007:20|Synthesizing work.uartcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6815:7:6815:28|Synthesizing work.serialframetransmitter.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6855:7:6855:17|Synthesizing work.framepacker.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6895:18:6895:19|Using onehot encoding for type statestype. For example, enumeration idle is mapped to "1000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6978:8:6978:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6172:7:6172:13|Synthesizing work.crc8itu.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7005:7:7005:27|Synthesizing work.serialporttransmitter.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6047:7:6047:25|Synthesizing work.serialframereceiver.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6295:7:6295:26|Synthesizing work.framereceiverhandler.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6347:18:6347:19|Using onehot encoding for type statestype. For example, enumeration wait_header is mapped to "100000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6431:4:6431:17|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6085:7:6085:19|Synthesizing work.framecomposer.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6484:7:6484:24|Synthesizing work.serialportreceiver.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4543:7:4543:28|Synthesizing work.steppermotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5274:7:5274:27|Synthesizing work.steppermotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5470:7:5470:32|Synthesizing work.steppermotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5517:18:5517:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5588:8:5588:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5397:7:5397:33|Synthesizing work.sendactualangledeltamanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1109:7:1109:21|Synthesizing work.registermanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1042:7:1042:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5130:7:5130:9|Synthesizing work.or2.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5311:7:5311:18|Synthesizing work.edgedetector.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":5168:7:5168:25|Synthesizing work.steppermotordivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4587:7:4587:18|Synthesizing work.anglecontrol.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4628:7:4628:20|Synthesizing work.steppercounter.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4885:7:4885:17|Synthesizing work.coilcontrol.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4745:7:4745:21|Synthesizing work.angledifference.masterversion.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4774:24:4774:25|Using onehot encoding for type turningstatetype. For example, enumeration uninitialized is mapped to "100000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4693:7:4693:10|Synthesizing work.dffe.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1588:7:1588:23|Synthesizing work.sensorscontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2836:7:2836:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2510:7:2510:22|Synthesizing work.ultrasoundranger.masterversion.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2536:25:2536:26|Using onehot encoding for type rangerstatetype. For example, enumeration idle is mapped to "100000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2649:7:2649:22|Synthesizing work.sensorsregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3361:7:3361:17|Synthesizing work.led_blinker.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3292:7:3292:21|Synthesizing work.anyedgedetector.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2836:7:2836:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2836:7:2836:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3043:7:3043:26|Synthesizing work.sensorsregisterssend.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3099:18:3099:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3260:8:3260:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2985:7:2985:29|Synthesizing work.sendendswitchesonchange.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2904:7:2904:22|Synthesizing work.senddeltamanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2904:7:2904:22|Synthesizing work.senddeltamanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2699:7:2699:22|Synthesizing work.hallcountmanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1109:7:1109:21|Synthesizing work.registermanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1042:7:1042:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2796:7:2796:23|Synthesizing work.transulogunsigned.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2422:7:2422:18|Synthesizing work.hallcounters.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1637:7:1637:27|Synthesizing work.batterylevelinterface.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1815:7:1815:27|Synthesizing work.batterylevelsequencer.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2032:7:2032:20|Synthesizing work.i2ctransmitter.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1670:7:1670:17|Synthesizing work.i2creceiver.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7655:7:7655:15|Synthesizing work.fifo_bram.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7691:21:7691:22|Using onehot encoding for type fifostatetype. For example, enumeration sempty is mapped to "1000000".
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7689:9:7689:19|Found RAM memoryarray, depth=50, width=24
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7689:9:7689:19|Found RAM memoryarray, depth=50, width=24
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7869:7:7869:14|Synthesizing work.txrouter.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7915:18:7915:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7982:8:7982:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7617:7:7617:24|Synthesizing work.bufferulogicvector.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7617:7:7617:24|Synthesizing work.bufferulogicvector.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7578:7:7578:14|Synthesizing work.and2inv2.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":606:7:606:23|Synthesizing work.dcmotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1001:7:1001:22|Synthesizing work.dcmotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1042:7:1042:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1197:7:1197:27|Synthesizing work.dcmotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1239:18:1239:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1283:8:1283:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":702:7:702:16|Synthesizing work.dcmotorpwm.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":642:7:642:22|Synthesizing work.dcmotorprescaler.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7355:7:7355:32|Synthesizing work.controlregisterscontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7388:7:7388:31|Synthesizing work.controlregistersregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1109:7:1109:21|Synthesizing work.registermanager.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":481:7:481:12|Synthesizing work.logic1.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":515:7:515:12|Synthesizing work.logic0.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":443:7:443:14|Synthesizing work.inverter.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":356:7:356:18|Synthesizing work.bufferulogic.sim.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7947:4:7947:5|Trying to extract state machine for register p_state.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":7763:4:7763:5|Trying to extract state machine for register fifoState.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3051:8:3051:19|Input ambientLight is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3058:8:3058:16|Input proximity is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3062:8:3062:19|Input sendAmbients is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":3067:8:3067:22|Input sendProximities is unused.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":2565:4:2565:5|Trying to extract state machine for register rangerState.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1598:8:1598:17|Input proxySClIn is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":1599:8:1599:17|Input proxySDaIn is unused.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":4793:4:4793:5|Trying to extract state machine for register turningState.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6361:4:6361:5|Trying to extract state machine for register state.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd":6912:4:6912:5|Trying to extract state machine for register state.
+@N|Running in 64-bit mode
+

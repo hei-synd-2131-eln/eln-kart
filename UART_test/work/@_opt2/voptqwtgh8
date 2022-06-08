@@ -1,0 +1,382 @@
+m255
+K4
+z0
+13
+cModel Technology
+Z0 dC:/dev/eln_kart_sodimm200/Kart/UART/work
+Ecrc8itu
+w1652272386
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_entity.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_entity.vhd
+l0
+L13
+V<=dXlR?RgXc>he_O8EU?B0
+!s100 bSGEfzeTgG]7bc3MkZFV^2
+Z4 OE;C;10.7c;67
+33
+!s110 1652273061
+!i10b 1
+!s108 1652273060.000000
+!s90 -work|UART|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_entity.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_entity.vhg|
+!i113 0
+Z5 o-nologo -work UART -2008
+Z6 tExplicit 1 CvgOpt 0
+Artl
+w1652274588
+DEx4 work 7 crc8itu 0 22 <=dXlR?RgXc>he_O8EU?B0
+Z7 DPx4 kart 4 kart 0 22 5FlEz3Ta1IWbUFUKJ2TBm2
+Z8 DPx4 uart 9 kart_uart 0 22 JaL<=ZeFH9Ak6>DHP>IBN2
+Z9 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_rtl.vhd
+l40
+L29
+V3V[YzKaCC>DbnW6=N?:o_2
+!s100 QXXLCQoILZmBk5Mb@XRm71
+R4
+33
+Z10 !s110 1652291707
+!i10b 1
+Z11 !s108 1652291707.000000
+Z12 !s90 -work|UART|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+Z13 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/frameReceiverHandler_RTL.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framereceiverhandler_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialReceiver_RTL.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialreceiver_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/FrameComposer_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framecomposer_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crc8itu_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/Kart_UART_pkg.vhd|
+!i113 0
+R5
+R6
+Ecrcremover
+w1652285914
+R9
+Z14 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+R7
+Z15 DPx4 uart 9 kart_uart 0 22 ncOGT5flBVhbGdE7f``5T0
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crcremover_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crcremover_entity.vhg
+l0
+L25
+VGgg5QVKRe_NJ0XmAe7c?=2
+!s100 K<Va2Mj`]M5P`k@jVQI7J1
+R4
+33
+!s110 1652285915
+!i10b 1
+!s108 1652285915.000000
+R12
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/CRCRemover_RTL.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/crcremover_entity.vhg|
+!i113 0
+R5
+R6
+Artl
+w1652287021
+R9
+R14
+DEx4 work 10 crcremover 0 22 Ggg5QVKRe_NJ0XmAe7c?=2
+R7
+R1
+R2
+R3
+R15
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/CRCRemover_RTL.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/CRCRemover_RTL.vhd
+l15
+L14
+V[2@I6U<3PcZnEj=6=[DZD1
+!s100 36UJ[]dK6A6]Pi1YE]I[>0
+R4
+33
+!s110 1652287025
+!i10b 1
+!s108 1652287025.000000
+R12
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/CRCRemover_RTL.vhd|
+!i113 0
+R5
+R6
+Eframecomposer
+Z16 w1652291512
+R9
+R7
+R8
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framecomposer_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framecomposer_entity.vhg
+l0
+L18
+V0_H2`boDPe[34>O4AI=RV3
+!s100 aCE?GKmLN]^=A8kH@k0^N3
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Artl
+R9
+R7
+R8
+R1
+R2
+R3
+DEx4 work 13 framecomposer 0 22 0_H2`boDPe[34>O4AI=RV3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/FrameComposer_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/FrameComposer_rtl.vhd
+l19
+L12
+VbEdi8Z[HzG^gH06=iKS9<1
+!s100 DN7bb7F^^b@jY04FE5AKd1
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Eframereceiverhandler
+Z17 w1652291557
+R9
+R14
+R7
+R8
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framereceiverhandler_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/framereceiverhandler_entity.vhg
+l0
+L25
+Vbz<SS6]MI8USHBDU;b[Il1
+!s100 oaGZZlY4j7>TfN[@AZHdB1
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Artl
+R9
+R14
+DEx4 work 20 framereceiverhandler 0 22 bz<SS6]MI8USHBDU;b[Il1
+R7
+R1
+R2
+R3
+R8
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/frameReceiverHandler_RTL.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/frameReceiverHandler_RTL.vhd
+l42
+L17
+V23@XA@QVWz8S?bHY90WR^0
+!s100 Y6:<BF>KO[7OKZ:Ei=7AQ0
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Pkart_uart
+R7
+R1
+R2
+R3
+w1652291701
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/Kart_UART_pkg.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/Kart_UART_pkg.vhd
+l0
+L17
+VJaL<=ZeFH9Ak6>DHP>IBN2
+!s100 CIJg27n0A>jzIbg8Yl;Re3
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Eserialframereceiver
+w1652292342
+R7
+R8
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_entity.vhg
+l0
+L16
+VeTfonmDzFH1]27amNRCcf3
+!s100 zO[]]j^KCWPP>35S_YW?b3
+R4
+33
+Z18 !s110 1652292952
+!i10b 1
+Z19 !s108 1652292952.000000
+R12
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_entity.vhg|
+!i113 0
+R5
+R6
+Astruct
+w1652292951
+DEx5 rs232 18 serialportreceiver 0 22 zOZIl1@kR`cHMiiZjYCzT1
+DEx4 uart 20 framereceiverhandler 0 22 bz<SS6]MI8USHBDU;b[Il1
+DEx4 uart 7 crc8itu 0 22 <=dXlR?RgXc>he_O8EU?B0
+DEx4 uart 13 framecomposer 0 22 0_H2`boDPe[34>O4AI=RV3
+DEx4 work 19 serialframereceiver 0 22 eTfonmDzFH1]27amNRCcf3
+R9
+R14
+R7
+R8
+R1
+R2
+R3
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_struct.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_struct.vhg
+l106
+L28
+VQA>0AY@fneb[?gi=_6WfR0
+!s100 MMLZnJeI=z44ADjHdzeiI3
+R4
+33
+R18
+!i10b 1
+R19
+!s90 -work|UART|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files2|
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialframereceiver_struct.vhg|
+!i113 0
+R5
+R6
+Eserialreceiver
+Z20 w1652291615
+R7
+R8
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialreceiver_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialreceiver_entity.vhg
+l0
+L16
+VZX?5ajEmjK[dXoMC;>09f1
+!s100 be0aHFa8@;5T9P<aKc3C80
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Artl
+R7
+R8
+DEx4 work 14 serialreceiver 0 22 ZX?5ajEmjK[dXoMC;>09f1
+R1
+R2
+R3
+R9
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialReceiver_RTL.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/serialReceiver_RTL.vhd
+l20
+L8
+VBNk22[<mTSL`S:o?K1XNQ2
+!s100 69?7L=3JRG37BbeY]L[`]3
+R4
+33
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R5
+R6
+Et
+w1652291032
+R9
+R14
+R7
+Z21 DPx4 uart 9 kart_uart 0 22 z;<0O;5Zj[68MN>m@kWF<3
+R1
+R2
+R3
+R0
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_entity.vhg
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_entity.vhg
+l0
+L25
+VXUD`XfJ4ELHBN:Mc9g[mE1
+!s100 F;k3]ZZ3``71h@OId005c3
+R4
+33
+!s110 1652291032
+!i10b 1
+!s108 1652291032.000000
+R12
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_tt.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_entity.vhg|
+!i113 0
+R5
+R6
+Att
+w1652291040
+R9
+R14
+R7
+R21
+R1
+R2
+R3
+DEx4 work 1 t 0 22 XUD`XfJ4ELHBN:Mc9g[mE1
+8C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_tt.vhd
+FC:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_tt.vhd
+l11
+L10
+V^[c0K6Qh7h6j3ahOB2KUm1
+!s100 l76VE^aCJ`T>7ha;oCb_=1
+R4
+33
+!s110 1652291044
+!i10b 1
+!s108 1652291044.000000
+R12
+!s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../UART/hdl/t_tt.vhd|
+!i113 0
+R5
+R6
