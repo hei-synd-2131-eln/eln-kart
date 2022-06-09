@@ -1,11 +1,11 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
-#--  Project file C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart\synthesis\run_options.txt
-#--  Written on Wed May 25 15:48:38 2022
+#--  Project file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\run_options.txt
+#--  Written on Thu Jun 09 18:00:40 2022
 
 
 #project files
-add_file -vhdl -lib work "C:/dev/eln_kart_sodimm200/Kart/Board/concat/Kart.vhd"
+add_file -vhdl -lib work "C:/dev/eln_kart_sodimm200/Board/concat/Kart.vhd"
 
 
 

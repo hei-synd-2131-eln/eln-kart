@@ -1,4 +1,4 @@
-#OPTIONS:"|-layerid|0|-orig_srs|C:\\dev\\eln_kart_sodimm200\\Kart\\Board\\libero\\Kart\\synthesis\\synwork\\Kart_Board_comp.srs|-top|work.Kart_Board|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\dev\\eln_kart_sodimm200\\Board\\libero\\Kart\\synthesis\\synwork\\Kart_Board_comp.srs|-top|work.Kart_Board|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509008428
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509014436
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509007928
@@ -10,14 +10,16 @@
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509007928
-#CUR:"C:\\dev\\eln_kart_sodimm200\\Kart\\Board\\concat\\Kart.vhd":1653486507
-0			"C:\dev\eln_kart_sodimm200\Kart\Board\concat\Kart.vhd" vhdl
+#CUR:"C:\\dev\\eln_kart_sodimm200\\Board\\concat\\Kart.vhd":1654790289
+0			"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd" vhdl
 #Dependency Lists(Uses List)
 0 -1
 #Dependency Lists(Users Of)
 0 -1
 #Design Unit to File Association
 module work kart_board 0
+module work and2 0
+arch work and2 sim 0
 module work tff 0
 arch work tff sim 0
 module work bufferulogic 0
@@ -31,16 +33,20 @@ arch work logic1 sim 0
 module work logic0 0
 arch work logic0 sim 0
 module work kartcontroller 0
+module work controlregisterscontroller 0
+module work controlregistersregisters 0
+module work reg_addr_decoder 0
+arch work reg_addr_decoder rtl 0
+module work registermanager 0
+arch work registermanager rtl 0
+arch work controlregistersregisters struct 0
+arch work controlregisterscontroller struct 0
 module work dcmotorcontroller 0
 module work dcmotorprescaler 0
 arch work dcmotorprescaler rtl 0
 module work dcmotorpwm 0
 arch work dcmotorpwm masterversion 0
 module work dcmotorregisters 0
-module work reg_addr_decoder 0
-arch work reg_addr_decoder rtl 0
-module work registermanager 0
-arch work registermanager rtl 0
 module work dcmotorregistersender 0
 arch work dcmotorregistersender rtl 0
 arch work dcmotorregisters struct 0
@@ -54,6 +60,8 @@ arch work batterylevelsequencer rtl 0
 module work i2ctransmitter 0
 arch work i2ctransmitter rtl 0
 arch work batterylevelinterface struct 0
+module work freqdividerwforceonstart 0
+arch work freqdividerwforceonstart rtl 0
 module work hallcounters 0
 arch work hallcounters masterversion 0
 module work ultrasoundranger 0
@@ -85,26 +93,26 @@ module work steppermotorcontroller 0
 module work anglecontrol 0
 module work steppercounter 0
 arch work steppercounter masterversion 0
-module work dffe 0
-arch work dffe sim 0
 module work angledifference 0
 arch work angledifference masterversion 0
 module work coilcontrol 0
 arch work coilcontrol masterversion 0
 arch work anglecontrol masterversion 0
-module work or2 0
-arch work or2 sim 0
 module work steppermotordivider 0
 arch work steppermotordivider rtl 0
 module work steppermotorregisters 0
-module work edgedetector 0
-arch work edgedetector rtl 0
+module work edgedetectordflt 0
+arch work edgedetectordflt rtl 0
+module work or2 0
+arch work or2 sim 0
 module work sendactualangledeltamanager 0
 arch work sendactualangledeltamanager rtl 0
 module work steppermotorregistersender 0
 arch work steppermotorregistersender rtl 0
 arch work steppermotorregisters struct 0
 arch work steppermotorcontroller struct 0
+module work fifo_bram 0
+arch work fifo_bram rtl 0
 module work uartcontroller 0
 module work serialframereceiver 0
 module work framecomposer 0
@@ -123,16 +131,10 @@ module work serialporttransmitter 0
 arch work serialporttransmitter rtl 0
 arch work serialframetransmitter struct 0
 arch work uartcontroller struct 0
-module work controlregisterscontroller 0
-module work controlregistersregisters 0
-arch work controlregistersregisters struct 0
-arch work controlregisterscontroller struct 0
 module work and2inv2 0
 arch work and2inv2 sim 0
 module work bufferulogicvector 0
 arch work bufferulogicvector sim 0
-module work fifo_bram 0
-arch work fifo_bram rtl 0
 module work txrouter 0
 arch work txrouter rtl 0
 arch work kartcontroller struct 0

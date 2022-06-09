@@ -7,7 +7,7 @@ Original and Pipelined registers replaced by retiming :
 		None
 
 New registers created by retiming :
-		I_board.U_txFIFO.dataOut_ret_47
+		I_board.I_txFIFO.dataOut_ret_47
 
 
 		#####   END RETIMING REPORT  #####

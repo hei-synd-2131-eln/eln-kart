@@ -1,2 +1,2 @@
-CKID0001:@|S:I21.Q@|E:I_board.I_stepperController.U_registers.U_1.pulse_delayed@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0001:@|S:I_board.I_stepperController.I_angleControl.I_phases.stepdelayed@|E:I_board.I_stepperController.I_angleControl.I_phases.coil1@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
 CKID0002:@|S:clock@|E:g1.2.I28.Q@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 
