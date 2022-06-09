@@ -1,13 +1,14 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
 Kart_test = $HDS_PROJECT_DIR/../Kart_test/concat
-Stepper = $HDS_PROJECT_DIR\..\Stepper\concat
+Stepper = $HDS_PROJECT_DIR/../Stepper/concat
 [ModelSim]
 Board = $SCRATCH_DIR/Kart/Board/work
 Common = $SCRATCH_DIR/Libs/Common/work
 Common_test = $SCRATCH_DIR/Libs/Common_test/work
 ControlRegisters = $HDS_PROJECT_DIR/../ControlRegisters/work
 DcMotor = $HDS_PROJECT_DIR/../DcMotor/work
+DcMotor_test = $HDS_PROJECT_DIR\..\DcMotor_test\work
 gates = $SCRATCH_DIR/Libraries/gates/work
 I2C = $SCRATCH_DIR/Libs/I2C/work
 I2C_test = $SCRATCH_DIR/Libs/I2C_test/work
@@ -19,6 +20,7 @@ Memory_test = $SCRATCH_DIR/Libs/Memory_test/work
 RS232 = $SCRATCH_DIR/RS232
 RS232_test = $SCRATCH_DIR/RS232_test
 Sensors = $HDS_PROJECT_DIR/../Sensors/work
+Sensors_test = $HDS_PROJECT_DIR\..\Sensors_test\work
 sequential = $SCRATCH_DIR/Libraries/sequential/work
 Stepper = $HDS_PROJECT_DIR/../Stepper/work
 Stepper_test = $HDS_PROJECT_DIR/../Stepper_test/work

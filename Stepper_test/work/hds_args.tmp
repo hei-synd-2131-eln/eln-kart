@@ -1,1 +1,1 @@
- -do C:/dev/eln_kart_sodimm200/Kart/Simulation/Stepper/stepperMotorRegisters.do -L Stepper_test -L Kart -L Stepper -L Common -L gates -L Common_test -l transcript.txt -i -t ps -multisource_delay latest +typdelays Stepper_test.stepperMotorRegisters_tb(struct)
+ -do C:/dev/eln_kart_sodimm200/Simulation/Stepper/stepperMotorController.do -L Stepper_test -L Kart -L Stepper -L gates -L sequential -L Common -L Common_test -l transcript.txt -i -t ps -multisource_delay latest +typdelays Stepper_test.stepperMotorController(struct)

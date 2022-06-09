@@ -1,0 +1,113 @@
+m255
+K4
+z0
+13
+cModel Technology
+Z0 dC:/dev/eln_kart_sodimm200/Sensors_test/work
+T_opt
+!s110 1654789842
+VVKmB@IEgh0J;^Q4W]_no10
+04 10 6 work sensors_tb struct 1
+=51-cc483a37a9a8-62a216d2-a1-3c78
+o-quiet +acc -auto_acc_if_foreign -work Sensors_test -L Kart -L Sensors_test -L Sensors -L I2C -L Common -L gates -L sequential -L Stepper -L Common_test
+tCvgOpt 0
+n@_opt
+OE;O;10.7c;67
+Esensors_tb
+w1654787562
+Z1 DPx4 kart 4 kart 0 22 @YQkT;N:e_1Y00Nc<N69i0
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+8C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_entity.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_entity.vhg
+l0
+L16
+ViCSHmjWJ`O?;COdV5A8Y>0
+!s100 zDc?Nf2mefM8I4LQo65[<1
+Z5 OE;C;10.7c;67
+33
+!s110 1654788064
+!i10b 1
+!s108 1654788064.000000
+!s90 -work|Sensors_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_entity.vhg|
+!i113 0
+Z6 o-nologo -work Sensors_test -2008
+Z7 tExplicit 1 CvgOpt 0
+Astruct
+w1654789837
+DEx12 sensors_test 14 sensors_tester 0 22 V@7aNoT5R`2Ylcn[R8Cng1
+DEx7 sensors 17 sensorscontroller 0 22 ^=:O0adK_;mh;lB4]J3R93
+DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+DEx5 gates 6 logic0 0 22 @dZkeRK<d2`0SAU485=RR1
+DEx4 work 10 sensors_tb 0 22 iCSHmjWJ`O?;COdV5A8Y>0
+R1
+R2
+R3
+R4
+8C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_struct.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_struct.vhg
+l100
+L20
+V?1YcHbJ25UY17^2<D@UnE2
+!s100 i<7d0z5z2NC@Gl7`G38Rk0
+R5
+33
+Z8 !s110 1654789839
+!i10b 1
+Z9 !s108 1654789838.000000
+Z10 !s90 -work|Sensors_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+Z11 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd|
+!i113 0
+R6
+R7
+Esensors_tester
+w1654787565
+R1
+R2
+R3
+R4
+R0
+8C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_entity.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_entity.vhg
+l0
+L15
+VV@7aNoT5R`2Ylcn[R8Cng1
+!s100 ?R94@7N@Vc5lkO=W>OMOP0
+R5
+33
+!s110 1654788067
+!i10b 1
+!s108 1654788067.000000
+!s90 -work|Sensors_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files9|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tb_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_entity.vhg|
+!i113 0
+R6
+R7
+Atest
+w1654789834
+DEx4 work 14 sensors_tester 0 22 V@7aNoT5R`2Ylcn[R8Cng1
+R1
+R2
+DPx11 common_test 9 testutils 0 22 kn_]a;6Q4W[?4cR;I[Nc40
+R4
+DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R3
+8C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+FC:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+l42
+L13
+V3mQlhkl^_<MMe4=>][:d[1
+!s100 zTKW^]aje@fQmk`8V@38H3
+R5
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R6
+R7

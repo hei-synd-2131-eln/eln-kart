@@ -27,7 +27,7 @@ BEGIN
     if reset = '1' then
       p_100kCounter <= (others => '0');
     elsif rising_edge(clock) then
-      if p_100kCounter >= to_unsigned(p_100khz_cnt_target, p_100kCounter'length)
+      if p_100kCounter + 1 >= to_unsigned(p_100khz_cnt_target, p_100kCounter'length)
         then
         p_100kCounter <= (others => '0');
       else
@@ -51,7 +51,7 @@ BEGIN
         elsif p_100kDone = '1' then
           testPrescalerCounter <= testPrescalerCounter + 1;
         end if;
-        testPrescalerDone <= '1' when testPrescalerCounter =
+        testPrescalerDone <= '1' when testPrescalerCounter + 1 =
           (testPrescalerCounter'range=>'1') else '0';
     end if;
   end process testDivide;
@@ -78,7 +78,7 @@ BEGIN
   end process prescalerDivide;
 
   divo <= '0' when divider /= 0 else '1';
-  bigger <= '1' when prescalerCounter >= divider else '0';
+  bigger <= '1' when prescalerCounter + 1 >= divider else '0';
 
   ------------------------------------------------------------------------------
 

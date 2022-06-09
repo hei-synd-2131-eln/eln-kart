@@ -1,0 +1,110 @@
+m255
+K4
+z0
+13
+cModel Technology
+Z0 dC:/dev/eln_kart_sodimm200/DcMotor_test/work
+T_opt
+!s110 1654782244
+V7onU]I_enHhm^h_SYFf[53
+04 20 6 work dcmotorcontroller_tb struct 1
+=27-cc483a37a9a8-62a1f924-1af-280
+o-quiet +acc -auto_acc_if_foreign -work DcMotor_test -L DcMotor_test -L Kart -L DcMotor -L Common -L gates -L Common_test
+tCvgOpt 0
+n@_opt
+OE;O;10.7c;67
+Edcmotorcontroller_tb
+Z1 w1654774250
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_entity.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_entity.vhg
+l0
+L13
+V:]@LYZYbD0I;I9aB2AZ``2
+!s100 oA2G;XXl]jWlX`nZ?onz]2
+Z5 OE;C;10.7c;67
+33
+!s110 1654777457
+!i10b 1
+!s108 1654777457.000000
+Z6 !s90 -work|DcMotor_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_entity.vhg|
+!i113 0
+Z7 o-nologo -work DcMotor_test -2008
+Z8 tExplicit 1 CvgOpt 0
+Astruct
+w1654782238
+DEx12 dcmotor_test 24 dcmotorcontroller_tester 0 22 KPnABMN?CHif?05P[<MHQ2
+DEx7 dcmotor 17 dcmotorcontroller 0 22 `e6V8>M77V?`n11fiERg^2
+DEx4 work 20 dcmotorcontroller_tb 0 22 :]@LYZYbD0I;I9aB2AZ``2
+Z9 DPx4 kart 4 kart 0 22 =Dd[EVXmfQYUQN=COlL2m1
+R2
+R3
+R4
+8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_struct.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_struct.vhg
+l79
+L19
+VS0a;QmQA?TPRlILLUP^>93
+!s100 P8fT71>iz9Z8I[<LS?2o]3
+R5
+33
+Z10 !s110 1654782239
+!i10b 1
+Z11 !s108 1654782239.000000
+R6
+Z12 !s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tb_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd|
+!i113 0
+R7
+R8
+Edcmotorcontroller_tester
+R1
+R9
+R2
+R3
+R4
+R0
+8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tester_entity.vhg
+FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tester_entity.vhg
+l0
+L15
+VKPnABMN?CHif?05P[<MHQ2
+!s100 Y`9i[_KeEKL]BQVSH3U^G0
+R5
+33
+!s110 1654774253
+!i10b 1
+!s108 1654774253.000000
+!s90 -work|DcMotor_test|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files7|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcmotorcontroller_tester_entity.vhg|
+!i113 0
+R7
+R8
+Atest
+w1654782236
+DEx4 work 24 dcmotorcontroller_tester 0 22 KPnABMN?CHif?05P[<MHQ2
+R9
+R2
+DPx11 common_test 9 testutils 0 22 kn_]a;6Q4W[?4cR;I[Nc40
+R4
+DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R3
+8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd
+FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd
+l47
+L13
+Vm`nEO^:9JEKf1PF8?H>4M3
+!s100 @EFePkAcX?G3SK85Uhmh11
+R5
+33
+R10
+!i10b 1
+R11
+R6
+R12
+!i113 0
+R7
+R8

@@ -1,0 +1,1 @@
+ -do C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do -L Kart -L Sensors_test -L Sensors -L I2C -L Common -L gates -L sequential -L Stepper -L Common_test -l transcript.txt -i -t ps -multisource_delay latest +typdelays Sensors_test.sensors_tb(struct)

@@ -1,0 +1,3614 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 16:18:47 on Jun 09,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "sensorsRegistersSend(rtl)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# ** Warning: (vsim-3479) Time unit 'fs' is less than the simulator resolution (1ps).
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_tester
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# ** Warning: (vsim-8683) Uninitialized out port /sensors_tb/I_tester/clock has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /sensors_tb/I_tester/reset has no driver.
+# This port will contribute value (U) to the signal network.
+# do C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Failure: End of simulation
+#    Time: 1 ms  Iteration: 0  Process: /sensors_tb/I_tester/line__47 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__47 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 89
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+add wave -position end  sim:/sensors_tb/clock
+add wave -position 0  sim:/sensors_tb/reset
+add wave -position end  sim:/sensors_tb/I_tester/testInfo
+add wave -position end  sim:/sensors_tb/hallPulses
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+add wave -position end  sim:/sensors_tb/distanceStart
+add wave -position end  sim:/sensors_tb/distancePulse
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+add wave -position end  sim:/sensors_tb/I_sensors/rangerDistance
+add wave -position 5  sim:/sensors_tb/I_sensors/hallCount
+add wave -position 6  sim:/sensors_tb/I_sensors/zeroPos
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+# 0
+# 
+run
+# ** Failure: End of simulation
+#    Time: 2 ms  Iteration: 0  Process: /sensors_tb/I_tester/line__51 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# 0
+# Break in Process line__51 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 108
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+add wave -position 11  sim:/sensors_tb/I_sensors/hallCount(16)
+add wave -position 12  sim:/sensors_tb/I_sensors/hallCount(15)
+add wave -position 13  sim:/sensors_tb/I_sensors/hallCount(14)
+add wave -position 14  sim:/sensors_tb/I_sensors/hallCount(13)
+add wave -position 15  sim:/sensors_tb/I_sensors/hallCount(12)
+add wave -position 16  sim:/sensors_tb/I_sensors/hallCount(11)
+add wave -position 17  sim:/sensors_tb/I_sensors/hallCount(10)
+add wave -position 18  sim:/sensors_tb/I_sensors/hallCount(9)
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount(8)
+add wave -position 20  sim:/sensors_tb/I_sensors/hallCount(7)
+add wave -position 21  sim:/sensors_tb/I_sensors/hallCount(6)
+add wave -position 22  sim:/sensors_tb/I_sensors/hallCount(5)
+add wave -position 23  sim:/sensors_tb/I_sensors/hallCount(4)
+add wave -position 24  sim:/sensors_tb/I_sensors/hallCount(3)
+add wave -position 25  sim:/sensors_tb/I_sensors/hallCount(2)
+add wave -position 26  sim:/sensors_tb/I_sensors/hallCount(1)
+add wave -position 27  sim:/sensors_tb/I_sensors/hallCount(0)
+add wave -position 12  sim:/sensors_tb/I_sensors/hallCount(31)
+add wave -position 13  sim:/sensors_tb/I_sensors/hallCount(30)
+add wave -position 14  sim:/sensors_tb/I_sensors/hallCount(29)
+add wave -position 15  sim:/sensors_tb/I_sensors/hallCount(28)
+add wave -position 16  sim:/sensors_tb/I_sensors/hallCount(27)
+add wave -position 17  sim:/sensors_tb/I_sensors/hallCount(26)
+add wave -position 18  sim:/sensors_tb/I_sensors/hallCount(25)
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount(24)
+add wave -position 20  sim:/sensors_tb/I_sensors/hallCount(23)
+add wave -position 21  sim:/sensors_tb/I_sensors/hallCount(22)
+add wave -position 22  sim:/sensors_tb/I_sensors/hallCount(21)
+add wave -position 23  sim:/sensors_tb/I_sensors/hallCount(20)
+add wave -position 24  sim:/sensors_tb/I_sensors/hallCount(19)
+add wave -position 25  sim:/sensors_tb/I_sensors/hallCount(18)
+add wave -position 26  sim:/sensors_tb/I_sensors/hallCount(17)
+add wave -position 11  sim:/sensors_tb/I_sensors/hallCount(31)
+add wave -position 12  sim:/sensors_tb/I_sensors/hallCount(30)
+add wave -position 13  sim:/sensors_tb/I_sensors/hallCount(29)
+add wave -position 14  sim:/sensors_tb/I_sensors/hallCount(28)
+add wave -position 15  sim:/sensors_tb/I_sensors/hallCount(27)
+add wave -position 16  sim:/sensors_tb/I_sensors/hallCount(26)
+add wave -position 17  sim:/sensors_tb/I_sensors/hallCount(25)
+add wave -position 18  sim:/sensors_tb/I_sensors/hallCount(24)
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount(23)
+add wave -position 20  sim:/sensors_tb/I_sensors/hallCount(22)
+add wave -position 21  sim:/sensors_tb/I_sensors/hallCount(21)
+add wave -position 22  sim:/sensors_tb/I_sensors/hallCount(20)
+add wave -position 23  sim:/sensors_tb/I_sensors/hallCount(19)
+add wave -position 24  sim:/sensors_tb/I_sensors/hallCount(18)
+add wave -position 25  sim:/sensors_tb/I_sensors/hallCount(17)
+add wave -position 11  sim:/sensors_tb/I_sensors/hallCount(31)
+add wave -position 12  sim:/sensors_tb/I_sensors/hallCount(30)
+add wave -position 13  sim:/sensors_tb/I_sensors/hallCount(29)
+add wave -position 14  sim:/sensors_tb/I_sensors/hallCount(28)
+add wave -position 15  sim:/sensors_tb/I_sensors/hallCount(27)
+add wave -position 16  sim:/sensors_tb/I_sensors/hallCount(26)
+add wave -position 17  sim:/sensors_tb/I_sensors/hallCount(25)
+add wave -position 18  sim:/sensors_tb/I_sensors/hallCount(24)
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount(23)
+add wave -position 20  sim:/sensors_tb/I_sensors/hallCount(22)
+add wave -position 21  sim:/sensors_tb/I_sensors/hallCount(21)
+add wave -position 22  sim:/sensors_tb/I_sensors/hallCount(20)
+add wave -position 23  sim:/sensors_tb/I_sensors/hallCount(19)
+add wave -position 24  sim:/sensors_tb/I_sensors/hallCount(18)
+add wave -position 25  sim:/sensors_tb/I_sensors/hallCount(17)
+add wave -position 26  sim:/sensors_tb/I_sensors/hallCount(16)
+add wave -position 12  sim:/sensors_tb/I_sensors/hallCount(15)
+add wave -position 13  sim:/sensors_tb/I_sensors/hallCount(14)
+add wave -position 14  sim:/sensors_tb/I_sensors/hallCount(13)
+add wave -position 15  sim:/sensors_tb/I_sensors/hallCount(12)
+add wave -position 16  sim:/sensors_tb/I_sensors/hallCount(11)
+add wave -position 17  sim:/sensors_tb/I_sensors/hallCount(10)
+add wave -position 18  sim:/sensors_tb/I_sensors/hallCount(9)
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount(8)
+add wave -position 20  sim:/sensors_tb/I_sensors/hallCount(7)
+add wave -position 21  sim:/sensors_tb/I_sensors/hallCount(6)
+add wave -position 22  sim:/sensors_tb/I_sensors/hallCount(5)
+add wave -position 23  sim:/sensors_tb/I_sensors/hallCount(4)
+add wave -position 24  sim:/sensors_tb/I_sensors/hallCount(3)
+add wave -position 25  sim:/sensors_tb/I_sensors/hallCount(2)
+add wave -position 26  sim:/sensors_tb/I_sensors/hallCount(1)
+add wave -position 27  sim:/sensors_tb/I_sensors/hallCount(0)
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+add wave -position 10  sim:/sensors_tb/I_sensors/zeroPos(0)
+add wave -position 12  sim:/sensors_tb/I_sensors/zeroPos(1)
+add wave -position 9  sim:/sensors_tb/hallPulses(1)
+add wave -position 12  sim:/sensors_tb/hallPulses(2)
+run
+# ** Failure: End of simulation
+#    Time: 2 ms  Iteration: 0  Process: /sensors_tb/I_tester/line__51 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# 0
+# Break in Process line__51 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 108
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+# Causality operation skipped due to absence of debug database file
+add wave -position end  sim:/sensors_tb/I_tester/tbRangerDistance
+add wave -position end  sim:/sensors_tb/I_tester/dutRangerDistance
+add wave -position 12  sim:/sensors_tb/I_tester/tbHallCounters
+add wave -position 13  sim:/sensors_tb/I_tester/dutHallCounters
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Error: Hall count error
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Note: Hall count OK
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Error: Hall count error
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Reading Hall sensor counters at time 0 us
+# 
+# ** Error: Hall count error
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 1000 us
+# 
+# ** Error: Hall count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+run
+# Reading ultrasound ranger distance at time 2000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 2 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+# 0
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 1000 us
+# 
+# ** Error: Hall count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+run
+# Reading ultrasound ranger distance at time 2000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 2 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+# 0
+# 
+run
+# ** Failure: End of simulation
+#    Time: 3 ms  Iteration: 0  Process: /sensors_tb/I_tester/line__51 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# 0
+# Break in Process line__51 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 109
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 500 us
+# 
+# ** Note: Hall count OK
+#    Time: 500 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1000 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1 ms  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 400 us
+# 
+# ** Note: Hall count OK
+#    Time: 400 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 800 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 800 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 450 us
+# 
+# ** Note: Hall count OK
+#    Time: 450 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 900 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 900 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 425 us
+# 
+# ** Note: Hall count OK
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 850 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 850 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "sensorsRegistersSend(rtl)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 425 us
+# 
+# ** Error: Hall count error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 850 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 850 us  Iteration: 0  Instance: /sensors_tb/I_tester
+add wave -position end  sim:/sensors_tb/I_tester/dutHallCounters
+add wave -position end  sim:/sensors_tb/I_tester/tbHallCounters
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Warning in wave window restart: (vish-4014) No objects found matching '/sensors_tb/I_tester/dutHallCounters(1)'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/sensors_tb/I_tester/dutHallCounters(2)'. 
+# Warning in wave window restart: (vish-4014) No objects found matching '/sensors_tb/I_tester/dutHallCounters'. 
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 425 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 850 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 850 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 425 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 850 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 850 us  Iteration: 0  Instance: /sensors_tb/I_tester
+add wave -position end  sim:/sensors_tb/sensorsDataToSend
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 425 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 425 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 850 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 850 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 412 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 412 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 824 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 824 us  Iteration: 0  Instance: /sensors_tb/I_tester
+add wave -position 19  sim:/sensors_tb/I_sensors/hallCount
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 412 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 412 us  Iteration: 0  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 824 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 824 us  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 500390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 912 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 912390 ns  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "sensorsRegistersSend(rtl)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+add wave -position end  sim:/sensors_tb/I_sensors/I_regs/hallReg
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+add wave -position 22  sim:/sensors_tb/sensorsAddressToSend
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+add wave -position 22  sim:/sensors_tb/sensorsSendAuth
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+add wave -position 23  sim:/sensors_tb/sensorsSendRequest
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Error: Hall count 2 error
+#    Time: 600390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "sensorsRegistersSend(rtl)".
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Error: Hall count 1 error
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+add wave -position end  sim:/sensors_tb/I_tester/tbHallCounters
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+run
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1236190 ns  Iteration: 0  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 1648190 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__50 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# 0
+# Break in Process line__50 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 130
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 1236190 ns  Iteration: 0  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6554290 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 6966290 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__50 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__50 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 131
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Warning in wave window restart: (vish-4014) No objects found matching '/sensors_tb/I_tester/dutRangerDistance'. 
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6740890 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7152890 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__52 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__52 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 137
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6649390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7061390 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 138
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6649390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7061390 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 138
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6649390 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7473390 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 140
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7458690 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 140
+add wave -position end  sim:/sensors_tb/I_sensors/I_range/pulseCounter
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 7458690 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 140
+add wave -position end  sim:/sensors_tb/I_sensors/I_range/rangerState
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+run
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# 0
+# 
+run
+# ** Failure: End of simulation
+#    Time: 7458690 ns  Iteration: 0  Process: /sensors_tb/I_tester/line__53 File: C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd
+# 0
+# Break in Process line__53 at C:/dev/eln_kart_sodimm200/Prefs/../Sensors_test/hdl/sensors_tester_test.vhd line 140
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "ultrasoundRanger(masterVersion)".
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6634690 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Error: Ultrasound ranger count error
+#    Time: 6680090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Error Undo Start called while in Redo capture mode
+# UndoStart or Redo start was not called Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 18}
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 18}
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -noupdate -position 18 -tree .main_pane.wave.interior.cs.body.pw.wf.tree.tree1 /sensors_tb/sensorsSendRequest
+# UndoStart or Redo start was not called Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 19}
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 19}
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -noupdate -position 19 -tree .main_pane.wave.interior.cs.body.pw.wf.tree.tree1 /sensors_tb/sensorsAddressToSend
+# UndoStart or Redo start was not called Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 20}
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 20}
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -noupdate -position 20 -tree .main_pane.wave.interior.cs.body.pw.wf.tree.tree1 -radix unsigned /sensors_tb/sensorsDataToSend
+# UndoStart or Redo start was not called Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 21}
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 21}
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -noupdate -position 21 -tree .main_pane.wave.interior.cs.body.pw.wf.tree.tree1 /sensors_tb/I_sensors/I_range/pulseCounter
+# UndoStart or Redo start was not called Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 22}
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoRedoCaptureTransform Delete {.main_pane.wave.interior.cs.body.pw.wf.tree.tree1 undo delete 22}
+#    <1:eval:1: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -noupdate -position 22 -tree .main_pane.wave.interior.cs.body.pw.wf.tree.tree1 /sensors_tb/I_sensors/I_range/rangerState
+restart
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading gates.gates
+# Loading work.sensors_tb(struct)#1
+# Loading gates.logic0(sim)#1
+# Loading sensors.sensorscontroller(struct)#1
+# Loading sensors.batterylevelinterface(struct)#1
+# Loading common.commonlib(body)
+# Loading i2c.i2creceiver(rtl)#1
+# Loading i2c.i2ctransmitter(rtl)#1
+# Loading sensors.batterylevelsequencer(rtl)#1
+# Loading sensors.freqdividerwforceonstart(rtl)#1
+# Loading sensors.hallcounters(masterversion)#1
+# Loading sensors.sensorsregisters(struct)#1
+# Loading gates.transulogunsigned(sim)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading sensors.hallcountmanager(rtl)#1
+# Loading sensors.senddeltamanager(rtl)#1
+# Loading sensors.sendendswitchesonchange(rtl)#1
+# Loading sensors.sensorsregisterssend(rtl)#1
+# Loading sequential.freqdivider(rtl)#1
+# Loading stepper.anyedgedetector(rtl)#1
+# Loading sensors.led_blinker(rtl)#1
+# Loading sensors.ultrasoundranger(masterversion)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# Loading work.sensors_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_range
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_4
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_sender
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_endsOnChange
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_regs/U_manager
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_batteryRefresher
+# ** Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_seq
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /sensors_tb/I_sensors/I_battery/U_tx
+# Reading Hall sensor counters at time 412 us
+# 
+# ** Note: Hall count 1 OK
+#    Time: 412090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading Hall sensor counters at time 824 us
+# 
+# ** Note: Hall count 2 OK
+#    Time: 824190 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+# Reading ultrasound ranger distance at time 1236 us
+# 
+# ** Note: Ultrasound ranger OK
+#    Time: 6680090 ns  Iteration: 2  Instance: /sensors_tb/I_tester
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Sensors/sensors.do
+# End time: 17:50:54 on Jun 09,2022, Elapsed time: 1:32:07
+# Errors: 4, Warnings: 13

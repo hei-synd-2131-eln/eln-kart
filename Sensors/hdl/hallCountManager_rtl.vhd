@@ -70,29 +70,29 @@ BEGIN
   sens_2pturn_on : if SENS_HALL_COUNTS_2PULSES_P_TURN = '1' generate
     hallregs : for index in 0 to SENS_hallSensorNb-1 generate
 
+      hallReg(index) <=
+        dataRegisterType
+        (
+          unsigned'(
+            hallCount
+            (
+              SENS_hallCountBitNb * index
+                + (SENS_hallCountBitNb-SENS_HALL_CNT_BITNB) - 1
+              downto
+              SENS_hallCountBitNb * index
+            )
+            &  p_counterSet(index)
+          )
+        );
+
       setHallReg: process(reset, clock)
       begin
         if reset = '1' then
-          hallReg(index) <= (hallReg(index)'range => '0');
           p_sendhall(index) <= '0';
         elsif rising_Edge(clock) then
           p_sendhall(index) <= '0';
           if p_zerocnts(index) = '1' then
             p_sendhall(index) <= '1';
-            hallReg(index) <=
-              dataRegisterType
-              (
-                unsigned'(
-                  hallCount
-                  (
-                    SENS_hallCountBitNb * index
-                      + (SENS_hallCountBitNb-SENS_HALL_CNT_BITNB) - 1
-                    downto
-                    SENS_hallCountBitNb * index
-                  )
-                  &  p_counterSet(index)
-                )
-              );
           end if;
         end if;
       end process setHallReg;
@@ -104,29 +104,29 @@ BEGIN
   sens_2pturn_off : if SENS_HALL_COUNTS_2PULSES_P_TURN = '0' generate
     hallregs : for index in 0 to SENS_hallSensorNb-1 generate
       
+      hallReg(index) <=
+        dataRegisterType
+        (
+          unsigned'(
+            hallCount
+            (
+              SENS_hallCountBitNb * index
+                + (SENS_hallCountBitNb-SENS_HALL_CNT_BITNB) - 2
+              downto
+              SENS_hallCountBitNb * index
+            )
+            & '0' & p_counterSet(index)
+          )
+        );
+
       setHallReg: process(reset, clock)
       begin
         if reset = '1' then
-          hallReg(index) <= (hallReg(index)'range => '0');
           p_sendhall(index) <= '0';
         elsif rising_Edge(clock) then
           p_sendhall(index) <= '0';
           if p_zerocnts(index) = '1' then
             p_sendhall(index) <= '1';
-            hallReg(index) <=
-              dataRegisterType
-              (
-                unsigned'(
-                  hallCount
-                  (
-                    SENS_hallCountBitNb * index
-                      + (SENS_hallCountBitNb-SENS_HALL_CNT_BITNB) - 2
-                    downto
-                    SENS_hallCountBitNb * index
-                  )
-                  & '0' & p_counterSet(index)
-                )
-              );
           end if;
         end if;
       end process setHallReg;

@@ -1,0 +1,62 @@
+# vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
+# Start time: 15:46:28 on Jun 09,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading kart.kart(body)
+# Loading work.dcmotorcontroller_tb(struct)#1
+# Loading common.commonlib(body)
+# Loading gates.gates
+# Loading dcmotor.dcmotorcontroller(struct)#1
+# Loading dcmotor.dcmotorprescaler(rtl)#1
+# Loading dcmotor.dcmotorpwm(masterversion)#1
+# Loading dcmotor.dcmotorregisters(struct)#1
+# Loading dcmotor.dcmotorregistersender(rtl)#1
+# Loading kart.reg_addr_decoder(rtl)#1
+# Loading kart.registermanager(rtl)#1
+# Loading ieee.std_logic_textio(body)
+# Loading common_test.testutils(body)
+# ** Warning: (vsim-3479) Time unit 'fs' is less than the simulator resolution (1ps).
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Loading work.dcmotorcontroller_tester(test)#1
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+# do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorcontroller.do
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Setting hardware hardwareOrientation at time 0 us
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_regs/U_manager
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_regs/U_sender
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_div
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /dcmotorcontroller_tb/I_DC/I_div
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# Sending prescaler value at time 1000 us
+# 
+# 0
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorcontroller.do
+# End time: 15:47:16 on Jun 09,2022, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 11

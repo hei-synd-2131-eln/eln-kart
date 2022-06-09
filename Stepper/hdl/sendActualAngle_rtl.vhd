@@ -23,8 +23,14 @@ BEGIN
       p_lastsent_angle <= (others=>'0');
       sendActualAngle <= '0';
     elsif rising_edge(clock) then
-      if signed('0' & actualAngle) > signed('0' & p_lastsent_angle) + STP_ANGLE_DELTA or
-        signed('0' & actualAngle) < signed('0' & p_lastsent_angle) - STP_ANGLE_DELTA then
+      if signed(actualAngle(actualAngle'high) & actualAngle)
+          > signed(p_lastsent_angle(p_lastsent_angle'high) & p_lastsent_angle)
+            + STP_ANGLE_DELTA 
+        or
+         signed(actualAngle(actualAngle'high) & actualAngle)
+          < signed(p_lastsent_angle(p_lastsent_angle'high) & p_lastsent_angle)
+            - STP_ANGLE_DELTA
+        then
         p_lastsent_angle <= actualAngle;
         sendActualAngle <= '1';
       else

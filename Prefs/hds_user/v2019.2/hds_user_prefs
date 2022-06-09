@@ -4275,7 +4275,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "750x657+132+78"
+logWindowGeometry "750x657+-1209+481"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6381,24 +6381,21 @@ size 224
 )
 ]
 displayHierarchy 0
-xPos -1916
-yPos 1087
+xPos -1328
+yPos 414
 width 1936
 height 1066
 activeSidePanelTab 2
-activeLibraryTab 3
+activeLibraryTab 6
 sidePanelSize 121
 showUnixHiddenFiles 0
-componentBrowserXpos 1272
-componentBrowserYpos 149
+componentBrowserXpos -648
+componentBrowserYpos 525
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
-"Kart"
-"UVM"
-"RS232_test"
-"I2C_test"
-"sequential"
+"Stepper"
+"gates"
 ]
 )
 (SmPreferences

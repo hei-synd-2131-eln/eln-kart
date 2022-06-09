@@ -78,7 +78,7 @@ BEGIN
     p_coils_state := p_c4 & p_c3 & p_c2 & p_c1;
     p_coils <= p_coils_state;
     case p_coils_state is
-      when "0001" | "0010" | "0100" | "1000" => p_mul_c := '0';
+      when "0000" | "0001" | "0010" | "0100" | "1000" => p_mul_c := '0';
       when others => p_mul_c := '1';
     end case;
     p_mult_coils <= p_mul_c;
@@ -86,24 +86,38 @@ BEGIN
     -- Does not handle microstepping --
 
     if p_mul_c = '0' then
-      -- Check target
-      if p_coils_state = p_lastcoils(0) & p_lastcoils(3 downto 1) then
-        p_coils_steps_cnt <= p_coils_steps_cnt - 1 when REVERT_STEPS_DIR = '0' else
-          p_coils_steps_cnt + 1;
-      elsif p_coils_state = p_lastcoils(2 downto 0) & p_lastcoils(3) then
-        p_coils_steps_cnt <= p_coils_steps_cnt + 1 when REVERT_STEPS_DIR = '0' else
-          p_coils_steps_cnt - 1;
-      --elsif p_lastcoils = "0000" then
-      --  p_coils_steps_cnt <= 1 when REVERT_STEPS_DIR else -1;
+      if p_coils_state /= (p_coils_state'range=>'0') then
+        -- For firsty, setup coils to match
+        if p_lastcoils = (p_lastcoils'range=>'0') then
+          p_lastcoils := p_coils_state;
+          case p_coils_state is
+            when "0001" | "0010" =>
+              p_coils_steps_cnt <= p_coils_steps_cnt + 1 when 
+                REVERT_STEPS_DIR = '0' else p_coils_steps_cnt - 1;
+            when "0100" | "1000" =>
+              p_coils_steps_cnt <= p_coils_steps_cnt - 1 when
+                REVERT_STEPS_DIR = '0' else p_coils_steps_cnt + 1;
+            when others => null;
+          end case;
+        end if;
+        -- Check target
+        if p_coils_state = p_lastcoils(0) & p_lastcoils(3 downto 1) then
+          p_coils_steps_cnt <= p_coils_steps_cnt - 1 when REVERT_STEPS_DIR = '0'
+            else p_coils_steps_cnt + 1;
+        elsif p_coils_state = p_lastcoils(2 downto 0) & p_lastcoils(3) then
+          p_coils_steps_cnt <= p_coils_steps_cnt + 1 when REVERT_STEPS_DIR = '0'
+            else p_coils_steps_cnt - 1;
+        --elsif p_lastcoils = "0000" then
+        --  p_coils_steps_cnt <= 1 when REVERT_STEPS_DIR else -1;
+        end if;
+        p_lastcoils := p_coils_state;
+
+        -- Check frequency
+        p_coils_per <= now - p_coilfreq;
+        p_coilfreq := now;
+        p_new_freq <= '1', '0' after 1.3*p_clk_per;
       end if;
-      p_lastcoils := p_coils_state;
-
-      -- Check frequency
-      p_coils_per <= now - p_coilfreq;
-      p_coilfreq := now;
-      p_new_freq <= '1', '0' after 1.3*p_clk_per;
     end if;
-
   end process coilChecker;
 
 
@@ -149,7 +163,7 @@ BEGIN
   p_startup <= '1', '0' after 1 ns;
   testMode <= p_testmode;
   p_se <= '1' when p_coils_steps_cnt = 0 else '0';
-  stepperEnd <= transport p_se after 10 sec * CLOCK_PERIOD ;
+  stepperEnd <= transport p_se after 5 sec * CLOCK_PERIOD ;
   p_clk_per <= 1.0/real(p_clk_freq) * 1 sec;
   p_target_reached <= '1' when p_coils_steps_cnt = p_target_angle_steps else '0';
 

@@ -93,23 +93,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds"
 )
 (vvPair
 variable "appl"
@@ -129,27 +129,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepperMotorController"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepperMotorController"
 )
 (vvPair
 variable "date"
-value "07.06.2022"
+value "08.06.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "07"
+value "08"
 )
 (vvPair
 variable "entity_name"
@@ -177,7 +177,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "07.06.2022"
+value "08.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -189,7 +189,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:20:46"
+value "18:00:10"
 )
 (vvPair
 variable "group"
@@ -233,11 +233,11 @@ value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepper@motor@controller\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Stepper\\hds\\stepperMotorController\\struct.bd"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Stepper\\hds\\stepperMotorController\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -265,7 +265,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "14:20:46"
+value "18:00:10"
 )
 (vvPair
 variable "unit"
@@ -4317,9 +4317,9 @@ f (Text
 uid 1657,0
 va (VaSet
 )
-xt "114000,55800,138700,57000"
+xt "108000,55800,132700,57000"
 st "hwOrientation(HW_CTRL_CLOCKWISE_BIT)"
-blo "114000,56800"
+blo "108000,56800"
 tm "WireNameMgr"
 )
 )
@@ -4861,12 +4861,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,14,1921,1080"
-viewArea "77605,19571,251138,115716"
+windowSize "-1928,368,8,1434"
+viewArea "77600,1029,251886,93886"
 cachedDiagramExtent "0,0,191000,82000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 3006,0
+lastUid 3039,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

@@ -17,6 +17,8 @@ PACKAGE Kart IS
 -- CHANGE THEM AS NEEDED, YOU CAN
 --------------------------------------------------------------------------------
   
+
+  
   -- When the circuit is in test mode
     --  (Stepper -> stepperMotorController -> testMode = '1'), the counter has
     --  to count quicker (to simplify on simulating the circuit).
@@ -28,14 +30,18 @@ PACKAGE Kart IS
   -- Sensors
     -- The number of leds (or any output requiring a symmetrical PWM)
   constant NUMBER_OF_LEDS : positive := 4;
+
     -- The number of hall sensors
   constant NUMBER_OF_HALL_SENSORS : positive := 2;
+
     -- The number of external end switches (or any 0 - 3.3V input signal)
     -- A signal is sent to the smartphone on either rising or falling edge
   constant NUMBER_OF_EXT_END_SWITCHES : positive := 1;
+
     -- The number of proximity sensors used
     -- NORMALLY NONE
   constant NUMBER_OF_PROXIMITY_SENSORS : natural := 0;
+
     -- If the hallCounters block generates 2 pulses per turn (on rising AND 
     --  falling edges of the hallPulses) or only one
   constant HALLSENS_2PULSES_PER_TURN : std_ulogic := '1';
