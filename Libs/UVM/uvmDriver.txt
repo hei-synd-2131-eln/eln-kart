@@ -1,0 +1,50 @@
+at              1 ns
+info            setting clock frequency
+clock_frequency 106000000
+
+at              1 us
+info            setting baud rate
+uart_baud       1152000
+
+at         	    100 us
+info            LED control
+uart_send       s_ledsGreen 2 1
+wait            250 us
+uart_send       s_ledsRed 1 1
+wait            250 us
+wait            1 ms
+uart_send       s_ledsGreen 2 0
+wait            250 us
+uart_send       s_ledsRed 1 0
+wait            250 us
+
+wait            1 ms
+info            button control
+buttons_set     5
+wait            1 us
+
+info            dil switch control
+dilSwitches_set A
+wait            1 ms
+
+info            emergency mode
+uart_send       s_mode 0 1
+wait            1ms
+info            idle mode
+uart_send       s_mode 1 1
+wait            1ms
+info            6 step mode
+uart_send       s_mode 3 1
+wait            1ms
+
+info            set refSpeed
+uart_send       s_refSpeed 02F
+wait            1ms
+
+info            get buttons
+uart_send       g_buttons
+wait            1ms
+
+info            get refSpeed
+uart_send       g_refSpeed
+wait            1ms
