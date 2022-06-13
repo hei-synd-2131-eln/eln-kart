@@ -1,0 +1,2 @@
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1259:4:1259:5|Register bit I11.U_tx.sendStop (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MT420 |Found inferred clock Kart_Board|clock with period 100.00ns. Please declare a user-defined clock on object "p:clock"

@@ -1,0 +1,2 @@
+@E: CD297 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":2114:11:2114:16|Width mismatch, location has width 8, value 10
+

@@ -1,0 +1,119 @@
+*****************************************************************
+Pin Report - Date: Mon Jun 13 20:33:36 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: Kart_Board
+Family: IGLOO
+Die: AGLN250V5
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Number |Port        |Function         |State       |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+-------|------------|-----------------|------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+1                    GND               Reserved
+2       Tx_BLE       GAA2/IO67RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+3       Rx_BLE       IO66RSB3          Fixed        LVCMOS33  ---                ---   Up             ---               No           No             No               No
+4       SCL_battery  GAB2/IO65RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+5       SDA_battery  IO64RSB3          Fixed        LVCMOS33  8                  High  None           5                 No           No             No               No
+6       Rx_USB       GAC2/IO63RSB3     Special      LVCMOS33  ---                ---   Up             ---               No           No             No               No
+7       Tx_USB       IO62RSB3          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+8       PMOD1[1]     IO61RSB3          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+9                    GND               Reserved
+10      PMOD1[2]     GFB1/IO60RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+11      PMOD1[3]     GFB0/IO59RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+12                   VCOMPLF           Reserved
+13      PMOD1[4]     GFA0/IO57RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+14                   VCCPLF            Reserved
+15      PMOD1[5]     GFA1/IO58RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+16      PMOD1[6]     GFA2/IO56RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+17                   VCC               Reserved
+18                   VCCIB3            Reserved
+19      PMOD1[7]     GFC2/IO55RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+20      PMOD1[8]     GEC1/IO54RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+21      reset_n      GEC0/IO53RSB3     Special      LVCMOS33  ---                ---   None           ---               No           No             No               No
+22      LED_G        GEA1/IO52RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+23      LED_Y        GEA0/IO51RSB3     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+24                   VMV3              Reserved
+25                   GNDQ              Reserved
+26      LED_R        GEA2/IO50RSB2     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+27      PMOD2[1]     FF/GEB2/IO49RSB2  Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+28      PMOD2[2]     GEC2/IO48RSB2     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+29      PMOD2[3]     IO47RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+30      PMOD2[4]     IO46RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+31      PMOD3[1]     IO45RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+32      PMOD3[2]     IO44RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+33      PMOD3[3]     IO43RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+34      PMOD3[4]     IO42RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+35      PMOD3[5]     IO41RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+36      PMOD3[6]     IO40RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+37                   VCC               Reserved
+38                   GND               Reserved
+39                   VCCIB2            Reserved
+40      PMOD3[7]     IO39RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+41      PMOD3[8]     IO38RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+42      PMOD4[1]     IO37RSB2          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+43      PMOD4[2]     GDC2/IO36RSB2     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+44      PMOD4[3]     GDB2/IO35RSB2     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+45      PMOD4[4]     GDA2/IO34RSB2     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+46                   GNDQ              Reserved
+47                   TCK               Reserved
+48                   TDI               Reserved
+49                   TMS               Reserved
+50                   VMV2              Reserved
+51                   GND               Reserved
+52                   VPUMP             Reserved
+53                   Not Bonded        Unconnected
+54                   TDO               Reserved
+55                   TRST              Reserved
+56                   VJTAG             Reserved
+57      PMOD4[5]     GDA1/IO33RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+58      PMOD4[6]     GDC0/IO32RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+59      PMOD4[7]     GDC1/IO31RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+60      PMOD5[1]     IO30RSB1          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+61      PMOD5[2]     GCB2/IO29RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+62      PMOD5[3]     GCA1/IO27RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+63      PMOD5[4]     GCA0/IO28RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+64      PMOD5[5]     GCC0/IO26RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+65      clock        GCC1/IO25RSB1     Special      LVCMOS33  ---                ---   None           ---               No           No             No               No
+66                   VCCIB1            Reserved
+67                   GND               Reserved
+68                   VCC               Reserved
+69      PMOD5[6]     IO24RSB1          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+70      PMOD5[7]     GBC2/IO23RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+71      PMOD5[8]     GBB2/IO22RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+72      PMOD6[1]     IO21RSB1          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+73      PMOD6[2]     GBA2/IO20RSB1     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+74                   VMV1              Reserved
+75                   GNDQ              Reserved
+76      PMOD6[3]     GBA1/IO19RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+77      PMOD6[4]     GBA0/IO18RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+78      PMOD6[5]     GBB1/IO17RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+79      PMOD6[6]     GBB0/IO16RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+80      PMOD6[7]     GBC1/IO15RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+81      PMOD6[8]     GBC0/IO14RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+82      PMOD7[1]     IO13RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+83      PMOD7[2]     IO12RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+84      PMOD7[3]     IO11RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+85      PMOD7[4]     IO10RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+86      PMOD7[5]     IO09RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+87                   VCCIB0            Reserved
+88                   GND               Reserved
+89                   VCC               Reserved
+90      PMOD7[6]     IO08RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+91      PMOD7[7]     IO07RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+92      PMOD7[8]     IO06RSB0          Fixed        LVCMOS33  8                  High  None           5                 No           No             ---              No
+93      PMOD8[1]     GAC1/IO05RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+94      PMOD8[2]     GAC0/IO04RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+95      PMOD8[3]     GAB1/IO03RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+96      PMOD8[4]     GAB0/IO02RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+97      PMOD8[5]     GAA1/IO01RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+98      PMOD8[6]     GAA0/IO00RSB0     Special      LVCMOS33  8                  High  None           5                 No           No             ---              No
+99                   GNDQ              Reserved
+100                  VMV0              Reserved

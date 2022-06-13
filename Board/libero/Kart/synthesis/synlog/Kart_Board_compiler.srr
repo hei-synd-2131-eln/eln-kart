@@ -8,9 +8,13 @@ Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys softwa
 
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
 @N:"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":406:7:406:16|Top entity is set to Kart_Board.
-Options changed - recompiling
+
+File Dependency file is up to date.  It will not be rewritten.
+
 VHDL syntax check successful!
-Options changed - recompiling
+
+Compiler output is up to date.  No re-compile necessary
+
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
 @N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":406:7:406:16|Synthesizing work.kart_board.struct.
 @W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":432:8:432:16|Nil range port will be removed: sda_proxy (1 to 0)
@@ -331,12 +335,12 @@ State machine has 7 reachable states with original encodings of:
    1000000
 @W: CL158 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":432:8:432:16|Inout SDA_proxy is unused
 
-At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 85MB peak: 88MB)
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 74MB peak: 75MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jun 09 18:00:40 2022
+# Mon Jun 13 10:16:47 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -347,16 +351,16 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jun 09 18:00:41 2022
+# Mon Jun 13 10:16:48 2022
 
 ###########################################################]
 @END
 
-At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 3MB peak: 4MB)
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Thu Jun 09 18:00:41 2022
+# Mon Jun 13 10:16:48 2022
 
 ###########################################################]

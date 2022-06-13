@@ -1,0 +1,16 @@
+
+fsm_encoding {91877418771} onehot
+
+fsm_state_encoding {91877418771} idle {000001}
+
+fsm_state_encoding {91877418771} refreshs {000010}
+
+fsm_state_encoding {91877418771} sendvolthead {000100}
+
+fsm_state_encoding {91877418771} sendvolt {001000}
+
+fsm_state_encoding {91877418771} sendcurrhead {010000}
+
+fsm_state_encoding {91877418771} sendcurr {100000}
+
+fsm_registers {91877418771} {p_state[0]}  {p_state[1]}  {p_state[2]}  {p_state[3]}  {p_state[4]}  {p_state[5]} 

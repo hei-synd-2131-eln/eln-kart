@@ -141,6 +141,7 @@ BEGIN
     constant test_min_real : real := 0.0;
     constant test_max_real : real := 255.0;
     variable last1, last2 : natural := 0;
+    variable notReadySens : std_ulogic := '0';
   begin
     if rising_edge(batteryDataValid) then
       if batteryWriteIn = '1' then
@@ -151,6 +152,7 @@ BEGIN
         case to_integer(batteryRegister) is
           -- high byte
           when 0 =>
+            notReadySens := not notReadySens; -- creates a "not ready yet" state
             if conf_reg(6 downto 5) = "00" or conf_reg(6 downto 5) = "10" then
               p_batteryDataOut <= to_unsigned(1, p_batteryDataOut'length);
             else
@@ -166,7 +168,7 @@ BEGIN
                 last1 := natural(r_scaled);
               elsif conf_reg(7) = '1' then
                 last1 := natural(r_scaled);
-                conf_reg(7) := '0';
+                conf_reg(7) := notReadySens;
               end if;
               p_batteryDataOut <= to_unsigned(last1, p_batteryDataOut'length);
             else
@@ -174,7 +176,7 @@ BEGIN
                 last2 := natural(r_scaled);
               elsif conf_reg(7) = '1' then
                 last2 := natural(r_scaled);
-                conf_reg(7) := '0';
+                conf_reg(7) := notReadySens;
               end if;
               p_batteryDataOut <= to_unsigned(last2, p_batteryDataOut'length);
             end if;

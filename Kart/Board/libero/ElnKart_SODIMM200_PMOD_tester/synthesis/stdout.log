@@ -1,0 +1,22 @@
+
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    WE7860
+Date:        Mon Jun 13 13:11:14 2022
+Version:     L-2016.09M-SP1-5
+
+Arguments:   -product synplify_pro Kart_Board_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel from server actellm.hevs.ch 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+
+auto_infer_blackbox is not supported in current product.
+TCL script complete: "Kart_Board_syn.tcl"
+New HDL Analyst: enabled
+exit status=0
+License checkin: synplifypro_actel

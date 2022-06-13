@@ -1,0 +1,87 @@
+*****************************************************************
+Pin Report - Date: Mon Jun 13 20:33:35 2022 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Design Name: Kart_Board
+Family: IGLOO
+Die: AGLN250V5
+Package: 100 VQFP
+*****************************************************************
+
+-----------------------------------------------------------------
+Flash*Freeze information
+        Pin name  : 27
+        Pin usage : Available as a regular pin
+-----------------------------------------------------------------
+
+Port        |Pin |Fixed |Function         |I/O Std  |Output Drive (mA) |Slew |Resistor Pull |Output Load (pF) |Use I/O Reg |Hot Swappable |Schmitt Trigger |Hold previous I/O state in Flash*Freeze mode |
+------------|----|------|-----------------|---------|------------------|-----|--------------|-----------------|------------|--------------|----------------|---------------------------------------------|
+clock        65   Yes    GCC1/IO25RSB1     LVCMOS33  ---                ---   None           ---               No           No             No               No
+LED_G        22   Yes    GEA1/IO52RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+LED_R        26   Yes    GEA2/IO50RSB2     LVCMOS33  8                  High  None           5                 No           No             ---              No
+LED_Y        23   Yes    GEA0/IO51RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[1]     8    Yes    IO61RSB3          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[2]     10   Yes    GFB1/IO60RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[3]     11   Yes    GFB0/IO59RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[4]     13   Yes    GFA0/IO57RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[5]     15   Yes    GFA1/IO58RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[6]     16   Yes    GFA2/IO56RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[7]     19   Yes    GFC2/IO55RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD1[8]     20   Yes    GEC1/IO54RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD2[1]     27   Yes    FF/GEB2/IO49RSB2  LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD2[2]     28   Yes    GEC2/IO48RSB2     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD2[3]     29   Yes    IO47RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD2[4]     30   Yes    IO46RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[1]     31   Yes    IO45RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[2]     32   Yes    IO44RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[3]     33   Yes    IO43RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[4]     34   Yes    IO42RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[5]     35   Yes    IO41RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[6]     36   Yes    IO40RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[7]     40   Yes    IO39RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD3[8]     41   Yes    IO38RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[1]     42   Yes    IO37RSB2          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[2]     43   Yes    GDC2/IO36RSB2     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[3]     44   Yes    GDB2/IO35RSB2     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[4]     45   Yes    GDA2/IO34RSB2     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[5]     57   Yes    GDA1/IO33RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[6]     58   Yes    GDC0/IO32RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD4[7]     59   Yes    GDC1/IO31RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[1]     60   Yes    IO30RSB1          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[2]     61   Yes    GCB2/IO29RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[3]     62   Yes    GCA1/IO27RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[4]     63   Yes    GCA0/IO28RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[5]     64   Yes    GCC0/IO26RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[6]     69   Yes    IO24RSB1          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[7]     70   Yes    GBC2/IO23RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD5[8]     71   Yes    GBB2/IO22RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[1]     72   Yes    IO21RSB1          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[2]     73   Yes    GBA2/IO20RSB1     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[3]     76   Yes    GBA1/IO19RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[4]     77   Yes    GBA0/IO18RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[5]     78   Yes    GBB1/IO17RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[6]     79   Yes    GBB0/IO16RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[7]     80   Yes    GBC1/IO15RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD6[8]     81   Yes    GBC0/IO14RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[1]     82   Yes    IO13RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[2]     83   Yes    IO12RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[3]     84   Yes    IO11RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[4]     85   Yes    IO10RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[5]     86   Yes    IO09RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[6]     90   Yes    IO08RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[7]     91   Yes    IO07RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD7[8]     92   Yes    IO06RSB0          LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[1]     93   Yes    GAC1/IO05RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[2]     94   Yes    GAC0/IO04RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[3]     95   Yes    GAB1/IO03RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[4]     96   Yes    GAB0/IO02RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[5]     97   Yes    GAA1/IO01RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+PMOD8[6]     98   Yes    GAA0/IO00RSB0     LVCMOS33  8                  High  None           5                 No           No             ---              No
+reset_n      21   Yes    GEC0/IO53RSB3     LVCMOS33  ---                ---   None           ---               No           No             No               No
+Rx_BLE       3    Yes    IO66RSB3          LVCMOS33  ---                ---   Up             ---               No           No             No               No
+Rx_USB       6    Yes    GAC2/IO63RSB3     LVCMOS33  ---                ---   Up             ---               No           No             No               No
+SCL_battery  4    Yes    GAB2/IO65RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+SDA_battery  5    Yes    IO64RSB3          LVCMOS33  8                  High  None           5                 No           No             No               No
+Tx_BLE       2    Yes    GAA2/IO67RSB3     LVCMOS33  8                  High  None           5                 No           No             ---              No
+Tx_USB       7    Yes    IO62RSB3          LVCMOS33  8                  High  None           5                 No           No             ---              No

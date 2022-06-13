@@ -1,0 +1,88 @@
+Microsemi Libero Software
+Version: 11.9.6.7
+Release: v11.9 SP6
+
+Info: The design Kart_Board.adb was last modified by software version 11.9.6.7.
+Opened an existing Libero design Kart_Board.adb.
+'BA_NAME' set to 'Kart_Board_ba'
+'IDE_DESIGNERVIEW_NAME' set to 'Impl1'
+'IDE_DESIGNERVIEW_COUNT' set to '1'
+'IDE_DESIGNERVIEW_REV0' set to 'Impl1'
+'IDE_DESIGNERVIEW_REVNUM0' set to '1'
+'IDE_DESIGNERVIEW_ROOTDIR' set to
+'C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\designer'
+'IDE_DESIGNERVIEW_LASTREV' set to '1'
+***** Layout Variables *********************************************
+
+Mode: TIMING_DRIVEN
+Power-driven Layout: OFF
+Incremental Placement: OFF
+Incremental Route: OFF
+
+
+Info: I/O Bank Assigner detected (2) out of (4) I/O Bank(s) with locked I/O technologies.
+
+Running I/O Bank Assigner.
+
+I/O Bank Assigner completed successfully.
+ 
+
+Planning global net placement...
+
+
+Global net placement completed successfully.
+
+                        o - o - o - o - o - o
+
+Timing-driven Placer Started: Mon Jun 13 20:33:08 2022
+
+Placer Finished: Mon Jun 13 20:33:16 2022
+Total Placer CPU Time:     00:00:08
+
+                        o - o - o - o - o - o
+
+
+Timing-driven Router 
+Design: Kart_Board                      Started: Mon Jun 13 20:33:17 2022
+
+ 
+Iterative improvement...
+
+Timing-driven Router completed successfully.
+
+Design: Kart_Board                      
+Finished: Mon Jun 13 20:33:32 2022
+Total CPU Time:     00:00:14            Total Elapsed Time: 00:00:15
+Total Memory Usage: 171.9 Mbytes
+                        o - o - o - o - o - o
+
+status 257
+Loading the Timing data for the design.
+Finished loading the Timing data.
+
+The Layout command succeeded ( 00:00:28 )
+Wrote status report to file: Kart_Board_place_and_route_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalnet report to file: Kart_Board_globalnet_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote globalusage report to file: Kart_Board_globalusage_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote iobank report to file: Kart_Board_iobank_report.txt
+
+The Report command succeeded ( 00:00:00 )
+Wrote pin report to file: Kart_Board_report_pin_byname.txt
+
+The Report command succeeded ( 00:00:01 )
+Wrote pin report to file: Kart_Board_report_pin_bynumber.txt
+
+The Report command succeeded ( 00:00:01 )
+Design saved to file
+C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\designer\impl1\Kart_B\
+oard.adb.
+
+The Execute Script command succeeded ( 00:00:31 )
+Design closed.
+

@@ -1,0 +1,23 @@
+********************************************************************
+                            Global Usage Report
+********************************************************************
+  
+Product: Designer
+Release: v11.9 SP6
+Version: 11.9.6.7
+Date: Mon Jun 13 20:33:34 2022
+Design Name: Kart_Board  Family: IGLOO  Die: AGLN250V5  Package: 100 VQFP
+Design State: Post-Layout
+
+The following nets have been routed to a chip global resource:
+
+    Fanout            Name
+    ----------------------
+    267               Net   : resetSynch_n
+                      Driver: I21/Q_RNIBJFA/U_GL
+    282               Net   : clock_c
+                      Driver: clock_pad/U0/U1/U_GL
+
+
+
+

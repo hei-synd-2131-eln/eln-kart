@@ -94,7 +94,7 @@ m 1
 decl (Decl
 n "coil1"
 t "std_uLogic"
-o 17
+o 16
 suid 71,0
 )
 )
@@ -106,7 +106,7 @@ m 1
 decl (Decl
 n "coil2"
 t "std_uLogic"
-o 18
+o 17
 suid 72,0
 )
 )
@@ -118,7 +118,7 @@ m 1
 decl (Decl
 n "coil3"
 t "std_uLogic"
-o 19
+o 18
 suid 73,0
 )
 )
@@ -130,7 +130,7 @@ m 1
 decl (Decl
 n "coil4"
 t "std_uLogic"
-o 20
+o 19
 suid 74,0
 )
 )
@@ -200,7 +200,7 @@ m 1
 decl (Decl
 n "Tx_BLE"
 t "std_uLogic"
-o 15
+o 14
 suid 85,0
 )
 )
@@ -212,7 +212,7 @@ m 1
 decl (Decl
 n "pwm"
 t "std_ulogic"
-o 24
+o 23
 suid 86,0
 )
 )
@@ -224,7 +224,7 @@ m 1
 decl (Decl
 n "forwards"
 t "std_ulogic"
-o 22
+o 21
 suid 87,0
 )
 )
@@ -236,7 +236,7 @@ m 1
 decl (Decl
 n "distanceStart"
 t "std_ulogic"
-o 21
+o 20
 suid 89,0
 )
 )
@@ -294,11 +294,11 @@ uid 6268,0
 *33 (LogPort
 port (LogicalPort
 lang 11
-m 1
+m 2
 decl (Decl
 n "SDA_battery"
 t "std_ulogic"
-o 14
+o 24
 suid 101,0
 )
 )
@@ -311,7 +311,7 @@ decl (Decl
 n "leds"
 t "std_uLogic_vector"
 b "(1 to SENS_ledNb)"
-o 23
+o 22
 suid 102,0
 )
 )
@@ -348,7 +348,7 @@ m 1
 decl (Decl
 n "Tx_USB"
 t "std_uLogic"
-o 16
+o 15
 suid 106,0
 )
 )
@@ -798,23 +798,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds"
 )
 (vvPair
 variable "appl"
@@ -834,27 +834,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\@kart_@board"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\@kart_@board"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\Kart_Board"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\Kart_Board"
 )
 (vvPair
 variable "date"
-value "08.06.2022"
+value "13.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "lun."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "lundi"
 )
 (vvPair
 variable "dd"
-value "08"
+value "13"
 )
 (vvPair
 variable "designName"
@@ -886,7 +886,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "08.06.2022"
+value "13.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -898,7 +898,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:35:05"
+value "18:58:24"
 )
 (vvPair
 variable "group"
@@ -942,11 +942,11 @@ value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\@kart_@board\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Board\\hds\\Kart_Board\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Board\\hds\\Kart_Board\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -1026,7 +1026,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:35:05"
+value "18:58:24"
 )
 (vvPair
 variable "unit"
@@ -1092,7 +1092,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,13000,16300,14000"
-st "clock         : IN     std_ulogic  ;"
+st "clock         : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1135,7 +1136,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,17000,16900,18000"
-st "reset_n       : IN     std_uLogic  ;"
+st "reset_n       : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1179,15 +1181,16 @@ uid 4696,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,27000,16800,28000"
-st "coil1         : OUT    std_uLogic  ;"
+xt "2000,26000,16800,27000"
+st "coil1         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "coil1"
 t "std_uLogic"
-o 17
+o 16
 suid 71,0
 )
 )
@@ -1225,15 +1228,16 @@ uid 4701,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,28000,16800,29000"
-st "coil2         : OUT    std_uLogic  ;"
+xt "2000,27000,16800,28000"
+st "coil2         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "coil2"
 t "std_uLogic"
-o 18
+o 17
 suid 72,0
 )
 )
@@ -1271,15 +1275,16 @@ uid 4706,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,29000,16800,30000"
-st "coil3         : OUT    std_uLogic  ;"
+xt "2000,28000,16800,29000"
+st "coil3         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "coil3"
 t "std_uLogic"
-o 19
+o 18
 suid 73,0
 )
 )
@@ -1317,15 +1322,16 @@ uid 4711,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,30000,16800,31000"
-st "coil4         : OUT    std_uLogic  ;"
+xt "2000,29000,16800,30000"
+st "coil4         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "coil4"
 t "std_uLogic"
-o 20
+o 19
 suid 74,0
 )
 )
@@ -1364,7 +1370,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,18000,17500,19000"
-st "stepperEnd    : IN     std_uLogic  ;"
+st "stepperEnd    : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1409,7 +1416,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,20000,17600,21000"
-st "LED_R         : OUT    std_uLogic  ;"
+st "LED_R         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1455,7 +1463,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,19000,17600,20000"
-st "LED_G         : OUT    std_uLogic  ;"
+st "LED_G         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1501,7 +1510,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,21000,17500,22000"
-st "LED_Y         : OUT    std_uLogic  ;"
+st "LED_Y         : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1548,7 +1558,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,11000,17200,12000"
-st "Rx_BLE        : IN     std_uLogic  ;"
+st "Rx_BLE        : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1592,15 +1603,16 @@ uid 4970,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,25000,17600,26000"
-st "Tx_BLE        : OUT    std_uLogic  ;"
+xt "2000,24000,17600,25000"
+st "Tx_BLE        : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Tx_BLE"
 t "std_uLogic"
-o 15
+o 14
 suid 85,0
 )
 )
@@ -1637,15 +1649,16 @@ uid 5347,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,34000,17400,35000"
-st "pwm           : OUT    std_ulogic  ;"
+xt "2000,33000,17400,34000"
+st "pwm           : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "pwm"
 t "std_ulogic"
-o 24
+o 23
 suid 86,0
 )
 )
@@ -1682,15 +1695,16 @@ uid 5352,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,32000,17400,33000"
-st "forwards      : OUT    std_ulogic  ;"
+xt "2000,31000,17400,32000"
+st "forwards      : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "forwards"
 t "std_ulogic"
-o 22
+o 21
 suid 87,0
 )
 )
@@ -1728,15 +1742,16 @@ uid 5395,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,31000,17600,32000"
-st "distanceStart : OUT    std_ulogic  ;"
+xt "2000,30000,17600,31000"
+st "distanceStart : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "distanceStart"
 t "std_ulogic"
-o 21
+o 20
 suid 89,0
 )
 )
@@ -1775,7 +1790,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,14000,17300,15000"
-st "distancePulse : IN     std_ulogic  ;"
+st "distancePulse : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1820,7 +1836,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,23000,18100,24000"
-st "SCL_proxy     : OUT    std_uLogic  ;"
+st "SCL_proxy     : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1866,7 +1883,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,35000,34300,36000"
-st "SDA_proxy     : INOUT  std_ulogic_vector (1 TO SENS_proximitySensorNb)"
+st "SDA_proxy     : INOUT  std_ulogic_vector (1 TO SENS_proximitySensorNb)
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1914,7 +1932,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,22000,18100,23000"
-st "SCL_battery   : OUT    std_uLogic  ;"
+st "SCL_battery   : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1929,8 +1948,7 @@ suid 100,0
 *121 (CptPort
 uid 6368,0
 ps "OnEdgeStrategy"
-shape (Triangle
-uid 6369,0
+shape (Diamond
 ro 90
 va (VaSet
 vasetType 1
@@ -1959,16 +1977,17 @@ uid 6372,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,24000,18000,25000"
-st "SDA_battery   : OUT    std_ulogic  ;"
+xt "2000,34000,18300,35000"
+st "SDA_battery   : INOUT  std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
-m 1
+m 2
 decl (Decl
 n "SDA_battery"
 t "std_ulogic"
-o 14
+o 24
 suid 101,0
 )
 )
@@ -2006,8 +2025,9 @@ uid 6609,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,33000,28000,34000"
-st "leds          : OUT    std_uLogic_vector (1 to SENS_ledNb) ;"
+xt "2000,32000,28000,33000"
+st "leds          : OUT    std_uLogic_vector (1 to SENS_ledNb) ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -2015,7 +2035,7 @@ decl (Decl
 n "leds"
 t "std_uLogic_vector"
 b "(1 to SENS_ledNb)"
-o 23
+o 22
 suid 102,0
 )
 )
@@ -2053,7 +2073,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,15000,31500,16000"
-st "endSwitches   : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;"
+st "endSwitches   : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -2099,7 +2120,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,16000,30100,17000"
-st "halls         : IN     std_ulogic_vector (1 to SENS_hallSensorNb) ;"
+st "halls         : IN     std_ulogic_vector (1 to SENS_hallSensorNb) ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2144,15 +2166,16 @@ uid 6984,0
 va (VaSet
 font "Verdana,8,0"
 )
-xt "2000,26000,17800,27000"
-st "Tx_USB        : OUT    std_uLogic  ;"
+xt "2000,25000,17800,26000"
+st "Tx_USB        : OUT    std_uLogic  ;
+"
 )
 thePort (LogicalPort
 m 1
 decl (Decl
 n "Tx_USB"
 t "std_uLogic"
-o 16
+o 15
 suid 106,0
 )
 )
@@ -2190,7 +2213,8 @@ va (VaSet
 font "Verdana,8,0"
 )
 xt "2000,12000,17400,13000"
-st "Rx_USB        : IN     std_uLogic  ;"
+st "Rx_USB        : IN     std_uLogic  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2910,7 +2934,7 @@ xt "0,9000,0,9000"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 7035,0
+lastUid 7081,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

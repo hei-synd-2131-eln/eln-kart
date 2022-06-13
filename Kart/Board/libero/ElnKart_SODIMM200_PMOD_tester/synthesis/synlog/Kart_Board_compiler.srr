@@ -1,0 +1,100 @@
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":411:7:411:16|Top entity is set to Kart_Board.
+File C:\dev\eln_kart_pmod\Board\concat\Kart.vhd changed - recompiling
+VHDL syntax check successful!
+File C:\dev\eln_kart_pmod\Board\concat\Kart.vhd changed - recompiling
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":411:7:411:16|Synthesizing work.kart_board.struct.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1636:7:1636:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1636:7:1636:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1636:7:1636:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":507:7:507:9|Synthesizing work.tff.sim.
+Post processing for work.tff.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1698:7:1698:9|Synthesizing work.dff.sim.
+Post processing for work.dff.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":563:7:563:27|Synthesizing work.batterylevelinterface.struct.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":922:7:922:27|Synthesizing work.batterylevelsequencer.rtl.
+@W: CD638 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1001:9:1001:12|Signal p_ok is undriven. Either assign the signal a value or remove the signal declaration.
+Post processing for work.batterylevelsequencer.rtl
+@W: CL271 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1156:4:1156:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1156:4:1156:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1156:4:1156:5|Feedback mux created for signal p_volt_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1156:4:1156:5|Feedback mux created for signal p_curr_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1020:4:1020:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1210:7:1210:20|Synthesizing work.i2ctransmitter.rtl.
+@W: CD434 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1292:38:1292:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.i2ctransmitter.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":596:7:596:17|Synthesizing work.i2creceiver.rtl.
+Post processing for work.i2creceiver.rtl
+Post processing for work.batterylevelinterface.struct
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1966:7:1966:27|Synthesizing work.serialporttransmitter.rtl.
+Post processing for work.serialporttransmitter.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1785:7:1785:12|Synthesizing work.logic1.sim.
+Post processing for work.logic1.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1747:7:1747:14|Synthesizing work.inverter.sim.
+Post processing for work.inverter.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1597:7:1597:18|Synthesizing work.bufferulogic.sim.
+Post processing for work.bufferulogic.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":468:7:468:10|Synthesizing work.and2.sim.
+Post processing for work.and2.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1824:7:1824:17|Synthesizing work.txsequencer.rtl.
+@N: CD231 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1862:16:1862:17|Using onehot encoding for type send_state. For example, enumeration idle is mapped to "100000".
+Post processing for work.txsequencer.rtl
+Post processing for work.kart_board.struct
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1877:4:1877:5|Optimizing register bit p_data(7) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1877:4:1877:5|Pruning register bit 7 of p_data(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1877:4:1877:5|Trying to extract state machine for register p_state.
+Extracted state machine for register p_state
+State machine has 6 reachable states with original encodings of:
+   000001
+   000010
+   000100
+   001000
+   010000
+   100000
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 77MB peak: 81MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 20:32:42 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 20:32:42 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 20:32:42 2022
+
+###########################################################]

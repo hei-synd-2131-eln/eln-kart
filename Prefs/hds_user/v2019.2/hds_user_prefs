@@ -6381,12 +6381,12 @@ size 224
 )
 ]
 displayHierarchy 0
-xPos -1328
-yPos 414
+xPos -1920
+yPos 376
 width 1936
 height 1066
 activeSidePanelTab 2
-activeLibraryTab 6
+activeLibraryTab 1
 sidePanelSize 121
 showUnixHiddenFiles 0
 componentBrowserXpos -648

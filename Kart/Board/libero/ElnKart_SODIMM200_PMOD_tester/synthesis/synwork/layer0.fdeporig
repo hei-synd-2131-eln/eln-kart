@@ -1,0 +1,51 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\dev\\eln_kart_sodimm200\\Kart\\Board\\libero\\ElnKart_SODIMM200_PMOD_tester\\synthesis\\synwork\\Kart_Board_comp.srs|-top|work.Kart_Board|-prodtype|synplify_pro|-nram|-fixsmult|-divnmod|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-ignore_undefined_lib|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\bin64\\c_vhdl.exe":1509008428
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\location.map":1509014436
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1509008246
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509007928
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509007928
+#CUR:"C:\\dev\\eln_kart_pmod\\Board\\concat\\Kart.vhd":1655145155
+0 "C:\dev\eln_kart_pmod\Board\concat\Kart.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+
+# Dependency Lists (Users Of)
+0 -1
+
+# Design Unit to File Association
+arch work kart_board struct 0
+arch work serialporttransmitter rtl 0
+module work serialporttransmitter 0
+arch work txsequencer rtl 0
+module work txsequencer 0
+arch work logic1 sim 0
+module work logic1 0
+arch work inverter sim 0
+module work inverter 0
+arch work dff sim 0
+module work dff 0
+arch work freqdivider rtl 0
+module work freqdivider 0
+arch work bufferulogic sim 0
+module work bufferulogic 0
+arch work batterylevelinterface struct 0
+arch work i2ctransmitter rtl 0
+module work i2ctransmitter 0
+arch work batterylevelsequencer rtl 0
+module work batterylevelsequencer 0
+arch work i2creceiver rtl 0
+module work i2creceiver 0
+module work batterylevelinterface 0
+arch work tff sim 0
+module work tff 0
+arch work and2 sim 0
+module work and2 0
+module work kart_board 0

@@ -1,0 +1,4 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2457:4:2457:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1(sim) because it does not drive other instances.
+@N: BN225 |Writing default property annotation file C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board.sap.

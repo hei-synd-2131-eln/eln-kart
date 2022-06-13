@@ -1,0 +1,64 @@
+# Mon Jun 13 20:32:43 2022
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board_scck.rpt 
+Printing clock  summary report in "C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+Renaming user netlist hierarchy view:work.and2(sim) to avoid clashing with Microsemi library name
+Renaming user netlist hierarchy view:work.DFF(sim) to avoid clashing with Microsemi library name
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2457:4:2457:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1(sim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+
+Clock Summary
+*****************
+
+Start                Requested     Requested     Clock        Clock                   Clock
+Clock                Frequency     Period        Type         Group                   Load 
+-------------------------------------------------------------------------------------------
+Kart_Board|clock     10.0 MHz      100.000       inferred     Inferred_clkgroup_0     282  
+===========================================================================================
+
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1877:4:1877:5|Found inferred clock Kart_Board|clock which controls 282 sequential elements including I5.p_state[0:5]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+Encoding state machine p_state[0:5] (in view: work.txSequencer(rtl))
+original code -> new code
+   000001 -> 000001
+   000010 -> 000010
+   000100 -> 000100
+   001000 -> 001000
+   010000 -> 010000
+   100000 -> 100000
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 26MB peak: 111MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun 13 20:32:44 2022
+
+###########################################################]

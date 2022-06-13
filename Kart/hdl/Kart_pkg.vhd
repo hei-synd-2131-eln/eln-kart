@@ -303,6 +303,11 @@ PACKAGE Kart IS
   --|||||||||||||||
   constant SENS_batteryBaudRateDivide: positive :=
     integer(CLOCK_FREQUENCY/SENS_batteryBaudRate / 4.0);
+      -- How many tries before cancelling transaction with battery reader
+  constant SENS_BATT_READ_RETRIES : positive := 5;
+      -- Sens read timeout
+        -- With 60 SPS -> time of arnd. 17 ms
+  constant SENS_BATT_READ_TMOUT_MS : positive := 20;
     -- Ranger
   constant SENS_rangeBitNb : positive := 16;
       -- Time in MS the pulse should not exceed

@@ -1,0 +1,16 @@
+Project Name: ElnKart_SODIMM200_PMOD_tester
+Location: C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : AGLN250V5-VQ100
+Family         : IGLOO
+Die            : AGLN250V5
+Package        : 100 VQFP
+Speed          : STD
+Core Voltage   : 1.5
+Range          : COM

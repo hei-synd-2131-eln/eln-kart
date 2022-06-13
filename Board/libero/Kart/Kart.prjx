@@ -42,29 +42,24 @@ CURREV=1
 ENDLIST
 LIST FileManager
 VALUE "<project>\designer\impl1\Kart_Board.adb,adb"
-STATE="utd"
-TIME="1653486929"
+STATE="ood"
+TIME="1654790553"
 SIZE="6312448"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.ide_des,ide_des"
 STATE="utd"
-TIME="1653486930"
-SIZE="1162"
+TIME="1654790553"
+SIZE="1142"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_compile_log.rpt,log"
 STATE="utd"
-TIME="1653486873"
-SIZE="11561"
+TIME="1654790466"
+SIZE="11450"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_fp\Kart_Board.pro,pro"
 STATE="utd"
 TIME="1654790404"
 SIZE="2029"
-ENDFILE
-VALUE "<project>\designer\impl1\Kart_Board_placeroute_log.rpt,log"
-STATE="utd"
-TIME="1654790553"
-SIZE="2619"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_timingconstraints_log.rpt,log"
 STATE="utd"
@@ -73,23 +68,23 @@ SIZE="270"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.edn,syn_edn"
 STATE="utd"
-TIME="1653486525"
-SIZE="1967286"
+TIME="1654790449"
+SIZE="2043083"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.so,so"
 STATE="utd"
-TIME="1653486525"
-SIZE="238"
+TIME="1654790449"
+SIZE="233"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1653486525"
+TIME="1654790449"
 SIZE="405"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_syn.prj,prj"
 STATE="utd"
-TIME="1653486525"
-SIZE="1721"
+TIME="1654790450"
+SIZE="1711"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
@@ -115,9 +110,8 @@ LIST "Kart_Board::work"
 FILE "C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd,hdl"
 LIST ProjectState5.1
 LIST Impl1
-LiberoState=Post_Layout
+LiberoState=Post_Synthesis
 ideSYNTHESIS(<project>\synthesis\Kart_Board.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\Kart_Board.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -140,10 +134,6 @@ VALUE "<project>\designer\impl1\Kart_Board.stp,stp"
 VALUE "<project>\designer\impl1\Kart_Board_fp\Kart_Board.pro,pro"
 ENDUsed_File_List
 ENDLIST
-ENDLIST
-LIST PinReports
-VALUE "<project>\designer\impl1\Kart_Board_report_pin_byname.txt,log"
-VALUE "<project>\designer\impl1\Kart_Board_report_pin_bynumber.txt,log"
 ENDLIST
 ENDLIST
 ENDLIST
@@ -253,9 +243,8 @@ ENDLIST
 LIST ProjectState5.1
 LIST "Kart_Board::work"
 LIST Impl1
-LiberoState=Post_Layout
+LiberoState=Post_Synthesis
 ideSYNTHESIS(<project>\synthesis\Kart_Board.edn,syn_edn)=StateSuccess
-ideDESIGNER(<project>\designer\impl1\Kart_Board.adb,adb)=StateSuccess
 LIST FlowOptions
 UsePhySynth=FALSE
 UseSynth=TRUE
@@ -293,9 +282,8 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Place and Route:Kart_Board_place_and_route_report.txt
+ReportsCurrentItem;Synthesize:synplify.log
 StartPage;StartPage;0
-HDL;C:\dev\eln_kart_sodimm200\Board\concat\Kart.pdc;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList

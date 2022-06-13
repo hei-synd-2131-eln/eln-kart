@@ -1,0 +1,35 @@
+FlashPro
+Version: 11.9.6.7
+Release: v11.9 SP6
+
+Software Version: 11.9.6.7
+PDB file
+'C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\designer\impl1\Kart_\
+Board.pdb' has been loaded successfully.
+DESIGN : Kart_Board;  CHECKSUM : ED82;  PDB_VERSION : 1.9
+Driver : 3.0.0 build 1
+programmer '55413' : FlashPro4
+Opened
+'C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\designer\impl1\Kart_\
+Board_fp\Kart_Board.pro'
+The 'open_project' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '55413' : Scan Chain...
+programmer '55413' : Scan Chain PASSED.
+programmer '55413' : Executing action PROGRAM
+programmer '55413' : EXPORT FSN[48] = 0036a4508c6d
+programmer '55413' : Erase ...
+programmer '55413' : Completed erase
+programmer '55413' : EXPORT CHECKSUM[16] = ed82
+programmer '55413' : Programming FPGA Array
+programmer '55413' : Verifying FPGA Array
+programmer '55413' :         Verifying FPGA Array -- pass
+programmer '55413' : Finished: Mon Jun 13 20:34:41 2022 (Elapsed time 00:00:26)
+programmer '55413' : Executing action PROGRAM PASSED.
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

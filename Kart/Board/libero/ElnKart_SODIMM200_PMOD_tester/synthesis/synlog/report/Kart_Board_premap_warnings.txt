@@ -1,0 +1,1 @@
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1877:4:1877:5|Found inferred clock Kart_Board|clock which controls 282 sequential elements including I5.p_state[0:5]. This clock has no specified timing constraint which may adversely impact design performance. 

@@ -1,0 +1,940 @@
+#Build: Synplify Pro L-2016.09M-SP1-5, Build 264R, Oct 26 2017
+#install: C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+#OS: Windows 8 6.2
+#Hostname: WE7860
+
+# Mon Jun 13 11:26:07 2022
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
+@N:"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":406:7:406:16|Top entity is set to Kart_Board.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":406:7:406:16|Synthesizing work.kart_board.struct.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1546:7:1546:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1546:7:1546:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1546:7:1546:17|Synthesizing work.freqdivider.rtl.
+Post processing for work.freqdivider.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1608:7:1608:9|Synthesizing work.tff.sim.
+Post processing for work.tff.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1662:7:1662:9|Synthesizing work.dff.sim.
+Post processing for work.dff.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1753:7:1753:30|Synthesizing work.freqdividerwforceonstart.rtl.
+Post processing for work.freqdividerwforceonstart.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":542:7:542:27|Synthesizing work.batterylevelinterface.struct.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":901:7:901:27|Synthesizing work.batterylevelsequencer.rtl.
+Post processing for work.batterylevelsequencer.rtl
+@W: CL271 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1076:4:1076:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1124:7:1124:20|Synthesizing work.i2ctransmitter.rtl.
+@W: CD434 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1206:38:1206:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+Post processing for work.i2ctransmitter.rtl
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":575:7:575:17|Synthesizing work.i2creceiver.rtl.
+Post processing for work.i2creceiver.rtl
+Post processing for work.batterylevelinterface.struct
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1511:7:1511:12|Synthesizing work.logic1.sim.
+Post processing for work.logic1.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1711:7:1711:14|Synthesizing work.inverter.sim.
+Post processing for work.inverter.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":502:7:502:18|Synthesizing work.bufferulogic.sim.
+Post processing for work.bufferulogic.sim
+@N: CD630 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":463:7:463:10|Synthesizing work.and2.sim.
+Post processing for work.and2.sim
+Post processing for work.kart_board.struct
+@W: CL168 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":2171:4:2171:6|Removing instance I24 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL168 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":2058:4:2058:5|Removing instance I0 because it does not drive other instances. To preserve this instance, use the syn_noprune synthesis directive.
+@W: CL169 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1981:6:1981:7|Pruning unused register batterySDaIn_cl_3. Make sure that there are no unused intermediate registers.
+@W: CL111 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1981:6:1981:7|All reachable assignments to batterySDaIn are '0'; removing register. To preserve a constant register, use the syn_preserve attribute.
+@W: CL169 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1785:4:1785:5|Pruning unused register once. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1785:4:1785:5|Pruning unused register count(24 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1755:8:1755:12|Input clock is unused.
+@N: CL159 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":1756:8:1756:12|Input reset is unused.
+@N: CL159 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":408:8:408:13|Input Rx_BLE is unused.
+@N: CL159 :"C:\dev\eln_kart_pmod\Board\concat\Kart.vhd":409:8:409:13|Input Rx_USB is unused.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 75MB peak: 76MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 11:26:07 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 11:26:08 2022
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 11:26:08 2022
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Mon Jun 13 11:26:09 2022
+
+###########################################################]
+Pre-mapping Report
+
+# Mon Jun 13 11:26:09 2022
+
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board_scck.rpt 
+Printing clock  summary report in "C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+Renaming user netlist hierarchy view:work.DFF(sim) to avoid clashing with Microsemi library name
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2131:4:2131:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1_2(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2135:4:2135:6|Removing instance I13 (in view: work.Kart_Board(struct)) of type view:work.logic1_1(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2139:4:2139:6|Removing instance I15 (in view: work.Kart_Board(struct)) of type view:work.logic1_0(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2155:4:2155:21|Removing instance I_batteryRefresher (in view: work.Kart_Board(struct)) of type view:work.freqDividerWForceOnStart(rtl) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2091:4:2091:5|Removing instance I8 (in view: work.Kart_Board(struct)) of type view:work.bufferUlogic_2(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":2099:4:2099:5|Removing instance I9 (in view: work.Kart_Board(struct)) of type view:work.bufferUlogic_1(sim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1076:4:1076:5|Removing sequential instance p_volt[13:0] (in view: work.batteryLevelSequencer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1076:4:1076:5|Removing sequential instance p_curr[13:0] (in view: work.batteryLevelSequencer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1076:4:1076:5|Removing sequential instance p_volt_high[5:0] (in view: work.batteryLevelSequencer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1076:4:1076:5|Removing sequential instance p_curr_high[5:0] (in view: work.batteryLevelSequencer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+
+Clock Summary
+*****************
+
+Start                                                         Requested     Requested     Clock        Clock                   Clock
+Clock                                                         Frequency     Period        Type         Group                   Load 
+------------------------------------------------------------------------------------------------------------------------------------
+Kart_Board|clock                                              100.0 MHz     10.000        inferred     Inferred_clkgroup_0     130  
+freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     241  
+freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_2     231  
+freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_3     161  
+====================================================================================================================================
+
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":835:4:835:5|Found inferred clock Kart_Board|clock which controls 130 sequential elements including I11.U_rx.bitCounter[3:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1635:4:1635:5|Found inferred clock freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock which controls 241 sequential elements including I20.q_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1635:4:1635:5|Found inferred clock freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock which controls 231 sequential elements including I18.q_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1635:4:1635:5|Found inferred clock freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock which controls 161 sequential elements including I16.q_int. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\Kart_Board.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 25MB peak: 110MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun 13 11:26:09 2022
+
+###########################################################]
+Map & Optimize Report
+
+# Mon Jun 13 11:26:09 2022
+
+Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1046:4:1046:5|Removing sequential instance readCounter[1:0] (in view: work.batteryLevelSequencer(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 110MB)
+
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1981:6:1981:7|Removing sequential instance batterySDaIn_tri_enable (in view: work.Kart_Board(struct)) of type view:PrimLib.dffs(prim) because it does not drive other instances.
+@N: MO231 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":835:4:835:5|Found counter in view:work.i2cReceiver(rtl) instance bitCounter[3:0] 
+@N: MF238 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1201:26:1201:43|Found 5-bit incrementor, 'un4_dividercounter[4:0]'
+@N: MO231 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":983:4:983:5|Found counter in view:work.batteryLevelSequencer(rtl) instance sequenceCounter[4:0] 
+@N: MO106 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1009:4:1009:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 18 words by 1 bit.
+@N: MO106 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1009:4:1009:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 18 words by 2 bits.
+@N: MO106 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1009:4:1009:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 18 words by 3 bits.
+@N: MO106 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1009:4:1009:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 18 words by 1 bit.
+@N: MO106 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1009:4:1009:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 18 words by 1 bit.
+@N: MF239 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1582:17:1582:23|Found 20-bit decrementor, 'un6_count[19:0]'
+@N: MF239 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1582:17:1582:23|Found 23-bit decrementor, 'un6_count[22:0]'
+@N: MF239 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1582:17:1582:23|Found 24-bit decrementor, 'un6_count[23:0]'
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[0] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[1] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[2] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[3] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[8] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[0] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[4] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[1] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[5] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[2] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[6] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[3] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[7] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[4] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":821:4:821:5|Register bit dataShiftReg[8] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[5] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[6] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Register bit dataOut[7] (in view view:work.i2cReceiver(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 111MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Removing sequential instance I11.U_rx.dataOut[9] (in view: work.Kart_Board(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":861:4:861:5|Removing sequential instance I11.U_rx.dataValid (in view: work.Kart_Board(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+
+Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 111MB peak: 111MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 112MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 112MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 112MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+High Fanout Net Report
+**********************
+
+Driver Instance / Pin Name     Fanout, notes                   
+---------------------------------------------------------------
+I16.q_int / Q                  25                              
+I21.Q / QN                     109 : 109 asynchronous set/reset
+===============================================================
+
+@N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
+@N: FP130 |Promoting Net resetSynch_n_i_0_i on CLKINT  I_11 
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+Replicating Sequential Instance I16.q_int, fanout 25 segments 2
+
+Added 0 Buffers
+Added 1 Cells via replication
+	Added 1 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+@N: BN115 :"c:\dev\eln_kart_pmod\board\concat\kart.vhd":1453:4:1453:7|Removing instance U_rx (in view: work.batteryLevelInterface(netlist)) of type view:work.i2cReceiver(netlist) because it does not drive other instances.
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+1 non-gated/non-generated clock tree(s) driving 100 clock pin(s) of sequential element(s)
+3 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
+0 instances converted, 4 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0004       clock               port                   100        I19.count[23]  
+=======================================================================================
+================================================================ Gated/Generated Clocks =================================================================
+Clock Tree ID     Driving Element                                         Drive Element Type     Fanout     Sample Instance     Explanation              
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       I14.countEndlessly.op_eq.count11_inferred_clock_RNO     NOR3C                  2          I16.q_int           No clocks found on inputs
+@K:CKID0002       I17.countEndlessly.op_eq.count11_inferred_clock_RNO     NOR3C                  1          I18.q_int           No clocks found on inputs
+@K:CKID0003       I19.countEndlessly.op_eq.count11_inferred_clock_RNO     NOR3C                  1          I20.q_int           No clocks found on inputs
+=========================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
+
+Writing Analyst data base C:\dev\eln_kart_sodimm200\Kart\Board\libero\ElnKart_SODIMM200_PMOD_tester\synthesis\synwork\Kart_Board_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 111MB peak: 113MB)
+
+Writing EDIF Netlist and constraint files
+L-2016.09M-SP1-5
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+@W: MT420 |Found inferred clock Kart_Board|clock with period 10.00ns. Please declare a user-defined clock on object "p:clock"
+@W: MT420 |Found inferred clock freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:I19.countEndlessly\.op_eq\.count11"
+@W: MT420 |Found inferred clock freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:I17.countEndlessly\.op_eq\.count11"
+@W: MT420 |Found inferred clock freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:I14.countEndlessly\.op_eq\.count11"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Mon Jun 13 11:26:11 2022
+#
+
+
+Top view:               Kart_Board
+Library name:           IGLOO
+Operating conditions:   COMWCSTD ( T = 70.0, V = 1.42, P = 1.85, tree_type = balanced_tree )
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Wire load model:        IGLOO
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.136
+
+                                                              Requested     Estimated     Requested     Estimated                Clock        Clock              
+Starting Clock                                                Frequency     Frequency     Period        Period        Slack      Type         Group              
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Kart_Board|clock                                              100.0 MHz     82.4 MHz      10.000        12.136        -2.136     inferred     Inferred_clkgroup_0
+freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     192.6 MHz     10.000        5.193         4.807      inferred     Inferred_clkgroup_1
+freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     182.1 MHz     10.000        5.492         4.508      inferred     Inferred_clkgroup_2
+freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock     100.0 MHz     200.0 MHz     10.000        5.001         4.999      inferred     Inferred_clkgroup_3
+=================================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                   Ending                                                     |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Kart_Board|clock                                           Kart_Board|clock                                           |  10.000      -2.136  |  No paths    -      |  No paths    -      |  No paths    -    
+freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock  freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock  |  10.000      4.807   |  No paths    -      |  No paths    -      |  No paths    -    
+freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock  freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock  |  10.000      4.508   |  No paths    -      |  No paths    -      |  No paths    -    
+freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock  freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock  |  10.000      4.999   |  No paths    -      |  No paths    -      |  No paths    -    
+=============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: Kart_Board|clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                 Starting                                                         Arrival           
+Instance                         Reference            Type         Pin     Net                    Time        Slack 
+                                 Clock                                                                              
+--------------------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[0]     Kart_Board|clock     DFN1E0C0     Q       sequenceCounter[0]     0.885       -2.136
+I11.U_seq.sequenceCounter[1]     Kart_Board|clock     DFN1E0C0     Q       sequenceCounter[1]     0.885       -1.952
+I11.U_seq.sequenceCounter[3]     Kart_Board|clock     DFN1E0C0     Q       sequenceCounter[3]     0.885       -1.911
+I11.U_seq.sequenceCounter[2]     Kart_Board|clock     DFN1E0C0     Q       sequenceCounter[2]     0.885       -1.908
+I11.U_seq.sequenceCounter[4]     Kart_Board|clock     DFN1E0C0     Q       sequenceCounter[4]     0.885       -1.635
+I17.count[1]                     Kart_Board|clock     DFN1C0       Q       count[1]               0.885       -1.539
+I14.count[1]                     Kart_Board|clock     DFN1C0       Q       count[1]               0.885       -1.539
+I19.count[1]                     Kart_Board|clock     DFN1C0       Q       count[1]               0.885       -1.522
+I17.count[2]                     Kart_Board|clock     DFN1C0       Q       count[2]               0.885       -1.468
+I14.count[2]                     Kart_Board|clock     DFN1C0       Q       count[2]               0.885       -1.468
+====================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                           Starting                                                       Required           
+Instance                   Reference            Type         Pin     Net                  Time         Slack 
+                           Clock                                                                             
+-------------------------------------------------------------------------------------------------------------
+I11.U_tx.txShiftReg[3]     Kart_Board|clock     DFN1E0P0     D       N_18                 9.311        -2.136
+I11.U_tx.txShiftReg[5]     Kart_Board|clock     DFN1E0P0     D       N_14                 9.311        -2.136
+I11.U_tx.busyInt           Kart_Board|clock     DFN1E1C0     E       un9_txsendingend     9.269        -1.190
+I11.U_tx.send1             Kart_Board|clock     DFN1E0C0     E       N_63                 9.269        -1.128
+I11.U_tx.txShiftReg[1]     Kart_Board|clock     DFN1E0P0     D       N_22                 9.353        -1.002
+I11.U_tx.txShiftReg[2]     Kart_Board|clock     DFN1E0P0     D       N_20                 9.353        -1.002
+I11.U_tx.txShiftReg[4]     Kart_Board|clock     DFN1E0P0     D       N_16                 9.353        -1.002
+I11.U_tx.txShiftReg[6]     Kart_Board|clock     DFN1E0P0     D       N_12                 9.353        -1.002
+I11.U_tx.txShiftReg[7]     Kart_Board|clock     DFN1E0P0     D       N_10                 9.353        -1.002
+I11.U_tx.txShiftReg[8]     Kart_Board|clock     DFN1E0P0     D       N_8                  9.353        -1.002
+=============================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      11.447
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.136
+
+    Number of logic level(s):                4
+    Starting point:                          I11.U_seq.sequenceCounter[0] / Q
+    Ending point:                            I11.U_tx.txShiftReg[3] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[0]                DFN1E0C0     Q        Out     0.885     0.885       -         
+sequenceCounter[0]                          Net          -        -       2.773     -           19        
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         B        In      -         3.658       -         
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         Y        Out     0.858     4.517       -         
+N_56_mux                                    Net          -        -       1.422     -           4         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         B        In      -         5.939       -         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         Y        Out     0.764     6.703       -         
+txSend                                      Net          -        -       2.610     -           16        
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         B        In      -         9.313       -         
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         Y        Out     0.777     10.090      -         
+N_49                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         C        In      -         10.476      -         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         Y        Out     0.585     11.061      -         
+N_18                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg[3]                      DFN1E0P0     D        In      -         11.447      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 12.136 is 4.558(37.6%) logic and 7.578(62.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      11.447
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.136
+
+    Number of logic level(s):                4
+    Starting point:                          I11.U_seq.sequenceCounter[0] / Q
+    Ending point:                            I11.U_tx.txShiftReg[5] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[0]                DFN1E0C0     Q        Out     0.885     0.885       -         
+sequenceCounter[0]                          Net          -        -       2.773     -           19        
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         B        In      -         3.658       -         
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         Y        Out     0.858     4.517       -         
+N_56_mux                                    Net          -        -       1.422     -           4         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         B        In      -         5.939       -         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         Y        Out     0.764     6.703       -         
+txSend                                      Net          -        -       2.610     -           16        
+I11.U_tx.txShiftReg_RNO_0[5]                NOR2         B        In      -         9.313       -         
+I11.U_tx.txShiftReg_RNO_0[5]                NOR2         Y        Out     0.777     10.090      -         
+N_45                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg_RNO[5]                  AOI1         C        In      -         10.476      -         
+I11.U_tx.txShiftReg_RNO[5]                  AOI1         Y        Out     0.585     11.061      -         
+N_14                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg[5]                      DFN1E0P0     D        In      -         11.447      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 12.136 is 4.558(37.6%) logic and 7.578(62.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      11.263
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.952
+
+    Number of logic level(s):                4
+    Starting point:                          I11.U_seq.sequenceCounter[1] / Q
+    Ending point:                            I11.U_tx.txShiftReg[3] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[1]                DFN1E0C0     Q        Out     0.885     0.885       -         
+sequenceCounter[1]                          Net          -        -       2.861     -           21        
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         A        In      -         3.746       -         
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         Y        Out     0.587     4.333       -         
+N_56_mux                                    Net          -        -       1.422     -           4         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         B        In      -         5.755       -         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         Y        Out     0.764     6.519       -         
+txSend                                      Net          -        -       2.610     -           16        
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         B        In      -         9.129       -         
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         Y        Out     0.777     9.906       -         
+N_49                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         C        In      -         10.292      -         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         Y        Out     0.585     10.877      -         
+N_18                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg[3]                      DFN1E0P0     D        In      -         11.263      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 11.952 is 4.287(35.9%) logic and 7.666(64.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      11.263
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.952
+
+    Number of logic level(s):                4
+    Starting point:                          I11.U_seq.sequenceCounter[1] / Q
+    Ending point:                            I11.U_tx.txShiftReg[5] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[1]                DFN1E0C0     Q        Out     0.885     0.885       -         
+sequenceCounter[1]                          Net          -        -       2.861     -           21        
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         A        In      -         3.746       -         
+I11.U_seq.sequenceCounter_RNIIBAQ_3[2]      NOR3         Y        Out     0.587     4.333       -         
+N_56_mux                                    Net          -        -       1.422     -           4         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         B        In      -         5.755       -         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         Y        Out     0.764     6.519       -         
+txSend                                      Net          -        -       2.610     -           16        
+I11.U_tx.txShiftReg_RNO_0[5]                NOR2         B        In      -         9.129       -         
+I11.U_tx.txShiftReg_RNO_0[5]                NOR2         Y        Out     0.777     9.906       -         
+N_45                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg_RNO[5]                  AOI1         C        In      -         10.292      -         
+I11.U_tx.txShiftReg_RNO[5]                  AOI1         Y        Out     0.585     10.877      -         
+N_14                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg[5]                      DFN1E0P0     D        In      -         11.263      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 11.952 is 4.287(35.9%) logic and 7.666(64.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.689
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.311
+
+    - Propagation time:                      11.222
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.911
+
+    Number of logic level(s):                4
+    Starting point:                          I11.U_seq.sequenceCounter[3] / Q
+    Ending point:                            I11.U_tx.txShiftReg[3] / D
+    The start point is clocked by            Kart_Board|clock [rising] on pin CLK
+    The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
+
+Instance / Net                                           Pin      Pin               Arrival     No. of    
+Name                                        Type         Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------
+I11.U_seq.sequenceCounter[3]                DFN1E0C0     Q        Out     0.885     0.885       -         
+sequenceCounter[3]                          Net          -        -       2.664     -           17        
+I11.U_seq.sequenceCounter_RNIHNHH[4]        NOR2         B        In      -         3.550       -         
+I11.U_seq.sequenceCounter_RNIHNHH[4]        NOR2         Y        Out     0.777     4.327       -         
+m51_0                                       Net          -        -       1.422     -           4         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         A        In      -         5.749       -         
+I11.U_seq.sequenceCounter_RNIO8CO1_0[2]     AOI1         Y        Out     0.729     6.477       -         
+txSend                                      Net          -        -       2.610     -           16        
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         B        In      -         9.088       -         
+I11.U_tx.txShiftReg_RNO_0[3]                NOR2         Y        Out     0.777     9.864       -         
+N_49                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         C        In      -         10.251      -         
+I11.U_tx.txShiftReg_RNO[3]                  AOI1         Y        Out     0.585     10.835      -         
+N_18                                        Net          -        -       0.386     -           1         
+I11.U_tx.txShiftReg[3]                      DFN1E0P0     D        In      -         11.222      -         
+==========================================================================================================
+Total path delay (propagation time + setup) of 11.911 is 4.441(37.3%) logic and 7.469(62.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                                                                                   Arrival          
+Instance      Reference                                                     Type       Pin     Net                                       Time        Slack
+              Clock                                                                                                                                       
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+I20.q_int     freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     Q       LED_G_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c     0.885       4.807
+==========================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                                                                                                     Required          
+Instance      Reference                                                     Type       Pin     Net                                         Time         Slack
+              Clock                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+I20.q_int     freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     D       LED_G_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     9.353        4.807
+=============================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      4.546
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.807
+
+    Number of logic level(s):                1
+    Starting point:                          I20.q_int / Q
+    Ending point:                            I20.q_int / D
+    The start point is clocked by            freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            freqDividerZ0|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+
+Instance / Net                                         Pin      Pin               Arrival     No. of    
+Name                                        Type       Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------
+I20.q_int                                   DFN1C0     Q        Out     0.885     0.885       -         
+LED_G_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c       Net        -        -       2.664     -           17        
+I20.q_int_RNO                               INV        A        In      -         3.550       -         
+I20.q_int_RNO                               INV        Y        Out     0.610     4.160       -         
+LED_G_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     Net        -        -       0.386     -           1         
+I20.q_int                                   DFN1C0     D        In      -         4.546       -         
+========================================================================================================
+Total path delay (propagation time + setup) of 5.193 is 2.142(41.3%) logic and 3.051(58.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                                                                                                 Arrival          
+Instance      Reference                                                     Type       Pin     Net                                                     Time        Slack
+              Clock                                                                                                                                                     
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I18.q_int     freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     Q       LED_Y_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c     0.885       4.508
+========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+              Starting                                                                                                                                   Required          
+Instance      Reference                                                     Type       Pin     Net                                                       Time         Slack
+              Clock                                                                                                                                                        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I18.q_int     freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     D       LED_Y_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     9.353        4.508
+===========================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      4.844
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.508
+
+    Number of logic level(s):                1
+    Starting point:                          I18.q_int / Q
+    Ending point:                            I18.q_int / D
+    The start point is clocked by            freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            freqDividerZ1|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                       Pin      Pin               Arrival     No. of    
+Name                                                      Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------
+I18.q_int                                                 DFN1C0     Q        Out     0.885     0.885       -         
+LED_Y_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c       Net        -        -       2.963     -           24        
+I18.q_int_RNO                                             INV        A        In      -         3.848       -         
+I18.q_int_RNO                                             INV        Y        Out     0.610     4.458       -         
+LED_Y_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     Net        -        -       0.386     -           1         
+I18.q_int                                                 DFN1C0     D        In      -         4.844       -         
+======================================================================================================================
+Total path delay (propagation time + setup) of 5.492 is 2.142(39.0%) logic and 3.349(61.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+              Starting                                                                                                                                   Arrival          
+Instance      Reference                                                     Type       Pin     Net                                                       Time        Slack
+              Clock                                                                                                                                                       
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I16.q_int     freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     Q       LED_R_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c     0.885       4.999
+==========================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                                                                                                     Required          
+Instance        Reference                                                     Type       Pin     Net                                                         Time         Slack
+                Clock                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+I16.q_int       freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     D       LED_R_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     9.353        4.999
+I16.q_int_0     freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock     DFN1C0     D       LED_R_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     9.353        4.999
+===============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.647
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.353
+
+    - Propagation time:                      4.354
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.999
+
+    Number of logic level(s):                1
+    Starting point:                          I16.q_int / Q
+    Ending point:                            I16.q_int / D
+    The start point is clocked by            freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            freqDividerZ2|countEndlessly_op_eq_count11_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                        Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+I16.q_int                                                   DFN1C0     Q        Out     0.885     0.885       -         
+LED_R_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c       Net        -        -       2.395     -           12        
+I16.q_int_RNIP1JD                                           INV        A        In      -         3.280       -         
+I16.q_int_RNIP1JD                                           INV        Y        Out     0.610     3.890       -         
+LED_R_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_c_i     Net        -        -       0.464     -           2         
+I16.q_int                                                   DFN1C0     D        In      -         4.354       -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 5.001 is 2.142(42.8%) logic and 2.859(57.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 112MB peak: 113MB)
+
+--------------------------------------------------------------------------------
+Target Part: AGLN250V5_VQFP100_STD
+Report for cell Kart_Board.struct
+  Core Cell usage:
+              cell count     area count*area
+              AND2     1      1.0        1.0
+              AND3     2      1.0        2.0
+               AO1     2      1.0        2.0
+              AO1A     3      1.0        3.0
+              AOI1     3      1.0        3.0
+             AOI1B     3      1.0        3.0
+               AX1     1      1.0        1.0
+              AX1E     1      1.0        1.0
+              AXO7     1      1.0        1.0
+             AXOI4     2      1.0        2.0
+            CLKINT     1      0.0        0.0
+               GND    12      0.0        0.0
+               INV     8      1.0        8.0
+               MX2    15      1.0       15.0
+              MX2A     5      1.0        5.0
+              MX2B     4      1.0        4.0
+              MX2C     1      1.0        1.0
+              NOR2    27      1.0       27.0
+             NOR2A    39      1.0       39.0
+             NOR2B    10      1.0       10.0
+              NOR3     6      1.0        6.0
+             NOR3A    18      1.0       18.0
+             NOR3B     7      1.0        7.0
+             NOR3C    13      1.0       13.0
+              OA1A     2      1.0        2.0
+              OA1C     2      1.0        2.0
+              OAI1     1      1.0        1.0
+               OR2    32      1.0       32.0
+              OR2A     1      1.0        1.0
+               OR3    84      1.0       84.0
+               VCC    12      0.0        0.0
+              XA1A     1      1.0        1.0
+              XA1B     2      1.0        2.0
+             XNOR2    65      1.0       65.0
+              XOR2     6      1.0        6.0
+
+
+            DFI1P0     1      1.0        1.0
+            DFN1C0    81      1.0       81.0
+          DFN1E0C0     6      1.0        6.0
+          DFN1E0P0    10      1.0       10.0
+          DFN1E1C0     4      1.0        4.0
+          DFN1E1P0     2      1.0        2.0
+                   -----          ----------
+             TOTAL   497               472.0
+
+
+  IO Cell usage:
+              cell count
+            CLKBUF     1
+             INBUF     1
+            OUTBUF    66
+           TRIBUFF     1
+                   -----
+             TOTAL    69
+
+
+Core Cells         : 472 of 6144 (8%)
+IO Cells           : 69
+
+  RAM/ROM Usage Summary
+Block Rams : 0 of 8 (0%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 27MB peak: 113MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Mon Jun 13 11:26:11 2022
+
+###########################################################]

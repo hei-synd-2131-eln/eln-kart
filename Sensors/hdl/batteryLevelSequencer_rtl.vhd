@@ -16,7 +16,7 @@ library Kart;
 
 ARCHITECTURE rtl OF batteryLevelSequencer IS
 
-  constant sequenceLength : positive := 2*4 + 2*5;
+  constant sequenceLength : positive := 2*4 + 2*6 + 2*1;
   signal sequenceCounter: unsigned(requiredBitNb(sequenceLength)-1 downto 0);
 
   constant i2cWordBitNb: positive := 8;
@@ -40,8 +40,8 @@ ARCHITECTURE rtl OF batteryLevelSequencer IS
     -- 00 = x1, 01 = x2, 10 = x4, 11 = x8
   constant gain : std_ulogic_vector(1 downto 0) := "00";
 
-  -- Voltage (2B) and current (2B)
-  constant readLength : positive := 3; -- 2B + null state
+  -- Voltage (2+1B) and current (2+1B)
+  constant readLength : positive := 4; -- 2+1B + null state
 
   signal startStop: std_ulogic;
   signal i2cWord: i2cWordType;
@@ -49,10 +49,26 @@ ARCHITECTURE rtl OF batteryLevelSequencer IS
 
   
   signal readCounter: unsigned(requiredBitNb(readLength)-1 downto 0);
-  signal p_volt_high, p_curr_high : unsigned(i2cWordBitNb-1 downto 0);
+  signal p_volt_high, p_curr_high, p_volt_low, p_curr_low :
+    unsigned(i2cWordBitNb-1 downto 0) := (others=>'0');
   signal p_volt, p_curr : unsigned(2*i2cWordBitNb-1 downto 0);
 
+  -- Manages bad reads
+  signal p_redo_volt, p_orv, p_redo_curr, p_orc : std_ulogic;
+  signal p_ok : std_ulogic;
+  signal p_retries : unsigned(requiredBitNb(SENS_BATT_READ_RETRIES)-1 downto 0);
+
+  -- Manages timeout before read (measure time)
+  signal p_waitTimeout, p_timed_out : std_ulogic;
+  constant CNT_TARGET : positive :=
+    positive(CLOCK_FREQUENCY * real(SENS_BATT_READ_TMOUT_MS) / 1000.0);
+  signal p_waitTimeout_cnt : unsigned(requiredBitNb(CNT_TARGET) - 1 downto 0);
+
 BEGIN
+
+  p_timed_out <= '1' when
+    p_waitTimeout_cnt >= to_unsigned(CNT_TARGET, p_waitTimeout_cnt'length)
+    else '0';
 
   --============================================================================
                                                           -- count send sequence
@@ -60,16 +76,52 @@ BEGIN
   begin
     if reset = '1' then
       sequenceCounter <= (others => '0');
+      p_retries <= (others=>'0');
+      p_orv <= '0';
+      p_orc <= '0';
+      p_volt <= (others=>'0');
+      p_curr <= (others=>'0');
+      p_waitTimeout_cnt <= (others=>'0');
     elsif rising_edge(clock) then
       if sequenceCounter = 0 then
+        p_retries <= (others=>'0');
         if refresh = '1' then
-          sequenceCounter <= sequenceCounter + 1;
+          sequenceCounter <= to_unsigned(1, sequenceCounter'length);--sequenceCounter + 1;
         end if;
       else
+        if p_waitTimeout = '0' then
+          p_waitTimeout_cnt <= (others=>'0');
+        else
+          p_waitTimeout_cnt <= p_waitTimeout_cnt + 1;
+        end if;
+
         if txBusy = '0' then
-          if sequenceCounter < sequenceLength then
-            sequenceCounter <= sequenceCounter + 1;
+          p_orv <= p_redo_volt;
+          p_orc <= p_redo_curr;
+          -- Check for retries
+          if p_redo_volt = '1' and p_orv = '0' then
+              p_retries <= p_retries + 1;
+              sequenceCounter <= to_unsigned(6, sequenceCounter'length);
+              if p_retries >= to_unsigned(SENS_BATT_READ_RETRIES, p_retries'length) then
+                sequenceCounter <= (others => '0');
+              end if;
+          elsif p_redo_curr = '1' and p_orc = '0' then
+              p_retries <= p_retries + 1;
+              sequenceCounter <= to_unsigned(17, sequenceCounter'length);
+              if p_retries >= to_unsigned(SENS_BATT_READ_RETRIES, p_retries'length) then
+                sequenceCounter <= (others => '0');
+              end if;
+          elsif sequenceCounter < sequenceLength then
+            if p_waitTimeout = '0' or 
+              (p_waitTimeout = '1' and p_timed_out = '1') then
+              if sequenceCounter = 12 then
+                p_volt <= "00" & p_volt_high(i2cWordBitNb-3 downto 0) & p_volt_low;
+                p_retries <= (others=>'0');
+              end if;
+              sequenceCounter <= sequenceCounter + 1;
+            end if;
           else
+            p_curr <= "00" & p_curr_high(i2cWordBitNb-3 downto 0) & p_curr_low;
             sequenceCounter <= (others => '0');
           end if;
         end if;
@@ -84,29 +136,36 @@ BEGIN
     startStop <= '0';
     i2cWord <= (others => '0');
     ack <= '1';
+    p_waitTimeout <= '0';
     case to_integer(sequenceCounter) is
         -- Setup channel 1
       when  1 => startStop <= '1'; i2cWord <= i2cStart;
       when  2 => i2cWord <= mcpAddress;
       when  3 => i2cWord <= rdy & channel1 & conversionMode & sampleRate & gain;
       when  4 => startStop <= '0'; i2cWord <= i2cStop;
+        -- Wait
+      when  5 => p_waitTimeout <= '1';
         -- Read channel 1
-      when  5 => startStop <= '1'; i2cWord <= i2cStart;
-      when  6 => i2cWord <= mcpAddress or X"01";
-      when  7 => i2cWord <= i2cRead; ack <= '0';
+      when  6 => startStop <= '1'; i2cWord <= i2cStart;
+      when  7 => i2cWord <= mcpAddress or X"01";
       when  8 => i2cWord <= i2cRead; ack <= '0';
-      when  9 => startStop <= '1'; i2cWord <= i2cStop;
+      when  9 => i2cWord <= i2cRead; ack <= '0';
+      when  10 => i2cWord <= i2cRead; ack <= '0';
+      when  11 => startStop <= '0'; i2cWord <= i2cStop;
         -- Setup channel 2
-      when 10 => startStop <= '1'; i2cWord <= i2cStart;
-      when 11 => i2cWord <= mcpAddress;
-      when 12 => i2cWord <= rdy & channel2 & conversionMode & sampleRate & gain;
-      when 13 => startStop <= '0'; i2cWord <= i2cStop;
+      when  12 => startStop <= '1'; i2cWord <= i2cStart;
+      when  13 => i2cWord <= mcpAddress;
+      when  14 => i2cWord <= rdy & channel2 & conversionMode & sampleRate & gain;
+      when  15 => startStop <= '0'; i2cWord <= i2cStop;
+        -- Wait
+      when  16 => p_waitTimeout <= '1';
         -- Read channel 2
-      when 14 => startStop <= '1'; i2cWord <= i2cStart;
-      when 15 => i2cWord <= mcpAddress or X"01";
-      when 16 => i2cWord <= i2cRead; ack <= '0';
-      when 17 => i2cWord <= i2cRead; ack <= '0';
-      when 18 => startStop <= '1'; i2cWord <= i2cStop;
+      when  17 => startStop <= '1'; i2cWord <= i2cStart;
+      when  18 => i2cWord <= mcpAddress or X"01";
+      when  19 => i2cWord <= i2cRead; ack <= '0';
+      when  20 => i2cWord <= i2cRead; ack <= '0';
+      when  21 => i2cWord <= i2cRead; ack <= '0';
+      when  22 => startStop <= '0'; i2cWord <= i2cStop;
       when others => null;
     end case;
   end process sendI2cCommands;
@@ -154,24 +213,30 @@ BEGIN
     if reset = '1' then
       p_volt_high <= (others=>'0');
       p_curr_high <= (others=>'0');
-      p_volt <= (others=>'0');
-      p_curr <= (others=>'0');
+      p_redo_volt <= '0';
+      p_redo_curr <= '0';
     elsif rising_edge(clock) then
       if dataValid = '1' then
+        p_redo_volt <= '0';
+        p_redo_curr <= '0';
         case to_integer(readCounter) is
           when 1 =>
-            if sequenceCounter < to_unsigned(10, sequenceCounter'length) then
+            if sequenceCounter < to_unsigned(12, sequenceCounter'length) then
               p_volt_high <= unsigned(rxData(i2cWordBitNb-1 downto 0));
             else
               p_curr_high <= unsigned(rxData(i2cWordBitNb-1 downto 0));
             end if;
           when 2 =>
-            if sequenceCounter < to_unsigned(10, sequenceCounter'length) then
-              p_volt <= "00" & p_volt_high(i2cWordBitNb-3 downto 0) & 
-                unsigned(rxData(i2cWordBitNb-1 downto 0));
+            if sequenceCounter < to_unsigned(12, sequenceCounter'length) then
+              p_volt_low <= unsigned(rxData(i2cWordBitNb-1 downto 0));
             else
-              p_curr <= "00" & p_curr_high(i2cWordBitNb-3 downto 0) & 
-                unsigned(rxData(i2cWordBitNb-1 downto 0));
+              p_curr_low <= unsigned(rxData(i2cWordBitNb-1 downto 0));
+            end if;
+          when 3 =>
+            if sequenceCounter < to_unsigned(12, sequenceCounter'length) then
+              p_redo_volt <= rxData(i2cWordBitNb-1);
+            else
+              p_redo_curr <= rxData(i2cWordBitNb-1);
             end if;
           when others => null;
         end case;
