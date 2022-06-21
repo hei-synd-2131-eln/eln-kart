@@ -6,7 +6,7 @@ cModel Technology
 dD:/dev/eln_kart_sodimm200/Kart/ControlRegisters/work
 Econtrolregisterscontroller
 Z0 w1654521003
-Z1 DPx4 kart 4 kart 0 22 HXARz=RRo8?D8D:^ziFO[2
+Z1 DPx4 kart 4 kart 0 22 cVIP2^_=PNE@]2N^fn?GC0
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -19,10 +19,10 @@ VEkg_e_d[R?TDj[8[f[4?c1
 !s100 >VSZJVHYgP`@eDW82b07L0
 Z6 OE;C;10.7c;67
 33
-Z7 !s110 1655142516
+Z7 !s110 1655826787
 !i10b 1
-Z8 !s108 1655142516.000000
-Z9 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+Z8 !s108 1655826787.000000
+Z9 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
 Z10 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_entity.vhg|
 !i113 0
 Z11 o-nologo -work ControlRegisters -2008
@@ -42,11 +42,11 @@ Z17 V=DSQY51EP>?kRgaNPC3LK1
 Z18 !s100 Nh@fBSlQKWZ@JOLgA]_@?1
 R6
 33
-Z19 !s110 1655142517
+Z19 !s110 1655826788
 !i10b 1
-Z20 !s108 1655142517.000000
-Z21 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
-Z22 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|
+R8
+Z20 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files5|
+Z21 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|
 !i113 0
 R11
 R12
@@ -74,28 +74,28 @@ R10
 R11
 R12
 Astruct
-Z23 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
-Z24 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
-Z25 DEx4 work 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
-Z26 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
-Z27 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+Z22 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+Z23 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+Z24 DEx4 work 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
+Z25 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+Z26 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
 R1
 R2
 R3
 R4
-Z28 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
-Z29 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
+Z27 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
+Z28 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
 l64
 L22
-Z30 V4le[d<ZoGXNnE8oDOObOH3
-Z31 !s100 b>91l`Gfa^XLC;6a=biB[3
+Z29 V4le[d<ZoGXNnE8oDOObOH3
+Z30 !s100 b>91l`Gfa^XLC;6a=biB[3
 R6
 33
 R19
 !i10b 1
+R8
 R20
 R21
-R22
 !i113 0
 R11
 R12

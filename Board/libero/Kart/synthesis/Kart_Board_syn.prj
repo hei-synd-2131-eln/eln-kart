@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
 #--  Project file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board_syn.prj
-#--  Written on Mon Jun 13 10:16:54 2022
+#--  Written on Tue Jun 21 17:57:40 2022
 
 
 #project files
@@ -27,7 +27,7 @@ set_option -top_module "work.Kart_Board"
 set_option -distributed_compile 0
 
 # mapper_without_write_options
-set_option -frequency 10.0000
+set_option -frequency 100.000
 set_option -srs_instrumentation 1
 
 # mapper_options

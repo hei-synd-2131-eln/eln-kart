@@ -2,7 +2,7 @@
 
 # Clocks
 
-create_clock -name {Kart_Board|clock} -period 100.000000 -waveform {0.000000 50.000000} clock
+create_clock -name {Kart_Board|clock} -period 10.000000 -waveform {0.000000 5.000000} clock
 
 # False Paths Between Clocks
 

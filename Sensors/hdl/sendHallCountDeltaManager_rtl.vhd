@@ -19,20 +19,26 @@ ARCHITECTURE rtl OF sendDeltaManager IS
 
 BEGIN
 
-  deltaSender:process(reset, clock)
-  begin
-    if reset = '1' then
-      p_last_count <= (others=>'0');
-      send <= '0';
-    elsif rising_edge(clock) then
-      if signed('0' & dataIn) > signed('0' & p_last_count) + to_signed(requiredDelta, p_last_count'length+1)
-       or signed('0' & dataIn) < signed('0' & p_last_count) - to_signed(requiredDelta, p_last_count'length+1) then
-        p_last_count <= dataIn;
-        send <= '1';
-      else
+  noDelta : if requiredDelta /= 0 generate
+    deltaSender:process(reset, clock)
+    begin
+      if reset = '1' then
+        p_last_count <= (others=>'0');
         send <= '0';
+      elsif rising_edge(clock) then
+        if signed('0' & dataIn) > signed('0' & p_last_count) + to_signed(requiredDelta, p_last_count'length+1)
+         or signed('0' & dataIn) < signed('0' & p_last_count) - to_signed(requiredDelta, p_last_count'length+1) then
+          p_last_count <= dataIn;
+          send <= '1';
+        else
+          send <= '0';
+        end if;
       end if;
-    end if;
-  end process deltaSender;
+    end process deltaSender;
+  end generate noDelta;
+
+  delta : if requiredDelta = 0 generate
+    send <= '0';
+  end generate delta;
 
 END ARCHITECTURE rtl;

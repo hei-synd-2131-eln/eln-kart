@@ -1,16 +1,15 @@
-@P:  Worst Slack : 56.464
-@P:  Kart_Board|clock - Estimated Frequency : 23.0 MHz
-@P:  Kart_Board|clock - Requested Frequency : 10.0 MHz
-@P:  Kart_Board|clock - Estimated Period : 43.536
-@P:  Kart_Board|clock - Requested Period : 100.000
-@P:  Kart_Board|clock - Slack : 56.464
+@P:  Worst Slack : -17.288
+@P:  Kart_Board|clock - Estimated Frequency : 36.6 MHz
+@P:  Kart_Board|clock - Requested Frequency : 100.0 MHz
+@P:  Kart_Board|clock - Estimated Period : 27.288
+@P:  Kart_Board|clock - Requested Period : 10.000
+@P:  Kart_Board|clock - Slack : -17.288
 @P:  coilControl|stepdelayed_inferred_clock - Estimated Frequency : NA
-@P:  coilControl|stepdelayed_inferred_clock - Requested Frequency : 10.0 MHz
+@P:  coilControl|stepdelayed_inferred_clock - Requested Frequency : 100.0 MHz
 @P:  coilControl|stepdelayed_inferred_clock - Estimated Period : NA
-@P:  coilControl|stepdelayed_inferred_clock - Requested Period : 100.000
+@P:  coilControl|stepdelayed_inferred_clock - Requested Period : 10.000
 @P:  coilControl|stepdelayed_inferred_clock - Slack : NA
-@P:  Total Area : 3473.0
-@P:  Total Area : 1.0
+@P:  Total Area : 3797.0
 @P:  Total Area : 1.0
 @P:  Total Area : 1.0
 @P:  Total Area : 2.0
@@ -19,68 +18,66 @@
 @P:  Total Area : 1.0
 @P:  Total Area : 1.0
 @P:  Total Area : 3.0
-@P:  Total Area : 3459.0
-@P:  Total Area : 540.0
+@P:  Total Area : 3783.0
+@P:  Total Area : 541.0
 @P:  Total Area : 223.0
 @P:  Total Area : 99.0
 @P:  Total Area : 50.0
 @P:  Total Area : 74.0
-@P:  Total Area : 317.0
+@P:  Total Area : 318.0
 @P:  Total Area : 103.0
 @P:  Total Area : 54.0
 @P:  Total Area : 76.0
 @P:  Total Area : 59.0
-@P:  Total Area : 623.0
-@P:  Total Area : 251.0
-@P:  Total Area : 87.0
+@P:  Total Area : 748.0
+@P:  Total Area : 278.0
+@P:  Total Area : 111.0
 @P:  Total Area : 123.0
-@P:  Total Area : 1.0
 @P:  Total Area : 2.0
-@P:  Total Area : 35.0
 @P:  Total Area : 2.0
-@P:  Total Area : 1.0
+@P:  Total Area : 38.0
+@P:  Total Area : 2.0
 @P:  Total Area : 193.0
-@P:  Total Area : 178.0
-@P:  Total Area : 51.0
+@P:  Total Area : 276.0
+@P:  Total Area : 82.0
 @P:  Total Area : 16.0
-@P:  Total Area : 109.0
+@P:  Total Area : 176.0
 @P:  Total Area : 1.0
 @P:  Total Area : 1.0
-@P:  Total Area : 1723.0
-@P:  Total Area : 186.0
-@P:  Total Area : 1272.0
-@P:  Total Area : 120.0
-@P:  Total Area : 121.0
-@P:  Total Area : 121.0
+@P:  Total Area : 1920.0
+@P:  Total Area : 189.0
+@P:  Total Area : 1293.0
+@P:  Total Area : 119.0
 @P:  Total Area : 115.0
-@P:  Total Area : 2.0
+@P:  Total Area : 120.0
+@P:  Total Area : 115.0
+@P:  Total Area : 1.0
 @P:  Total Area : 54.0
 @P:  Total Area : 63.0
-@P:  Total Area : 296.0
-@P:  Total Area : 185.0
-@P:  Total Area : 1.0
-@P:  Total Area : 1.0
-@P:  Total Area : 102.0
-@P:  Total Area : 89.0
+@P:  Total Area : 238.0
+@P:  Total Area : 151.0
+@P:  Total Area : 171.0
+@P:  Total Area : 52.0
+@P:  Total Area : 92.0
 @P:  Total Area : 2.0
-@P:  Total Area : 100.0
-@P:  Total Area : 165.0
-@P:  Total Area : 59.0
-@P:  Total Area : 82.0
-@P:  Total Area : 24.0
-@P:  Total Area : 131.0
+@P:  Total Area : 49.0
+@P:  Total Area : 389.0
+@P:  Total Area : 261.0
+@P:  Total Area : 73.0
+@P:  Total Area : 55.0
+@P:  Total Area : 132.0
 @P:  Total Area : 81.0
 @P:  Total Area : 4.0
 @P:  Total Area : 347.0
 @P:  Total Area : 80.0
-@P:  Total Area : 35.0
+@P:  Total Area : 36.0
 @P:  Total Area : 1.0
-@P:  Total Area : 44.0
+@P:  Total Area : 43.0
 @P:  Total Area : 121.0
 @P:  Total Area : 146.0
 @P:  Total Area : 10.0
 @P:  Total Area : 10.0
 @P:  Total Area : 10.0
 @P:  Total Area : 1.0
-@P:  Total Area : 3473.0
-@P:  CPU Time : 0h:00m:04s
+@P:  Total Area : 3797.0
+@P:  CPU Time : 0h:00m:10s

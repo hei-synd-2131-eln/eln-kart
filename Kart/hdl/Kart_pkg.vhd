@@ -32,7 +32,7 @@ PACKAGE Kart IS
   constant NUMBER_OF_LEDS : positive := 4;
 
     -- The number of hall sensors
-  constant NUMBER_OF_HALL_SENSORS : positive := 2;
+  constant NUMBER_OF_HALL_SENSORS : positive := 1;
 
     -- The number of external end switches (or any 0 - 3.3V input signal)
     -- A signal is sent to the smartphone on either rising or falling edge
@@ -274,7 +274,8 @@ PACKAGE Kart IS
       -- Current value is n * 250uA / (100 * 5m) [A] => delta of 100mA = 200
   constant SENS_CURR_DELTA_MA : positive := 100;
       -- Distance value is n * 25.4 / 1470 [mm] => delta of 10mm = 578.7
-  constant SENS_RANGEFNDR_MM : positive := 10;
+        -- if zero, no auto send
+  constant SENS_RANGEFNDR_MM : natural := 0;
       -- How many 1/2 turns before the hall speed is sent
   constant SENS_HALLCOUNT_HALF_TURN_DELTA : positive := 6;
     -- Delta for proximities, unknown unit
@@ -288,8 +289,8 @@ PACKAGE Kart IS
     positive(real(SENS_BATT_DELTA_MV) / (1000.0 * 7.8 * 250.0E-6));
   constant SENS_CURR_DELTA : positive :=
     positive((real(SENS_CURR_DELTA_MA) * 100.0 * 5.0E-3) / (1000.0 * 250.0E-6));
-  constant SENS_RANGEFNDR_DELTA : positive :=
-    positive(real(SENS_RANGEFNDR_MM) * 1470.0 / 25.4);
+  constant SENS_RANGEFNDR_DELTA : natural :=
+    natural(real(SENS_RANGEFNDR_MM) * 1470.0 / 25.4);
   function hall_check(nb_half_turn : positive) return positive;
   constant SENS_HALLCOUNT_TURN_DELTA : positive;
 

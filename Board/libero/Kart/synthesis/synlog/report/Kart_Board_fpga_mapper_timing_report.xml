@@ -16,13 +16,13 @@ Max Top 5 critical clocks will be reported. For rest user needs to refer to Deta
 </row>
 <row>
 <data>Kart_Board|clock</data>
-<data>10.0 MHz</data>
-<data>23.0 MHz</data>
-<data>56.464</data>
+<data>100.0 MHz</data>
+<data>36.6 MHz</data>
+<data>-17.288</data>
 </row>
 <row>
 <data>coilControl|stepdelayed_inferred_clock</data>
-<data>10.0 MHz</data>
+<data>100.0 MHz</data>
 <data>NA</data>
 <data>NA</data>
 </row>

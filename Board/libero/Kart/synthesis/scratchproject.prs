@@ -25,7 +25,7 @@ set_option -top_module "work.Kart_Board"
 set_option -distributed_compile 0
 
 # mapper_without_write_options
-set_option -frequency 10.0000
+set_option -frequency 100.000
 set_option -srs_instrumentation 1
 
 # mapper_options

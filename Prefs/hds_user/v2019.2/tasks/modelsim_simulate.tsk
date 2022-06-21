@@ -46,7 +46,7 @@ settingsMap [
 "GlitchGeneration"
 "1"
 "InitCmd"
-"$SIMULATION_DIR/Stepper/stepperMotorcontroller.do"
+"C:/dev/eln_kart_sodimm200/Simulation/Kart/kartUVM.do"
 "LogFile"
 ""
 "RemoteHost"

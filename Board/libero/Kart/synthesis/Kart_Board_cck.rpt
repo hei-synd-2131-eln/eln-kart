@@ -1,7 +1,7 @@
 # Synopsys Constraint Checker, version mapact, Build 2172R, built Oct 30 2017
 # Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
-# Written on Mon Jun 13 10:16:49 2022
+# Written on Tue Jun 21 17:57:28 2022
 
 
 ##### DESIGN INFO #######################################################
@@ -26,7 +26,7 @@ Clock Relationships
 
 Starting             Ending                                     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Kart_Board|clock     Kart_Board|clock                           |     100.000          |     No paths         |     No paths         |     No paths                         
+Kart_Board|clock     Kart_Board|clock                           |     10.000           |     No paths         |     No paths         |     No paths                         
 Kart_Board|clock     coilControl|stepdelayed_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
 ===========================================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -43,7 +43,8 @@ p:Rx_BLE
 p:Rx_USB
 p:SCL_battery
 p:SCL_proxy
-p:SDA_battery
+p:SDA_battery (bidir end point)
+p:SDA_battery (bidir start point)
 p:Tx_BLE
 p:Tx_USB
 p:coil1
@@ -51,11 +52,9 @@ p:coil2
 p:coil3
 p:coil4
 p:distancePulse
-p:distanceStart
 p:endSwitches[1]
 p:forwards
 p:halls[1]
-p:halls[2]
 p:leds[1]
 p:leds[2]
 p:leds[3]

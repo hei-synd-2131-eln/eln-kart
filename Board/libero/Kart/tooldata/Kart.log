@@ -1,6 +1,6 @@
 Project Name: Kart
-Location: C:\dev\eln_kart_sodimm200\Kart\Board\libero\Kart
-Description: AGLN125V5-VQ100 reimplementation of the Kart project to comply with the new EBS3 hardware.
+Location: C:\dev\eln_kart_sodimm200\Board\libero\Kart
+Description: 
 Preferred HDL Type: VHDL
 
 #-----------------------------------------------------

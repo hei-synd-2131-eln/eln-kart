@@ -319,7 +319,7 @@ uid 481,0
 *48 (LogGeneric
 generic (GiElement
 name "requiredDelta"
-type "positive"
+type "natural"
 value "4"
 )
 uid 483,0
@@ -457,23 +457,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "appl"
@@ -493,27 +493,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\send@delta@manager"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\send@delta@manager"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sendDeltaManager"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sendDeltaManager"
 )
 (vvPair
 variable "date"
-value "25.05.2022"
+value "21.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "mar."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "mardi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "21"
 )
 (vvPair
 variable "entity_name"
@@ -541,7 +541,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "25.05.2022"
+value "21.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -553,7 +553,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "12:55:18"
+value "17:55:37"
 )
 (vvPair
 variable "group"
@@ -577,7 +577,7 @@ value "$HDS_PROJECT_DIR/../Sensors/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -585,19 +585,19 @@ value "sendDeltaManager"
 )
 (vvPair
 variable "month"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\send@delta@manager\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sendDeltaManager\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sendDeltaManager\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -625,7 +625,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "12:55:18"
+value "17:55:37"
 )
 (vvPair
 variable "unit"
@@ -890,7 +890,8 @@ xt "26000,33200,41000,36400"
 st "Generic Declarations
 
 dataSize      positive 16  
-requiredDelta positive 4   "
+requiredDelta natural  4   
+"
 )
 header "Generic Declarations"
 showHdrWhenContentsEmpty 1
@@ -903,7 +904,7 @@ value "16"
 )
 (GiElement
 name "requiredDelta"
-type "positive"
+type "natural"
 value "4"
 )
 ]
@@ -1570,6 +1571,6 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 553,0
-activeModelName "Symbol"
+lastUid 576,0
+activeModelName "Symbol:GEN"
 )

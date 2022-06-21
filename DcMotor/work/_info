@@ -6,7 +6,7 @@ cModel Technology
 Z0 dC:/dev/eln_kart_sodimm200/Kart/DcMotor/work
 Edcmotorcontroller
 Z1 w1654521003
-Z2 DPx4 kart 4 kart 0 22 HXARz=RRo8?D8D:^ziFO[2
+Z2 DPx4 kart 4 kart 0 22 cVIP2^_=PNE@]2N^fn?GC0
 Z3 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -19,10 +19,10 @@ V`e6V8>M77V?`n11fiERg^2
 !s100 9S9T`QAU[N>4J;lL7<=H03
 Z7 OE;C;10.7c;67
 33
-Z8 !s110 1655142517
+Z8 !s110 1655826788
 !i10b 1
-Z9 !s108 1655142517.000000
-Z10 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files4|
+Z9 !s108 1655826788.000000
+Z10 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files6|
 Z11 !s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_entity.vhg|
 !i113 0
 Z12 o-nologo -work DcMotor -2008
@@ -92,10 +92,10 @@ Vc<91>5FgKE^[FDS6`>z7j0
 !s100 Z2GQ39<JmKXBghQ<RinoX2
 R7
 33
-Z26 !s110 1655133147
+Z26 !s110 1655282824
 !i10b 1
-Z27 !s108 1655133147.000000
-Z28 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files7|
+Z27 !s108 1655282824.000000
+Z28 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files12|
 Z29 !s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorPwm_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorPrescaler_RTL.vhd|
 !i113 0
 R12
@@ -117,7 +117,7 @@ R7
 !s110 1654606576
 !i10b 1
 !s108 1654606576.000000
-Z31 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files6|
+R10
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcMotorPwm_RTL.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorpwm_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorcontroller_entity.vhg|
 !i113 0
 R12
@@ -193,22 +193,22 @@ R11
 R12
 R13
 Astruct
-Z32 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
-Z33 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
-Z34 DEx7 dcmotor 21 dcmotorregistersender 0 22 c6WI9M7RMg@U4B5LRRVjn0
-Z35 DEx4 work 16 dcmotorregisters 0 22 e;34j]Z;4H0_@kUBjVSPI0
+Z31 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+Z32 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+Z33 DEx7 dcmotor 21 dcmotorregistersender 0 22 c6WI9M7RMg@U4B5LRRVjn0
+Z34 DEx4 work 16 dcmotorregisters 0 22 e;34j]Z;4H0_@kUBjVSPI0
 R19
 R20
 R2
 R3
 R4
 R5
-Z36 8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg
-Z37 FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg
+Z35 8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg
+Z36 FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg
 l87
 L25
-Z38 VzX6K=6`^Hc33L0zRbaB;h3
-Z39 !s100 7h[]5LobZZa@;Sdf_MZca3
+Z37 VzX6K=6`^Hc33L0zRbaB;h3
+Z38 !s100 7h[]5LobZZa@;Sdf_MZca3
 R7
 33
 R8
@@ -247,17 +247,17 @@ R13
 Artl
 R19
 R20
-Z40 DEx4 work 21 dcmotorregistersender 0 22 c6WI9M7RMg@U4B5LRRVjn0
+Z39 DEx4 work 21 dcmotorregistersender 0 22 c6WI9M7RMg@U4B5LRRVjn0
 R3
 R4
 R5
 R2
-Z41 8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd
-Z42 FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd
+Z40 8C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd
+Z41 FC:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd
 l28
 L14
-Z43 VN4CWSfJ0;7S5b5ge?OQ082
-Z44 !s100 7gUZ_[DY:I?LLDB^WD>=00
+Z42 VN4CWSfJ0;7S5b5ge?OQ082
+Z43 !s100 7gUZ_[DY:I?LLDB^WD>=00
 R7
 33
 R8
@@ -269,10 +269,10 @@ R11
 R12
 R13
 Efuzzy_0010_truthtable
-Z45 w1652359855
+Z44 w1652359855
 R19
 R20
-Z46 DPx4 kart 4 kart 0 22 GW<?D7CSVINQ4OB]=mGG`3
+Z45 DPx4 kart 4 kart 0 22 GW<?D7CSVINQ4OB]=mGG`3
 R3
 R4
 R5
@@ -285,18 +285,18 @@ V]]KRMO7;`4U=FnbB:9l;O1
 !s100 =adE=YM4[6RP9Eh7>eQna2
 R7
 33
-Z47 !s110 1652359856
+Z46 !s110 1652359856
 !i10b 1
-Z48 !s108 1652359856.000000
-Z49 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
-Z50 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthTable_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthtable_entity.vhg|
+Z47 !s108 1652359856.000000
+Z48 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
+Z49 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthTable_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthtable_entity.vhg|
 !i113 0
 R12
 R13
 Artl
 R19
 R20
-R46
+R45
 R3
 R4
 R5
@@ -309,11 +309,11 @@ V]8i1d4SM4B7Gz`4InS3_Y3
 !s100 @8;g4;2?XIII2=8FA4e^[2
 R7
 33
-R47
+R46
 !i10b 1
+R47
 R48
 R49
-R50
 !i113 0
 R12
 R13
@@ -321,7 +321,7 @@ Efuzzy_0010_truthvalue
 w1652359486
 R19
 R20
-R46
+R45
 R3
 R4
 R5
@@ -337,7 +337,7 @@ R7
 !s110 1652359488
 !i10b 1
 !s108 1652359488.000000
-R49
+R48
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthValue_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthvalue_entity.vhg|
 !i113 0
 R12
