@@ -105,23 +105,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "appl"
@@ -141,27 +141,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers"
 )
 (vvPair
 variable "d_logical"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters"
 )
 (vvPair
 variable "date"
-value "24.05.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "22"
 )
 (vvPair
 variable "entity_name"
@@ -185,11 +185,11 @@ value "struct"
 )
 (vvPair
 variable "graphical_source_author"
-value "axela"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.05.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -197,11 +197,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "I12"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:07:27"
+value "10:34:13"
 )
 (vvPair
 variable "group"
@@ -209,7 +209,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "I12"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -225,7 +225,7 @@ value "$HDS_PROJECT_DIR/../DcMotor/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -233,19 +233,19 @@ value "dcMotorRegisters"
 )
 (vvPair
 variable "month"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "p"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@registers\\struct.bd"
 )
 (vvPair
 variable "p_logical"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters\\struct.bd"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters\\struct.bd"
 )
 (vvPair
 variable "package_name"
@@ -273,7 +273,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "17:07:27"
+value "10:34:13"
 )
 (vvPair
 variable "unit"
@@ -281,7 +281,7 @@ value "dcMotorRegisters"
 )
 (vvPair
 variable "user"
-value "axela"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -326,7 +326,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "49200,4000,58500,5000"
+xt "49200,4000,60500,5000"
 st "
 by %user on %dd %month %year
 "
@@ -945,7 +945,7 @@ lang 11
 decl (Decl
 n "dcMotorDataToSend"
 t "dataRegisterType"
-o 8
+o 9
 suid 8,0
 )
 declText (MLText
@@ -1053,7 +1053,7 @@ decl (Decl
 n "prescaler"
 t "unsigned"
 b "(DC_prescalerBitNb-1 DOWNTO 0)"
-o 10
+o 11
 suid 27,0
 )
 declText (MLText
@@ -1073,7 +1073,7 @@ decl (Decl
 n "speed"
 t "signed"
 b "(DC_speedBitNb-1 DOWNTO 0)"
-o 11
+o 12
 suid 28,0
 )
 declText (MLText
@@ -1092,7 +1092,7 @@ lang 11
 decl (Decl
 n "dcMotorSendRequest"
 t "std_ulogic"
-o 9
+o 10
 suid 41,0
 )
 declText (MLText
@@ -1111,7 +1111,7 @@ lang 11
 decl (Decl
 n "dcMotorAddressToSend"
 t "symbolSizeType"
-o 7
+o 8
 suid 44,0
 )
 declText (MLText
@@ -1507,7 +1507,7 @@ lang 11
 decl (Decl
 n "loadRegister"
 t "std_ulogic"
-o 15
+o 14
 suid 46,0
 )
 declText (MLText
@@ -1526,7 +1526,7 @@ lang 11
 decl (Decl
 n "readRegister"
 t "std_ulogic"
-o 16
+o 15
 suid 47,0
 )
 declText (MLText
@@ -2025,7 +2025,7 @@ decl (Decl
 n "bankData"
 t "registersHolderType"
 b "(DC_REG_COUNT-1 downto 0)"
-o 12
+o 13
 suid 50,0
 )
 declText (MLText
@@ -2628,8 +2628,7 @@ font "Courier New,8,0"
 xt "49000,87200,76000,89600"
 st "registersNb   = DC_TOT_REG_COUNT    ( positive )  
 moduleAddr    = REG_DCMOT_ADDR      ( natural  )  
-inRegistersNb = DC_REG_COUNT        ( positive )  
-"
+inRegistersNb = DC_REG_COUNT        ( positive )  "
 )
 header ""
 )
@@ -3618,11 +3617,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "0,14,1921,1080"
-viewArea "9400,13200,168542,101372"
+viewArea "9453,9217,168595,97389"
 cachedDiagramExtent "0,0,140400,89600"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 3301,0
+lastUid 3435,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4662,7 +4661,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 57,0
+suid 59,0
 usingSuid 1
 emptyRow *133 (LEmptyRow
 )
@@ -4756,7 +4755,7 @@ m 1
 decl (Decl
 n "dcMotorDataToSend"
 t "dataRegisterType"
-o 8
+o 9
 suid 8,0
 )
 )
@@ -4770,7 +4769,7 @@ decl (Decl
 n "prescaler"
 t "unsigned"
 b "(DC_prescalerBitNb-1 DOWNTO 0)"
-o 10
+o 11
 suid 27,0
 )
 )
@@ -4784,7 +4783,7 @@ decl (Decl
 n "speed"
 t "signed"
 b "(DC_speedBitNb-1 DOWNTO 0)"
-o 11
+o 12
 suid 28,0
 )
 )
@@ -4797,7 +4796,7 @@ m 1
 decl (Decl
 n "dcMotorSendRequest"
 t "std_ulogic"
-o 9
+o 10
 suid 41,0
 )
 )
@@ -4810,7 +4809,7 @@ m 1
 decl (Decl
 n "dcMotorAddressToSend"
 t "symbolSizeType"
-o 7
+o 8
 suid 44,0
 )
 )
@@ -4823,7 +4822,7 @@ m 4
 decl (Decl
 n "loadRegister"
 t "std_ulogic"
-o 15
+o 14
 suid 46,0
 )
 )
@@ -4836,7 +4835,7 @@ m 4
 decl (Decl
 n "readRegister"
 t "std_ulogic"
-o 16
+o 15
 suid 47,0
 )
 )
@@ -4862,7 +4861,7 @@ decl (Decl
 n "bankData"
 t "registersHolderType"
 b "(DC_REG_COUNT-1 downto 0)"
-o 12
+o 13
 suid 50,0
 )
 )

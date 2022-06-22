@@ -860,7 +860,7 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Kart\\hds\\kartController"
 )
 (vvPair
 variable "date"
-value "15.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "day"
@@ -872,7 +872,7 @@ value "mercredi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "22"
 )
 (vvPair
 variable "entity_name"
@@ -900,7 +900,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -912,7 +912,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:27:33"
+value "18:06:46"
 )
 (vvPair
 variable "group"
@@ -984,7 +984,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "11:27:33"
+value "18:06:46"
 )
 (vvPair
 variable "unit"
@@ -1051,8 +1051,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,63500,3200"
-st "RxD           : IN     std_ulogic  ;
-"
+st "RxD           : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1096,8 +1095,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12000,63500,12800"
-st "TxD           : OUT    std_ulogic  ;
-"
+st "TxD           : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1142,8 +1140,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,63500,5600"
-st "clock         : IN     std_ulogic  ;
-"
+st "clock         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1187,8 +1184,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9600,63500,10400"
-st "reset         : IN     std_ulogic  ;
-"
+st "reset         : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1233,8 +1229,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,17600,63500,18400"
-st "coil4         : OUT    std_uLogic  ;
-"
+st "coil4         : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1280,8 +1275,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,16800,63500,17600"
-st "coil3         : OUT    std_uLogic  ;
-"
+st "coil3         : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1327,8 +1321,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,16000,63500,16800"
-st "coil2         : OUT    std_uLogic  ;
-"
+st "coil2         : OUT    std_uLogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1374,8 +1367,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,15200,63500,16000"
-st "coil1         : OUT    std_ulogic  ;
-"
+st "coil1         : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1421,8 +1413,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10400,63500,11200"
-st "stepperEnd    : IN     std_ulogic  ;
-"
+st "stepperEnd    : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1468,8 +1459,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11200,63500,12000"
-st "testMode      : IN     std_ulogic  ;
-"
+st "testMode      : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1514,8 +1504,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,18400,63500,19200"
-st "forwards      : OUT    std_ulogic  ;
-"
+st "forwards      : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1561,8 +1550,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,21600,63500,22400"
-st "pwm           : OUT    std_ulogic  ;
-"
+st "pwm           : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 m 1
@@ -1608,8 +1596,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,19200,76000,20000"
-st "leds          : OUT    std_uLogic_vector (1 to SENS_ledNb) ;
-"
+st "leds          : OUT    std_uLogic_vector (1 to SENS_ledNb) ;"
 )
 thePort (LogicalPort
 m 1
@@ -1656,8 +1643,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,79000,7200"
-st "endSwitches   : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;
-"
+st "endSwitches   : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1704,8 +1690,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,79500,8000"
-st "hallPulses    : IN     std_ulogic_vector (1 to SENS_hallSensorNb) ;
-"
+st "hallPulses    : IN     std_ulogic_vector (1 to SENS_hallSensorNb) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1751,8 +1736,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,63500,6400"
-st "distancePulse : IN     std_ulogic  ;
-"
+st "distancePulse : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1797,8 +1781,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12800,63500,13600"
-st "badCRC        : OUT    std_ulogic  ;
-"
+st "badCRC        : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -1845,8 +1828,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,22400,62500,23200"
-st "watchdogError : OUT    std_ulogic 
-"
+st "watchdogError : OUT    std_ulogic "
 )
 thePort (LogicalPort
 lang 11
@@ -1892,8 +1874,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8000,82000,8800"
-st "proxySClIn    : IN     std_ulogic_vector (1 TO SENS_proximitySensorNb) ;
-"
+st "proxySClIn    : IN     std_ulogic_vector (1 TO SENS_proximitySensorNb) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1939,8 +1920,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,20000,82000,20800"
-st "proxySClOut   : OUT    std_ulogic_vector (1 TO SENS_proximitySensorNb) ;
-"
+st "proxySClOut   : OUT    std_ulogic_vector (1 TO SENS_proximitySensorNb) ;"
 )
 thePort (LogicalPort
 m 1
@@ -1986,8 +1966,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8800,82000,9600"
-st "proxySDaIn    : IN     std_ulogic_vector (1 TO SENS_proximitySensorNb) ;
-"
+st "proxySDaIn    : IN     std_ulogic_vector (1 TO SENS_proximitySensorNb) ;"
 )
 thePort (LogicalPort
 decl (Decl
@@ -2033,8 +2012,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,20800,82000,21600"
-st "proxySDaOut   : OUT    std_ulogic_vector (1 TO SENS_proximitySensorNb) ;
-"
+st "proxySDaOut   : OUT    std_ulogic_vector (1 TO SENS_proximitySensorNb) ;"
 )
 thePort (LogicalPort
 m 1
@@ -2080,8 +2058,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,63500,4000"
-st "batterySClIn  : IN     std_ulogic  ;
-"
+st "batterySClIn  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2127,8 +2104,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,13600,63500,14400"
-st "batterySClOut : OUT    std_ulogic  ;
-"
+st "batterySClOut : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2174,8 +2150,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,63500,4800"
-st "batterySDaIn  : IN     std_ulogic  ;
-"
+st "batterySDaIn  : IN     std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2221,8 +2196,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,14400,63500,15200"
-st "batterySDaOut : OUT    std_ulogic  ;
-"
+st "batterySDaOut : OUT    std_ulogic  ;"
 )
 thePort (LogicalPort
 lang 11
@@ -2321,7 +2295,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "79200,4000,90600,5000"
+xt "79200,4000,90500,5000"
 st "
 by %user on %dd %month %year
 "
@@ -2947,7 +2921,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2447,0
+lastUid 2470,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

@@ -217,7 +217,7 @@ PACKAGE Kart IS
   constant STP_STEPS_P_TURN : positive := 48;
   constant STP_REDUCTOR : real := 100.0;
     -- Motor has 4800 steps / 360° => 40 steps is 3° resol.
-  constant STP_ANGLE_DELTA_DEG : positive := 3;
+  constant STP_ANGLE_DELTA_DEG : positive := 10;
   --|||||||||||||||
   --|||||||||||||||
   constant STP_ANGLE_DELTA : integer :=
@@ -273,9 +273,15 @@ PACKAGE Kart IS
     -- Delta for current
       -- Current value is n * 250uA / (100 * 5m) [A] => delta of 100mA = 200
   constant SENS_CURR_DELTA_MA : positive := 100;
-      -- Distance value is n * 25.4 / 1470 [mm] => delta of 10mm = 578.7
+      -- Distance value is n * 25.4 / (147u * (fclk/rangedvd)) [mm] => delta of 10mm = 57.87
+  constant SEND_RANGEFNDR_CLK_DIVIDER : positive :=
+    positive(CLOCK_FREQUENCY / 1000000.0);
         -- if zero, no auto send
-  constant SENS_RANGEFNDR_MM : natural := 0;
+  constant SENS_RANGEFNDR_MM : natural := 100;
+        -- min value for send
+  constant SENS_RANGEFNDR_MIN_MM : natural := 152;
+        -- max value for send
+  constant SENS_RANGEFNDR_MAX_MM : positive := 1500;
       -- How many 1/2 turns before the hall speed is sent
   constant SENS_HALLCOUNT_HALF_TURN_DELTA : positive := 6;
     -- Delta for proximities, unknown unit
@@ -290,7 +296,20 @@ PACKAGE Kart IS
   constant SENS_CURR_DELTA : positive :=
     positive((real(SENS_CURR_DELTA_MA) * 100.0 * 5.0E-3) / (1000.0 * 250.0E-6));
   constant SENS_RANGEFNDR_DELTA : natural :=
-    natural(real(SENS_RANGEFNDR_MM) * 1470.0 / 25.4);
+    natural(
+      (real(SENS_RANGEFNDR_MM) * 0.000147 *
+      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+    );
+  constant SENS_RANGEFNDR_MIN_DELTA : natural  :=
+    natural(
+      (real(SENS_RANGEFNDR_MIN_MM) * 0.000147 *
+      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+    );
+  constant SENS_RANGEFNDR_MAX_DELTA : positive :=
+    positive(
+      (real(SENS_RANGEFNDR_MAX_MM) * 0.000147 *
+      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+    );
   function hall_check(nb_half_turn : positive) return positive;
   constant SENS_HALLCOUNT_TURN_DELTA : positive;
 
@@ -311,9 +330,9 @@ PACKAGE Kart IS
   constant SENS_BATT_READ_TMOUT_MS : positive := 20;
     -- Ranger
   constant SENS_rangeBitNb : positive := 16;
-      -- Time in MS the pulse should not exceed
+      -- Time in MS the pulse should not exceed and/or min time btw. two reads
       --  (i.e. problem with sensor or unwired)
-  constant SENS_rangeTimeoutBeforeStartMS : positive := 100;
+  constant SENS_rangeTimeoutBeforeStartMS : positive := 300;
     -- Hall sensors
   constant SENS_hallCountBitNb : positive := 16;
       -- Number of bits that can be used for counter. Final register is such as:

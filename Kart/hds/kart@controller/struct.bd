@@ -212,7 +212,7 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Kart\\hds\\kartController"
 )
 (vvPair
 variable "date"
-value "15.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "day"
@@ -224,7 +224,7 @@ value "mercredi"
 )
 (vvPair
 variable "dd"
-value "15"
+value "22"
 )
 (vvPair
 variable "entity_name"
@@ -252,7 +252,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "15.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -264,7 +264,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "11:27:33"
+value "18:06:46"
 )
 (vvPair
 variable "group"
@@ -336,7 +336,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "11:27:33"
+value "18:06:46"
 )
 (vvPair
 variable "unit"
@@ -715,8 +715,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,19400,20000,20200"
-st "RxD                  : std_ulogic
-"
+st "RxD                  : std_ulogic"
 )
 )
 *13 (PortIoIn
@@ -778,8 +777,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,29000,20000,29800"
-st "TxD                  : std_ulogic
-"
+st "TxD                  : std_ulogic"
 )
 )
 *15 (PortIoOut
@@ -840,8 +838,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21800,20000,22600"
-st "clock                : std_ulogic
-"
+st "clock                : std_ulogic"
 )
 )
 *17 (Net
@@ -858,8 +855,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,26600,20000,27400"
-st "reset                : std_ulogic
-"
+st "reset                : std_ulogic"
 )
 )
 *18 (CommentText
@@ -939,8 +935,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,44600,27000,45400"
-st "SIGNAL dataIn               : dataRegisterType
-"
+st "SIGNAL dataIn               : dataRegisterType"
 )
 )
 *21 (SaComponent
@@ -1651,8 +1646,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,34600,20000,35400"
-st "coil4                : std_uLogic
-"
+st "coil4                : std_uLogic"
 )
 )
 *43 (PortIoOut
@@ -1713,8 +1707,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,33800,20000,34600"
-st "coil3                : std_uLogic
-"
+st "coil3                : std_uLogic"
 )
 )
 *45 (PortIoOut
@@ -1775,8 +1768,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,33000,20000,33800"
-st "coil2                : std_uLogic
-"
+st "coil2                : std_uLogic"
 )
 )
 *47 (PortIoOut
@@ -1837,8 +1829,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,32200,20000,33000"
-st "coil1                : std_ulogic
-"
+st "coil1                : std_ulogic"
 )
 )
 *49 (PortIoOut
@@ -1900,8 +1891,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,27400,20000,28200"
-st "stepperEnd           : std_ulogic
-"
+st "stepperEnd           : std_ulogic"
 )
 )
 *51 (PortIoIn
@@ -1962,8 +1952,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,28200,20000,29000"
-st "testMode             : std_ulogic
-"
+st "testMode             : std_ulogic"
 )
 )
 *53 (PortIoIn
@@ -2024,8 +2013,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,35400,20000,36200"
-st "forwards             : std_ulogic
-"
+st "forwards             : std_ulogic"
 )
 )
 *55 (PortIoOut
@@ -2086,8 +2074,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,38600,20000,39400"
-st "pwm                  : std_ulogic
-"
+st "pwm                  : std_ulogic"
 )
 )
 *57 (PortIoOut
@@ -2149,8 +2136,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,53400,24000,54200"
-st "SIGNAL regWr                : std_ulogic
-"
+st "SIGNAL regWr                : std_ulogic"
 )
 )
 *59 (Net
@@ -2168,8 +2154,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,42200,26000,43000"
-st "SIGNAL addressIn            : symbolSizeType
-"
+st "SIGNAL addressIn            : symbolSizeType"
 )
 )
 *60 (Net
@@ -2187,8 +2172,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,36200,32500,37000"
-st "leds                 : std_uLogic_vector(1 to SENS_ledNb)
-"
+st "leds                 : std_uLogic_vector(1 to SENS_ledNb)"
 )
 )
 *61 (PortIoOut
@@ -2251,8 +2235,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,23400,35500,24200"
-st "endSwitches          : std_ulogic_vector(1 to SENS_endSwitchNb)
-"
+st "endSwitches          : std_ulogic_vector(1 to SENS_endSwitchNb)"
 )
 )
 *63 (PortIoIn
@@ -2314,8 +2297,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,24200,36000,25000"
-st "hallPulses           : std_ulogic_vector(1 to SENS_hallSensorNb)
-"
+st "hallPulses           : std_ulogic_vector(1 to SENS_hallSensorNb)"
 )
 )
 *65 (PortIoIn
@@ -2420,8 +2402,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,22600,20000,23400"
-st "distancePulse        : std_ulogic
-"
+st "distancePulse        : std_ulogic"
 )
 )
 *68 (Net
@@ -2439,8 +2420,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,59800,24000,60600"
-st "SIGNAL stepperSendRequest   : std_ulogic
-"
+st "SIGNAL stepperSendRequest   : std_ulogic"
 )
 )
 *69 (Net
@@ -2458,8 +2438,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,59000,24000,59800"
-st "SIGNAL stepperSendAuth      : std_ulogic
-"
+st "SIGNAL stepperSendAuth      : std_ulogic"
 )
 )
 *70 (Blk
@@ -2558,8 +2537,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,46200,26000,47000"
-st "SIGNAL dcMotorAddressToSend : symbolSizeType
-"
+st "SIGNAL dcMotorAddressToSend : symbolSizeType"
 )
 )
 *75 (Net
@@ -2577,8 +2555,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,47000,27000,47800"
-st "SIGNAL dcMotorDataToSend    : dataRegisterType
-"
+st "SIGNAL dcMotorDataToSend    : dataRegisterType"
 )
 )
 *76 (Net
@@ -2596,8 +2573,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,48600,24000,49400"
-st "SIGNAL dcMotorSendRequest   : std_ulogic
-"
+st "SIGNAL dcMotorSendRequest   : std_ulogic"
 )
 )
 *77 (Net
@@ -2615,8 +2591,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,47800,24000,48600"
-st "SIGNAL dcMotorSendAuth      : std_ulogic
-"
+st "SIGNAL dcMotorSendAuth      : std_ulogic"
 )
 )
 *78 (Net
@@ -2634,8 +2609,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,55800,24000,56600"
-st "SIGNAL sensorsSendAuth      : std_ulogic
-"
+st "SIGNAL sensorsSendAuth      : std_ulogic"
 )
 )
 *79 (Net
@@ -2653,8 +2627,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,56600,24000,57400"
-st "SIGNAL sensorsSendRequest   : std_ulogic
-"
+st "SIGNAL sensorsSendRequest   : std_ulogic"
 )
 )
 *80 (Net
@@ -2672,8 +2645,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,55000,27000,55800"
-st "SIGNAL sensorsDataToSend    : dataRegisterType
-"
+st "SIGNAL sensorsDataToSend    : dataRegisterType"
 )
 )
 *81 (Net
@@ -2691,8 +2663,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,54200,26000,55000"
-st "SIGNAL sensorsAddressToSend : symbolSizeType
-"
+st "SIGNAL sensorsAddressToSend : symbolSizeType"
 )
 )
 *82 (Net
@@ -2710,8 +2681,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,58200,27000,59000"
-st "SIGNAL stepperDataToSend    : dataRegisterType
-"
+st "SIGNAL stepperDataToSend    : dataRegisterType"
 )
 )
 *83 (Net
@@ -2729,8 +2699,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,57400,26000,58200"
-st "SIGNAL stepperAddressToSend : symbolSizeType
-"
+st "SIGNAL stepperAddressToSend : symbolSizeType"
 )
 )
 *84 (Net
@@ -2748,8 +2717,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,41400,26000,42200"
-st "SIGNAL address              : symbolSizeType
-"
+st "SIGNAL address              : symbolSizeType"
 )
 )
 *85 (Net
@@ -2767,8 +2735,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,43800,27000,44600"
-st "SIGNAL data                 : dataRegisterType
-"
+st "SIGNAL data                 : dataRegisterType"
 )
 )
 *86 (Net
@@ -2786,8 +2753,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,51800,24000,52600"
-st "SIGNAL load                 : std_ulogic
-"
+st "SIGNAL load                 : std_ulogic"
 )
 )
 *87 (Net
@@ -2805,8 +2771,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,49400,24000,50200"
-st "SIGNAL full                 : std_ulogic
-"
+st "SIGNAL full                 : std_ulogic"
 )
 )
 *88 (Net
@@ -2824,8 +2789,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,29800,20000,30600"
-st "badCRC               : std_ulogic
-"
+st "badCRC               : std_ulogic"
 )
 )
 *89 (PortIoOut
@@ -2887,8 +2851,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,39400,20000,40200"
-st "watchdogError        : std_ulogic
-"
+st "watchdogError        : std_ulogic"
 )
 )
 *91 (PortIoOut
@@ -3567,8 +3530,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,51000,24000,51800"
-st "SIGNAL in2                  : std_uLogic
-"
+st "SIGNAL in2                  : std_uLogic"
 )
 )
 *114 (Net
@@ -3586,8 +3548,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,43000,24000,43800"
-st "SIGNAL busySending          : std_ulogic
-"
+st "SIGNAL busySending          : std_ulogic"
 )
 )
 *115 (Net
@@ -3604,8 +3565,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,52600,24000,53400"
-st "SIGNAL read                 : std_ulogic
-"
+st "SIGNAL read                 : std_ulogic"
 )
 )
 *116 (Net
@@ -3623,8 +3583,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,45400,48500,46200"
-st "SIGNAL dataOut              : std_ulogic_vector(ADDRESS_BIT_NB + VALUE_BIT_NB-1 DOWNTO 0)
-"
+st "SIGNAL dataOut              : std_ulogic_vector(ADDRESS_BIT_NB + VALUE_BIT_NB-1 DOWNTO 0)"
 )
 )
 *117 (Net
@@ -3642,8 +3601,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,60600,48500,61400"
-st "SIGNAL txFifoData           : std_ulogic_vector(ADDRESS_BIT_NB + VALUE_BIT_NB-1 DOWNTO 0)
-"
+st "SIGNAL txFifoData           : std_ulogic_vector(ADDRESS_BIT_NB + VALUE_BIT_NB-1 DOWNTO 0)"
 )
 )
 *118 (SaComponent
@@ -4229,8 +4187,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25000,38500,25800"
-st "proxySClIn           : std_ulogic_vector(1 TO SENS_proximitySensorNb)
-"
+st "proxySClIn           : std_ulogic_vector(1 TO SENS_proximitySensorNb)"
 )
 )
 *135 (Net
@@ -4248,8 +4205,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,37000,38500,37800"
-st "proxySClOut          : std_ulogic_vector(1 TO SENS_proximitySensorNb)
-"
+st "proxySClOut          : std_ulogic_vector(1 TO SENS_proximitySensorNb)"
 )
 )
 *136 (Net
@@ -4267,8 +4223,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,25800,38500,26600"
-st "proxySDaIn           : std_ulogic_vector(1 TO SENS_proximitySensorNb)
-"
+st "proxySDaIn           : std_ulogic_vector(1 TO SENS_proximitySensorNb)"
 )
 )
 *137 (Net
@@ -4286,8 +4241,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,37800,38500,38600"
-st "proxySDaOut          : std_ulogic_vector(1 TO SENS_proximitySensorNb)
-"
+st "proxySDaOut          : std_ulogic_vector(1 TO SENS_proximitySensorNb)"
 )
 )
 *138 (Net
@@ -4305,8 +4259,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,20200,20000,21000"
-st "batterySClIn         : std_ulogic
-"
+st "batterySClIn         : std_ulogic"
 )
 )
 *139 (PortIoIn
@@ -4368,8 +4321,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,30600,20000,31400"
-st "batterySClOut        : std_ulogic
-"
+st "batterySClOut        : std_ulogic"
 )
 )
 *141 (PortIoOut
@@ -4431,8 +4383,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,21000,20000,21800"
-st "batterySDaIn         : std_ulogic
-"
+st "batterySDaIn         : std_ulogic"
 )
 )
 *143 (PortIoIn
@@ -4494,8 +4445,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,31400,20000,32200"
-st "batterySDaOut        : std_ulogic
-"
+st "batterySDaOut        : std_ulogic"
 )
 )
 *145 (PortIoOut
@@ -5230,8 +5180,7 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "2000,50200,27000,51000"
-st "SIGNAL hwOrientation        : dataRegisterType
-"
+st "SIGNAL hwOrientation        : dataRegisterType"
 )
 )
 *167 (SaComponent
@@ -10159,12 +10108,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "1920,0,3841,1066"
-viewArea "161490,52520,264683,109693"
+windowSize "1912,-8,3848,1058"
+viewArea "132159,43084,294952,132487"
 cachedDiagramExtent "0,0,268000,130400"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 7212,0
+lastUid 7317,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

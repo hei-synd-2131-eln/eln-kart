@@ -13,14 +13,15 @@ Report for cell Kart_Board.struct
                              DFN1C0         1       1.0        1.0
                                 GND         1       0.0        0.0
                               INBUF         7       0.0        0.0
+                              NOR2B         1       1.0        1.0
                              OUTBUF        17       0.0        0.0
                               TFF_1         1       2.0        2.0
                             TFF_1_0         1       2.0        2.0
                                 VCC         1       0.0        0.0
                              and2_0         1       1.0        1.0
-                     kartController         1    3783.0     3783.0
+                     kartController         1    4145.0     4145.0
                             
-                         TOTAL             39               3797.0
+                         TOTAL             40               4160.0
 ----------------------------------------------------------------------
 Report for cell DFFZ1_3.netlist
   Original Cell name DFFZ1
@@ -122,14 +123,14 @@ Report for cell kartController.netlist
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
                            and2inv2         1       4.0        4.0
-          controlRegistersController         1      10.0       10.0
+          controlRegistersController         1      12.0       12.0
                   dcMotorController         1     347.0      347.0
-                  sensorsController         1    1920.0     1920.0
-             stepperMotorController         1     748.0      748.0
+                  sensorsController         1    2260.0     2260.0
+             stepperMotorController         1     768.0      768.0
                            txRouter         1      81.0       81.0
                      uartController         1     541.0      541.0
                             
-                         TOTAL             10               3783.0
+                         TOTAL             10               4145.0
 ----------------------------------------------------------------------
 Report for cell uartController.netlist
      Instance path:  I_board.I_uartController
@@ -158,8 +159,8 @@ Report for cell framePacker.netlist
      Instance path:  I_board.I_uartController.I_transmitter.U_packer
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         2       1.0        2.0
-                               AO1A        12       1.0       12.0
+                                AO1         1       1.0        1.0
+                               AO1A        13       1.0       13.0
                              DFN1C0         7       1.0        7.0
                            DFN1E0C0         8       1.0        8.0
                            DFN1E1C0        24       1.0       24.0
@@ -167,8 +168,8 @@ Report for cell framePacker.netlist
                                 GND         1       0.0        0.0
                                 MX2         3       1.0        3.0
                                NOR2         1       1.0        1.0
-                              NOR2A        15       1.0       15.0
-                              NOR2B        12       1.0       12.0
+                              NOR2A        14       1.0       14.0
+                              NOR2B        13       1.0       13.0
                                NOR3         5       1.0        5.0
                               NOR3A         1       1.0        1.0
                                 OA1         1       1.0        1.0
@@ -185,7 +186,8 @@ Report for cell crc8itu_1_0.netlist
      Instance path:  I_board.I_uartController.I_transmitter.U_crc
                                           Cell usage:
                                cell       count     area    count*area
-                               AO1C         1       1.0        1.0
+                               AO1A         3       1.0        3.0
+                               AO1D         1       1.0        1.0
                              DFN1C0         1       1.0        1.0
                            DFN1E0C0        20       1.0       20.0
                                 GND         1       0.0        0.0
@@ -194,11 +196,9 @@ Report for cell crc8itu_1_0.netlist
                                NOR2         1       1.0        1.0
                               NOR2A         6       1.0        6.0
                               NOR2B         2       1.0        2.0
-                              NOR3A         1       1.0        1.0
                               NOR3B         1       1.0        1.0
-                                OR2         2       1.0        2.0
-                                OR3         1       1.0        1.0
-                               OR3A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XA1B         4       1.0        4.0
                                XOR2         1       1.0        1.0
@@ -270,9 +270,9 @@ Report for cell frameReceiverHandler.netlist
                                OA1C         1       1.0        1.0
                                OAI1         1       1.0        1.0
                                 OR2         3       1.0        3.0
-                               OR2B         1       1.0        1.0
+                               OR2B         2       1.0        2.0
                                 OR3         2       1.0        2.0
-                               OR3A         2       1.0        2.0
+                               OR3A         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                 XA1        10       1.0       10.0
                                 XO1         2       1.0        2.0
@@ -285,20 +285,19 @@ Report for cell crc8itu_1.netlist
      Instance path:  I_board.I_uartController.I_receiver.U_crc
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         1       1.0        1.0
-                               AO1D         1       1.0        1.0
                              DFN1C0         1       1.0        1.0
                            DFN1E0C0        20       1.0       20.0
                                 GND         1       0.0        0.0
                                 INV         5       1.0        5.0
                                 MX2         7       1.0        7.0
-                               NOR2         1       1.0        1.0
+                               NOR2         2       1.0        2.0
                               NOR2A         6       1.0        6.0
                               NOR2B         2       1.0        2.0
                               NOR3A         1       1.0        1.0
                               NOR3B         1       1.0        1.0
                                OA1C         1       1.0        1.0
                                 OR2         2       1.0        2.0
+                                OR3         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XA1B         4       1.0        4.0
                                XOR2         1       1.0        1.0
@@ -355,12 +354,12 @@ Report for cell stepperMotorController.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
-                       angleControl         1     276.0      276.0
+                       angleControl         1     283.0      283.0
                               or2_0         1       1.0        1.0
                 stepperMotorDivider         1     193.0      193.0
-              stepperMotorRegisters         1     278.0      278.0
+              stepperMotorRegisters         1     291.0      291.0
                             
-                         TOTAL              6                748.0
+                         TOTAL              6                768.0
 ----------------------------------------------------------------------
 Report for cell stepperMotorRegisters.netlist
      Instance path:  I_board.I_stepperController.I_registers
@@ -371,11 +370,11 @@ Report for cell stepperMotorRegisters.netlist
                  edgeDetectorDfltZ0         1       2.0        2.0
                  edgeDetectorDfltZ1         1       2.0        2.0
                  reg_addr_decoder_1         1       2.0        2.0
-                registerManager_2_0         1      38.0       38.0
-          sendActualAngleDeltaManager         1     123.0      123.0
-          stepperMotorRegisterSender         1     111.0      111.0
+                registerManager_2_0         1      36.0       36.0
+          sendActualAngleDeltaManager         1     146.0      146.0
+          stepperMotorRegisterSender         1     103.0      103.0
                             
-                         TOTAL              8                278.0
+                         TOTAL              8                291.0
 ----------------------------------------------------------------------
 Report for cell stepperMotorRegisterSender.netlist
      Instance path:  I_board.I_stepperController.I_registers.U_sender
@@ -388,27 +387,25 @@ Report for cell stepperMotorRegisterSender.netlist
                            DFN1E0C0         1       1.0        1.0
                            DFN1E1C0        19       1.0       19.0
                                 GND         1       0.0        0.0
-                                INV         1       1.0        1.0
                                 MX2        30       1.0       30.0
-                               MX2A         1       1.0        1.0
-                               MX2B         2       1.0        2.0
-                               MX2C         1       1.0        1.0
+                               MX2B         3       1.0        3.0
+                               MX2C         2       1.0        2.0
                                NOR2         3       1.0        3.0
-                              NOR2A         8       1.0        8.0
-                              NOR2B         2       1.0        2.0
-                               NOR3         3       1.0        3.0
-                              NOR3A        12       1.0       12.0
-                              NOR3B         7       1.0        7.0
-                              NOR3C         4       1.0        4.0
-                               OA1C         2       1.0        2.0
-                                OR2         5       1.0        5.0
+                              NOR2A        16       1.0       16.0
+                              NOR2B         3       1.0        3.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         6       1.0        6.0
+                              NOR3C         1       1.0        1.0
+                               OA1A         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         4       1.0        4.0
                                OR2A         1       1.0        1.0
-                                OR3         1       1.0        1.0
                                OR3A         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XOR2         1       1.0        1.0
                             
-                         TOTAL            113                111.0
+                         TOTAL            105                103.0
 ----------------------------------------------------------------------
 Report for cell sendActualAngleDeltaManager.netlist
      Instance path:  I_board.I_stepperController.I_registers.U_angleDelta
@@ -418,32 +415,37 @@ Report for cell sendActualAngleDeltaManager.netlist
                               AND2A         4       1.0        4.0
                                AND3         4       1.0        4.0
                                 AO1         4       1.0        4.0
-                               AO1B         2       1.0        2.0
-                               AO1C        10       1.0       10.0
+                               AO1B         1       1.0        1.0
+                               AO1C        11       1.0       11.0
+                               AOI1         1       1.0        1.0
                               AOI1A         4       1.0        4.0
-                              AOI1B         1       1.0        1.0
-                                AX1         3       1.0        3.0
-                               AX1C         3       1.0        3.0
+                                AX1         5       1.0        5.0
+                               AX1A         2       1.0        2.0
+                               AX1C         1       1.0        1.0
                                AX1D         1       1.0        1.0
                                AX1E         1       1.0        1.0
                              DFN1C0         1       1.0        1.0
-                           DFN1E1C0        12       1.0       12.0
+                           DFN1E0C0        12       1.0       12.0
                                 GND         1       0.0        0.0
-                              NOR2A         6       1.0        6.0
+                               NOR2         1       1.0        1.0
+                              NOR2A        17       1.0       17.0
+                              NOR2B         2       1.0        2.0
+                               NOR3         1       1.0        1.0
                               NOR3A         2       1.0        2.0
-                              NOR3C         2       1.0        2.0
-                                OA1         5       1.0        5.0
-                               OA1A         6       1.0        6.0
-                               OA1C         1       1.0        1.0
+                                OA1         4       1.0        4.0
+                               OA1A         9       1.0        9.0
+                               OA1B         1       1.0        1.0
+                               OA1C         2       1.0        2.0
                                OAI1         2       1.0        2.0
-                                OR2         4       1.0        4.0
+                                OR2         2       1.0        2.0
                                OR2A        15       1.0       15.0
                                OR2B         3       1.0        3.0
+                               OR3B         2       1.0        2.0
                                 VCC         1       0.0        0.0
-                              XNOR2        14       1.0       14.0
+                              XNOR2        18       1.0       18.0
                                XOR2         9       1.0        9.0
                             
-                         TOTAL            125                123.0
+                         TOTAL            148                146.0
 ----------------------------------------------------------------------
 Report for cell edgeDetectorDfltZ0.netlist
      Instance path:  I_board.I_stepperController.I_registers.U_1
@@ -472,7 +474,6 @@ Report for cell registerManager_2_0.netlist
      Instance path:  I_board.I_stepperController.I_registers.U_manager
                                           Cell usage:
                                cell       count     area    count*area
-                               AO18         2       1.0        2.0
                            DFN1E1C0        32       1.0       32.0
                                 GND         1       0.0        0.0
                               NOR2A         1       1.0        1.0
@@ -481,7 +482,7 @@ Report for cell registerManager_2_0.netlist
                               NOR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             40                 38.0
+                         TOTAL             38                 36.0
 ----------------------------------------------------------------------
 Report for cell reg_addr_decoder_1.netlist
      Instance path:  I_board.I_stepperController.I_registers.U_decoder
@@ -533,17 +534,17 @@ Report for cell angleControl.netlist
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
                                XOR2         1       1.0        1.0
-                    angleDifference         1     176.0      176.0
+                    angleDifference         1     182.0      182.0
                         coilControl         1      16.0       16.0
-                     stepperCounter         1      82.0       82.0
+                     stepperCounter         1      83.0       83.0
                             
-                         TOTAL              7                276.0
+                         TOTAL              7                283.0
 ----------------------------------------------------------------------
 Report for cell stepperCounter.netlist
      Instance path:  I_board.I_stepperController.I_angleControl.I_cnt
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1         2       1.0        2.0
+                                AO1         3       1.0        3.0
                                AO1A         1       1.0        1.0
                                AOI1         1       1.0        1.0
                                 AX1         9       1.0        9.0
@@ -553,26 +554,25 @@ Report for cell stepperCounter.netlist
                                 GND         1       0.0        0.0
                                MAJ3         4       1.0        4.0
                                MX2C         3       1.0        3.0
-                               NOR2         2       1.0        2.0
-                              NOR2A         3       1.0        3.0
-                              NOR2B         6       1.0        6.0
+                               NOR2         3       1.0        3.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B         7       1.0        7.0
                                NOR3         3       1.0        3.0
-                              NOR3A         3       1.0        3.0
-                              NOR3B         3       1.0        3.0
-                              NOR3C         4       1.0        4.0
+                              NOR3A         2       1.0        2.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         3       1.0        3.0
                                 OA1         2       1.0        2.0
                                OA1A         3       1.0        3.0
                                OA1B         1       1.0        1.0
-                                OR2         1       1.0        1.0
+                                OR2         2       1.0        2.0
                                OR2A         1       1.0        1.0
-                                OR3         1       1.0        1.0
                                 VCC         1       0.0        0.0
                                XA1A         1       1.0        1.0
                                XA1B        12       1.0       12.0
                                XA1C         1       1.0        1.0
                                XOR2         1       1.0        1.0
                             
-                         TOTAL             84                 82.0
+                         TOTAL             85                 83.0
 ----------------------------------------------------------------------
 Report for cell coilControl.netlist
      Instance path:  I_board.I_stepperController.I_angleControl.I_phases
@@ -596,35 +596,37 @@ Report for cell angleDifference.netlist
                                cell       count     area    count*area
                                AND2         2       1.0        2.0
                                AND3        13       1.0       13.0
-                                AO1        19       1.0       19.0
-                               AO13         7       1.0        7.0
-                               AX1B         5       1.0        5.0
+                                AO1        18       1.0       18.0
+                               AO13         8       1.0        8.0
+                               AO1A         1       1.0        1.0
+                               AOI1         1       1.0        1.0
+                               AX1B         4       1.0        4.0
                              DFN1C0         3       1.0        3.0
-                             DFN1P0         3       1.0        3.0
+                             DFN1P0         4       1.0        4.0
                                 GND         1       0.0        0.0
                                MX2B        12       1.0       12.0
-                               MX2C         1       1.0        1.0
                                NOR2         6       1.0        6.0
-                              NOR2A        16       1.0       16.0
-                              NOR2B        18       1.0       18.0
+                              NOR2A        15       1.0       15.0
+                              NOR2B        23       1.0       23.0
                                NOR3         1       1.0        1.0
                               NOR3A         2       1.0        2.0
-                              NOR3B         4       1.0        4.0
-                              NOR3C         6       1.0        6.0
-                                OA1         2       1.0        2.0
-                               OA1A         7       1.0        7.0
-                                OR2         8       1.0        8.0
-                               OR2A         8       1.0        8.0
-                               OR2B         1       1.0        1.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         7       1.0        7.0
+                                OA1         1       1.0        1.0
+                               OA1A         6       1.0        6.0
+                               OA1B         1       1.0        1.0
+                               OA1C         1       1.0        1.0
+                                OR2         6       1.0        6.0
+                               OR2A        11       1.0       11.0
+                                OR3         3       1.0        3.0
                                OR3A         1       1.0        1.0
-                               OR3B         2       1.0        2.0
+                               OR3B         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                               XA1C         1       1.0        1.0
-                              XNOR2        12       1.0       12.0
-                               XOR2        13       1.0       13.0
+                              XNOR2        13       1.0       13.0
+                               XOR2        12       1.0       12.0
                                XOR3         3       1.0        3.0
                             
-                         TOTAL            178                176.0
+                         TOTAL            184                182.0
 ----------------------------------------------------------------------
 Report for cell DFFZ0.netlist
      Instance path:  I_board.I_stepperController.I_angleControl.I0
@@ -655,10 +657,11 @@ Report for cell sensorsController.netlist
                                 VCC         1       0.0        0.0
               batteryLevelInterface         1     389.0      389.0
                        hallCounters         1      49.0       49.0
-                   sensorsRegisters         1    1293.0     1293.0
-                   ultrasoundRanger         1     189.0      189.0
+                   rangerSubsignals         1     137.0      137.0
+                   sensorsRegisters         1    1548.0     1548.0
+                   ultrasoundRanger         1     137.0      137.0
                             
-                         TOTAL              6               1920.0
+                         TOTAL              7               2260.0
 ----------------------------------------------------------------------
 Report for cell ultrasoundRanger.netlist
      Instance path:  I_board.I_sensorsController.I_range
@@ -666,30 +669,24 @@ Report for cell ultrasoundRanger.netlist
                                cell       count     area    count*area
                                AND2         3       1.0        3.0
                                AND3        17       1.0       17.0
-                                AO1         3       1.0        3.0
-                               AO1A         2       1.0        2.0
-                              AOI1B         1       1.0        1.0
-                             DFN1C0        43       1.0       43.0
-                           DFN1E0C0         1       1.0        1.0
+                               AOI1        17       1.0       17.0
+                               AXO5         1       1.0        1.0
+                             DFN1C0        18       1.0       18.0
                            DFN1E1C0        16       1.0       16.0
-                             DFN1P0         2       1.0        2.0
                                 GND         1       0.0        0.0
-                                INV         2       1.0        2.0
-                               NOR2         8       1.0        8.0
-                              NOR2A         4       1.0        4.0
-                              NOR2B        23       1.0       23.0
-                               NOR3         1       1.0        1.0
-                              NOR3A         5       1.0        5.0
-                              NOR3B         3       1.0        3.0
+                                INV         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
+                              NOR2B         7       1.0        7.0
+                              NOR3A        17       1.0       17.0
+                              NOR3B        16       1.0       16.0
                               NOR3C         5       1.0        5.0
-                               OA1A        15       1.0       15.0
-                               OA1C         1       1.0        1.0
+                               OR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
-                               XA1B        18       1.0       18.0
                               XNOR2         1       1.0        1.0
                                XOR2        15       1.0       15.0
                             
-                         TOTAL            191                189.0
+                         TOTAL            139                137.0
 ----------------------------------------------------------------------
 Report for cell sensorsRegisters.netlist
      Instance path:  I_board.I_sensorsController.I_regs
@@ -697,21 +694,24 @@ Report for cell sensorsRegisters.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
-                    anyEdgeDetector         1       1.0        1.0
+                           and2inv1         1       1.0        1.0
+                    anyEdgeDetector         1       3.0        3.0
                       freqDividerZ0         1      54.0       54.0
                       freqDividerZ1         1      63.0       63.0
                    hallCountManager         1      52.0       52.0
-                      led_blinker_3         1     115.0      115.0
+                      led_blinker_3         1     120.0      120.0
                     led_blinker_3_0         1     120.0      120.0
                     led_blinker_3_1         1     115.0      115.0
-                    led_blinker_3_2         1     119.0      119.0
+                    led_blinker_3_2         1     120.0      120.0
+                    rangerValidator         1      44.0       44.0
                  reg_addr_decoder_2         1       2.0        2.0
-                  registerManager_5         1      92.0       92.0
+                  registerManager_5         1      90.0       90.0
             sendDeltaManager_16_200         1     151.0      151.0
-             sendDeltaManager_16_51         1     171.0      171.0
-               sensorsRegistersSend         1     238.0      238.0
+             sendDeltaManager_16_51         1     179.0      179.0
+            sendDeltaManager_16_579         1     175.0      175.0
+               sensorsRegistersSend         1     259.0      259.0
                             
-                         TOTAL             15               1293.0
+                         TOTAL             18               1548.0
 ----------------------------------------------------------------------
 Report for cell led_blinker_3_2.netlist
   Original Cell name led_blinker_3
@@ -726,26 +726,27 @@ Report for cell led_blinker_3_2.netlist
                                AO1A         2       1.0        2.0
                                AO1C         4       1.0        4.0
                               AOI1A         6       1.0        6.0
-                                AX1         3       1.0        3.0
+                                AX1         1       1.0        1.0
+                               AX1C         3       1.0        3.0
                              DFN1C0         1       1.0        1.0
                            DFN1E1C0        15       1.0       15.0
                                 GND         1       0.0        0.0
                                 MX2         1       1.0        1.0
                                NOR2         5       1.0        5.0
-                              NOR2A         9       1.0        9.0
-                              NOR2B        13       1.0       13.0
+                              NOR2A        12       1.0       12.0
+                              NOR2B        12       1.0       12.0
                                NOR3         1       1.0        1.0
                               NOR3A         2       1.0        2.0
-                              NOR3C         5       1.0        5.0
+                              NOR3C         4       1.0        4.0
                                 OA1         1       1.0        1.0
                                OA1A         2       1.0        2.0
                                OAI1         1       1.0        1.0
                                OR2A        11       1.0       11.0
                                 VCC         1       0.0        0.0
-                               XA1B        11       1.0       11.0
+                               XA1B        10       1.0       10.0
                               XNOR2        13       1.0       13.0
                             
-                         TOTAL            121                119.0
+                         TOTAL            122                120.0
 ----------------------------------------------------------------------
 Report for cell led_blinker_3_1.netlist
   Original Cell name led_blinker_3
@@ -827,24 +828,27 @@ Report for cell led_blinker_3.netlist
                                AO1A         2       1.0        2.0
                                AO1C         4       1.0        4.0
                               AOI1A         6       1.0        6.0
+                                AX1         1       1.0        1.0
+                               AX1C         3       1.0        3.0
                              DFN1C0         1       1.0        1.0
                            DFN1E1C0        15       1.0       15.0
                                 GND         1       0.0        0.0
+                                MX2         1       1.0        1.0
                                NOR2         5       1.0        5.0
-                              NOR2A         9       1.0        9.0
-                              NOR2B        13       1.0       13.0
+                              NOR2A        12       1.0       12.0
+                              NOR2B        12       1.0       12.0
                                NOR3         1       1.0        1.0
                               NOR3A         2       1.0        2.0
-                              NOR3C         2       1.0        2.0
-                                OA1         2       1.0        2.0
+                              NOR3C         4       1.0        4.0
+                                OA1         1       1.0        1.0
                                OA1A         2       1.0        2.0
                                OAI1         1       1.0        1.0
-                               OR2A        10       1.0       10.0
+                               OR2A        11       1.0       11.0
                                 VCC         1       0.0        0.0
-                               XA1B        14       1.0       14.0
+                               XA1B        10       1.0       10.0
                               XNOR2        13       1.0       13.0
                             
-                         TOTAL            117                115.0
+                         TOTAL            122                120.0
 ----------------------------------------------------------------------
 Report for cell anyEdgeDetector.netlist
      Instance path:  I_board.I_sensorsController.I_regs.g0.1.U_endsEdges
@@ -852,9 +856,11 @@ Report for cell anyEdgeDetector.netlist
                                cell       count     area    count*area
                              DFN1C0         1       1.0        1.0
                                 GND         1       0.0        0.0
+                              NOR2A         1       1.0        1.0
                                 VCC         1       0.0        0.0
+                               XOR2         1       1.0        1.0
                             
-                         TOTAL              3                  1.0
+                         TOTAL              5                  3.0
 ----------------------------------------------------------------------
 Report for cell freqDividerZ0.netlist
      Instance path:  I_board.I_sensorsController.I_regs.U_4
@@ -896,29 +902,73 @@ Report for cell sensorsRegistersSend.netlist
      Instance path:  I_board.I_sensorsController.I_regs.U_sender
                                           Cell usage:
                                cell       count     area    count*area
-                                AO1        62       1.0       62.0
-                               AO1A         1       1.0        1.0
+                               AND2         2       1.0        2.0
+                                AO1        49       1.0       49.0
                              DFN1C0         2       1.0        2.0
-                           DFN1E0C0        22       1.0       22.0
+                           DFN1E0C0         1       1.0        1.0
+                           DFN1E1C0        21       1.0       21.0
                                 GND         1       0.0        0.0
-                                MX2         1       1.0        1.0
+                                INV         1       1.0        1.0
+                                MX2         6       1.0        6.0
                                MX2B         3       1.0        3.0
-                               MX2C         1       1.0        1.0
-                               NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B        92       1.0       92.0
-                              NOR3A         2       1.0        2.0
-                              NOR3B         2       1.0        2.0
-                              NOR3C         3       1.0        3.0
+                               NOR2         6       1.0        6.0
+                              NOR2A         8       1.0        8.0
+                              NOR2B        94       1.0       94.0
+                               NOR3         2       1.0        2.0
+                              NOR3A         3       1.0        3.0
+                              NOR3B         4       1.0        4.0
+                              NOR3C         4       1.0        4.0
+                                OA1        16       1.0       16.0
+                               OA1A         1       1.0        1.0
                                OA1B         1       1.0        1.0
-                                OR2         5       1.0        5.0
-                               OR2A         2       1.0        2.0
-                               OR2B         1       1.0        1.0
-                                OR3        34       1.0       34.0
+                               OA1C         2       1.0        2.0
+                                OR2         4       1.0        4.0
+                                OR3        29       1.0       29.0
                                 VCC         1       0.0        0.0
-                               XA1C         1       1.0        1.0
                             
-                         TOTAL            240                238.0
+                         TOTAL            261                259.0
+----------------------------------------------------------------------
+Report for cell sendDeltaManager_16_579.netlist
+     Instance path:  I_board.I_sensorsController.I_regs.U_rangeSend
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         4       1.0        4.0
+                              AND2A         2       1.0        2.0
+                               AND3         4       1.0        4.0
+                                AO1         8       1.0        8.0
+                               AO1A         1       1.0        1.0
+                               AO1C        12       1.0       12.0
+                               AOI1         1       1.0        1.0
+                              AOI1A         6       1.0        6.0
+                                AX1         7       1.0        7.0
+                               AX1A         2       1.0        2.0
+                               AX1C         1       1.0        1.0
+                               AX1D         1       1.0        1.0
+                               AX1E         1       1.0        1.0
+                             DFN1C0         1       1.0        1.0
+                           DFN1E1C0        14       1.0       14.0
+                                GND         1       0.0        0.0
+                                INV         1       1.0        1.0
+                               NOR2         3       1.0        3.0
+                              NOR2A        14       1.0       14.0
+                              NOR2B         4       1.0        4.0
+                               NOR3         3       1.0        3.0
+                              NOR3A         5       1.0        5.0
+                              NOR3B         1       1.0        1.0
+                              NOR3C         6       1.0        6.0
+                                OA1         4       1.0        4.0
+                               OA1A         8       1.0        8.0
+                               OA1C         1       1.0        1.0
+                               OAI1         2       1.0        2.0
+                                OR2         2       1.0        2.0
+                               OR2A        22       1.0       22.0
+                               OR2B         1       1.0        1.0
+                               OR3B         2       1.0        2.0
+                                VCC         1       0.0        0.0
+                              XNOR2        23       1.0       23.0
+                               XOR2         8       1.0        8.0
+                            
+                         TOTAL            177                175.0
 ----------------------------------------------------------------------
 Report for cell sendDeltaManager_16_200.netlist
      Instance path:  I_board.I_sensorsController.I_regs.U_currentSend
@@ -973,7 +1023,7 @@ Report for cell sendDeltaManager_16_51.netlist
                               AOI1B         1       1.0        1.0
                                 AX1         3       1.0        3.0
                                AX1A         4       1.0        4.0
-                               AX1C         4       1.0        4.0
+                               AX1C         3       1.0        3.0
                                AX1D         1       1.0        1.0
                                AX1E         1       1.0        1.0
                              DFN1C0         1       1.0        1.0
@@ -981,24 +1031,46 @@ Report for cell sendDeltaManager_16_51.netlist
                                 GND         1       0.0        0.0
                                 INV         1       1.0        1.0
                                 MX2         1       1.0        1.0
-                               NOR2         6       1.0        6.0
+                               NOR2         5       1.0        5.0
                               NOR2A        14       1.0       14.0
-                              NOR2B         3       1.0        3.0
+                              NOR2B         5       1.0        5.0
                               NOR3A         5       1.0        5.0
-                              NOR3B         2       1.0        2.0
-                              NOR3C         5       1.0        5.0
-                                OA1         4       1.0        4.0
+                              NOR3B         3       1.0        3.0
+                              NOR3C         9       1.0        9.0
+                                OA1         5       1.0        5.0
                                OA1A         9       1.0        9.0
                                OA1C         2       1.0        2.0
                                OAI1         2       1.0        2.0
-                                OR2         2       1.0        2.0
+                                OR2         3       1.0        3.0
                                OR2A        21       1.0       21.0
                                OR2B         1       1.0        1.0
                                 VCC         1       0.0        0.0
                               XNOR2        20       1.0       20.0
-                               XOR2        10       1.0       10.0
+                               XOR2        11       1.0       11.0
                             
-                         TOTAL            173                171.0
+                         TOTAL            181                179.0
+----------------------------------------------------------------------
+Report for cell rangerValidator.netlist
+     Instance path:  I_board.I_sensorsController.I_regs.U_rangerValidator
+                                          Cell usage:
+                               cell       count     area    count*area
+                                AO1         2       1.0        2.0
+                               AO1A         1       1.0        1.0
+                              AOI1B         2       1.0        2.0
+                             DFN1C0        14       1.0       14.0
+                             DFN1P0         1       1.0        1.0
+                                GND         1       0.0        0.0
+                               NOR2         2       1.0        2.0
+                              NOR2B        15       1.0       15.0
+                              NOR3A         1       1.0        1.0
+                              NOR3C         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                                OR3         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL             46                 44.0
 ----------------------------------------------------------------------
 Report for cell hallCountManager.netlist
      Instance path:  I_board.I_sensorsController.I_regs.U_2
@@ -1028,24 +1100,67 @@ Report for cell registerManager_5.netlist
                            DFN1E1C0        80       1.0       80.0
                                 GND         1       0.0        0.0
                                NOR2         1       1.0        1.0
-                              NOR2A         2       1.0        2.0
-                              NOR2B         3       1.0        3.0
-                              NOR3A         2       1.0        2.0
-                              NOR3B         4       1.0        4.0
+                              NOR2A         3       1.0        3.0
+                              NOR3B         5       1.0        5.0
+                              NOR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             94                 92.0
+                         TOTAL             92                 90.0
 ----------------------------------------------------------------------
 Report for cell reg_addr_decoder_2.netlist
      Instance path:  I_board.I_sensorsController.I_regs.U_decoder
                                           Cell usage:
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
-                              NOR3B         1       1.0        1.0
+                              NOR2A         1       1.0        1.0
                                OR2A         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
                          TOTAL              4                  2.0
+----------------------------------------------------------------------
+Report for cell and2inv1.netlist
+     Instance path:  I_board.I_sensorsController.I_regs.U_0
+                                          Cell usage:
+                               cell       count     area    count*area
+                                GND         1       0.0        0.0
+                              NOR2B         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                            
+                         TOTAL              3                  1.0
+----------------------------------------------------------------------
+Report for cell rangerSubsignals.netlist
+     Instance path:  I_board.I_sensorsController.I_range_freqdiv
+                                          Cell usage:
+                               cell       count     area    count*area
+                               AND2         6       1.0        6.0
+                               AND3        27       1.0       27.0
+                               AO1A         2       1.0        2.0
+                               AO1C         2       1.0        2.0
+                               AOI1         1       1.0        1.0
+                             DFN1C0        25       1.0       25.0
+                           DFN1E1C0         2       1.0        2.0
+                             DFN1P0         3       1.0        3.0
+                                GND         1       0.0        0.0
+                                INV         2       1.0        2.0
+                                MX2         1       1.0        1.0
+                               NOR2         8       1.0        8.0
+                              NOR2A         2       1.0        2.0
+                              NOR2B        16       1.0       16.0
+                               NOR3         1       1.0        1.0
+                              NOR3A         3       1.0        3.0
+                              NOR3C         3       1.0        3.0
+                                OA1         1       1.0        1.0
+                               OA1B         1       1.0        1.0
+                                OR2         2       1.0        2.0
+                               OR2A         2       1.0        2.0
+                               OR2B         1       1.0        1.0
+                               OR3B         1       1.0        1.0
+                               OR3C         1       1.0        1.0
+                                VCC         1       0.0        0.0
+                               XA1C         3       1.0        3.0
+                               XOR2        21       1.0       21.0
+                            
+                         TOTAL            139                137.0
 ----------------------------------------------------------------------
 Report for cell hallCounters.netlist
      Instance path:  I_board.I_sensorsController.I_hall
@@ -1100,8 +1215,8 @@ Report for cell batteryLevelSequencer.netlist
                                MX2A         6       1.0        6.0
                                MX2B         1       1.0        1.0
                                MX2C         1       1.0        1.0
-                               NOR2         7       1.0        7.0
-                              NOR2A        20       1.0       20.0
+                               NOR2         8       1.0        8.0
+                              NOR2A        19       1.0       19.0
                               NOR2B        18       1.0       18.0
                                NOR3         4       1.0        4.0
                               NOR3A         7       1.0        7.0
@@ -1247,8 +1362,8 @@ Report for cell dcMotorController.netlist
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
                    dcMotorPrescaler         1     146.0      146.0
-                         dcMotorPwm         1     121.0      121.0
-                   dcMotorRegisters         1      80.0       80.0
+                         dcMotorPwm         1     122.0      122.0
+                   dcMotorRegisters         1      79.0       79.0
                             
                          TOTAL              5                347.0
 ----------------------------------------------------------------------
@@ -1260,9 +1375,9 @@ Report for cell dcMotorRegisters.netlist
                                 VCC         1       0.0        0.0
               dcMotorRegisterSender         1      43.0       43.0
                  reg_addr_decoder_0         1       1.0        1.0
-                  registerManager_2         1      36.0       36.0
+                  registerManager_2         1      35.0       35.0
                             
-                         TOTAL              5                 80.0
+                         TOTAL              5                 79.0
 ----------------------------------------------------------------------
 Report for cell registerManager_2.netlist
   Original Cell name registerManager_2
@@ -1272,12 +1387,11 @@ Report for cell registerManager_2.netlist
                            DFN1E1C0        32       1.0       32.0
                                 GND         1       0.0        0.0
                               NOR2B         1       1.0        1.0
-                               NOR3         1       1.0        1.0
                               NOR3B         1       1.0        1.0
                               NOR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             38                 36.0
+                         TOTAL             37                 35.0
 ----------------------------------------------------------------------
 Report for cell reg_addr_decoder_0.netlist
      Instance path:  I_board.I_dcMotorController.I_regs.U_decoder
@@ -1313,6 +1427,7 @@ Report for cell dcMotorPwm.netlist
                                cell       count     area    count*area
                               AND2A         1       1.0        1.0
                                AND3         4       1.0        4.0
+                               AOI1         1       1.0        1.0
                               AOI1A         3       1.0        3.0
                                AX1C         1       1.0        1.0
                              DFN1C0        17       1.0       17.0
@@ -1320,20 +1435,20 @@ Report for cell dcMotorPwm.netlist
                            DFN1E1C0         3       1.0        3.0
                                 GND         1       0.0        0.0
                                 MX2        14       1.0       14.0
-                               NOR2         8       1.0        8.0
+                               NOR2        10       1.0       10.0
                               NOR2A         6       1.0        6.0
                               NOR2B         2       1.0        2.0
                                NOR3         8       1.0        8.0
-                              NOR3A         8       1.0        8.0
+                              NOR3A         5       1.0        5.0
                               NOR3B         4       1.0        4.0
-                              NOR3C         4       1.0        4.0
+                              NOR3C         5       1.0        5.0
                                OR2A         3       1.0        3.0
                                 VCC         1       0.0        0.0
                                XA1C         4       1.0        4.0
                               XNOR2        13       1.0       13.0
                                XOR2        17       1.0       17.0
                             
-                         TOTAL            123                121.0
+                         TOTAL            124                122.0
 ----------------------------------------------------------------------
 Report for cell dcMotorPrescaler.netlist
      Instance path:  I_board.I_dcMotorController.I_div
@@ -1369,9 +1484,9 @@ Report for cell controlRegistersController.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
-          controlRegistersRegisters         1      10.0       10.0
+          controlRegistersRegisters         1      12.0       12.0
                             
-                         TOTAL              3                 10.0
+                         TOTAL              3                 12.0
 ----------------------------------------------------------------------
 Report for cell controlRegistersRegisters.netlist
      Instance path:  I_board.I_cregController.I_cregRegisters
@@ -1379,9 +1494,9 @@ Report for cell controlRegistersRegisters.netlist
                                cell       count     area    count*area
                                 GND         1       0.0        0.0
                                 VCC         1       0.0        0.0
-                  registerManager_1         1      10.0       10.0
+                  registerManager_1         1      12.0       12.0
                             
-                         TOTAL              3                 10.0
+                         TOTAL              3                 12.0
 ----------------------------------------------------------------------
 Report for cell registerManager_1.netlist
      Instance path:  I_board.I_cregController.I_cregRegisters.I_registers
@@ -1389,13 +1504,12 @@ Report for cell registerManager_1.netlist
                                cell       count     area    count*area
                            DFN1E1C0         6       1.0        6.0
                                 GND         1       0.0        0.0
-                              NOR2B         1       1.0        1.0
-                               NOR3         1       1.0        1.0
+                               NOR2         1       1.0        1.0
+                              NOR2B         4       1.0        4.0
                               NOR3B         1       1.0        1.0
-                              NOR3C         1       1.0        1.0
                                 VCC         1       0.0        0.0
                             
-                         TOTAL             12                 10.0
+                         TOTAL             14                 12.0
 ----------------------------------------------------------------------
 Report for cell and2_0.netlist
      Instance path:  I0

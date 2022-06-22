@@ -176,6 +176,7 @@ class App(tk.Tk):
         self.rx_text.configure(font=("Arial", 8), padx=5)
         self.rx_text.tag_configure("red", foreground="red")
         self.rx_text.tag_configure("green", foreground="green")
+        self.rx_text.tag_configure("blue", foreground="blue")
         #self.rx_text.configure(state="disabled")
             # Add scrollbar
         self.rx_scrollbar = tk.Scrollbar(self.rx_frame, orient="vertical", command=self.rx_text.yview, width=15)
@@ -365,7 +366,8 @@ class App(tk.Tk):
                 elif r == NB_LEDS + 2:
                     t += " | Current | " + str(((rxd[2] << 8 | rxd[3]) * 0.00025 * 1000)/(100*0.005)) + " mA"
                 elif r == NB_LEDS + 3:
-                    t += " | Distance | " + str((rxd[2] << 8 | rxd[3]) * 25.4 / 1470) + " mm"
+                    v = (rxd[2] << 8 | rxd[3])
+                    t += " | Distance | " + (str(v * 25.4 / 147) if v > 26 else "indefinite (too low)") + " mm"
                 elif r == NB_LEDS + 4:
                     t += " | EndSW | " + str(format((rxd[2] << 8 | rxd[3]), "016b"))
                 elif r >= NB_LEDS + 5 and r <= NB_LEDS + NB_HALL + 4:
@@ -389,11 +391,15 @@ class App(tk.Tk):
             rx_exp = t
             # Add to rx_text
             if len(self.last_txt) != 0 and self.last_txt != rx_exp:
-                    self.last_txt = rx_exp
-                    if col == "red":
-                        self.rx_text.insert(tk.END, rx_exp + "\n", "red")
-                    else:
-                        self.rx_text.insert(tk.END, rx_exp + "\n", "green")
+                self.last_txt = rx_exp
+                if col == "red":
+                    self.rx_text.insert(tk.END, rx_exp + "\n", "red")
+                elif rx_exp.startswith("Event"):
+                    self.rx_text.insert(tk.END, rx_exp + "\n", "blue")
+                else:
+                    self.rx_text.insert(tk.END, rx_exp + "\n", "green")
+                # Scroll bar if text too long
+                self.rx_text.see("end")             
             else:
                 self.last_txt = rx_exp
         else:

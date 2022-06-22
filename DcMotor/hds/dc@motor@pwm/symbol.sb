@@ -377,19 +377,19 @@ tm "GenericEolColHdrMgr"
 )
 *57 (LogGeneric
 generic (GiElement
-name "speedBitNb"
-type "positive"
-value "8"
-)
-uid 654,0
-)
-*58 (LogGeneric
-generic (GiElement
 name "pwmStepsBitNb"
 type "positive"
 value "5"
 )
 uid 1168,0
+)
+*58 (LogGeneric
+generic (GiElement
+name "speedBitNb"
+type "positive"
+value "5"
+)
+uid 1216,0
 )
 ]
 )
@@ -445,13 +445,13 @@ uid 259,0
 litem &57
 pos 0
 dimension 20
-uid 655,0
+uid 1169,0
 )
 *65 (MRCItem
 litem &58
 pos 1
 dimension 20
-uid 1169,0
+uid 1217,0
 )
 ]
 )
@@ -528,23 +528,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "appl"
@@ -564,27 +564,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm"
 )
 (vvPair
 variable "date"
-value "02.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "day"
-value "jeu."
+value "mer."
 )
 (vvPair
 variable "day_long"
-value "jeudi"
+value "mercredi"
 )
 (vvPair
 variable "dd"
-value "02"
+value "22"
 )
 (vvPair
 variable "designName"
@@ -616,7 +616,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "02.06.2022"
+value "22.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -628,7 +628,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "17:42:03"
+value "14:22:25"
 )
 (vvPair
 variable "group"
@@ -688,11 +688,11 @@ value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@pwm\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorPwm\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -776,7 +776,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "17:42:03"
+value "14:22:25"
 )
 (vvPair
 variable "unit"
@@ -1248,8 +1248,8 @@ font "Verdana,8,0"
 xt "37000,32000,49600,36000"
 st "Generic Declarations
 
-speedBitNb    positive 8  
 pwmStepsBitNb positive 5  
+speedBitNb    positive 5  
 "
 )
 header "Generic Declarations"
@@ -1257,12 +1257,12 @@ showHdrWhenContentsEmpty 1
 )
 elements [
 (GiElement
-name "speedBitNb"
+name "pwmStepsBitNb"
 type "positive"
-value "8"
+value "5"
 )
 (GiElement
-name "pwmStepsBitNb"
+name "speedBitNb"
 type "positive"
 value "5"
 )
@@ -1648,8 +1648,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "226,69,1398,860"
-viewArea "-1100,-1100,75364,50335"
+windowSize "226,69,1400,860"
+viewArea "-1100,-1100,75526,50335"
 cachedDiagramExtent "0,0,73000,49000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1934,7 +1934,7 @@ xt "0,5600,0,5600"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 1169,0
+lastUid 1217,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol:GEN"

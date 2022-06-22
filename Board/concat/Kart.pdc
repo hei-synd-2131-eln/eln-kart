@@ -96,27 +96,27 @@ unreserve -pinname "78 79 80 81"
 #set_io  PM6_2           -pinname 73     -fixed yes      -DIRECTION Output
 #set_io  PM6_3           -pinname 76     -fixed yes      -DIRECTION Output
 #set_io  PM6_4           -pinname 77     -fixed yes      -DIRECTION Output
-set_io  {leds[1]}       -pinname 78     -fixed yes      -DIRECTION Input
-set_io  {leds[2]}       -pinname 79     -fixed yes      -DIRECTION Input
-set_io  {leds[3]}       -pinname 80     -fixed yes      -DIRECTION Input
-set_io  {leds[4]}       -pinname 81     -fixed yes      -DIRECTION Input
+set_io  {leds[1]}       -pinname 78     -fixed yes      -DIRECTION Output
+set_io  {leds[2]}       -pinname 79     -fixed yes      -DIRECTION Output
+set_io  {leds[3]}       -pinname 80     -fixed yes      -DIRECTION Output
+set_io  {leds[4]}       -pinname 81     -fixed yes      -DIRECTION Output
 
-unreserve -pinname "86 90 91 92"
-#set_io  PM7_1           -pinname 82     -fixed yes      -DIRECTION Output
-#set_io  PM7_2           -pinname 83     -fixed yes      -DIRECTION Output
-#set_io  PM7_3           -pinname 84     -fixed yes      -DIRECTION Output
-#set_io  PM7_4           -pinname 85     -fixed yes      -DIRECTION Output
-set_io  coil1           -pinname 86     -fixed yes      -DIRECTION Input
-set_io  coil2           -pinname 90     -fixed yes      -DIRECTION Input
-set_io  coil3           -pinname 91     -fixed yes      -DIRECTION Input
-set_io  coil4           -pinname 92     -fixed yes      -DIRECTION Input
+unreserve -pinname "82 83 84 85 86"
+set_io  coil1           -pinname 82     -fixed yes      -DIRECTION Output
+set_io  coil2           -pinname 83     -fixed yes      -DIRECTION Output
+set_io  coil3           -pinname 84     -fixed yes      -DIRECTION Output
+set_io  coil4           -pinname 85     -fixed yes      -DIRECTION Output
+set_io  {halls[1]}      -pinname 86     -fixed yes      -DIRECTION Input
+#set_io  PM7_6           -pinname 90     -fixed yes      -DIRECTION Input
+#set_io  PM7_7           -pinname 91     -fixed yes      -DIRECTION Input
+#set_io  PM7_8           -pinname 92     -fixed yes      -DIRECTION Input
 
-unreserve -pinname "93 94 97 98"
+unreserve -pinname "93 94 97"
 set_io  forwards        -pinname 93     -fixed yes      -DIRECTION Output
 set_io  pwm             -pinname 94     -fixed yes      -DIRECTION Output
 #set_io  PM8_3           -pinname 95     -fixed yes      -DIRECTION Input
 #set_io  PM8_4           -pinname 96     -fixed yes      -DIRECTION Input
 set_io  stepperEnd      -pinname 97     -fixed yes      -DIRECTION Input	-RES_PULL Up
-set_io  {halls[1]}      -pinname 98     -fixed yes      -DIRECTION Input
+#set_io  PM8_6           -pinname 98     -fixed yes      -DIRECTION Input
 # CANNOT BE USED ON AGL250 ! #set_io  PM8_7           -pinname 99     -fixed yes      -DIRECTION Input
 # CANNOT BE USED ON AGL250 ! #set_io  PM8_8           -pinname 100    -fixed yes      -DIRECTION Input
