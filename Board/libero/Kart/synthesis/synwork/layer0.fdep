@@ -11,7 +11,7 @@
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1509007928
 #CUR:"C:\\Microsemi\\Libero_SoC_v11.9\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1509007928
-#CUR:"C:\\dev\\eln_kart_sodimm200\\Board\\concat\\Kart.vhd":1655916028
+#CUR:"C:\\dev\\eln_kart_sodimm200\\Board\\concat\\Kart.vhd":1655976169
 0 "C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd" vhdl
 
 # Dependency Lists (Uses list)
@@ -102,6 +102,8 @@ arch work rangersubsignals rtl 0
 module work rangersubsignals 0
 arch work ultrasoundranger masterversion 0
 module work ultrasoundranger 0
+arch work hallpulsesfilter rtl 0
+module work hallpulsesfilter 0
 arch work hallcounters masterversion 0
 module work hallcounters 0
 arch work freqdividerwforceonstart rtl 0

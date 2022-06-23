@@ -27,7 +27,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 12,0
+suid 13,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -239,7 +239,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *27 (MRCItem
 litem &1
-pos 12
+pos 13
 dimension 20
 )
 uid 68,0
@@ -564,23 +564,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds"
 )
 (vvPair
 variable "appl"
@@ -600,27 +600,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller"
 )
 (vvPair
 variable "d_logical"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorController"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorController"
 )
 (vvPair
 variable "date"
-value "24.05.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mar."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mardi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "24"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -644,11 +644,11 @@ value "symbol"
 )
 (vvPair
 variable "graphical_source_author"
-value "axela"
+value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "24.05.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -656,11 +656,11 @@ value "UNKNOWN"
 )
 (vvPair
 variable "graphical_source_host"
-value "I12"
+value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "16:04:11"
+value "12:53:19"
 )
 (vvPair
 variable "group"
@@ -668,7 +668,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "I12"
+value "WE7860"
 )
 (vvPair
 variable "language"
@@ -684,7 +684,7 @@ value "$HDS_PROJECT_DIR/../DcMotor/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -692,19 +692,19 @@ value "dcMotorController"
 )
 (vvPair
 variable "month"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "p"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dc@motor@controller\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\DcMotor\\hds\\dcMotorController\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorController\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -732,7 +732,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "16:04:11"
+value "12:53:19"
 )
 (vvPair
 variable "unit"
@@ -740,7 +740,7 @@ value "dcMotorController"
 )
 (vvPair
 variable "user"
-value "axela"
+value "axel.amand"
 )
 (vvPair
 variable "version"
@@ -799,7 +799,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,69500,3200"
-st "addressIn            : IN     symbolSizeType  ;"
+st "addressIn            : IN     symbolSizeType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -844,7 +845,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,67500,4000"
-st "clock                : IN     std_ulogic  ;"
+st "clock                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -889,7 +891,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,70500,4800"
-st "dataIn               : IN     dataRegisterType  ;"
+st "dataIn               : IN     dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -934,7 +937,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8800,70500,9600"
-st "dcMotorDataToSend    : OUT    dataRegisterType  ;"
+st "dcMotorDataToSend    : OUT    dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -980,7 +984,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,67500,8000"
-st "reset                : IN     std_ulogic  ;"
+st "reset                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1025,7 +1030,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9600,67500,10400"
-st "dcMotorSendRequest   : OUT    std_ulogic  ;"
+st "dcMotorSendRequest   : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1071,7 +1077,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8000,69500,8800"
-st "dcMotorAddressToSend : OUT    symbolSizeType  ;"
+st "dcMotorAddressToSend : OUT    symbolSizeType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1117,7 +1124,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,67500,5600"
-st "dcMotorSendAuth      : IN     std_ulogic  ;"
+st "dcMotorSendAuth      : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1162,7 +1170,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,67500,7200"
-st "regWr                : IN     std_ulogic  ;"
+st "regWr                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1184,7 +1193,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,31625,50750,32375"
+xt "48000,31625,48750,32375"
 )
 tg (CPTG
 uid 269,0
@@ -1195,10 +1204,10 @@ uid 270,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "42600,31300,49000,32700"
+xt "40600,31300,47000,32700"
 st "forwards"
 ju 2
-blo "49000,32500"
+blo "47000,32500"
 tm "CptPortNameMgr"
 )
 )
@@ -1208,7 +1217,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10400,67500,11200"
-st "forwards             : OUT    std_ulogic  ;"
+st "forwards             : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1230,7 +1240,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,33625,50750,34375"
+xt "48000,33625,48750,34375"
 )
 tg (CPTG
 uid 274,0
@@ -1241,10 +1251,10 @@ uid 275,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "45200,33300,49000,34700"
+xt "43200,33300,47000,34700"
 st "pwm"
 ju 2
-blo "49000,34500"
+blo "47000,34500"
 tm "CptPortNameMgr"
 )
 )
@@ -1254,7 +1264,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11200,66500,12000"
-st "pwm                  : OUT    std_ulogic "
+st "pwm                  : OUT    std_ulogic 
+"
 )
 thePort (LogicalPort
 m 1
@@ -1276,7 +1287,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "50000,25625,50750,26375"
+xt "48000,25625,48750,26375"
 )
 tg (CPTG
 uid 397,0
@@ -1287,10 +1298,10 @@ uid 398,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "38400,25300,49000,26700"
+xt "36400,25300,47000,26700"
 st "hwOrientation"
 ju 2
-blo "49000,26500"
+blo "47000,26500"
 tm "CptPortNameMgr"
 )
 )
@@ -1300,7 +1311,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,70500,6400"
-st "hwOrientation        : IN     dataRegisterType  ;"
+st "hwOrientation        : IN     dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1321,7 +1333,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "21000,17000,50000,39000"
+xt "21000,17000,48000,39000"
 )
 oxt "15000,6000,44000,26000"
 biTextGroup (BiTextGroup
@@ -1396,7 +1408,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "36200,48000,45500,49000"
+xt "36200,48000,47500,49000"
 st "
 by %user on %dd %month %year
 "
@@ -1750,7 +1762,7 @@ tm "PackageList"
 ]
 )
 windowSize "0,14,1921,1080"
-viewArea "-19639,-7336,102046,58070"
+viewArea "-19600,-7300,102296,58220"
 cachedDiagramExtent "0,0,73000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
@@ -2023,7 +2035,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 468,0
+lastUid 544,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

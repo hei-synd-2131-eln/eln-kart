@@ -38,7 +38,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 246,0
+suid 247,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -605,19 +605,19 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters"
 )
 (vvPair
 variable "date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -645,7 +645,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -657,7 +657,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:34:13"
+value "12:53:10"
 )
 (vvPair
 variable "group"
@@ -729,7 +729,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "10:34:13"
+value "12:53:10"
 )
 (vvPair
 variable "unit"
@@ -1098,7 +1098,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "34000,23625,34750,24375"
+xt "33000,23625,33750,24375"
 )
 tg (CPTG
 uid 3359,0
@@ -1109,10 +1109,10 @@ uid 3360,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "26400,23300,33000,24700"
+xt "25400,23300,32000,24700"
 st "prescaler"
 ju 2
-blo "33000,24500"
+blo "32000,24500"
 tm "CptPortNameMgr"
 )
 )
@@ -1239,7 +1239,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "34000,25625,34750,26375"
+xt "33000,25625,33750,26375"
 )
 tg (CPTG
 uid 3379,0
@@ -1250,10 +1250,10 @@ uid 3380,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "28300,25300,33000,26700"
+xt "27300,25300,32000,26700"
 st "speed"
 ju 2
-blo "33000,26500"
+blo "32000,26500"
 tm "CptPortNameMgr"
 )
 )
@@ -1287,7 +1287,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "9000,21000,34000,44000"
+xt "9000,21000,33000,44000"
 )
 oxt "15000,6000,40000,32000"
 biTextGroup (BiTextGroup
@@ -1722,7 +1722,7 @@ tm "PackageList"
 )
 ]
 )
-windowSize "0,0,1921,1066"
+windowSize "1920,0,3841,1066"
 viewArea "-45400,-8600,108663,74210"
 cachedDiagramExtent "0,0,118000,49000"
 hasePageBreakOrigin 1
@@ -1996,7 +1996,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3577,0
+lastUid 3630,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

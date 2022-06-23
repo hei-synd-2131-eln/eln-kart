@@ -149,19 +149,19 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\DcMotor\\hds\\dcMotorRegisters"
 )
 (vvPair
 variable "date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -189,7 +189,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -201,7 +201,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "10:34:13"
+value "12:53:10"
 )
 (vvPair
 variable "group"
@@ -273,7 +273,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "10:34:13"
+value "12:53:10"
 )
 (vvPair
 variable "unit"
@@ -3616,12 +3616,12 @@ tm "BdCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "0,14,1921,1080"
-viewArea "9453,9217,168595,97389"
+windowSize "1912,-8,3848,1058"
+viewArea "9500,9200,170052,97372"
 cachedDiagramExtent "0,0,140400,89600"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 3435,0
+lastUid 3608,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0
@@ -4661,7 +4661,7 @@ tm "BdDeclarativeTextMgr"
 )
 commonDM (CommonDM
 ldm (LogicalDM
-suid 59,0
+suid 60,0
 usingSuid 1
 emptyRow *133 (LEmptyRow
 )

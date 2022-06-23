@@ -1,14 +1,14 @@
 # vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
-# Start time: 15:45:01 on Jun 09,2022
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# Start time: 13:12:22 on Jun 23,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading kart.kart_student(body)
 # Loading kart.kart(body)
 # Loading gates.gates
-# Loading work.steppermotorcontroller(struct)#1
+# Loading work.steppermotorcontroller_tb(struct)#1
 # Loading stepper.steppermotorcontroller(struct)#1
 # Loading gates.or2(sim)#1
 # Loading stepper.anglecontrol(masterversion)#1
@@ -28,36 +28,36 @@
 # Loading ieee.std_logic_textio(body)
 # Loading common_test.testutils(body)
 # ** Warning: (vsim-3479) Time unit 'fs' is less than the simulator resolution (1ps).
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # Loading work.steppermotorcontroller_tester(test)#1
 # Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
 # do C:/dev/eln_kart_sodimm200/Simulation/Stepper/stepperMotorController.do
 # ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_registers/U_sender
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_registers/U_sender
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_registers/U_manager
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_registers/U_manager
 # ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_driver
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_driver
 # ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_driver
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_driver
 # ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_driver
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_driver
 # ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_angleControl/I_diff
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_angleControl/I_diff
 # ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller/I_stepper/I_angleControl/I_diff
+#    Time: 0 ps  Iteration: 0  Instance: /steppermotorcontroller_tb/I_stepper/I_angleControl/I_diff
 # ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 1  Instance: /steppermotorcontroller/I_stepper/I_angleControl/I_diff
+#    Time: 0 ps  Iteration: 1  Instance: /steppermotorcontroller_tb/I_stepper/I_angleControl/I_diff
 # ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 1  Instance: /steppermotorcontroller/I_stepper/I_angleControl/I_diff
+#    Time: 0 ps  Iteration: 1  Instance: /steppermotorcontroller_tb/I_stepper/I_angleControl/I_diff
 # ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
-#    Time: 0 ps  Iteration: 3  Instance: /steppermotorcontroller/I_stepper/I_driver
+#    Time: 0 ps  Iteration: 3  Instance: /steppermotorcontroller_tb/I_stepper/I_driver
 # ** Warning: NUMERIC_STD."/=": metavalue detected, returning TRUE
-#    Time: 0 ps  Iteration: 5  Instance: /steppermotorcontroller/I_tester
+#    Time: 0 ps  Iteration: 5  Instance: /steppermotorcontroller_tb/I_tester
 # 
 # 
 # 
@@ -72,7 +72,7 @@
 # Restarting to zero position at time 600 us
 # 
 # ** Note: Coil direction OK
-#    Time: 1620001 ns  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 1620001 ns  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # Activating end of turn switch at time 1620 us
 # 
 # Sending turn control to half angle at time 27120 us
@@ -81,24 +81,24 @@
 #   Reached => 0 | STPEnd => 0 
 # 
 # ** Note: Reached flag OK
-#    Time: 39820090 ns  Iteration: 2  Instance: /steppermotorcontroller/I_tester
+#    Time: 39820090 ns  Iteration: 2  Instance: /steppermotorcontroller_tb/I_tester
 # ** Note: Coil direction OK
-#    Time: 39820090 ns  Iteration: 2  Instance: /steppermotorcontroller/I_tester
+#    Time: 39820090 ns  Iteration: 2  Instance: /steppermotorcontroller_tb/I_tester
 # Asking for status at time 56420 us
 #     Reached => 1 | STPEnd => 1 
 # 
 # ** Note: Reached flag OK
-#    Time: 56420190 ns  Iteration: 2  Instance: /steppermotorcontroller/I_tester
+#    Time: 56420190 ns  Iteration: 2  Instance: /steppermotorcontroller_tb/I_tester
 # Asking for position at time 56620 us
 # 
 # ** Note: Position readback OK
-#    Time: 56620290 ns  Iteration: 2  Instance: /steppermotorcontroller/I_tester
+#    Time: 56620290 ns  Iteration: 2  Instance: /steppermotorcontroller_tb/I_tester
 # Sending turn control to full angle at time 56820 us
 # 
 # Sending turn control to angle zero at time 123520 us
 # 
 # ** Note: Coil direction OK
-#    Time: 248520290 ns  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 248520290 ns  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # Emulating end contact ON at time 248720 us
 # 
 # Sending end contact OFF at time 248920 us
@@ -106,19 +106,18 @@
 # Sending turn control to half angle at time 249120 us
 # 
 # ** Note: Coil direction OK
-#    Time: 299120290 ns  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 299120290 ns  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # Restarting with different hardware orientation controls at time 299120 us
 # 
 # ** Note: Coil direction OK
-#    Time: 299320290 ns  Iteration: 0  Instance: /steppermotorcontroller/I_tester
+#    Time: 299320290 ns  Iteration: 0  Instance: /steppermotorcontroller_tb/I_tester
 # Ending restart control at time 299520 us
 # 
 # Sending turn control to angle zero at time 299720 us
 # 
 # ** Failure: End of simulation
-#    Time: 337020290 ns  Iteration: 0  Process: /steppermotorcontroller/I_tester/line__73 File: C:/dev/eln_kart_sodimm200/Prefs/../Stepper_test/hdl/stepperMotorController_tester_test.vhd
+#    Time: 337020290 ns  Iteration: 0  Process: /steppermotorcontroller_tb/I_tester/line__73 File: C:/dev/eln_kart_sodimm200/Prefs/../Stepper_test/hdl/stepperMotorController_tester_test.vhd
 # 0
 # Break in Process line__73 at C:/dev/eln_kart_sodimm200/Prefs/../Stepper_test/hdl/stepperMotorController_tester_test.vhd line 355
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/Stepper/stepperMotorController.do
-# End time: 15:45:46 on Jun 09,2022, Elapsed time: 0:00:45
+# End time: 13:12:56 on Jun 23,2022, Elapsed time: 0:00:34
 # Errors: 1, Warnings: 14

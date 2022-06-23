@@ -860,19 +860,19 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Kart\\hds\\kartController"
 )
 (vvPair
 variable "date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -900,7 +900,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -912,7 +912,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:06:46"
+value "12:59:18"
 )
 (vvPair
 variable "group"
@@ -984,7 +984,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "18:06:46"
+value "12:59:18"
 )
 (vvPair
 variable "unit"
@@ -2921,7 +2921,7 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 2470,0
+lastUid 2562,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"

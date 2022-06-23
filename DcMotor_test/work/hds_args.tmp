@@ -1,1 +1,1 @@
- -do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorcontroller.do -L DcMotor_test -L Kart -L DcMotor -L Common -L gates -L Common_test -l transcript.txt -i -t ps -multisource_delay latest +typdelays DcMotor_test.dcMotorController_tb(struct)
+ -do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorController.do -L DcMotor_test -L Kart -L DcMotor -L Common -L gates -L Common_test -l transcript.txt -i -t ps -multisource_delay latest +typdelays DcMotor_test.dcMotorController_tb(struct)

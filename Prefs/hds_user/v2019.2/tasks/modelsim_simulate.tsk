@@ -46,7 +46,7 @@ settingsMap [
 "GlitchGeneration"
 "1"
 "InitCmd"
-"C:/dev/eln_kart_sodimm200/Simulation/Kart/kartUVM.do"
+"$SIMULATION_DIR/Kart/kartStudent.do"
 "LogFile"
 ""
 "RemoteHost"

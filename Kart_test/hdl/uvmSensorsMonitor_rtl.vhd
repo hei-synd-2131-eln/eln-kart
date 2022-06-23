@@ -19,7 +19,7 @@ ARCHITECTURE rtl OF uvmSensorsMonitor IS
   signal p_pulse : std_ulogic := '0';
   signal p_pulse_conn: std_ulogic := '1';
 
-  signal p_hall_pulse : std_ulogic := '0';
+  signal p_hall_pulse, p_sendpulse : std_ulogic := '0';
 
   signal p_batteryDataOut : unsigned(I2C_BIT_NB-3 downto 0) := (others=>'0');
 
@@ -70,7 +70,16 @@ BEGIN
 
 
   -- Emulate pulse sensor with random distances
-  doPulse: process(distanceStart, p_pulse_conn)
+
+  pulseStarter: process
+  begin
+    p_sendpulse <= '0';
+    wait for (real(SENS_rangeTimeoutBeforeStartMS) / 10.0) * ms;
+    p_sendpulse <= '1';
+    wait for p_clk_per;
+  end process;
+
+  doPulse: process(p_sendpulse)
     variable r, r_scaled : real;
     variable seed1 : integer := 91;
     variable seed2 : integer := 514;
@@ -80,8 +89,8 @@ BEGIN
     constant test_max_real : real := 0.375;
     constant unit : time := ms;
   begin
-    if p_pulse_conn = '1' then
-      if rising_edge(distanceStart) then
+    if p_sendpulse = '1' then
+      if p_pulse_conn = '1' then
         uniform(seed1, seed2, r);
         if testMode = '1' then
           r_scaled := r * (test_max_real - test_min_real) + test_min_real;
@@ -89,9 +98,10 @@ BEGIN
           r_scaled := r * (max_real - min_real) + min_real;
         end if;
         p_pulse <= '1', '0' after r_scaled * unit;
+        
+      else
+        p_pulse <= '0';
       end if;
-    else
-      p_pulse <= '0';
     end if;
   end process doPulse;
 
@@ -188,7 +198,7 @@ BEGIN
   end process batt_reader;
 
 
-  reportBusAccess: process(p_startup, leds, distanceStart)
+  reportBusAccess: process(p_startup, leds)
   begin
     if p_startup = '1' then
       sensorsMonitor <= pad(
@@ -198,11 +208,6 @@ BEGIN
     elsif leds'event then
       sensorsMonitor <= pad(
         "Leds state : " & sprintf("%b", leds),
-        sensorsMonitor'length
-      );
-    elsif rising_edge(distanceStart) then
-      sensorsMonitor <= pad(
-        "Distance measurement started",
         sensorsMonitor'length
       );
     end if;

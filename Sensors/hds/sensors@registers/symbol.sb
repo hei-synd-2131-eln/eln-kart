@@ -27,7 +27,7 @@ appVersion "2019.2 (Build 5)"
 model (Symbol
 commonDM (CommonDM
 ldm (LogicalDM
-suid 84,0
+suid 85,0
 usingSuid 1
 emptyRow *1 (LEmptyRow
 )
@@ -329,7 +329,7 @@ font "Tahoma,10,0"
 )
 emptyMRCItem *34 (MRCItem
 litem &1
-pos 19
+pos 20
 dimension 20
 )
 uid 68,0
@@ -696,23 +696,23 @@ VExpander (VariableExpander
 vvMap [
 (vvPair
 variable "HDLDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hdl"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb.info"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb.user"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds"
 )
 (vvPair
 variable "appl"
@@ -732,27 +732,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensors@registers"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensors@registers"
 )
 (vvPair
 variable "d_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensorsRegisters"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensorsRegisters"
 )
 (vvPair
 variable "date"
-value "25.05.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "25"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -780,7 +780,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "25.05.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -792,7 +792,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "14:12:50"
+value "12:58:08"
 )
 (vvPair
 variable "group"
@@ -816,7 +816,7 @@ value "$HDS_PROJECT_DIR/../Sensors/work"
 )
 (vvPair
 variable "mm"
-value "05"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -824,19 +824,19 @@ value "sensorsRegisters"
 )
 (vvPair
 variable "month"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "month_long"
-value "mai"
+value "juin"
 )
 (vvPair
 variable "p"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensors@registers\\symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\..\\Sensors\\hds\\sensorsRegisters\\symbol.sb"
+value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Sensors\\hds\\sensorsRegisters\\symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -864,7 +864,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "14:12:50"
+value "12:58:08"
 )
 (vvPair
 variable "unit"
@@ -931,7 +931,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,2400,69500,3200"
-st "addressIn            : IN     symbolSizeType  ;"
+st "addressIn            : IN     symbolSizeType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -976,7 +977,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4800,67500,5600"
-st "clock                : IN     std_ulogic  ;"
+st "clock                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1021,7 +1023,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,6400,70500,7200"
-st "dataIn               : IN     dataRegisterType  ;"
+st "dataIn               : IN     dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1043,7 +1046,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,24625,39750,25375"
+xt "38000,24625,38750,25375"
 )
 tg (CPTG
 uid 1109,0
@@ -1054,10 +1057,10 @@ uid 1110,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "28400,24300,38000,25700"
+xt "27400,24300,37000,25700"
 st "endSwitches"
 ju 2
-blo "38000,25500"
+blo "37000,25500"
 tm "CptPortNameMgr"
 )
 )
@@ -1067,7 +1070,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,7200,82500,8000"
-st "endSwitches          : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;"
+st "endSwitches          : IN     std_ulogic_vector (1 to SENS_endSwitchNb) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1090,7 +1094,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,28625,39750,29375"
+xt "38000,28625,38750,29375"
 )
 tg (CPTG
 uid 1114,0
@@ -1101,10 +1105,10 @@ uid 1115,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "31200,28300,38000,29700"
+xt "30200,28300,37000,29700"
 st "hallCount"
 ju 2
-blo "38000,29500"
+blo "37000,29500"
 tm "CptPortNameMgr"
 )
 )
@@ -1114,7 +1118,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8000,91500,8800"
-st "hallCount            : IN     unsigned (SENS_hallCountBitNb*SENS_hallSensorNb-1 downto 0) ;"
+st "hallCount            : IN     unsigned (SENS_hallCountBitNb*SENS_hallSensorNb-1 downto 0) ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1136,7 +1141,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,20625,39750,21375"
+xt "38000,20625,38750,21375"
 )
 tg (CPTG
 uid 1119,0
@@ -1147,10 +1152,10 @@ uid 1120,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "34600,20300,38000,21700"
+xt "33600,20300,37000,21700"
 st "leds"
 ju 2
-blo "38000,21500"
+blo "37000,21500"
 tm "CptPortNameMgr"
 )
 )
@@ -1160,7 +1165,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12800,79500,13600"
-st "leds                 : OUT    std_uLogic_vector (1 to SENS_ledNb) ;"
+st "leds                 : OUT    std_uLogic_vector (1 to SENS_ledNb) ;
+"
 )
 thePort (LogicalPort
 m 1
@@ -1183,7 +1189,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,34625,39750,35375"
+xt "38000,34625,38750,35375"
 )
 tg (CPTG
 uid 1124,0
@@ -1194,10 +1200,10 @@ uid 1125,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "26800,34300,38000,35700"
+xt "25800,34300,37000,35700"
 st "rangerDistance"
 ju 2
-blo "38000,35500"
+blo "37000,35500"
 tm "CptPortNameMgr"
 )
 )
@@ -1207,7 +1213,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,9600,80500,10400"
-st "rangerDistance       : IN     unsigned (SENS_rangeBitNb-1 downto 0) ;"
+st "rangerDistance       : IN     unsigned (SENS_rangeBitNb-1 downto 0) ;
+"
 )
 thePort (LogicalPort
 decl (Decl
@@ -1252,7 +1259,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,10400,67500,11200"
-st "regWr                : IN     std_ulogic  ;"
+st "regWr                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1297,7 +1305,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,11200,67500,12000"
-st "reset                : IN     std_ulogic  ;"
+st "reset                : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1319,7 +1328,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,30625,39750,31375"
+xt "38000,30625,38750,31375"
 )
 tg (CPTG
 uid 1139,0
@@ -1330,10 +1339,10 @@ uid 1140,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "25500,30300,38000,31700"
+xt "24500,30300,37000,31700"
 st "zeroHallCounters"
 ju 2
-blo "38000,31500"
+blo "37000,31500"
 tm "CptPortNameMgr"
 )
 )
@@ -1343,7 +1352,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,16800,85000,17600"
-st "zeroHallCounters     : OUT    std_uLogic_vector (SENS_hallSensorNb-1 DOWNTO 0)"
+st "zeroHallCounters     : OUT    std_uLogic_vector (SENS_hallSensorNb-1 DOWNTO 0)
+"
 )
 thePort (LogicalPort
 m 1
@@ -1389,7 +1399,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,13600,69500,14400"
-st "sensorsAddressToSend : OUT    symbolSizeType  ;"
+st "sensorsAddressToSend : OUT    symbolSizeType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1435,7 +1446,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,14400,70500,15200"
-st "sensorsDataToSend    : OUT    dataRegisterType  ;"
+st "sensorsDataToSend    : OUT    dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1481,7 +1493,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,15200,67500,16000"
-st "sensorsSendRequest   : OUT    std_ulogic  ;"
+st "sensorsSendRequest   : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1527,7 +1540,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,12000,67500,12800"
-st "sensorsSendAuth      : IN     std_ulogic  ;"
+st "sensorsSendAuth      : IN     std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1549,7 +1563,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,37625,39750,38375"
+xt "38000,37625,38750,38375"
 )
 tg (CPTG
 uid 1405,0
@@ -1560,10 +1574,10 @@ uid 1406,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "28200,37300,38000,38700"
+xt "27200,37300,37000,38700"
 st "ambientLight"
 ju 2
-blo "38000,38500"
+blo "37000,38500"
 tm "CptPortNameMgr"
 )
 )
@@ -1573,7 +1587,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,3200,95500,4000"
-st "ambientLight         : IN     unsigned (SENS_proximitySensorNb*SENS_ambientLightBitNb-1 DOWNTO 0) ;"
+st "ambientLight         : IN     unsigned (SENS_proximitySensorNb*SENS_ambientLightBitNb-1 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1596,7 +1611,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,39625,39750,40375"
+xt "38000,39625,38750,40375"
 )
 tg (CPTG
 uid 1410,0
@@ -1607,10 +1622,10 @@ uid 1411,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "31500,39300,38000,40700"
+xt "30500,39300,37000,40700"
 st "proximity"
 ju 2
-blo "38000,40500"
+blo "37000,40500"
 tm "CptPortNameMgr"
 )
 )
@@ -1620,7 +1635,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,8800,95500,9600"
-st "proximity            : IN     unsigned (SENS_proximitySensorNb*SENS_ambientLightBitNb-1 DOWNTO 0) ;"
+st "proximity            : IN     unsigned (SENS_proximitySensorNb*SENS_ambientLightBitNb-1 DOWNTO 0) ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1643,7 +1659,7 @@ va (VaSet
 vasetType 1
 fg "0,65535,0"
 )
-xt "39000,41625,39750,42375"
+xt "38000,41625,38750,42375"
 )
 tg (CPTG
 uid 1415,0
@@ -1654,10 +1670,10 @@ uid 1416,0
 va (VaSet
 font "Verdana,12,0"
 )
-xt "27700,41300,38000,42700"
+xt "26700,41300,37000,42700"
 st "startProximity"
 ju 2
-blo "38000,42500"
+blo "37000,42500"
 tm "CptPortNameMgr"
 )
 )
@@ -1667,7 +1683,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,16000,67500,16800"
-st "startProximity       : OUT    std_ulogic  ;"
+st "startProximity       : OUT    std_ulogic  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1713,7 +1730,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,4000,70500,4800"
-st "battery250uv         : IN     dataRegisterType  ;"
+st "battery250uv         : IN     dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1758,7 +1776,8 @@ va (VaSet
 font "Courier New,8,0"
 )
 xt "44000,5600,70500,6400"
-st "current250uA         : IN     dataRegisterType  ;"
+st "current250uA         : IN     dataRegisterType  ;
+"
 )
 thePort (LogicalPort
 lang 11
@@ -1779,7 +1798,7 @@ fg "0,65535,0"
 lineColor "0,32896,0"
 lineWidth 2
 )
-xt "8000,17000,39000,44000"
+xt "8000,17000,38000,44000"
 )
 oxt "15000,6000,32000,22000"
 biTextGroup (BiTextGroup
@@ -1856,7 +1875,7 @@ fg "0,0,32768"
 bg "0,0,32768"
 font "Arial,8,0"
 )
-xt "91200,4000,102600,5000"
+xt "91200,4000,102500,5000"
 st "
 by %user on %dd %month %year
 "
@@ -2208,8 +2227,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "236,44,1921,1080"
-viewArea "-26700,-6500,105887,73580"
+windowSize "235,44,1921,1080"
+viewArea "-26700,-6500,105978,73580"
 cachedDiagramExtent "0,0,128000,49000"
 hasePageBreakOrigin 1
 pageBreakOrigin "-23000,0"
@@ -2482,8 +2501,8 @@ xt "42000,0,42000,0"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3708,0
+lastUid 3761,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
-activeModelName "Symbol:CDM"
+activeModelName "Symbol"
 )

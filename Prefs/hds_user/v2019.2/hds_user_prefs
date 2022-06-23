@@ -1548,6 +1548,8 @@ defaultCategoryTemplates [
 "combined.vhd"
 4
 "package_header.vhd"
+5
+"package_body.vhd"
 6
 "configuration.vhd"
 ]
@@ -1559,6 +1561,8 @@ defaultCategoryTemplatesPrefs [
 3
 0
 4
+0
+5
 0
 6
 0
@@ -4275,7 +4279,7 @@ hdsWorkspaceLocation ""
 relativeLibraryRootDir ""
 vmLabelLatestDontAskAgain 0
 vmLabelWorkspaceDontAskAgain 0
-logWindowGeometry "750x657+711+105"
+logWindowGeometry "750x650+177+163"
 diagramBrowserTabNo 0
 showInsertPortHint 0
 showContentFirstTime 0
@@ -6300,20 +6304,10 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "Stepper"
+name "DcMotor_test"
 showingHierarchy 0
 openLibs [
-"Stepper"
-]
-declHierarchy [
-]
-activeViewpointIdx 0
-)
-(WorkTab
-name "Stepper_test"
-showingHierarchy 0
-openLibs [
-"Stepper_test"
+"DcMotor_test"
 ]
 declHierarchy [
 ]
@@ -6330,30 +6324,30 @@ declHierarchy [
 activeViewpointIdx 0
 )
 (WorkTab
-name "ControlRegisters"
+name "Sensors_test"
 showingHierarchy 0
 openLibs [
-"ControlRegisters"
+"Sensors_test"
 ]
 declHierarchy [
 ]
 activeViewpointIdx 0
 )
 (WorkTab
-name "UART"
+name "Stepper"
 showingHierarchy 0
 openLibs [
-"UART"
+"Stepper"
 ]
 declHierarchy [
 ]
 activeViewpointIdx 0
 )
 (WorkTab
-name "UART_test"
+name "Stepper_test"
 showingHierarchy 0
 openLibs [
-"UART_test"
+"Stepper_test"
 ]
 declHierarchy [
 ]
@@ -6377,25 +6371,26 @@ SplitterClientPrefs [
 (SplitterPreference
 hidden 0
 expand 0
-size 224
+size 181
 )
 ]
 displayHierarchy 0
-xPos 2152
-yPos 72
+xPos 354
+yPos 80
 width 1936
 height 1066
 activeSidePanelTab 2
-activeLibraryTab 7
-sidePanelSize 121
+activeLibraryTab 2
+sidePanelSize 431
 showUnixHiddenFiles 0
-componentBrowserXpos -648
-componentBrowserYpos 525
+componentBrowserXpos 3192
+componentBrowserYpos 149
 componentBrowserWidth 300
 componentBrowserHeight 340
 componentBrowserLibraryNames [
 "Stepper"
 "gates"
+"sequential"
 ]
 )
 (SmPreferences

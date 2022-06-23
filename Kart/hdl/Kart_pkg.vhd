@@ -11,42 +11,18 @@ LIBRARY ieee;
   USE ieee.std_logic_1164.all;
   USE ieee.numeric_std.all;
 
+Library Kart;
+  Use Kart.Kart_Student.all;
+
 PACKAGE Kart IS
 
---------------------------------------------------------------------------------
--- CHANGE THEM AS NEEDED, YOU CAN
---------------------------------------------------------------------------------
-  
-
-  
-  -- When the circuit is in test mode
-    --  (Stepper -> stepperMotorController -> testMode = '1'), the counter has
-    --  to count quicker (to simplify on simulating the circuit).
-    -- The following defines how many bits the counter should use.
-    -- It simply creates a counter with that number of bits generating a pulse
-    -- when it overflows, i.e. a pulse each 2**n / 10MHz => n = 8 : 25.6 [us]
-  constant TESTMODE_PRESCALER_BIT_NB : positive := 8;
-
-  -- Sensors
-    -- The number of leds (or any output requiring a symmetrical PWM)
-  constant NUMBER_OF_LEDS : positive := 4;
-
-    -- The number of hall sensors
-  constant NUMBER_OF_HALL_SENSORS : positive := 1;
-
-    -- The number of external end switches (or any 0 - 3.3V input signal)
-    -- A signal is sent to the smartphone on either rising or falling edge
-  constant NUMBER_OF_EXT_END_SWITCHES : positive := 1;
-
-    -- The number of proximity sensors used
-    -- NORMALLY NONE
-  constant NUMBER_OF_PROXIMITY_SENSORS : natural := 0;
-
-    -- If the hallCounters block generates 2 pulses per turn (on rising AND 
-    --  falling edges of the hallPulses) or only one
-  constant HALLSENS_2PULSES_PER_TURN : std_ulogic := '1';
-
-
+-- Redefine student constants to make them available through this package
+  constant TESTMODE_PRESCALER_BIT_NB : positive := TESTMODE_PRESCALER_BIT_NB;
+  constant NUMBER_OF_LEDS : positive := NUMBER_OF_LEDS;
+  constant NUMBER_OF_HALL_SENSORS : positive := NUMBER_OF_HALL_SENSORS;
+  constant NUMBER_OF_EXT_END_SWITCHES : positive := NUMBER_OF_EXT_END_SWITCHES;
+  constant NUMBER_OF_PROXIMITY_SENSORS : natural := NUMBER_OF_PROXIMITY_SENSORS;
+  constant HALLSENS_2PULSES_PER_TURN : std_ulogic := HALLSENS_2PULSES_PER_TURN;
 
 --------------------------------------------------------------------------------
 -- YOUUUUUUUUU SHALL NOTTTTTTT TOUCH
@@ -272,9 +248,9 @@ PACKAGE Kart IS
   constant SENS_BATT_DELTA_MV : positive := 100;
     -- Delta for current
       -- Current value is n * 250uA / (100 * 5m) [A] => delta of 100mA = 200
-  constant SENS_CURR_DELTA_MA : positive := 100;
+  constant SENS_CURR_DELTA_MA : positive := 50;
       -- Distance value is n * 25.4 / (147u * (fclk/rangedvd)) [mm] => delta of 10mm = 57.87
-  constant SEND_RANGEFNDR_CLK_DIVIDER : positive :=
+  constant SENS_RANGEFNDR_CLK_DIVIDER : positive :=
     positive(CLOCK_FREQUENCY / 1000000.0);
         -- if zero, no auto send
   constant SENS_RANGEFNDR_MM : natural := 100;
@@ -282,8 +258,13 @@ PACKAGE Kart IS
   constant SENS_RANGEFNDR_MIN_MM : natural := 152;
         -- max value for send
   constant SENS_RANGEFNDR_MAX_MM : positive := 1500;
-      -- How many 1/2 turns before the hall speed is sent
-  constant SENS_HALLCOUNT_HALF_TURN_DELTA : positive := 6;
+      -- HallCount definition
+        -- How many 1/2 turns before the hall speed is sent
+  constant SENS_HALLCOUNT_HALF_TURN_DELTA : positive := 20;
+        -- Base time for Hall Count
+  constant SENS_HALL_CLOCK_DIVIDER : positive := 4*CLOCK_1MS_DIVIDER;
+        -- Number of clocks the signal must be stable for registering
+  constant SENS_HALL_NB_CLOCKS_FILTER : positive := 7;
     -- Delta for proximities, unknown unit
   constant SENS_PROXI_DELTA : positive := 255;
     -- Delta for ambient, unknown unit
@@ -298,17 +279,17 @@ PACKAGE Kart IS
   constant SENS_RANGEFNDR_DELTA : natural :=
     natural(
       (real(SENS_RANGEFNDR_MM) * 0.000147 *
-      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+      (CLOCK_FREQUENCY / real(SENS_RANGEFNDR_CLK_DIVIDER))) / 25.4
     );
   constant SENS_RANGEFNDR_MIN_DELTA : natural  :=
     natural(
       (real(SENS_RANGEFNDR_MIN_MM) * 0.000147 *
-      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+      (CLOCK_FREQUENCY / real(SENS_RANGEFNDR_CLK_DIVIDER))) / 25.4
     );
   constant SENS_RANGEFNDR_MAX_DELTA : positive :=
     positive(
       (real(SENS_RANGEFNDR_MAX_MM) * 0.000147 *
-      (CLOCK_FREQUENCY / real(SEND_RANGEFNDR_CLK_DIVIDER))) / 25.4
+      (CLOCK_FREQUENCY / real(SENS_RANGEFNDR_CLK_DIVIDER))) / 25.4
     );
   function hall_check(nb_half_turn : positive) return positive;
   constant SENS_HALLCOUNT_TURN_DELTA : positive;
@@ -338,7 +319,9 @@ PACKAGE Kart IS
       -- Number of bits that can be used for counter. Final register is such as:
       --  3bits   : number of 1/2 turns done
       --  13 bits : time elapsed for the number of turns counted  
-  constant SENS_HALL_CNT_BITNB : positive := 13;
+  constant SENS_HALL_CNT_BITNB : positive := 11;
+  constant SENS_HALL_TURNS_BITNB : positive :=
+    SENS_hallCountBitNb - SENS_HALL_CNT_BITNB;
       -- If should count 2 pulses per turn or only 1
   constant SENS_HALL_COUNTS_2PULSES_P_TURN : std_ulogic
     := HALLSENS_2PULSES_PER_TURN;
@@ -397,9 +380,10 @@ package body Kart is
   -- Hall
   function hall_check(nb_half_turn : positive) return positive is
   begin
-    assert(nb_half_turn < 8 and nb_half_turn mod 2 = 0 and nb_half_turn /= 0)
+    assert(nb_half_turn < 2**SENS_HALL_TURNS_BITNB and nb_half_turn mod 2 = 0)
       report
-      "SENS_HALLCOUNT_HALF_TURN_DELTA must be smaller than 8 and even and not 0"
+      "SENS_HALLCOUNT_HALF_TURN_DELTA must be even and smaller than " &
+        positive'image(2**SENS_HALL_TURNS_BITNB)
       severity failure;
     return nb_half_turn;
   end function hall_check;

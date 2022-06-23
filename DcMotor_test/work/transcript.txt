@@ -1,10 +1,13 @@
 # vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
-# Start time: 15:46:28 on Jun 09,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Start time: 14:00:41 on Jun 23,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
+# ** Note: (vopt-143) Recognized 1 FSM in architecture body "dcMotorRegisterSender(rtl)".
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
+# Loading kart.kart_student(body)
 # Loading kart.kart(body)
 # Loading work.dcmotorcontroller_tb(struct)#1
 # Loading common.commonlib(body)
@@ -22,8 +25,7 @@
 #    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
 # Loading work.dcmotorcontroller_tester(test)#1
 # Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
-# do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorcontroller.do
-run
+# do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorController.do
 # 
 # 
 # 
@@ -55,8 +57,87 @@ run
 #    Time: 0 ps  Iteration: 3  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
 # Sending prescaler value at time 1000 us
 # 
-# 0
+# Sending speed control to 1/3 max value forwards at time 2000 us
 # 
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorcontroller.do
-# End time: 15:47:16 on Jun 09,2022, Elapsed time: 0:00:48
-# Errors: 0, Warnings: 11
+# ** Note: Direction OK
+#    Time: 2160100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 2160100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to 2/3 max value forwards at time 3160 us
+# 
+# ** Note: Direction OK
+#    Time: 3320200 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 3320200 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to max value forwards at time 4320 us
+# 
+# ** Note: Direction OK
+#    Time: 4480300 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 4480300 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to 1/3 max value backwards at time 5480 us
+# 
+# ** Note: Direction OK
+#    Time: 5640400 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 5640400 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to 2/3 max value backwards at time 6640 us
+# 
+# ** Note: Direction OK
+#    Time: 6800500 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 6800500 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to max value backwards at time 7800 us
+# 
+# ** Note: Direction OK
+#    Time: 7960600 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 7960600 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Changing hardware hardwareOrientation at time 8960 us
+# 
+# Sending speed control to half max value forwards at time 9960 us
+# 
+# ** Note: Direction OK
+#    Time: 10120700 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 10120700 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to max value forwards at time 11120 us
+# 
+# ** Note: Direction OK
+#    Time: 11280800 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 11280800 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to half max value backwards at time 12280 us
+# 
+# ** Note: Direction OK
+#    Time: 12440900 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 12440900 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to max value backwards at time 13440 us
+# 
+# ** Note: Direction OK
+#    Time: 13601 us  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Note: PWM OK
+#    Time: 13601 us  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending speed control to 2 forwards at time 14601 us
+# 
+# ** Note: PWM Ok
+#    Time: 14761100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Sending restart control at time 15761 us
+# 
+# ** Note: PWM OK
+#    Time: 15921100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Stopping restart control at time 16921 us
+# 
+# ** Note: PWM OK
+#    Time: 17081100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# Loosing BT connection at time 18081 us
+# 
+# ** Note: PWM OK
+#    Time: 18241100 ns  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
+# ** Failure: End of simulation
+#    Time: 19241100 ns  Iteration: 0  Process: /dcmotorcontroller_tb/I_tester/line__67 File: C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd
+# 0
+# Break in Process line__67 at C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd line 445
+# End time: 14:02:13 on Jun 23,2022, Elapsed time: 0:01:32
+# Errors: 1, Warnings: 11

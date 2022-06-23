@@ -126,15 +126,6 @@ mwi 0
 uid 6301,0
 )
 (Instance
-name "I_dcMotorController"
-duLibraryName "DcMotor"
-duName "dcMotorController"
-elements [
-]
-mwi 0
-uid 6367,0
-)
-(Instance
 name "I_cregController"
 duLibraryName "ControlRegisters"
 duName "controlRegistersController"
@@ -144,13 +135,22 @@ mwi 0
 uid 6541,0
 )
 (Instance
+name "I_dcMotorController"
+duLibraryName "DcMotor"
+duName "dcMotorController"
+elements [
+]
+mwi 0
+uid 7541,0
+)
+(Instance
 name "I_sensorsController"
 duLibraryName "Sensors"
 duName "sensorsController"
 elements [
 ]
 mwi 0
-uid 7203,0
+uid 7733,0
 )
 ]
 libraryRefs [
@@ -212,19 +212,19 @@ value "C:\\dev\\eln_kart_sodimm200\\Prefs\\..\\Kart\\hds\\kartController"
 )
 (vvPair
 variable "date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "day"
-value "mer."
+value "jeu."
 )
 (vvPair
 variable "day_long"
-value "mercredi"
+value "jeudi"
 )
 (vvPair
 variable "dd"
-value "22"
+value "23"
 )
 (vvPair
 variable "entity_name"
@@ -252,7 +252,7 @@ value "axel.amand"
 )
 (vvPair
 variable "graphical_source_date"
-value "22.06.2022"
+value "23.06.2022"
 )
 (vvPair
 variable "graphical_source_group"
@@ -264,7 +264,7 @@ value "WE7860"
 )
 (vvPair
 variable "graphical_source_time"
-value "18:06:46"
+value "12:59:18"
 )
 (vvPair
 variable "group"
@@ -336,7 +336,7 @@ value "struct"
 )
 (vvPair
 variable "time"
-value "18:06:46"
+value "12:59:18"
 )
 (vvPair
 variable "unit"
@@ -5184,534 +5184,9 @@ st "SIGNAL hwOrientation        : dataRegisterType"
 )
 )
 *167 (SaComponent
-uid 6367,0
-optionalChildren [
-*168 (CptPort
-uid 6319,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6320,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,49625,197000,50375"
-)
-tg (CPTG
-uid 6321,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6322,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,49300,205200,50700"
-st "addressIn"
-blo "198000,50500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "addressIn"
-t "symbolSizeType"
-o 1
-suid 1,0
-)
-)
-)
-*169 (CptPort
-uid 6323,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6324,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,63625,197000,64375"
-)
-tg (CPTG
-uid 6325,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6326,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,63300,201800,64700"
-st "clock"
-blo "198000,64500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "clock"
-t "std_ulogic"
-o 2
-suid 2,0
-)
-)
-)
-*170 (CptPort
-uid 6327,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6328,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,51625,197000,52375"
-)
-tg (CPTG
-uid 6329,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6330,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,51300,203000,52700"
-st "dataIn"
-blo "198000,52500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "dataIn"
-t "dataRegisterType"
-o 3
-suid 3,0
-)
-)
-)
-*171 (CptPort
-uid 6331,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6332,0
-ro 270
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,56625,197000,57375"
-)
-tg (CPTG
-uid 6333,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6334,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,56300,212300,57700"
-st "dcMotorDataToSend"
-blo "198000,57500"
-)
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "dcMotorDataToSend"
-t "dataRegisterType"
-o 9
-suid 4,0
-)
-)
-)
-*172 (CptPort
-uid 6335,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6336,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,65625,197000,66375"
-)
-tg (CPTG
-uid 6337,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6338,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,65300,202100,66700"
-st "reset"
-blo "198000,66500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "reset"
-t "std_ulogic"
-o 7
-suid 5,0
-)
-)
-)
-*173 (CptPort
-uid 6339,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6340,0
-ro 270
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,58625,197000,59375"
-)
-tg (CPTG
-uid 6341,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6342,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,58300,213000,59700"
-st "dcMotorSendRequest"
-blo "198000,59500"
-)
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "dcMotorSendRequest"
-t "std_ulogic"
-o 10
-suid 6,0
-)
-)
-)
-*174 (CptPort
-uid 6343,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6344,0
-ro 270
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,54625,197000,55375"
-)
-tg (CPTG
-uid 6345,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6346,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,54300,215200,55700"
-st "dcMotorAddressToSend"
-blo "198000,55500"
-)
-)
-thePort (LogicalPort
-lang 11
-m 1
-decl (Decl
-n "dcMotorAddressToSend"
-t "symbolSizeType"
-o 8
-suid 7,0
-)
-)
-)
-*175 (CptPort
-uid 6347,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6348,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,60625,197000,61375"
-)
-tg (CPTG
-uid 6349,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6350,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,60300,210700,61700"
-st "dcMotorSendAuth"
-blo "198000,61500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "dcMotorSendAuth"
-t "std_ulogic"
-o 4
-suid 8,0
-)
-)
-)
-*176 (CptPort
-uid 6351,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6352,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "196250,47625,197000,48375"
-)
-tg (CPTG
-uid 6353,0
-ps "CptPortTextPlaceStrategy"
-stg "VerticalLayoutStrategy"
-f (Text
-uid 6354,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "198000,47300,202700,48700"
-st "regWr"
-blo "198000,48500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "regWr"
-t "std_ulogic"
-o 6
-suid 9,0
-)
-)
-)
-*177 (CptPort
-uid 6355,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6356,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "226000,61625,226750,62375"
-)
-tg (CPTG
-uid 6357,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 6358,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "218600,61300,225000,62700"
-st "forwards"
-ju 2
-blo "225000,62500"
-)
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "forwards"
-t "std_ulogic"
-o 11
-suid 10,0
-)
-)
-)
-*178 (CptPort
-uid 6359,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6360,0
-ro 90
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "226000,63625,226750,64375"
-)
-tg (CPTG
-uid 6361,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 6362,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "221200,63300,225000,64700"
-st "pwm"
-ju 2
-blo "225000,64500"
-)
-)
-thePort (LogicalPort
-m 1
-decl (Decl
-n "pwm"
-t "std_ulogic"
-o 12
-suid 11,0
-)
-)
-)
-*179 (CptPort
-uid 6363,0
-ps "OnEdgeStrategy"
-shape (Triangle
-uid 6364,0
-ro 270
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-)
-xt "226000,55625,226750,56375"
-)
-tg (CPTG
-uid 6365,0
-ps "CptPortTextPlaceStrategy"
-stg "RightVerticalLayoutStrategy"
-f (Text
-uid 6366,0
-va (VaSet
-font "Verdana,12,0"
-)
-xt "214400,55300,225000,56700"
-st "hwOrientation"
-ju 2
-blo "225000,56500"
-)
-)
-thePort (LogicalPort
-lang 11
-decl (Decl
-n "hwOrientation"
-t "dataRegisterType"
-o 5
-suid 12,0
-)
-)
-)
-]
-shape (Rectangle
-uid 6368,0
-va (VaSet
-vasetType 1
-fg "0,65535,0"
-lineColor "0,32896,0"
-lineWidth 2
-)
-xt "197000,47000,226000,69000"
-)
-oxt "21000,17000,50000,39000"
-ttg (MlTextGroup
-uid 6369,0
-ps "CenterOffsetStrategy"
-stg "VerticalLayoutStrategy"
-textVec [
-*180 (Text
-uid 6370,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "196800,68800,201500,70000"
-st "DcMotor"
-blo "196800,69800"
-tm "BdLibraryNameMgr"
-)
-*181 (Text
-uid 6371,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "196800,70000,206900,71200"
-st "dcMotorController"
-blo "196800,71000"
-tm "CptNameMgr"
-)
-*182 (Text
-uid 6372,0
-va (VaSet
-font "Verdana,9,1"
-)
-xt "196800,71200,208000,72400"
-st "I_dcMotorController"
-blo "196800,72200"
-tm "InstanceNameMgr"
-)
-]
-)
-ga (GenericAssociation
-uid 6373,0
-ps "EdgeToEdgeStrategy"
-matrix (Matrix
-uid 6374,0
-text (MLText
-uid 6375,0
-va (VaSet
-font "Courier New,8,0"
-)
-xt "197000,72200,197000,72200"
-)
-header ""
-)
-elements [
-]
-)
-viewicon (ZoomableIcon
-uid 6376,0
-sl 0
-va (VaSet
-vasetType 1
-fg "49152,49152,49152"
-)
-xt "197250,67250,198750,68750"
-iconName "BlockDiagram.png"
-iconMaskName "BlockDiagram.msk"
-ftype 1
-)
-viewiconposition 0
-portVis (PortSigDisplay
-sIVOD 1
-)
-archFileType "UNKNOWN"
-)
-*183 (SaComponent
 uid 6541,0
 optionalChildren [
-*184 (CptPort
+*168 (CptPort
 uid 6517,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5747,7 +5222,7 @@ suid 1,0
 )
 )
 )
-*185 (CptPort
+*169 (CptPort
 uid 6521,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5783,7 +5258,7 @@ suid 2,0
 )
 )
 )
-*186 (CptPort
+*170 (CptPort
 uid 6525,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5819,7 +5294,7 @@ suid 3,0
 )
 )
 )
-*187 (CptPort
+*171 (CptPort
 uid 6529,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5855,7 +5330,7 @@ suid 4,0
 )
 )
 )
-*188 (CptPort
+*172 (CptPort
 uid 6533,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5891,7 +5366,7 @@ suid 5,0
 )
 )
 )
-*189 (CptPort
+*173 (CptPort
 uid 6537,0
 ps "OnEdgeStrategy"
 shape (Triangle
@@ -5946,7 +5421,7 @@ uid 6543,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
-*190 (Text
+*174 (Text
 uid 6544,0
 va (VaSet
 font "Verdana,9,1"
@@ -5956,7 +5431,7 @@ st "ControlRegisters"
 blo "197800,127800"
 tm "BdLibraryNameMgr"
 )
-*191 (Text
+*175 (Text
 uid 6545,0
 va (VaSet
 font "Verdana,9,1"
@@ -5966,7 +5441,7 @@ st "controlRegistersController"
 blo "197800,129000"
 tm "CptNameMgr"
 )
-*192 (Text
+*176 (Text
 uid 6546,0
 va (VaSet
 font "Verdana,9,1"
@@ -6013,7 +5488,7 @@ sIVOD 1
 )
 archFileType "UNKNOWN"
 )
-*193 (CommentText
+*177 (CommentText
 uid 7011,0
 shape (Rectangle
 uid 7012,0
@@ -6075,14 +5550,539 @@ visibleWidth 19000
 )
 position 3
 )
-*194 (SaComponent
-uid 7203,0
+*178 (SaComponent
+uid 7541,0
 optionalChildren [
-*195 (CptPort
-uid 7119,0
+*179 (CptPort
+uid 7493,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7120,0
+uid 7494,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,49625,197000,50375"
+)
+tg (CPTG
+uid 7495,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7496,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,49300,205200,50700"
+st "addressIn"
+blo "198000,50500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "addressIn"
+t "symbolSizeType"
+o 1
+suid 1,0
+)
+)
+)
+*180 (CptPort
+uid 7497,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7498,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,63625,197000,64375"
+)
+tg (CPTG
+uid 7499,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7500,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,63300,201800,64700"
+st "clock"
+blo "198000,64500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "clock"
+t "std_ulogic"
+o 2
+suid 2,0
+)
+)
+)
+*181 (CptPort
+uid 7501,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7502,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,51625,197000,52375"
+)
+tg (CPTG
+uid 7503,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7504,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,51300,203000,52700"
+st "dataIn"
+blo "198000,52500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "dataIn"
+t "dataRegisterType"
+o 3
+suid 3,0
+)
+)
+)
+*182 (CptPort
+uid 7505,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7506,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,56625,197000,57375"
+)
+tg (CPTG
+uid 7507,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7508,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,56300,212300,57700"
+st "dcMotorDataToSend"
+blo "198000,57500"
+)
+)
+thePort (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "dcMotorDataToSend"
+t "dataRegisterType"
+o 9
+suid 4,0
+)
+)
+)
+*183 (CptPort
+uid 7509,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7510,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,65625,197000,66375"
+)
+tg (CPTG
+uid 7511,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7512,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,65300,202100,66700"
+st "reset"
+blo "198000,66500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "reset"
+t "std_ulogic"
+o 7
+suid 5,0
+)
+)
+)
+*184 (CptPort
+uid 7513,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7514,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,58625,197000,59375"
+)
+tg (CPTG
+uid 7515,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7516,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,58300,213000,59700"
+st "dcMotorSendRequest"
+blo "198000,59500"
+)
+)
+thePort (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "dcMotorSendRequest"
+t "std_ulogic"
+o 10
+suid 6,0
+)
+)
+)
+*185 (CptPort
+uid 7517,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7518,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,54625,197000,55375"
+)
+tg (CPTG
+uid 7519,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7520,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,54300,215200,55700"
+st "dcMotorAddressToSend"
+blo "198000,55500"
+)
+)
+thePort (LogicalPort
+lang 11
+m 1
+decl (Decl
+n "dcMotorAddressToSend"
+t "symbolSizeType"
+o 8
+suid 7,0
+)
+)
+)
+*186 (CptPort
+uid 7521,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7522,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,60625,197000,61375"
+)
+tg (CPTG
+uid 7523,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7524,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,60300,210700,61700"
+st "dcMotorSendAuth"
+blo "198000,61500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "dcMotorSendAuth"
+t "std_ulogic"
+o 4
+suid 8,0
+)
+)
+)
+*187 (CptPort
+uid 7525,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7526,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "196250,47625,197000,48375"
+)
+tg (CPTG
+uid 7527,0
+ps "CptPortTextPlaceStrategy"
+stg "VerticalLayoutStrategy"
+f (Text
+uid 7528,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "198000,47300,202700,48700"
+st "regWr"
+blo "198000,48500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "regWr"
+t "std_ulogic"
+o 6
+suid 9,0
+)
+)
+)
+*188 (CptPort
+uid 7529,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7530,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "224000,61625,224750,62375"
+)
+tg (CPTG
+uid 7531,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 7532,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "216600,61300,223000,62700"
+st "forwards"
+ju 2
+blo "223000,62500"
+)
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "forwards"
+t "std_ulogic"
+o 11
+suid 10,0
+)
+)
+)
+*189 (CptPort
+uid 7533,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7534,0
+ro 90
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "224000,63625,224750,64375"
+)
+tg (CPTG
+uid 7535,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 7536,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "219200,63300,223000,64700"
+st "pwm"
+ju 2
+blo "223000,64500"
+)
+)
+thePort (LogicalPort
+m 1
+decl (Decl
+n "pwm"
+t "std_ulogic"
+o 12
+suid 11,0
+)
+)
+)
+*190 (CptPort
+uid 7537,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7538,0
+ro 270
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+)
+xt "224000,55625,224750,56375"
+)
+tg (CPTG
+uid 7539,0
+ps "CptPortTextPlaceStrategy"
+stg "RightVerticalLayoutStrategy"
+f (Text
+uid 7540,0
+va (VaSet
+font "Verdana,12,0"
+)
+xt "212400,55300,223000,56700"
+st "hwOrientation"
+ju 2
+blo "223000,56500"
+)
+)
+thePort (LogicalPort
+lang 11
+decl (Decl
+n "hwOrientation"
+t "dataRegisterType"
+o 5
+suid 12,0
+)
+)
+)
+]
+shape (Rectangle
+uid 7542,0
+va (VaSet
+vasetType 1
+fg "0,65535,0"
+lineColor "0,32896,0"
+lineWidth 2
+)
+xt "197000,47000,224000,69000"
+)
+oxt "21000,17000,48000,39000"
+ttg (MlTextGroup
+uid 7543,0
+ps "CenterOffsetStrategy"
+stg "VerticalLayoutStrategy"
+textVec [
+*191 (Text
+uid 7544,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "196800,68800,201500,70000"
+st "DcMotor"
+blo "196800,69800"
+tm "BdLibraryNameMgr"
+)
+*192 (Text
+uid 7545,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "196800,70000,206900,71200"
+st "dcMotorController"
+blo "196800,71000"
+tm "CptNameMgr"
+)
+*193 (Text
+uid 7546,0
+va (VaSet
+font "Verdana,9,1"
+)
+xt "196800,71200,208000,72400"
+st "I_dcMotorController"
+blo "196800,72200"
+tm "InstanceNameMgr"
+)
+]
+)
+ga (GenericAssociation
+uid 7547,0
+ps "EdgeToEdgeStrategy"
+matrix (Matrix
+uid 7548,0
+text (MLText
+uid 7549,0
+va (VaSet
+font "Courier New,8,0"
+)
+xt "197000,72200,197000,72200"
+)
+header ""
+)
+elements [
+]
+)
+viewicon (ZoomableIcon
+uid 7550,0
+sl 0
+va (VaSet
+vasetType 1
+fg "49152,49152,49152"
+)
+xt "197250,67250,198750,68750"
+iconName "BlockDiagram.png"
+iconMaskName "BlockDiagram.msk"
+ftype 1
+)
+viewiconposition 0
+portVis (PortSigDisplay
+sIVOD 1
+)
+archFileType "UNKNOWN"
+)
+*194 (SaComponent
+uid 7733,0
+optionalChildren [
+*195 (CptPort
+uid 7649,0
+ps "OnEdgeStrategy"
+shape (Triangle
+uid 7650,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6091,11 +6091,11 @@ fg "0,65535,0"
 xt "223000,75625,223750,76375"
 )
 tg (CPTG
-uid 7121,0
+uid 7651,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7122,0
+uid 7652,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6117,10 +6117,10 @@ suid 4,0
 )
 )
 *196 (CptPort
-uid 7123,0
+uid 7653,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7124,0
+uid 7654,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6129,11 +6129,11 @@ fg "0,65535,0"
 xt "223000,78625,223750,79375"
 )
 tg (CPTG
-uid 7125,0
+uid 7655,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7126,0
+uid 7656,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6155,10 +6155,10 @@ suid 5,0
 )
 )
 *197 (CptPort
-uid 7127,0
+uid 7657,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7128,0
+uid 7658,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6167,11 +6167,11 @@ fg "0,65535,0"
 xt "223000,81625,223750,82375"
 )
 tg (CPTG
-uid 7129,0
+uid 7659,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7130,0
+uid 7660,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6192,10 +6192,10 @@ suid 6,0
 )
 )
 *198 (CptPort
-uid 7131,0
+uid 7661,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7132,0
+uid 7662,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6204,11 +6204,11 @@ fg "0,65535,0"
 xt "223000,86625,223750,87375"
 )
 tg (CPTG
-uid 7133,0
+uid 7663,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7134,0
+uid 7664,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6228,10 +6228,10 @@ suid 8,0
 )
 )
 *199 (CptPort
-uid 7135,0
+uid 7665,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7136,0
+uid 7666,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6240,11 +6240,11 @@ fg "0,65535,0"
 xt "196250,76625,197000,77375"
 )
 tg (CPTG
-uid 7137,0
+uid 7667,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7138,0
+uid 7668,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6264,10 +6264,10 @@ suid 9,0
 )
 )
 *200 (CptPort
-uid 7139,0
+uid 7669,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7140,0
+uid 7670,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6276,11 +6276,11 @@ fg "0,65535,0"
 xt "196250,74625,197000,75375"
 )
 tg (CPTG
-uid 7141,0
+uid 7671,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7142,0
+uid 7672,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6300,10 +6300,10 @@ suid 10,0
 )
 )
 *201 (CptPort
-uid 7143,0
+uid 7673,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7144,0
+uid 7674,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6312,11 +6312,11 @@ fg "0,65535,0"
 xt "196250,78625,197000,79375"
 )
 tg (CPTG
-uid 7145,0
+uid 7675,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7146,0
+uid 7676,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6336,10 +6336,10 @@ suid 11,0
 )
 )
 *202 (CptPort
-uid 7147,0
+uid 7677,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7148,0
+uid 7678,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6348,11 +6348,11 @@ fg "0,65535,0"
 xt "196250,91625,197000,92375"
 )
 tg (CPTG
-uid 7149,0
+uid 7679,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7150,0
+uid 7680,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6372,10 +6372,10 @@ suid 12,0
 )
 )
 *203 (CptPort
-uid 7151,0
+uid 7681,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7152,0
+uid 7682,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6384,11 +6384,11 @@ fg "0,65535,0"
 xt "196250,93625,197000,94375"
 )
 tg (CPTG
-uid 7153,0
+uid 7683,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7154,0
+uid 7684,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6408,10 +6408,10 @@ suid 13,0
 )
 )
 *204 (CptPort
-uid 7155,0
+uid 7685,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7156,0
+uid 7686,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6420,11 +6420,11 @@ fg "0,65535,0"
 xt "196250,81625,197000,82375"
 )
 tg (CPTG
-uid 7157,0
+uid 7687,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7158,0
+uid 7688,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6445,10 +6445,10 @@ suid 14,0
 )
 )
 *205 (CptPort
-uid 7159,0
+uid 7689,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7160,0
+uid 7690,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6457,11 +6457,11 @@ fg "0,65535,0"
 xt "196250,83625,197000,84375"
 )
 tg (CPTG
-uid 7161,0
+uid 7691,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7162,0
+uid 7692,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6482,10 +6482,10 @@ suid 15,0
 )
 )
 *206 (CptPort
-uid 7163,0
+uid 7693,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7164,0
+uid 7694,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6494,11 +6494,11 @@ fg "0,65535,0"
 xt "196250,87625,197000,88375"
 )
 tg (CPTG
-uid 7165,0
+uid 7695,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7166,0
+uid 7696,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6518,10 +6518,10 @@ suid 16,0
 )
 )
 *207 (CptPort
-uid 7167,0
+uid 7697,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7168,0
+uid 7698,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6530,11 +6530,11 @@ fg "0,65535,0"
 xt "196250,85625,197000,86375"
 )
 tg (CPTG
-uid 7169,0
+uid 7699,0
 ps "CptPortTextPlaceStrategy"
 stg "VerticalLayoutStrategy"
 f (Text
-uid 7170,0
+uid 7700,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6555,10 +6555,10 @@ suid 17,0
 )
 )
 *208 (CptPort
-uid 7171,0
+uid 7701,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7172,0
+uid 7702,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6567,11 +6567,11 @@ fg "0,65535,0"
 xt "223000,91625,223750,92375"
 )
 tg (CPTG
-uid 7173,0
+uid 7703,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7174,0
+uid 7704,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6593,10 +6593,10 @@ suid 22,0
 )
 )
 *209 (CptPort
-uid 7175,0
+uid 7705,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7176,0
+uid 7706,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6605,11 +6605,11 @@ fg "0,65535,0"
 xt "223000,95625,223750,96375"
 )
 tg (CPTG
-uid 7177,0
+uid 7707,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7178,0
+uid 7708,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6631,10 +6631,10 @@ suid 23,0
 )
 )
 *210 (CptPort
-uid 7179,0
+uid 7709,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7180,0
+uid 7710,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6643,11 +6643,11 @@ fg "0,65535,0"
 xt "223000,89625,223750,90375"
 )
 tg (CPTG
-uid 7181,0
+uid 7711,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7182,0
+uid 7712,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6668,10 +6668,10 @@ suid 24,0
 )
 )
 *211 (CptPort
-uid 7183,0
+uid 7713,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7184,0
+uid 7714,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6680,11 +6680,11 @@ fg "0,65535,0"
 xt "223000,93625,223750,94375"
 )
 tg (CPTG
-uid 7185,0
+uid 7715,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7186,0
+uid 7716,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6705,10 +6705,10 @@ suid 25,0
 )
 )
 *212 (CptPort
-uid 7187,0
+uid 7717,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7188,0
+uid 7718,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6717,11 +6717,11 @@ fg "0,65535,0"
 xt "223000,100625,223750,101375"
 )
 tg (CPTG
-uid 7189,0
+uid 7719,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7190,0
+uid 7720,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6743,10 +6743,10 @@ suid 26,0
 )
 )
 *213 (CptPort
-uid 7191,0
+uid 7721,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7192,0
+uid 7722,0
 ro 90
 va (VaSet
 vasetType 1
@@ -6755,11 +6755,11 @@ fg "0,65535,0"
 xt "223000,104625,223750,105375"
 )
 tg (CPTG
-uid 7193,0
+uid 7723,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7194,0
+uid 7724,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6781,10 +6781,10 @@ suid 27,0
 )
 )
 *214 (CptPort
-uid 7195,0
+uid 7725,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7196,0
+uid 7726,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6793,11 +6793,11 @@ fg "0,65535,0"
 xt "223000,98625,223750,99375"
 )
 tg (CPTG
-uid 7197,0
+uid 7727,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7198,0
+uid 7728,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6818,10 +6818,10 @@ suid 28,0
 )
 )
 *215 (CptPort
-uid 7199,0
+uid 7729,0
 ps "OnEdgeStrategy"
 shape (Triangle
-uid 7200,0
+uid 7730,0
 ro 270
 va (VaSet
 vasetType 1
@@ -6830,11 +6830,11 @@ fg "0,65535,0"
 xt "223000,102625,223750,103375"
 )
 tg (CPTG
-uid 7201,0
+uid 7731,0
 ps "CptPortTextPlaceStrategy"
 stg "RightVerticalLayoutStrategy"
 f (Text
-uid 7202,0
+uid 7732,0
 va (VaSet
 font "Verdana,12,0"
 )
@@ -6856,7 +6856,7 @@ suid 29,0
 )
 ]
 shape (Rectangle
-uid 7204,0
+uid 7734,0
 va (VaSet
 vasetType 1
 fg "0,65535,0"
@@ -6867,12 +6867,12 @@ xt "197000,74000,223000,107000"
 )
 oxt "22000,22000,48000,55000"
 ttg (MlTextGroup
-uid 7205,0
+uid 7735,0
 ps "CenterOffsetStrategy"
 stg "VerticalLayoutStrategy"
 textVec [
 *216 (Text
-uid 7206,0
+uid 7736,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -6882,7 +6882,7 @@ blo "197800,108800"
 tm "BdLibraryNameMgr"
 )
 *217 (Text
-uid 7207,0
+uid 7737,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -6892,7 +6892,7 @@ blo "197800,110000"
 tm "CptNameMgr"
 )
 *218 (Text
-uid 7208,0
+uid 7738,0
 va (VaSet
 font "Verdana,9,1"
 )
@@ -6904,12 +6904,12 @@ tm "InstanceNameMgr"
 ]
 )
 ga (GenericAssociation
-uid 7209,0
+uid 7739,0
 ps "EdgeToEdgeStrategy"
 matrix (Matrix
-uid 7210,0
+uid 7740,0
 text (MLText
-uid 7211,0
+uid 7741,0
 va (VaSet
 font "Courier New,8,0"
 )
@@ -6921,7 +6921,7 @@ elements [
 ]
 )
 viewicon (ZoomableIcon
-uid 7212,0
+uid 7742,0
 sl 0
 va (VaSet
 vasetType 1
@@ -7583,14 +7583,13 @@ uid 2965,0
 va (VaSet
 vasetType 3
 )
-xt "226750,62000,229000,62000"
+xt "224750,62000,229000,62000"
 pts [
-"226750,62000"
-"228000,62000"
+"224750,62000"
 "229000,62000"
 ]
 )
-start &177
+start &188
 end &55
 sat 32
 eat 32
@@ -7622,14 +7621,13 @@ uid 2977,0
 va (VaSet
 vasetType 3
 )
-xt "226750,64000,229000,64000"
+xt "224750,64000,229000,64000"
 pts [
-"226750,64000"
-"228000,64000"
+"224750,64000"
 "229000,64000"
 ]
 )
-start &178
+start &189
 end &57
 sat 32
 eat 32
@@ -7646,9 +7644,9 @@ uid 2979,0
 va (VaSet
 isHidden 1
 )
-xt "224750,62800,227650,64000"
+xt "222750,62800,225650,64000"
 st "pwm"
-blo "224750,63800"
+blo "222750,63800"
 tm "WireNameMgr"
 )
 )
@@ -7667,7 +7665,7 @@ pts [
 "191000,66000"
 ]
 )
-start &172
+start &183
 sat 32
 eat 16
 stc 0
@@ -7703,7 +7701,7 @@ pts [
 "191000,64000"
 ]
 )
-start &169
+start &180
 sat 32
 eat 16
 stc 0
@@ -7739,7 +7737,7 @@ pts [
 "196250,48000"
 ]
 )
-end &176
+end &187
 sat 16
 eat 32
 stc 0
@@ -7775,7 +7773,7 @@ pts [
 "196250,50000"
 ]
 )
-end &168
+end &179
 sat 16
 eat 32
 sty 1
@@ -7811,7 +7809,7 @@ pts [
 "190000,52000"
 ]
 )
-start &170
+start &181
 sat 32
 eat 16
 sty 1
@@ -8260,7 +8258,7 @@ pts [
 "181000,55000"
 ]
 )
-start &174
+start &185
 end &70
 sat 32
 eat 1
@@ -8297,7 +8295,7 @@ pts [
 "181000,57000"
 ]
 )
-start &171
+start &182
 end &70
 sat 32
 eat 1
@@ -8333,7 +8331,7 @@ pts [
 "181000,59000"
 ]
 )
-start &173
+start &184
 end &70
 sat 32
 eat 1
@@ -8368,7 +8366,7 @@ pts [
 "181000,61000"
 ]
 )
-start &175
+start &186
 end &70
 sat 32
 eat 2
@@ -9747,7 +9745,7 @@ pts [
 ]
 )
 start &162
-end &189
+end &173
 sat 32
 eat 32
 sty 1
@@ -9778,13 +9776,13 @@ va (VaSet
 vasetType 3
 lineWidth 2
 )
-xt "226750,56000,248000,56000"
+xt "224750,56000,248000,56000"
 pts [
-"226750,56000"
+"224750,56000"
 "248000,56000"
 ]
 )
-start &179
+start &190
 end &296
 sat 32
 eat 32
@@ -9801,9 +9799,9 @@ f (Text
 uid 6380,0
 va (VaSet
 )
-xt "228750,54800,237150,56000"
+xt "226750,54800,235150,56000"
 st "hwOrientation"
-blo "228750,55800"
+blo "226750,55800"
 tm "WireNameMgr"
 )
 )
@@ -9823,7 +9821,7 @@ pts [
 "196250,116000"
 ]
 )
-end &185
+end &169
 sat 16
 eat 32
 sty 1
@@ -9858,7 +9856,7 @@ pts [
 "196250,114000"
 ]
 )
-end &186
+end &170
 sat 16
 eat 32
 stc 0
@@ -9894,7 +9892,7 @@ pts [
 "190000,118000"
 ]
 )
-start &184
+start &168
 sat 32
 eat 16
 sty 1
@@ -9930,7 +9928,7 @@ pts [
 "191000,122000"
 ]
 )
-start &187
+start &171
 sat 32
 eat 16
 stc 0
@@ -9966,7 +9964,7 @@ pts [
 "191000,124000"
 ]
 )
-start &188
+start &172
 sat 32
 eat 16
 stc 0
@@ -10109,11 +10107,11 @@ tm "BdCompilerDirectivesTextMgr"
 associable 1
 )
 windowSize "1912,-8,3848,1058"
-viewArea "132159,43084,294952,132487"
+viewArea "132200,25244,296168,115292"
 cachedDiagramExtent "0,0,268000,130400"
 hasePageBreakOrigin 1
 pageBreakOrigin "0,0"
-lastUid 7317,0
+lastUid 7742,0
 defaultCommentText (CommentText
 shape (Rectangle
 layer 0

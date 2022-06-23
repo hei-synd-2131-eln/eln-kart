@@ -7,263 +7,265 @@ Synopsys VHDL Compiler, version comp2016q4p1, Build 512R, built Oct 26 2017
 Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
 
 @N: CD720 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":146:18:146:21|Setting time resolution to ps
-@N:"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":431:7:431:16|Top entity is set to Kart_Board.
+@N:"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":439:7:439:16|Top entity is set to Kart_Board.
 File C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd changed - recompiling
 VHDL syntax check successful!
 File C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd changed - recompiling
 @N: CD231 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std1164.vhd":890:16:890:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":431:7:431:16|Synthesizing work.kart_board.struct.
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":456:8:456:16|Nil range port will be removed: sda_proxy (1 to 0)
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9414:4:9414:10|Port proxysdain of entity work.kartcontroller has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9414:4:9414:10|Port proxysclin of entity work.kartcontroller has a width of 0
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9162:11:9162:21|Signal proxysclout is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9163:11:9163:20|Signal proxysclin is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9164:11:9164:20|Signal proxysdain is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9165:11:9165:21|Signal proxysdaout is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":624:7:624:9|Synthesizing work.dff.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":439:7:439:16|Synthesizing work.kart_board.struct.
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":464:8:464:16|Nil range port will be removed: sda_proxy (1 to 0)
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9523:4:9523:10|Port proxysdain of entity work.kartcontroller has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9523:4:9523:10|Port proxysclin of entity work.kartcontroller has a width of 0
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9271:11:9271:21|Signal proxysclout is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9272:11:9272:20|Signal proxysclin is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9273:11:9273:20|Signal proxysdain is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9274:11:9274:21|Signal proxysdaout is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":632:7:632:9|Synthesizing work.dff.sim.
 Post processing for work.dff.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":532:7:532:9|Synthesizing work.tff.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":540:7:540:9|Synthesizing work.tff.sim.
 Post processing for work.tff.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":781:7:781:20|Synthesizing work.kartcontroller.struct.
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":790:8:790:17|Nil range port will be removed: proxysclin (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":791:8:791:17|Nil range port will be removed: proxysdain (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":805:8:805:18|Nil range port will be removed: proxysclout (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":806:8:806:18|Nil range port will be removed: proxysdaout (1 to 0)
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9059:4:9059:22|Port proxysdain of entity work.sensorscontroller has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9059:4:9059:22|Port proxysclin of entity work.sensorscontroller has a width of 0
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7183:7:7183:20|Synthesizing work.uartcontroller.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7991:7:7991:28|Synthesizing work.serialframetransmitter.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8031:7:8031:17|Synthesizing work.framepacker.rtl.
-@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8071:18:8071:19|Using onehot encoding for type statestype. For example, enumeration idle is mapped to "1000000".
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8154:8:8154:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":789:7:789:20|Synthesizing work.kartcontroller.struct.
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":798:8:798:17|Nil range port will be removed: proxysclin (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":799:8:799:17|Nil range port will be removed: proxysdain (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":813:8:813:18|Nil range port will be removed: proxysclout (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":814:8:814:18|Nil range port will be removed: proxysdaout (1 to 0)
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9168:4:9168:22|Port proxysdain of entity work.sensorscontroller has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":9168:4:9168:22|Port proxysclin of entity work.sensorscontroller has a width of 0
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7292:7:7292:20|Synthesizing work.uartcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8100:7:8100:28|Synthesizing work.serialframetransmitter.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8140:7:8140:17|Synthesizing work.framepacker.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8180:18:8180:19|Using onehot encoding for type statestype. For example, enumeration idle is mapped to "1000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8263:8:8263:21|OTHERS clause is not synthesized.
 Post processing for work.framepacker.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7348:7:7348:13|Synthesizing work.crc8itu.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7457:7:7457:13|Synthesizing work.crc8itu.rtl.
 Post processing for work.crc8itu.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8181:7:8181:27|Synthesizing work.serialporttransmitter.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8290:7:8290:27|Synthesizing work.serialporttransmitter.rtl.
 Post processing for work.serialporttransmitter.rtl
 Post processing for work.serialframetransmitter.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7223:7:7223:25|Synthesizing work.serialframereceiver.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7471:7:7471:26|Synthesizing work.framereceiverhandler.rtl.
-@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7523:18:7523:19|Using onehot encoding for type statestype. For example, enumeration wait_header is mapped to "100000000".
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7607:4:7607:17|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7332:7:7332:25|Synthesizing work.serialframereceiver.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7580:7:7580:26|Synthesizing work.framereceiverhandler.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7632:18:7632:19|Using onehot encoding for type statestype. For example, enumeration wait_header is mapped to "100000000".
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7716:4:7716:17|OTHERS clause is not synthesized.
 Post processing for work.framereceiverhandler.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7261:7:7261:19|Synthesizing work.framecomposer.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7370:7:7370:19|Synthesizing work.framecomposer.rtl.
 Post processing for work.framecomposer.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7660:7:7660:24|Synthesizing work.serialportreceiver.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7769:7:7769:24|Synthesizing work.serialportreceiver.rtl.
 Post processing for work.serialportreceiver.rtl
 Post processing for work.serialframereceiver.struct
 Post processing for work.uartcontroller.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5511:7:5511:28|Synthesizing work.steppermotorcontroller.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6196:7:6196:27|Synthesizing work.steppermotorregisters.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6430:7:6430:32|Synthesizing work.steppermotorregistersender.rtl.
-@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6477:18:6477:19|Using sequential encoding for type statestype.
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6515:30:6515:53|Index value 0 to 31 could be out of prefix range 1 downto 0. 
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6549:8:6549:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5620:7:5620:28|Synthesizing work.steppermotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6305:7:6305:27|Synthesizing work.steppermotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6539:7:6539:32|Synthesizing work.steppermotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6586:18:6586:19|Using sequential encoding for type statestype.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6624:30:6624:53|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6658:8:6658:21|OTHERS clause is not synthesized.
 Post processing for work.steppermotorregistersender.rtl
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6497:4:6497:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6497:4:6497:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6497:4:6497:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6497:4:6497:5|Pruning register bits 4 to 2 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6345:7:6345:33|Synthesizing work.sendactualangledeltamanager.rtl.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6606:4:6606:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6606:4:6606:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6606:4:6606:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6606:4:6606:5|Pruning register bits 4 to 2 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6454:7:6454:33|Synthesizing work.sendactualangledeltamanager.rtl.
 Post processing for work.sendactualangledeltamanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6240:7:6240:22|Synthesizing work.edgedetectordflt.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6263:9:6263:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6264:9:6264:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6349:7:6349:22|Synthesizing work.edgedetectordflt.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6372:9:6372:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6373:9:6373:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.edgedetectordflt.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6240:7:6240:22|Synthesizing work.edgedetectordflt.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6263:9:6263:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6264:9:6264:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6349:7:6349:22|Synthesizing work.edgedetectordflt.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6372:9:6372:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6373:9:6373:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.edgedetectordflt.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1151:7:1151:21|Synthesizing work.registermanager.rtl.
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1208:8:1208:34|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1159:7:1159:21|Synthesizing work.registermanager.rtl.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1216:8:1216:34|Index value 0 to 31 could be out of prefix range 1 downto 0. 
 Post processing for work.registermanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1084:7:1084:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1092:7:1092:22|Synthesizing work.reg_addr_decoder.rtl.
 Post processing for work.reg_addr_decoder.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6302:7:6302:9|Synthesizing work.or2.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6411:7:6411:9|Synthesizing work.or2.sim.
 Post processing for work.or2.sim
 Post processing for work.steppermotorregisters.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6069:7:6069:25|Synthesizing work.steppermotordivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6178:7:6178:25|Synthesizing work.steppermotordivider.rtl.
 Post processing for work.steppermotordivider.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5555:7:5555:18|Synthesizing work.anglecontrol.masterversion.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5596:7:5596:20|Synthesizing work.steppercounter.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5664:7:5664:18|Synthesizing work.anglecontrol.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5705:7:5705:20|Synthesizing work.steppercounter.masterversion.
 Post processing for work.steppercounter.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5809:7:5809:17|Synthesizing work.coilcontrol.masterversion.
-@W: CG296 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5862:14:5862:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5864:7:5864:11|Referenced variable reset is not in sensitivity list.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5918:7:5918:17|Synthesizing work.coilcontrol.masterversion.
+@W: CG296 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5971:14:5971:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5973:7:5973:11|Referenced variable reset is not in sensitivity list.
 Post processing for work.coilcontrol.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5664:7:5664:21|Synthesizing work.angledifference.masterversion.
-@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5694:24:5694:25|Using onehot encoding for type turningstatetype. For example, enumeration uninitialized is mapped to "100000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5773:7:5773:21|Synthesizing work.angledifference.masterversion.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5803:24:5803:25|Using onehot encoding for type turningstatetype. For example, enumeration uninitialized is mapped to "100000".
 Post processing for work.angledifference.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":624:7:624:9|Synthesizing work.dff.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":632:7:632:9|Synthesizing work.dff.sim.
 Post processing for work.dff.sim
 Post processing for work.anglecontrol.masterversion
 Post processing for work.steppermotorcontroller.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2021:7:2021:23|Synthesizing work.sensorscontroller.struct.
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2031:8:2031:17|Nil range port will be removed: proxysclin (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2032:8:2032:17|Nil range port will be removed: proxysdain (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2039:8:2039:18|Nil range port will be removed: proxysclout (1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2040:8:2040:18|Nil range port will be removed: proxysdaout (1 to 0)
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5429:4:5429:9|Port proximity of entity work.sensorsregisters has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5429:4:5429:9|Port ambientlight of entity work.sensorsregisters has a width of 0
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5256:11:5256:22|Signal ambientlight is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5264:11:5264:19|Signal proximity is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3097:7:3097:22|Synthesizing work.ultrasoundranger.masterversion.
-@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3126:25:3126:26|Using sequential encoding for type rangerstatetype.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2029:7:2029:23|Synthesizing work.sensorscontroller.struct.
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2039:8:2039:17|Nil range port will be removed: proxysclin (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2040:8:2040:17|Nil range port will be removed: proxysdain (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2047:8:2047:18|Nil range port will be removed: proxysclout (1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2048:8:2048:18|Nil range port will be removed: proxysdaout (1 to 0)
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5538:4:5538:9|Port proximity of entity work.sensorsregisters has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5538:4:5538:9|Port ambientlight of entity work.sensorsregisters has a width of 0
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5342:11:5342:22|Signal ambientlight is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5351:11:5351:19|Signal proximity is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3185:7:3185:22|Synthesizing work.ultrasoundranger.masterversion.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3214:25:3214:26|Using sequential encoding for type rangerstatetype.
 Post processing for work.ultrasoundranger.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3368:7:3368:22|Synthesizing work.sensorsregisters.struct.
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3371:8:3371:19|Nil range port will be removed: ambientlight (-1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3378:8:3378:16|Nil range port will be removed: proximity (-1 to 0)
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4667:4:4667:11|Port sendproximities of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4667:4:4667:11|Port sendambients of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4667:4:4667:11|Port proximity of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4667:4:4667:11|Port ambientlight of entity work.sensorsregisterssend has a width of 0
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4381:11:4381:22|Signal sendambients is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4386:11:4386:25|Signal sendproximities is undriven. Either assign the signal a value or remove the signal declaration.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4273:7:4273:17|Synthesizing work.led_blinker.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3456:7:3456:22|Synthesizing work.sensorsregisters.struct.
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3459:8:3459:19|Nil range port will be removed: ambientlight (-1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3466:8:3466:16|Nil range port will be removed: proximity (-1 to 0)
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4753:4:4753:11|Port sendproximities of entity work.sensorsregisterssend has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4753:4:4753:11|Port sendambients of entity work.sensorsregisterssend has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4753:4:4753:11|Port proximity of entity work.sensorsregisterssend has a width of 0
+@W: CD328 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4753:4:4753:11|Port ambientlight of entity work.sensorsregisterssend has a width of 0
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4466:11:4466:22|Signal sendambients is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4471:11:4471:25|Signal sendproximities is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4359:7:4359:17|Synthesizing work.led_blinker.rtl.
 Post processing for work.led_blinker.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4204:7:4204:21|Synthesizing work.anyedgedetector.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4290:7:4290:21|Synthesizing work.anyedgedetector.rtl.
 Post processing for work.anyedgedetector.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3671:7:3671:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3757:7:3757:17|Synthesizing work.freqdivider.rtl.
 Post processing for work.freqdivider.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3671:7:3671:17|Synthesizing work.freqdivider.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3757:7:3757:17|Synthesizing work.freqdivider.rtl.
 Post processing for work.freqdivider.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3955:7:3955:26|Synthesizing work.sensorsregisterssend.rtl.
-@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4011:18:4011:19|Using sequential encoding for type statestype.
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3963:8:3963:19|Nil range port will be removed: ambientlight (-1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3970:8:3970:16|Nil range port will be removed: proximity (-1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3974:8:3974:19|Nil range port will be removed: sendambients (-1 to 0)
-@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3979:8:3979:22|Nil range port will be removed: sendproximities (-1 to 0)
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4051:30:4051:53|Index value 0 to 31 could be out of prefix range 4 downto 0. 
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4172:8:4172:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4041:7:4041:26|Synthesizing work.sensorsregisterssend.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4097:18:4097:19|Using sequential encoding for type statestype.
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4049:8:4049:19|Nil range port will be removed: ambientlight (-1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4056:8:4056:16|Nil range port will be removed: proximity (-1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4060:8:4060:19|Nil range port will be removed: sendambients (-1 to 0)
+@W: CD854 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4065:8:4065:22|Nil range port will be removed: sendproximities (-1 to 0)
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4137:30:4137:53|Index value 0 to 31 could be out of prefix range 4 downto 0. 
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4258:8:4258:21|OTHERS clause is not synthesized.
 Post processing for work.sensorsregisterssend.rtl
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4032:4:4032:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4032:4:4032:5|Pruning register bit 4 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3826:7:3826:29|Synthesizing work.sendendswitchesonchange.rtl.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4118:4:4118:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4118:4:4118:5|Pruning register bit 4 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3912:7:3912:29|Synthesizing work.sendendswitchesonchange.rtl.
 Post processing for work.sendendswitchesonchange.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3739:7:3739:22|Synthesizing work.senddeltamanager.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3775:9:3775:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3776:9:3776:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3825:7:3825:22|Synthesizing work.senddeltamanager.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3861:9:3861:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3862:9:3862:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.senddeltamanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3739:7:3739:22|Synthesizing work.senddeltamanager.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3775:9:3775:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3776:9:3776:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3825:7:3825:22|Synthesizing work.senddeltamanager.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3861:9:3861:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3862:9:3862:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.senddeltamanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3739:7:3739:22|Synthesizing work.senddeltamanager.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3775:9:3775:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3776:9:3776:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3825:7:3825:22|Synthesizing work.senddeltamanager.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3861:9:3861:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3862:9:3862:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.senddeltamanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3884:7:3884:21|Synthesizing work.rangervalidator.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3970:7:3970:21|Synthesizing work.rangervalidator.rtl.
 Post processing for work.rangervalidator.rtl
-@N: CL189 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3913:4:3913:5|Register bit rangerOut(15) is always 0.
-@N: CL189 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3913:4:3913:5|Register bit rangerOut(14) is always 0.
-@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3913:4:3913:5|Pruning register bits 15 to 14 of rangerOut(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3457:7:3457:22|Synthesizing work.hallcountmanager.rtl.
+@N: CL189 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3999:4:3999:5|Register bit rangerOut(15) is always 0.
+@N: CL189 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3999:4:3999:5|Register bit rangerOut(14) is always 0.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3999:4:3999:5|Pruning register bits 15 to 14 of rangerOut(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3545:7:3545:22|Synthesizing work.hallcountmanager.rtl.
 Post processing for work.hallcountmanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1151:7:1151:21|Synthesizing work.registermanager.rtl.
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1208:8:1208:34|Index value 0 to 31 could be out of prefix range 4 downto 0. 
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1159:7:1159:21|Synthesizing work.registermanager.rtl.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1216:8:1216:34|Index value 0 to 31 could be out of prefix range 4 downto 0. 
 Post processing for work.registermanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1084:7:1084:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1092:7:1092:22|Synthesizing work.reg_addr_decoder.rtl.
 Post processing for work.reg_addr_decoder.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3631:7:3631:23|Synthesizing work.transulogunsigned.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3717:7:3717:23|Synthesizing work.transulogunsigned.sim.
 Post processing for work.transulogunsigned.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3412:7:3412:14|Synthesizing work.and2inv1.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3500:7:3500:14|Synthesizing work.and2inv1.sim.
 Post processing for work.and2inv1.sim
 Post processing for work.sensorsregisters.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3237:7:3237:22|Synthesizing work.rangersubsignals.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3325:7:3325:22|Synthesizing work.rangersubsignals.rtl.
 Post processing for work.rangersubsignals.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2997:7:2997:18|Synthesizing work.hallcounters.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3110:7:3110:22|Synthesizing work.hallpulsesfilter.rtl.
+Post processing for work.hallpulsesfilter.rtl
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3005:7:3005:18|Synthesizing work.hallcounters.masterversion.
 Post processing for work.hallcounters.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2926:7:2926:30|Synthesizing work.freqdividerwforceonstart.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2934:7:2934:30|Synthesizing work.freqdividerwforceonstart.rtl.
 Post processing for work.freqdividerwforceonstart.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2069:7:2069:27|Synthesizing work.batterylevelinterface.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2247:7:2247:27|Synthesizing work.batterylevelsequencer.rtl.
-@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2326:9:2326:12|Signal p_ok is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2077:7:2077:27|Synthesizing work.batterylevelinterface.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2255:7:2255:27|Synthesizing work.batterylevelsequencer.rtl.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2334:9:2334:12|Signal p_ok is undriven. Either assign the signal a value or remove the signal declaration.
 Post processing for work.batterylevelsequencer.rtl
-@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2481:4:2481:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2481:4:2481:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@A: CL282 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2481:4:2481:5|Feedback mux created for signal p_volt_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@A: CL282 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2481:4:2481:5|Feedback mux created for signal p_curr_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2345:4:2345:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2535:7:2535:20|Synthesizing work.i2ctransmitter.rtl.
-@W: CD434 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2617:38:2617:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2489:4:2489:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2489:4:2489:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@A: CL282 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2489:4:2489:5|Feedback mux created for signal p_volt_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@A: CL282 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2489:4:2489:5|Feedback mux created for signal p_curr_low[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2353:4:2353:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2543:7:2543:20|Synthesizing work.i2ctransmitter.rtl.
+@W: CD434 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2625:38:2625:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
 Post processing for work.i2ctransmitter.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2102:7:2102:17|Synthesizing work.i2creceiver.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2110:7:2110:17|Synthesizing work.i2creceiver.rtl.
 Post processing for work.i2creceiver.rtl
 Post processing for work.batterylevelinterface.struct
 Post processing for work.sensorscontroller.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6975:7:6975:15|Synthesizing work.fifo_bram.rtl.
-@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7011:21:7011:22|Using onehot encoding for type fifostatetype. For example, enumeration sempty is mapped to "1000000".
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7084:7:7084:15|Synthesizing work.fifo_bram.rtl.
+@N: CD231 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7120:21:7120:22|Using onehot encoding for type fifostatetype. For example, enumeration sempty is mapped to "1000000".
 Post processing for work.fifo_bram.rtl
-@N: CL134 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7009:9:7009:19|Found RAM memoryarray, depth=64, width=24
-@N: CL134 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7009:9:7009:19|Found RAM memoryarray, depth=64, width=24
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8615:7:8615:14|Synthesizing work.txrouter.rtl.
-@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8661:18:8661:19|Using sequential encoding for type statestype.
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8729:8:8729:21|OTHERS clause is not synthesized.
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7118:9:7118:19|Found RAM memoryarray, depth=64, width=24
+@N: CL134 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7118:9:7118:19|Found RAM memoryarray, depth=64, width=24
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8724:7:8724:14|Synthesizing work.txrouter.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8770:18:8770:19|Using sequential encoding for type statestype.
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8838:8:8838:21|OTHERS clause is not synthesized.
 Post processing for work.txrouter.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8568:7:8568:24|Synthesizing work.bufferulogicvector.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8677:7:8677:24|Synthesizing work.bufferulogicvector.sim.
 Post processing for work.bufferulogicvector.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8568:7:8568:24|Synthesizing work.bufferulogicvector.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8677:7:8677:24|Synthesizing work.bufferulogicvector.sim.
 Post processing for work.bufferulogicvector.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8529:7:8529:14|Synthesizing work.and2inv2.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8638:7:8638:14|Synthesizing work.and2inv2.sim.
 Post processing for work.and2inv2.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1393:7:1393:23|Synthesizing work.dcmotorcontroller.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1584:7:1584:22|Synthesizing work.dcmotorregisters.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1084:7:1084:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1401:7:1401:23|Synthesizing work.dcmotorcontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1592:7:1592:22|Synthesizing work.dcmotorregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1092:7:1092:22|Synthesizing work.reg_addr_decoder.rtl.
 Post processing for work.reg_addr_decoder.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1628:7:1628:27|Synthesizing work.dcmotorregistersender.rtl.
-@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1670:18:1670:19|Using sequential encoding for type statestype.
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1704:28:1704:51|Index value 0 to 31 could be out of prefix range 1 downto 0. 
-@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1714:8:1714:21|OTHERS clause is not synthesized.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1636:7:1636:27|Synthesizing work.dcmotorregistersender.rtl.
+@N: CD233 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1678:18:1678:19|Using sequential encoding for type statestype.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1712:28:1712:51|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@N: CD604 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1722:8:1722:21|OTHERS clause is not synthesized.
 Post processing for work.dcmotorregistersender.rtl
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1687:4:1687:5|Optimizing register bit p_addr_out(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1687:4:1687:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1687:4:1687:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1687:4:1687:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1687:4:1687:5|Pruning register bits 4 to 1 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1695:4:1695:5|Optimizing register bit p_addr_out(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1695:4:1695:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1695:4:1695:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1695:4:1695:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1695:4:1695:5|Pruning register bits 4 to 1 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
 Post processing for work.dcmotorregisters.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1489:7:1489:16|Synthesizing work.dcmotorpwm.masterversion.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1497:7:1497:16|Synthesizing work.dcmotorpwm.masterversion.
 Post processing for work.dcmotorpwm.masterversion
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1429:7:1429:22|Synthesizing work.dcmotorprescaler.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1437:7:1437:22|Synthesizing work.dcmotorprescaler.rtl.
 Post processing for work.dcmotorprescaler.rtl
 Post processing for work.dcmotorcontroller.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":834:7:834:32|Synthesizing work.controlregisterscontroller.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":867:7:867:31|Synthesizing work.controlregistersregisters.struct.
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1151:7:1151:21|Synthesizing work.registermanager.rtl.
-@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1208:8:1208:34|Index value 0 to 31 could be out of prefix range 0 downto 0. 
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":842:7:842:32|Synthesizing work.controlregisterscontroller.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":875:7:875:31|Synthesizing work.controlregistersregisters.struct.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1159:7:1159:21|Synthesizing work.registermanager.rtl.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1216:8:1216:34|Index value 0 to 31 could be out of prefix range 0 downto 0. 
 Post processing for work.registermanager.rtl
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1084:7:1084:22|Synthesizing work.reg_addr_decoder.rtl.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1092:7:1092:22|Synthesizing work.reg_addr_decoder.rtl.
 Post processing for work.reg_addr_decoder.rtl
 Post processing for work.controlregistersregisters.struct
 Post processing for work.controlregisterscontroller.struct
 Post processing for work.kartcontroller.struct
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":711:7:711:12|Synthesizing work.logic1.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":719:7:719:12|Synthesizing work.logic1.sim.
 Post processing for work.logic1.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":745:7:745:12|Synthesizing work.logic0.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":753:7:753:12|Synthesizing work.logic0.sim.
 Post processing for work.logic0.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":673:7:673:14|Synthesizing work.inverter.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":681:7:681:14|Synthesizing work.inverter.sim.
 Post processing for work.inverter.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":586:7:586:18|Synthesizing work.bufferulogic.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":594:7:594:18|Synthesizing work.bufferulogic.sim.
 Post processing for work.bufferulogic.sim
-@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":493:7:493:10|Synthesizing work.and2.sim.
+@N: CD630 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":501:7:501:10|Synthesizing work.and2.sim.
 Post processing for work.and2.sim
 Post processing for work.kart_board.struct
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1089:8:1089:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1156:8:1156:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1089:8:1089:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1399:8:1399:20|Input port bits 15 to 6 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1399:8:1399:20|Input port bits 3 to 1 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8694:4:8694:5|Trying to extract state machine for register p_state.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1097:8:1097:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1164:8:1164:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1097:8:1097:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1407:8:1407:20|Input port bits 15 to 6 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1407:8:1407:20|Input port bits 3 to 1 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8803:4:8803:5|Trying to extract state machine for register p_state.
 Extracted state machine for register p_state
 State machine has 3 reachable states with original encodings of:
    00
    01
    10
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7083:4:7083:5|Trying to extract state machine for register fifoState.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7192:4:7192:5|Trying to extract state machine for register fifoState.
 Extracted state machine for register fifoState
 State machine has 7 reachable states with original encodings of:
    0000001
@@ -273,26 +275,26 @@ State machine has 7 reachable states with original encodings of:
    0010000
    0100000
    1000000
-@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2958:4:2958:5|Pruning unused register once. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2958:4:2958:5|Pruning unused register count(24 downto 0). Make sure that there are no unused intermediate registers.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2928:8:2928:12|Input clock is unused.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2929:8:2929:12|Input reset is unused.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1089:8:1089:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1156:8:1156:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3963:8:3963:19|Input ambientLight is unused.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3970:8:3970:16|Input proximity is unused.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3974:8:3974:19|Input sendAmbients is unused.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3979:8:3979:22|Input sendProximities is unused.
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3152:4:3152:5|Trying to extract state machine for register rangerState.
+@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2966:4:2966:5|Pruning unused register once. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2966:4:2966:5|Pruning unused register count(24 downto 0). Make sure that there are no unused intermediate registers.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2936:8:2936:12|Input clock is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2937:8:2937:12|Input reset is unused.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1097:8:1097:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1164:8:1164:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4049:8:4049:19|Input ambientLight is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4056:8:4056:16|Input proximity is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4060:8:4060:19|Input sendAmbients is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4065:8:4065:22|Input sendProximities is unused.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3240:4:3240:5|Trying to extract state machine for register rangerState.
 Extracted state machine for register rangerState
 State machine has 4 reachable states with original encodings of:
    00
    01
    10
    11
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2031:8:2031:17|Input proxySClIn is unused.
-@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2032:8:2032:17|Input proxySDaIn is unused.
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5713:4:5713:5|Trying to extract state machine for register turningState.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2039:8:2039:17|Input proxySClIn is unused.
+@N: CL159 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2040:8:2040:17|Input proxySDaIn is unused.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5822:4:5822:5|Trying to extract state machine for register turningState.
 Extracted state machine for register turningState
 State machine has 6 reachable states with original encodings of:
    000001
@@ -301,11 +303,11 @@ State machine has 6 reachable states with original encodings of:
    001000
    010000
    100000
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1089:8:1089:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1156:8:1156:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5516:8:5516:20|Input port bits 15 to 5 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL247 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5516:8:5516:20|Input port bit 0 of hworientation(15 downto 0) is unused 
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7537:4:7537:5|Trying to extract state machine for register state.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1097:8:1097:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1164:8:1164:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5625:8:5625:20|Input port bits 15 to 5 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5625:8:5625:20|Input port bit 0 of hworientation(15 downto 0) is unused 
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7646:4:7646:5|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 9 reachable states with original encodings of:
    000000001
@@ -317,8 +319,8 @@ State machine has 9 reachable states with original encodings of:
    001000000
    010000000
    100000000
-@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7477:8:7477:12|Input port bits 39 to 8 of frame(39 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8088:4:8088:5|Trying to extract state machine for register state.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7586:8:7586:12|Input port bits 39 to 8 of frame(39 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@N: CL201 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":8197:4:8197:5|Trying to extract state machine for register state.
 Extracted state machine for register state
 State machine has 7 reachable states with original encodings of:
    0000001
@@ -328,14 +330,14 @@ State machine has 7 reachable states with original encodings of:
    0010000
    0100000
    1000000
-@W: CL158 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":456:8:456:16|Inout SDA_proxy is unused
+@W: CL158 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":464:8:464:16|Inout SDA_proxy is unused
 
 At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 86MB peak: 89MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jun 22 18:40:38 2022
+# Thu Jun 23 11:22:57 2022
 
 ###########################################################]
 Synopsys Netlist Linker, version comp2016q4p1, Build 512R, built Oct 26 2017
@@ -346,7 +348,7 @@ At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jun 22 18:40:38 2022
+# Thu Jun 23 11:22:57 2022
 
 ###########################################################]
 @END
@@ -356,6 +358,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jun 22 18:40:38 2022
+# Thu Jun 23 11:22:57 2022
 
 ###########################################################]

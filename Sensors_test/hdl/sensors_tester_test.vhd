@@ -29,7 +29,10 @@ ARCHITECTURE test OF sensors_tester IS
 
   -- Ultrasound ranger
     -- How many pulses should be counted
-  signal tbRangerDistance: natural := 457;
+  constant tbRangerDistance: natural := natural(real(SENS_RANGEFNDR_MIN_DELTA)
+    * 1.15 * real(SENS_RANGEFNDR_CLK_DIVIDER));
+  constant tbRangerDistanceTarget: natural := natural(real(tbRangerDistance)
+    / real(SENS_RANGEFNDR_CLK_DIVIDER));
 
   -- Registers definitions
   constant baseReadAddr : natural := REG_SENS_ADDR * 2**6;
@@ -66,6 +69,7 @@ BEGIN
     addressIn <= (others=>'0');
     regWr <= '0';
     sensorsSendAuth <= '1';
+    distancePulse <= '0';
 
     write(output,
       lf & lf & lf &
@@ -74,44 +78,29 @@ BEGIN
       "--" &
       lf & lf
     );
-    wait for testInterval;    
 
                                                            -- read Hall counters
-    testInfo <= pad("Hall count 1", testInfo'length);
-    write(output,
-      "Reading Hall sensor counters" &
-      " at time " & integer'image(now/1 us) & " us" &
-      lf & lf
-    );
-    readReg(hallBaseRDAddr);
-    wait until sensorsSendRequest = '1';
-    assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
-      = tbHallCounters(1)
-      report "Hall count 1 error"
-      severity error;
-    assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
-      /= tbHallCounters(1)
-      report "Hall count 1 OK"
-      severity note;
-    wait for testInterval;
-
-    testInfo <= pad("Hall count 2", testInfo'length);
-    write(output,
-      "Reading Hall sensor counters" &
-      " at time " & integer'image(now/1 us) & " us" &
-      lf & lf
-    );
-    readReg(hallBaseRDAddr+1);
-    wait until sensorsSendRequest = '1';
-    assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
-      = tbHallCounters(2)
-      report "Hall count 2 error"
-      severity error;
-    assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
-      /= tbHallCounters(2)
-      report "Hall count 2 OK"
-      severity note;
-    wait for testInterval;
+    for snb in 1 to SENS_hallSensorNb loop
+      testInfo <= pad("Hall count " & positive'image(snb), testInfo'length);
+      write(output,
+        "Reading Hall sensor counters" &
+        " at time " & integer'image(now/1 us) & " us" &
+        lf & lf
+      );
+      readReg(hallBaseRDAddr);
+      sensorsSendAuth <= '0';
+      wait until sensorsSendRequest = '1';
+      assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
+        = tbHallCounters(snb)
+        report "Hall count " & positive'image(snb) & " error"
+        severity error;
+      assert to_integer(unsigned(sensorsDataToSend(SENS_hallCountBitNb-1 downto SENS_HALL_CNT_BITNB)))
+        /= tbHallCounters(snb)
+        report "Hall count " & positive'image(snb) & " OK"
+        severity note;
+      sensorsSendAuth <= '1';
+      wait for testInterval;
+    end loop;
 
                                                      -- read ultrasound distance
     testInfo <= pad("Ultrasound range", testInfo'length);
@@ -120,15 +109,23 @@ BEGIN
       " at time " & integer'image(now/1 us) & " us" &
       lf & lf
     );
-    wait until distanceStart = '1';
-    wait until distancePulse = '0';
-    wait for 60 us;
+    distancePulse <= '0';
+    wait for 1 ms;
+    distancePulse <= '1';
+    wait for tbRangerDistance * clockPeriod;
+    distancePulse <= '0';
+    sensorsSendAuth <= '1';
+    wait for 1 ms;
+    sensorsSendAuth <= '0';
     readReg(rangerRDAddr);
     wait until sensorsSendRequest = '1';
-    assert abs(tbRangerDistance - to_integer(unsigned(sensorsDataToSend))) <= 2
+    sensorsSendAuth <= '1';
+    assert abs(integer((tbRangerDistance / SENS_RANGEFNDR_CLK_DIVIDER)) -
+        to_integer(unsigned(sensorsDataToSend))) <= 2
       report "Ultrasound ranger count error"
       severity error;
-    assert abs(tbRangerDistance - to_integer(unsigned(sensorsDataToSend))) > 2
+    assert abs(integer((tbRangerDistance / SENS_RANGEFNDR_CLK_DIVIDER)) -
+        to_integer(unsigned(sensorsDataToSend))) > 2
       report "Ultrasound ranger OK"
       severity note;
     wait for testInterval;
@@ -159,7 +156,7 @@ BEGIN
       cntPulses : process(hallPulses(index))
       begin
         if rising_edge(hallPulses(index)) or falling_edge(hallPulses(index)) then
-          if tbHallCounters(index) + 1 >= SENS_HALLCOUNT_HALF_TURN_DELTA then
+          if tbHallCounters(index) + 1 > SENS_HALLCOUNT_HALF_TURN_DELTA then
             tbHallCounters(index) <= 0;
           else
             tbHallCounters(index) <= tbHallCounters(index) + 1;
@@ -172,7 +169,7 @@ BEGIN
       cntPulses : process(hallPulses(index))
       begin
         if rising_edge(hallPulses(index)) then
-          if tbHallCounters(index) + 2 >= SENS_HALLCOUNT_HALF_TURN_DELTA then
+          if tbHallCounters(index) + 2 > SENS_HALLCOUNT_HALF_TURN_DELTA then
             tbHallCounters(index) <= 0;
           else
             tbHallCounters(index) <= tbHallCounters(index) + 2;
@@ -182,17 +179,5 @@ BEGIN
     end generate hall_1p_p_turn;
 
   end generate assignHallCounters;
-
-  ------------------------------------------------------------------------------
-                                                            -- ultrasound ranger
-  sendDistancePulse: process
-  begin
-    distancePulse <= '0';
-    wait for 20 us;
-    wait until rising_edge(distanceStart);
-    wait for 20 us;
-    distancePulse <= '1';
-    wait for tbRangerDistance * clockPeriod;
-  end process;
 
 END ARCHITECTURE test;

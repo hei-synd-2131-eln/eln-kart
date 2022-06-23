@@ -47,7 +47,7 @@ BEGIN
 		elsif rising_edge(clock) then
 			p_sendcnts <= (others=>'0');
 			for index in 0 to SENS_hallSensorNb-1 loop
-          -- Not a problem if we miss a pulse250us here
+          -- Not a problem if we miss a time_pulse here
           if p_sendhall(index) = '1' then
               p_counterSet(index) <= (others=>'0');
           -- When delta triggered, zero counters
@@ -57,14 +57,12 @@ BEGIN
             >= HALLDELTA then
 		      	p_sendcnts(index) <= '1';
           -- Count time within reaching number of pulses
-          elsif pulse250us = '1' then
+          elsif time_pulse = '1' then
             p_counterSet(index) <= p_counterSet(index) + 1;
 		      end if;
 		    end loop;
 		end if;
 	end process;
-
-  -- Setup register as 3 bits for nb 1/2 turns in 13bits * 0.25 us time
 
     -- If counts 2 pulses per turn (each hallPulse edge)
   sens_2pturn_on : if SENS_HALL_COUNTS_2PULSES_P_TURN = '1' generate

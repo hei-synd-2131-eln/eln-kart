@@ -17,6 +17,7 @@ NB_ENDSW = 1
 NB_HALL = 1
 NB_PROXI = 0
 WHEEL_DIAMETER_MM = 100
+WHEEL_RATIO = 1.0 / 2.666666666666666
 
 # Reading the serial port
 class UartHandler(serial.Serial, Thread):
@@ -371,9 +372,9 @@ class App(tk.Tk):
                 elif r == NB_LEDS + 4:
                     t += " | EndSW | " + str(format((rxd[2] << 8 | rxd[3]), "016b"))
                 elif r >= NB_LEDS + 5 and r <= NB_LEDS + NB_HALL + 4:
-                    turns = (rxd[2] & 0xE0)>>5
-                    timems = ((rxd[2] & 0x1F) << 8 | rxd[3]) * 0.25
-                    t += " | Hall " + str(r - NB_LEDS - 4) + " | turns : " + str(turns) + " in " + str(timems) + " ms" + " - speed of " + ((str(turns * (pi*WHEEL_DIAMETER_MM) / (timems / 1000)) + " mm/s") if timems != 0 else "error : time = 0")
+                    turns = (rxd[2] & 0xFF) >> 3
+                    timems = ((rxd[2] & 0x1F) << 8 | rxd[3]) * 4
+                    t += " | Hall " + str(r - NB_LEDS - 4) + " | half-turns : " + str(turns) + " in " + str(timems) + " ms" + " - speed of " + ((str(turns * (pi*WHEEL_DIAMETER_MM) * WHEEL_RATIO / (timems / 1000)) + " mm/s") if timems != 0 else "error : time = 0")
                 elif r >= NB_LEDS + NB_HALL + 5 and r <= NB_LEDS + NB_HALL + NB_PROXI + 4:
                     t += " | Proxi " + str(r - NB_LEDS - NB_HALL - 4) + " | " + str(rxd[2] << 8 | rxd[3]) + " (higher is closer)"
                 elif r >= NB_LEDS + NB_HALL + NB_PROXI + 5 and r <= NB_LEDS + NB_HALL + 2*NB_PROXI + 4:
