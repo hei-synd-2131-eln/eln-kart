@@ -1,6 +1,7 @@
 KEY LIBERO "11.9"
 KEY CAPTURE "11.9.6.7"
 KEY DEFAULT_IMPORT_LOC "C:\Users\francois.corthay\Documents\eln_kart\01-StepperMotor\Board\concat"
+KEY DEFAULT_OPEN_LOC ""
 KEY ProjectID "0"
 KEY HDLTechnology "VHDL"
 KEY VERILOGMODE "VERILOG2001"
@@ -12,10 +13,15 @@ KEY VendorTechnology_Package "vq100"
 KEY VendorTechnology_Speed "STD"
 KEY VendorTechnology_DieVoltage "1.5"
 KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
 KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
 KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
 KEY VendorTechnology_RESTRICTPROBEPINS "1"
 KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE ""
 KEY VendorTechnology_TARGETDEVICESFORMIGRATION "UM4X4M1NLP"
 KEY VendorTechnology_TEMPR "COM"
 KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
@@ -42,28 +48,28 @@ SIZE="118686"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.adb,adb"
 STATE="utd"
-TIME="1655302078"
-SIZE="1942528"
+TIME="1655976354"
+SIZE="3793920"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.ide_des,ide_des"
 STATE="utd"
-TIME="1655302045"
-SIZE="205"
+TIME="1655976354"
+SIZE="1140"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.pdb,pdb"
 STATE="utd"
-TIME="1655976354"
+TIME="1655987350"
 SIZE="123711"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_compile_log.rpt,log"
 STATE="utd"
-TIME="1655914599"
-SIZE="11262"
+TIME="1655976207"
+SIZE="11159"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_fp\Kart_Board.pro,pro"
 STATE="utd"
-TIME="1655712961"
-SIZE="2029"
+TIME="1655981401"
+SIZE="2410"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_fp\projectData\Kart_Board.pdb,pdb"
 STATE="utd"
@@ -72,42 +78,42 @@ SIZE="123711"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1655976321"
-SIZE="2619"
+TIME="1655987318"
+SIZE="2593"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1655976355"
+TIME="1655987351"
 SIZE="716"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1655976335"
+TIME="1655987331"
 SIZE="1180"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.edn,syn_edn"
 STATE="utd"
-TIME="1655302064"
-SIZE="2337759"
+TIME="1655976191"
+SIZE="2445314"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.so,so"
 STATE="utd"
-TIME="1655302064"
+TIME="1655976191"
 SIZE="233"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1655302063"
+TIME="1655976190"
 SIZE="403"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_syn.prj,prj"
 STATE="utd"
-TIME="1655302064"
+TIME="1655976191"
 SIZE="1711"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
 STATE="utd"
-TIME="1655825955"
+TIME="1655826822"
 SIZE="159"
 ENDFILE
 VALUE "C:\dev\eln_kart_sodimm200\Board\concat\Kart.pdc,pdc"
@@ -117,8 +123,8 @@ SIZE="7001"
 ENDFILE
 VALUE "C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd,hdl"
 STATE="utd"
-TIME="1655976169"
-SIZE="285112"
+TIME="1655987129"
+SIZE="286272"
 IS_READONLY="TRUE"
 ENDFILE
 ENDLIST
@@ -279,8 +285,8 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Generate Programming Data:Kart_Board_prgdata_log.rpt
-HDL;C:\dev\eln_kart_sodimm200\Board\concat\Kart.pdc;0
+ReportsCurrentItem;Program Device:Kart_Board_program.log
+StartPage;StartPage;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList
@@ -378,6 +384,8 @@ SUBBLOCK "inverter::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FAL
 SUBBLOCK "kartController::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
 SUBBLOCK "logic0::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
 SUBBLOCK "logic1::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Kart_Student::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
 ENDLIST
 LIST "kartController::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"
 SUBBLOCK "FIFO_bram::work","C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd","FALSE","FALSE"

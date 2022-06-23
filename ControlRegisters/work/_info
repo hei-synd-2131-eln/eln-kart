@@ -24,35 +24,35 @@ Z8 !s110 1655986135
 !i10b 1
 Z9 !s108 1655986135.000000
 Z10 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files2|
-!s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_entity.vhg|
+Z11 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_entity.vhg|
 !i113 0
-Z11 o-nologo -work ControlRegisters -2008
-Z12 tExplicit 1 CvgOpt 0
+Z12 o-nologo -work ControlRegisters -2008
+Z13 tExplicit 1 CvgOpt 0
 Astruct
-Z13 w1655905785
-Z14 DEx16 controlregisters 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
-Z15 DEx4 work 26 controlregisterscontroller 0 22 Ekg_e_d[R?TDj[8[f[4?c1
+Z14 w1655905785
+Z15 DEx16 controlregisters 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
+Z16 DEx4 work 26 controlregisterscontroller 0 22 Ekg_e_d[R?TDj[8[f[4?c1
 R1
 R2
 R3
 R4
 R5
-Z16 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg
-Z17 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg
+Z17 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg
+Z18 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg
 l44
 L19
-Z18 V=DSQY51EP>?kRgaNPC3LK1
-Z19 !s100 Nh@fBSlQKWZ@JOLgA]_@?1
+Z19 V=DSQY51EP>?kRgaNPC3LK1
+Z20 !s100 Nh@fBSlQKWZ@JOLgA]_@?1
 R7
 33
-R8
+Z21 !s110 1655987120
 !i10b 1
-R9
-R10
-Z20 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_entity.vhg|
+Z22 !s108 1655987120.000000
+Z23 !s90 -work|ControlRegisters|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files11|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|
 !i113 0
-R11
 R12
+R13
 Econtrolregistersregisters
 R0
 R1
@@ -73,35 +73,35 @@ R8
 !i10b 1
 R9
 R10
-R20
-!i113 0
 R11
+!i113 0
 R12
-Astruct
 R13
-Z21 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
-Z22 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
-Z23 DEx4 work 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
-Z24 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
-Z25 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+Astruct
+R14
+Z24 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+Z25 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+Z26 DEx4 work 25 controlregistersregisters 0 22 >@=aD[[`9J8>4GPk5:P8U2
+Z27 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+Z28 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
 R1
 R2
 R3
 R4
 R5
-Z26 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
-Z27 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
+Z29 8C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
+Z30 FC:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg
 l64
 L22
-Z28 V4le[d<ZoGXNnE8oDOObOH3
-Z29 !s100 b>91l`Gfa^XLC;6a=biB[3
+Z31 V4le[d<ZoGXNnE8oDOObOH3
+Z32 !s100 b>91l`Gfa^XLC;6a=biB[3
 R7
 33
-R8
+R21
 !i10b 1
-R9
-R10
-R20
+R22
+R23
+Z33 !s107 C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregisterscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../ControlRegisters/hdl/controlregistersregisters_struct.vhg|
 !i113 0
-R11
 R12
+R13
