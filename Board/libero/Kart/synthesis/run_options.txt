@@ -1,7 +1,7 @@
 #--  Synopsys, Inc.
 #--  Version L-2016.09M-SP1-5
 #--  Project file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\run_options.txt
-#--  Written on Thu Jun 23 14:26:12 2022
+#--  Written on Tue Jun 28 15:59:48 2022
 
 
 #project files

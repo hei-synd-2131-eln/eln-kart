@@ -1,89 +1,89 @@
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[6] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[7] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[8] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[9] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[10] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[11] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[12] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[13] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[14] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1251:4:1251:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[15] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1511:28:1511:47|Found 16-bit incrementor, 'un3_prescalercounter[15:0]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1516:28:1516:58|Found 16 by 16 bit less-than operator ('<') un7_prescalerdone (in view: work.dcMotorPrescaler(rtl))
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1586:4:1586:5|Found counter in view:work.dcMotorPwm(masterversion) instance sawtooth[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1582:18:1582:45|Found 15-bit incrementor, 'un7_speedamplitude_1[14:0]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1603:18:1603:59|Found 4 by 4 bit less-than operator ('<') un10_pwmout (in view: work.dcMotorPwm(masterversion))
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7232:4:7232:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7232:4:7232:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[23] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[22] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[21] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[20] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[19] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[18] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[17] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[16] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[15] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[14] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[13] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[12] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[11] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[10] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[9] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[8] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[7] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[6] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[5] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[4] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[3] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[2] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7206:4:7206:5|Removing sequential instance dataOut[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7188:23:7188:37|Found 6-bit incrementor, 'un1_readcounter[5:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2229:4:2229:5|Found counter in view:work.i2cReceiver(rtl) instance bitCounter[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2660:26:2660:43|Found 5-bit incrementor, 'un4_dividercounter[4:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2393:4:2393:5|Found counter in view:work.batteryLevelSequencer(rtl) instance sequenceCounter[4:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2499:4:2499:5|Found counter in view:work.batteryLevelSequencer(rtl) instance readCounter[2:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2393:4:2393:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_retries[2:0] 
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2456:4:2456:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2456:4:2456:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 2 bits.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2456:4:2456:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 3 bits.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2456:4:2456:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2456:4:2456:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2393:4:2393:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_waitTimeout_cnt[17:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3104:4:3104:5|Found counter in view:work.hallCounters(masterversion) instance counterSet_1[15:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3461:4:3461:5|Found counter in view:work.rangerSubsignals(rtl) instance divideCount[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3427:28:3427:45|Found 22-bit incrementor, 'un2_timeoutcounter_1[21:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3647:2:3647:3|Found counter in view:work.hallCountManager(rtl) instance countCheck\.p_counterSet_0[10:0] 
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3913:11:3913:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_51(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3914:12:3914:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_51(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3913:11:3913:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count (in view: work.sendDeltaManager_16_100(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3914:12:3914:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_100(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3913:11:3913:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_579(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3914:12:3914:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_579(rtl))
-@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3833:17:3833:23|Found 14-bit decrementor, 'un6_count[13:0]'
-@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3833:17:3833:23|Found 16-bit decrementor, 'un6_count[15:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4441:2:4441:3|Found counter in view:work.led_blinker(rtl) instance p_cnt[14:0] 
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4450:9:4450:25|Found 15 by 15 bit less-than operator ('<') blink\.un1_p_cnt (in view: work.led_blinker(rtl))
-@N: MO225 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3280:4:3280:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion)); safe FSM implementation is not required.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3337:20:3337:35|Found 16-bit incrementor, 'un1_distance[1:16]'
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[6] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[7] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[8] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[9] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[10] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[11] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[12] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[13] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[14] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[15] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1550:28:1550:47|Found 16-bit incrementor, 'un3_prescalercounter[15:0]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1555:28:1555:58|Found 16 by 16 bit less-than operator ('<') un7_prescalerdone (in view: work.dcMotorPrescaler(rtl))
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1625:4:1625:5|Found counter in view:work.dcMotorPwm(masterversion) instance sawtooth[3:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1621:18:1621:45|Found 15-bit incrementor, 'un7_speedamplitude_1[14:0]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1642:18:1642:59|Found 4 by 4 bit less-than operator ('<') un10_pwmout (in view: work.dcMotorPwm(masterversion))
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7271:4:7271:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7271:4:7271:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[23] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[22] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[21] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[20] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[19] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[18] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[17] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[16] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[15] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[14] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[13] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[12] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[11] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[10] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[9] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[8] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[7] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[6] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[5] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[4] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[3] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[2] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7227:23:7227:37|Found 6-bit incrementor, 'un1_readcounter[5:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2268:4:2268:5|Found counter in view:work.i2cReceiver(rtl) instance bitCounter[3:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2699:26:2699:43|Found 5-bit incrementor, 'un4_dividercounter[4:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance sequenceCounter[4:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2538:4:2538:5|Found counter in view:work.batteryLevelSequencer(rtl) instance readCounter[2:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_retries[2:0] 
+@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 2 bits.
+@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 3 bits.
+@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_waitTimeout_cnt[17:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3143:4:3143:5|Found counter in view:work.hallCounters(masterversion) instance counterSet_1[15:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3500:4:3500:5|Found counter in view:work.rangerSubsignals(rtl) instance divideCount[3:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3466:28:3466:45|Found 22-bit incrementor, 'un2_timeoutcounter_1[21:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3686:2:3686:3|Found counter in view:work.hallCountManager(rtl) instance countCheck\.p_counterSet_0[10:0] 
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_51(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_51(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count (in view: work.sendDeltaManager_16_100(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_100(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_579(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_579(rtl))
+@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3872:17:3872:23|Found 14-bit decrementor, 'un6_count[13:0]'
+@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3872:17:3872:23|Found 16-bit decrementor, 'un6_count[15:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4480:2:4480:3|Found counter in view:work.led_blinker(rtl) instance p_cnt[14:0] 
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4489:9:4489:25|Found 15 by 15 bit less-than operator ('<') blink\.un1_p_cnt (in view: work.led_blinker(rtl))
+@N: MO225 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3319:4:3319:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion)); safe FSM implementation is not required.
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3376:20:3376:35|Found 16-bit incrementor, 'un1_distance[1:16]'
 @N: MF176 |Default generator successful 
 @N: MF238 :"c:\microsemi\libero_soc_v11.9\synplifypro\lib\vhd2008\numeric.vhd":2090:9:2090:12|Found 13-bit incrementor, 'inf_abs0_a_0[12:0]'
-@N: MO230 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":5776:4:5776:5|Found up-down counter in view:work.stepperCounter(masterversion) instance sMotorPosition[11:0]  
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6319:21:6319:51|Found 16 by 16 bit less-than operator ('<') un3_bigger (in view: work.stepperMotorDivider(rtl))
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6272:25:6272:41|Found 7-bit incrementor, 'un2_p_100kcounter[1:7]'
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6319:21:6319:40|Found 16-bit incrementor, 'un1_bigger[1:16]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6540:11:6542:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_p_lastsent_angle (in view: work.sendActualAngleDeltaManager(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6544:11:6546:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_actualangle (in view: work.sendActualAngleDeltaManager(rtl))
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7924:4:7924:5|Found counter in view:work.serialPortReceiver(rtl) instance rxCounter[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7857:26:7857:43|Found 7-bit incrementor, 'un5_dividercounter[6:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7455:1:7455:2|Found counter in view:work.FrameComposer(rtl) instance shiftCnt[2:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7559:4:7559:5|Found counter in view:work.crc8itu_0(rtl) instance counter[3:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7765:3:7765:4|Found counter in view:work.frameReceiverHandler(rtl) instance watchdogCnt[12:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":8376:26:8376:43|Found 7-bit incrementor, 'un4_dividercounter[6:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7559:4:7559:5|Found counter in view:work.crc8itu_1(rtl) instance counter[3:0] 
+@N: MO230 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":5815:4:5815:5|Found up-down counter in view:work.stepperCounter(masterversion) instance sMotorPosition[11:0]  
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6358:21:6358:51|Found 16 by 16 bit less-than operator ('<') un3_bigger (in view: work.stepperMotorDivider(rtl))
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6311:25:6311:41|Found 7-bit incrementor, 'un2_p_100kcounter[1:7]'
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6358:21:6358:40|Found 16-bit incrementor, 'un1_bigger[1:16]'
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6579:11:6581:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_p_lastsent_angle (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6583:11:6585:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_actualangle (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7963:4:7963:5|Found counter in view:work.serialPortReceiver(rtl) instance rxCounter[3:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7896:26:7896:43|Found 7-bit incrementor, 'un5_dividercounter[6:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7494:1:7494:2|Found counter in view:work.FrameComposer(rtl) instance shiftCnt[2:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7598:4:7598:5|Found counter in view:work.crc8itu_0(rtl) instance counter[3:0] 
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7804:3:7804:4|Found counter in view:work.frameReceiverHandler(rtl) instance watchdogCnt[12:0] 
+@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":8415:26:8415:43|Found 7-bit incrementor, 'un4_dividercounter[6:0]'
+@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7598:4:7598:5|Found counter in view:work.crc8itu_1(rtl) instance counter[3:0] 
 @N: MF794 |RAM memoryarray_1[23:0] required 2 registers during mapping 
 @N: MF794 |RAM memoryarray[23:0] required 2 registers during mapping 
 @N: MF794 |RAM memoryarray_1[23:0] required 2 registers during mapping 
@@ -91,7 +91,7 @@
 @N: MF322 |Retiming summary: 0 registers retimed to 1 
 @N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
 @N: FP130 |Promoting Net resetSynch_n on CLKINT  I_66 
-@N: FP130 |Promoting Net I_board.addressIn[2] on CLKINT  I_67 
+@N: FP130 |Promoting Net I_board.addressIn[0] on CLKINT  I_67 
 @N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
 @N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

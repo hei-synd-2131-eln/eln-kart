@@ -13,7 +13,6 @@ set_io  reset_n         -pinname 21     -fixed yes      -DIRECTION Input
 set_io  LED_R           -pinname 26     -fixed yes      -DIRECTION Output
 set_io  LED_Y           -pinname 23     -fixed yes      -DIRECTION Output
 set_io  LED_G           -pinname 22     -fixed yes      -DIRECTION Output
-#set_io  nPoR            -pinname 21     -fixed yes      -DIRECTION Input	-RES_PULL Up
 
 #-------------------------------------------------------------------------------
 # UART (USB)
@@ -27,15 +26,6 @@ set_io  Rx_USB           -pinname 6      -fixed yes      -DIRECTION Input	-RES_P
 set_iobank Bank1         -vcci 3.3       -fixed yes
 set_iobank Bank0         -vcci 3.3       -fixed yes
 
-reserve -pinname " 8 10 11 13 15 16 19 20"
-reserve -pinname "27 28 29 30"
-reserve -pinname "31 32 33 34 35 36 40 41"
-reserve -pinname "42 43 44 45 57 58 59"
-reserve -pinname "60 61 62 63 64 69 70 71"
-reserve -pinname "72 73 76 77 78 79 80 81"
-reserve -pinname "82 83 84 85 86 90 91 92"
-reserve -pinname "93 94 95 96 97 98"
-
 ################################################################################
 # MOBO specific
 #
@@ -45,7 +35,6 @@ set_io  SCL_battery     -pinname 4      -fixed yes      -DIRECTION Output
 set_io  Tx_BLE          -pinname 2      -fixed yes      -DIRECTION Output
 set_io  Rx_BLE          -pinname 3      -fixed yes      -DIRECTION Input	-RES_PULL Up
 
-#unreserve -pinname ""
 #set_io  PM1_1           -pinname 8      -fixed yes      -DIRECTION Output
 #set_io  PM1_2           -pinname 10     -fixed yes      -DIRECTION Output
 #set_io  PM1_3           -pinname 11     -fixed yes      -DIRECTION Output
@@ -55,13 +44,11 @@ set_io  Rx_BLE          -pinname 3      -fixed yes      -DIRECTION Input	-RES_PU
 #set_io  PM1_7           -pinname 19     -fixed yes      -DIRECTION Output
 #set_io  PM1_8           -pinname 20     -fixed yes      -DIRECTION Input	-RES_PULL Down
 
-unreserve -pinname "27"
 set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PULL Down
 #set_io  PM2_2           -pinname 28     -fixed yes      -DIRECTION Input	 -RES_PULL Down
 #set_io  PM2_3           -pinname 29     -fixed yes      -DIRECTION Output
 #set_io  PM2_4           -pinname 30     -fixed yes      -DIRECTION Input	 -RES_PULL Down
 
-#unreserve -pinname ""
 #set_io  PM3_1           -pinname 31      -fixed yes     -DIRECTION Output
 #set_io  PM3_2           -pinname 32     -fixed yes      -DIRECTION Output
 #set_io  PM3_3           -pinname 33     -fixed yes      -DIRECTION Output
@@ -71,7 +58,6 @@ set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PU
 #set_io  PM3_7           -pinname 40     -fixed yes      -DIRECTION InOut    -RES_PULL Up
 #set_io  PM3_8           -pinname 41     -fixed yes      -DIRECTION InOut    -RES_PULL Up
 
-#unreserve -pinname ""
 #set_io  PM4_1           -pinname 42     -fixed yes     -DIRECTION Input
 #set_io  PM4_2           -pinname 43     -fixed yes      -DIRECTION Input
 #set_io  PM4_3           -pinname 44     -fixed yes      -DIRECTION Input
@@ -81,7 +67,6 @@ set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PU
 #set_io  PM4_7           -pinname 58     -fixed yes      -DIRECTION Input
 #set_io  PM4_8           -pinname 59     -fixed yes      -DIRECTION Input
 
-unreserve -pinname "63 64"
 #set_io  PM5_1           -pinname 60     -fixed yes     -DIRECTION Input
 #set_io  PM5_2           -pinname 61     -fixed yes      -DIRECTION Input
 #set_io  PM5_3           -pinname 62     -fixed yes      -DIRECTION Input
@@ -91,7 +76,6 @@ set_io  {endSwitches[1]} -pinname 64     -fixed yes      -DIRECTION Input
 #set_io  PM5_7           -pinname 70     -fixed yes      -DIRECTION Input
 #set_io  PM5_8           -pinname 71     -fixed yes      -DIRECTION Input
 
-unreserve -pinname "78 79 80 81"
 #set_io  PM6_1           -pinname 72     -fixed yes      -DIRECTION Output
 #set_io  PM6_2           -pinname 73     -fixed yes      -DIRECTION Output
 #set_io  PM6_3           -pinname 76     -fixed yes      -DIRECTION Output
@@ -101,7 +85,6 @@ set_io  {leds[2]}       -pinname 79     -fixed yes      -DIRECTION Output
 set_io  {leds[3]}       -pinname 80     -fixed yes      -DIRECTION Output
 set_io  {leds[4]}       -pinname 81     -fixed yes      -DIRECTION Output
 
-unreserve -pinname "82 83 84 85 86"
 set_io  coil1           -pinname 82     -fixed yes      -DIRECTION Output
 set_io  coil2           -pinname 83     -fixed yes      -DIRECTION Output
 set_io  coil3           -pinname 84     -fixed yes      -DIRECTION Output
@@ -111,9 +94,8 @@ set_io  {halls[1]}      -pinname 86     -fixed yes      -DIRECTION Input
 #set_io  PM7_7           -pinname 91     -fixed yes      -DIRECTION Input
 #set_io  PM7_8           -pinname 92     -fixed yes      -DIRECTION Input
 
-unreserve -pinname "93 94 97"
-set_io  forwards        -pinname 93     -fixed yes      -DIRECTION Output
-set_io  pwm             -pinname 94     -fixed yes      -DIRECTION Output
+set_io  dc_A            -pinname 93     -fixed yes      -DIRECTION Output
+set_io  dc_B            -pinname 94     -fixed yes      -DIRECTION Output
 #set_io  PM8_3           -pinname 95     -fixed yes      -DIRECTION Input
 #set_io  PM8_4           -pinname 96     -fixed yes      -DIRECTION Input
 set_io  stepperEnd      -pinname 97     -fixed yes      -DIRECTION Input	-RES_PULL Up

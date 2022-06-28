@@ -48,67 +48,67 @@ SIZE="118686"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.adb,adb"
 STATE="utd"
-TIME="1655976354"
+TIME="1655987350"
 SIZE="3793920"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.ide_des,ide_des"
 STATE="utd"
-TIME="1655976354"
+TIME="1655987351"
 SIZE="1140"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board.pdb,pdb"
 STATE="utd"
-TIME="1655987350"
-SIZE="123711"
+TIME="1656424978"
+SIZE="122627"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_compile_log.rpt,log"
 STATE="utd"
-TIME="1655976207"
+TIME="1655987203"
 SIZE="11159"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_fp\Kart_Board.pro,pro"
 STATE="utd"
-TIME="1655981401"
+TIME="1655987402"
 SIZE="2410"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_fp\projectData\Kart_Board.pdb,pdb"
 STATE="utd"
-TIME="1655981401"
+TIME="1655987402"
 SIZE="123711"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_placeroute_log.rpt,log"
 STATE="utd"
-TIME="1655987318"
+TIME="1656424942"
 SIZE="2593"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_prgdata_log.rpt,log"
 STATE="utd"
-TIME="1655987351"
+TIME="1656424979"
 SIZE="716"
 ENDFILE
 VALUE "<project>\designer\impl1\Kart_Board_verifytiming_log.rpt,log"
 STATE="utd"
-TIME="1655987331"
+TIME="1656424957"
 SIZE="1180"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.edn,syn_edn"
 STATE="utd"
-TIME="1655976191"
+TIME="1655987187"
 SIZE="2445314"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board.so,so"
 STATE="utd"
-TIME="1655976191"
+TIME="1655987187"
 SIZE="233"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_sdc.sdc,syn_sdc"
 STATE="utd"
-TIME="1655976190"
+TIME="1655987187"
 SIZE="403"
 ENDFILE
 VALUE "<project>\synthesis\Kart_Board_syn.prj,prj"
 STATE="utd"
-TIME="1655976191"
+TIME="1655987187"
 SIZE="1711"
 ENDFILE
 VALUE "<project>\synthesis\synwork\layer0.so,so"
@@ -118,13 +118,13 @@ SIZE="159"
 ENDFILE
 VALUE "C:\dev\eln_kart_sodimm200\Board\concat\Kart.pdc,pdc"
 STATE="utd"
-TIME="1655976120"
-SIZE="7001"
+TIME="1656424783"
+SIZE="6353"
 ENDFILE
 VALUE "C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd,hdl"
 STATE="utd"
-TIME="1655987129"
-SIZE="286272"
+TIME="1656424671"
+SIZE="287676"
 IS_READONLY="TRUE"
 ENDFILE
 ENDLIST
@@ -285,8 +285,8 @@ ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
 Reports;Reports;0
-ReportsCurrentItem;Program Device:Kart_Board_program.log
-StartPage;StartPage;0
+ReportsCurrentItem;Generate Programming Data:Kart_Board_prgdata_log.rpt
+HDL;C:\dev\eln_kart_sodimm200\Board\concat\Kart.pdc;0
 ACTIVEVIEW;Reports
 ENDLIST
 LIST ModuleSubBlockList

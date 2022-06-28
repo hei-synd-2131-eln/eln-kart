@@ -317,8 +317,8 @@ PACKAGE Kart IS
     -- Hall sensors
   constant SENS_hallCountBitNb : positive := 16;
       -- Number of bits that can be used for counter. Final register is such as:
-      --  3bits   : number of 1/2 turns done
-      --  13 bits : time elapsed for the number of turns counted  
+      --  5bits   : number of 1/2 turns done
+      --  11 bits : time elapsed for the number of turns counted in 4 ms 
   constant SENS_HALL_CNT_BITNB : positive := 11;
   constant SENS_HALL_TURNS_BITNB : positive :=
     SENS_hallCountBitNb - SENS_HALL_CNT_BITNB;

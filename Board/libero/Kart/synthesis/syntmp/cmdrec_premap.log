@@ -2,14 +2,14 @@ C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe  -mp  4  -prjfile 
 relcom:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe -mp 4 -prjfile ..\scratchproject.prs -implementation synthesis -prodtype synplify_pro -encrypt -pro -rundir ..\..\synthesis -part AGLN250V5 -package VQFP100 -grade STD -globalthreshold 50 -maxfan 24 -opcond COMWC -report_path 4000 -RWCheckOnRam 0 -summaryfile ..\synlog\report\Kart_Board_premap.xml -top_level_module work.Kart_Board -oedif ..\Kart_Board.edn -conchk_prepass ..\Kart_Board_cck.rpt -freq 100.000 ..\synwork\Kart_Board_mult.srs -flow prepass -gcc_prepass -osrd ..\synwork\Kart_Board_prem.srd -qsap ..\Kart_Board.sap -devicelib ..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v -ologparam Kart_Board.plg -osyn ..\synwork\Kart_Board_prem.srd -prjdir ..\ -prjname Kart_Board_syn -log ..\synlog\Kart_Board_premap.srr
 rc:1 success:1 runtime:1
 file:..\scratchproject.prs|io:o|time:1655302050|size:1763|exec:0|csum:
-file:..\Kart_Board.edn|io:o|time:1655976191|size:2445314|exec:0|csum:
-file:..\Kart_Board_cck.rpt|io:o|time:1655987175|size:21474|exec:0|csum:
-file:..\synwork\Kart_Board_mult.srs|io:i|time:1655987174|size:6533|exec:0|csum:802B1BBEF18E77C2207039D279ED4524
-file:..\synwork\Kart_Board_prem.srd|io:o|time:1655987175|size:172595|exec:0|csum:
-file:..\Kart_Board.sap|io:o|time:1655987175|size:4401|exec:0|csum:
+file:..\Kart_Board.edn|io:o|time:1655987187|size:2445314|exec:0|csum:
+file:..\Kart_Board_cck.rpt|io:o|time:1656424792|size:21471|exec:0|csum:
+file:..\synwork\Kart_Board_mult.srs|io:i|time:1656424791|size:6752|exec:0|csum:8D2B9C4EB37C6DE99CCAF17A75D6123F
+file:..\synwork\Kart_Board_prem.srd|io:o|time:1656424792|size:173169|exec:0|csum:
+file:..\Kart_Board.sap|io:o|time:1656424792|size:4401|exec:0|csum:
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\proasic\igloo.v|io:i|time:1509005888|size:50704|exec:0|csum:30991078F83C3293651DECB436D35B5C
-file:Kart_Board.plg|io:o|time:1655987175|size:0|exec:0|csum:
-file:..\synwork\Kart_Board_prem.srd|io:o|time:1655987175|size:172595|exec:0|csum:
-file:..\synlog\Kart_Board_premap.srr|io:o|time:1655987175|size:9326|exec:0|csum:
+file:Kart_Board.plg|io:o|time:1656424791|size:0|exec:0|csum:
+file:..\synwork\Kart_Board_prem.srd|io:o|time:1656424792|size:173169|exec:0|csum:
+file:..\synlog\Kart_Board_premap.srr|io:o|time:1656424792|size:9425|exec:0|csum:
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin\m_proasic.exe|io:i|time:1509352272|size:11119104|exec:1|csum:6BD6E9876645BB1B346C655471A0D71C
 file:..\..\..\..\..\..\..\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\m_proasic.exe|io:i|time:1509353686|size:14301696|exec:1|csum:CA7B630F1194A591FA1E520688EE75E2
