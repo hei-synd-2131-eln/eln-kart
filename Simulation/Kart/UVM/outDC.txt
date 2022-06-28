@@ -1,0 +1,22 @@
+at 0 ns idle                                                                            
+at 2700250 ns New speed : 5                                                                   
+at 12700250 ns New speed : 0                                                                   
+at 13500250 ns New prescaler : 31                                                              
+at 23500250 ns New speed : 5                                                                   
+at 24161245 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 33500250 ns New speed : 10                                                                  
+at 33585245 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 43500250 ns New speed : 15                                                                  
+at 43554845 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 53500250 ns New speed : 0                                                                   
+at 63500250 ns New speed : -5                                                                  
+at 64098545 ns PWM frequency of 322580 Hz, duty of 0                                           
+at 73500250 ns New speed : -10                                                                 
+at 73562845 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 83500250 ns New speed : -15                                                                 
+at 83582045 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 93500250 ns New speed : 0                                                                   
+at 145700250 ns New speed : 5                                                                   
+at 146375645 ns PWM frequency of 20161 Hz, duty of 0                                            
+at 170700250 ns New speed : 0                                                                   
+at 170778845 ns PWM frequency of 20161 Hz, duty of 0                                            

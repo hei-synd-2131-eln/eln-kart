@@ -1,0 +1,9 @@
+at 0 ns idle                                                                            
+at 117400675 ns Coil frequency is 10000 Hz                                                      
+at 117400675 ns Target reached (2 steps)                                                        
+at 119400675 ns Coil frequency is 10000 Hz                                                      
+at 119400675 ns Target reached (0 steps)                                                        
+at 121400675 ns Coil frequency is 10000 Hz                                                      
+at 131200675 ns Target reached (100 steps)                                                      
+at 133400675 ns Coil frequency is 10000 Hz                                                      
+at 143200675 ns Target reached (0 steps)                                                        
