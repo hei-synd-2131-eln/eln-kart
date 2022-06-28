@@ -2,5 +2,5 @@
 <SynplifyOutput>
 	<result>Success</result>
 	<design>Kart_Board</design>
-	<target_edif>C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.edn</target_edif>
+	<target_edif>C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.edn</target_edif>
 </SynplifyOutput>

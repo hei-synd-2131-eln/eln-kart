@@ -15,7 +15,7 @@ n@_opt
 OE;O;10.7c;67
 R0
 Eanglecontrol
-Z1 w1655905787
+Z1 w1656427475
 Z2 DPx4 kart 12 kart_student 0 22 b``JVNJzW8MD1aa`?<U<Q3
 Z3 DPx4 kart 4 kart 0 22 Dz_P[Yo1QB;0T1gR9iNmI1
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
@@ -30,14 +30,14 @@ V`]Dl;Ci0To8?R]5dlRzMN3
 !s100 T3:6ED>J0a9;Ei<7SWLVW1
 Z8 OE;C;10.7c;67
 33
-Z9 !s110 1656424662
+Z9 !s110 1656427476
 !i10b 1
-Z10 !s108 1656424662.000000
-Z11 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files26|
-Z12 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetectorDflt_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgedetectordflt_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_entity.vhg|
+Z10 !s108 1656427476.000000
+!s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files1|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_entity.vhg|
 !i113 0
-Z13 o-nologo -work Stepper -2008
-Z14 tExplicit 1 CvgOpt 0
+Z11 o-nologo -work Stepper -2008
+Z12 tExplicit 1 CvgOpt 0
 Amasterversion
 DEx7 stepper 14 steppercounter 0 22 AzSIK7;z[Q3GK5G>K0Q@b2
 DEx7 stepper 11 coilcontrol 0 22 QUeCb@TzOk<]SGZP:A96A0
@@ -46,7 +46,7 @@ DEx10 sequential 3 dff 0 22 B=B4kNoXEFDa@g]NgG:SB3
 DEx4 work 12 anglecontrol 0 22 `]Dl;Ci0To8?R]5dlRzMN3
 R2
 R3
-Z15 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+Z13 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
 R4
 R5
 R6
@@ -58,14 +58,14 @@ V<4Wfa4RjTJ?KT[96idjkS3
 !s100 AY95VUz;GOk1IK8gdQ4;:0
 R8
 33
-Z16 !s110 1656424663
+Z14 !s110 1656427783
 !i10b 1
-R10
+Z15 !s108 1656427783.000000
+Z16 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files20|
+Z17 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetectorDflt_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Eangledifference
 R1
 R4
@@ -80,14 +80,14 @@ V;Tme^U0McDOW=DUe>HA2M2
 !s100 U]L_F^YE5C[?40SQ3Id<?2
 R8
 33
-Z17 !s110 1655905796
+R9
 !i10b 1
-Z18 !s108 1655905796.000000
-Z19 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files24|
-Z20 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetectorDflt_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgedetectordflt_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotordivider_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilcontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angledifference_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppercounter_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_entity.vhg|
+R10
+Z18 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files4|
+Z19 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilcontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angledifference_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppercounter_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Amasterversion
 R4
 R5
@@ -101,17 +101,17 @@ VM5mH3<RQaH]VBh<l4RSKS0
 !s100 zB^VKE8ki6j_f4K@PjZPM1
 R8
 33
-R16
+R14
 !i10b 1
-R10
+R15
+R16
+R17
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Eanyedgedetector
-Z21 w1655905786
-R15
+Z20 w1655905786
+R13
 R2
 R3
 R4
@@ -126,16 +126,16 @@ VN]ccj:1KG;J^Vd^?MY?XJ1
 !s100 <WZUezhVaZ05m:[K5m0ed3
 R8
 33
-R9
+Z21 !s110 1656424662
 !i10b 1
-R10
-R19
-Z22 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetector_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anyedgedetector_entity.vhg|
+Z22 !s108 1656424662.000000
+Z23 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files24|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetector_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anyedgedetector_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Artl
-R15
+R13
 R2
 R3
 R4
@@ -150,14 +150,14 @@ V9;jCgmSI`<Xid@EPe6Y[e3
 !s100 lESOOn_ALdMY`:nA07KVM3
 R8
 33
-R9
-!i10b 1
-R10
-R19
-R22
-!i113 0
-R13
 R14
+!i10b 1
+!s108 1656427782.000000
+!s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files18|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetector_rtl.vhd|
+!i113 0
+R11
+R12
 Ecoilcontrol
 R1
 R4
@@ -172,14 +172,14 @@ VQUeCb@TzOk<]SGZP:A96A0
 !s100 ]VK;M0zE;3AeQ@OlEV0bY0
 R8
 33
-R17
+R9
 !i10b 1
+R10
 R18
 R19
-R20
 !i113 0
-R13
-R14
+R11
+R12
 Amasterversion
 R4
 R5
@@ -193,22 +193,22 @@ VWh;nfaE2;jM1oP_`<N@<O0
 !s100 L`1CO^>dSzW2Qn1Teal5[2
 R8
 33
-R16
+R14
 !i10b 1
-R10
+R15
+R16
+R17
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Eedgedetector
-Z23 w1653404266
-R15
-Z24 DPx4 kart 4 kart 0 22 <<:K3MX33cnzV0AQE:jAF0
+Z24 w1653404266
+R13
+Z25 DPx4 kart 4 kart 0 22 <<:K3MX33cnzV0AQE:jAF0
 R4
 R5
 R6
-Z25 dD:/dev/eln_kart_sodimm200/Kart/Stepper/work
+Z26 dD:/dev/eln_kart_sodimm200/Kart/Stepper/work
 8D:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgedetector_entity.vhg
 FD:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgedetector_entity.vhg
 l0
@@ -217,17 +217,17 @@ V0Ozff=G8DJ5Ij7>?XKJ_20
 !s100 DoKBY;oaXj@GGB<9:3Z_X2
 R8
 33
-Z26 !s110 1653404271
+Z27 !s110 1653404271
 !i10b 1
-Z27 !s108 1653404271.000000
-Z28 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/axela/AppData/Local/Temp/Files21|
-Z29 !s107 D:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgeDetector_rtl.vhd|D:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgedetector_entity.vhg|
+Z28 !s108 1653404271.000000
+Z29 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/axela/AppData/Local/Temp/Files21|
+Z30 !s107 D:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgeDetector_rtl.vhd|D:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/edgedetector_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Artl
-R15
-R24
+R13
+R25
 R4
 R5
 R6
@@ -240,17 +240,17 @@ V]6g7`X<h6XVYe7Gco1HVM0
 !s100 DS58VZ=PR1ljS9Z^=^7Qi3
 R8
 33
-R26
-!i10b 1
 R27
+!i10b 1
 R28
 R29
+R30
 !i113 0
-R13
-R14
+R11
+R12
 Eedgedetectordflt
-Z30 w1655905788
-R15
+Z31 w1655905788
+R13
 R2
 R3
 R4
@@ -265,16 +265,16 @@ VecWh@@gjdFDcDS8gc@hVZ3
 !s100 ;A5I52aU>EOXKi;AlAC6S2
 R8
 33
-R16
+Z32 !s110 1656424663
 !i10b 1
-R10
+R22
+Z33 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files26|
+Z34 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetectorDflt_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgedetectordflt_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_entity.vhg|
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Artl
-R15
+R13
 R2
 R3
 R4
@@ -289,18 +289,18 @@ VbbW:5R0]GNc0GZ@R:H`W^0
 !s100 [ikz>0NYK3WKf9P^8ZRSF0
 R8
 33
-R16
+R14
 !i10b 1
-R10
+R15
+R16
+R17
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Esendactualangle
 w1652637257
-R15
-Z31 DPx4 kart 4 kart 0 22 m^WEO46ajFNI5KakgZnVI2
+R13
+Z35 DPx4 kart 4 kart 0 22 m^WEO46ajFNI5KakgZnVI2
 R4
 R5
 R6
@@ -316,19 +316,19 @@ R8
 !s110 1652637258
 !i10b 1
 !s108 1652637258.000000
-Z32 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+Z36 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/sendactualangle_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Artl
 w1652637436
-R15
+R13
 DEx4 work 15 sendactualangle 0 22 zbizBUmdzn1K0[jBR?^1b1
 R4
 R5
 R6
-R31
+R35
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
 l21
@@ -340,14 +340,14 @@ R8
 !s110 1652637450
 !i10b 1
 !s108 1652637450.000000
-R32
+R36
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|
 !i113 0
-R13
-R14
+R11
+R12
 Esendactualangledeltamanager
-R30
-R15
+R31
+R13
 R2
 R3
 R4
@@ -362,38 +362,38 @@ VonnOKK77MIB9J7jSRX@O?1
 !s100 UdT1NV?Y4ZA7YHB]EU`K11
 R8
 33
-R16
+R32
 !i10b 1
-Z33 !s108 1656424663.000000
-Z34 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files28|
-!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendactualangledeltamanager_entity.vhg|
+Z37 !s108 1656424663.000000
+Z38 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files28|
+Z39 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendactualangledeltamanager_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Artl
-R15
-Z35 DEx4 work 27 sendactualangledeltamanager 0 22 onnOKK77MIB9J7jSRX@O?1
+R13
+Z40 DEx4 work 27 sendactualangledeltamanager 0 22 onnOKK77MIB9J7jSRX@O?1
 R2
 R4
 R5
 R6
 R3
-Z36 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
-Z37 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
+Z41 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
+Z42 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd
 l18
 L14
-Z38 VPbL_9nn_ALomO8;4MdFEU0
-Z39 !s100 lQGMTb5hdWVXZz@L=h1JS0
+Z43 VPbL_9nn_ALomO8;4MdFEU0
+Z44 !s100 lQGMTb5hdWVXZz@L=h1JS0
 R8
 33
-R16
-!i10b 1
-R33
-R34
-Z40 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendactualangledeltamanager_entity.vhg|
-!i113 0
-R13
 R14
+!i10b 1
+R15
+Z45 !s90 -work|Stepper|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files22|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|
+!i113 0
+R11
+R12
 Esteppercounter
 R1
 R4
@@ -408,14 +408,14 @@ VAzSIK7;z[Q3GK5G>K0Q@b2
 !s100 >`8oU07bhGo<:A]KkY5c52
 R8
 33
-R17
+R9
 !i10b 1
+R10
 R18
 R19
-R20
 !i113 0
-R13
-R14
+R11
+R12
 Amasterversion
 R4
 R5
@@ -429,16 +429,16 @@ VRzZGikPGN4gAJj3P6YD_00
 !s100 R^CLT?m87;>[amie5^eO31
 R8
 33
-R9
+R14
 !i10b 1
-R10
+R15
+R16
+R17
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Esteppermotorcontroller
-R1
+Z46 w1655905787
 R2
 R3
 R4
@@ -453,45 +453,45 @@ V37AAz<YWKXYPPkj<o_zhH3
 !s100 F3@MK[2Bjl5mCncKz7nm@3
 R8
 33
-R9
+R21
 !i10b 1
-R10
+R22
+R33
+R34
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Astruct
-Z41 w1655915521
-Z42 DEx7 stepper 21 steppermotorregisters 0 22 _>B8Egz@^i=G7onnkCdBF3
-Z43 DEx7 stepper 19 steppermotordivider 0 22 YlfF<]zcHMaI_KcO`V8n@1
-Z44 DEx5 gates 3 or2 0 22 ^1IGZ^`hi>1NzM>_OS>[m1
-Z45 DEx7 stepper 12 anglecontrol 0 22 `]Dl;Ci0To8?R]5dlRzMN3
-Z46 DEx4 work 22 steppermotorcontroller 0 22 37AAz<YWKXYPPkj<o_zhH3
-R15
+Z47 w1656427485
+Z48 DEx7 stepper 21 steppermotorregisters 0 22 _>B8Egz@^i=G7onnkCdBF3
+Z49 DEx7 stepper 19 steppermotordivider 0 22 YlfF<]zcHMaI_KcO`V8n@1
+Z50 DEx5 gates 3 or2 0 22 ^1IGZ^`hi>1NzM>_OS>[m1
+Z51 DEx7 stepper 12 anglecontrol 0 22 `]Dl;Ci0To8?R]5dlRzMN3
+Z52 DEx4 work 22 steppermotorcontroller 0 22 37AAz<YWKXYPPkj<o_zhH3
+R13
 R2
 R3
 R4
 R5
 R6
-Z47 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg
-Z48 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg
+Z53 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg
+Z54 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg
 l108
 L21
-Z49 VK<U;elBXhK`38ag=j?QjQ3
-Z50 !s100 FWYDWEPJ4RLI_D1XhG;kA3
+Z55 VK<U;elBXhK`38ag=j?QjQ3
+Z56 !s100 FWYDWEPJ4RLI_D1XhG;kA3
 R8
 33
-R16
-!i10b 1
-R33
-R34
-R40
-!i113 0
-R13
 R14
+!i10b 1
+R15
+R45
+Z57 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/sendActualAngle_rtl.vhd|
+!i113 0
+R11
+R12
 Esteppermotordivider
-R1
+R46
 R4
 R5
 R6
@@ -504,14 +504,14 @@ VYlfF<]zcHMaI_KcO`V8n@1
 !s100 3JV1HjS2dH>Gd6T`9bk4G1
 R8
 33
-R17
+!s110 1655905796
 !i10b 1
-R18
-R19
-R20
+!s108 1655905796.000000
+R23
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgeDetectorDflt_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/edgedetectordflt_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotordivider_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_masterversion.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilControl_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/coilcontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angleDifference_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/angledifference_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperCounter_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppercounter_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/anglecontrol_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorcontroller_entity.vhg|
 !i113 0
-R13
-R14
+R11
+R12
 Artl
 DEx4 work 19 steppermotordivider 0 22 YlfF<]zcHMaI_KcO`V8n@1
 R2
@@ -519,7 +519,7 @@ R3
 R4
 R5
 R6
-Z51 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+Z58 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd
 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorDivider_RTL.vhd
 l21
@@ -528,16 +528,16 @@ VChj?kkQ4k:7E?HT1^A<GS1
 !s100 aaCH:n:`CBKM3=5l4XVWf3
 R8
 33
-R16
+R14
 !i10b 1
-R10
+R15
+R16
+R17
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Esteppermotorregisters
-R30
+R31
 R2
 R3
 R4
@@ -552,49 +552,49 @@ V_>B8Egz@^i=G7onnkCdBF3
 !s100 fY5P5bGakZ>25IXCDe5T@0
 R8
 33
-R16
+R32
 !i10b 1
-R10
+R22
+R33
+R34
+!i113 0
 R11
 R12
-!i113 0
-R13
-R14
 Astruct
-R41
-Z52 DEx7 stepper 26 steppermotorregistersender 0 22 0Ug]7fMTH>mRl1=OWgU@R0
-Z53 DEx7 stepper 27 sendactualangledeltamanager 0 22 onnOKK77MIB9J7jSRX@O?1
-Z54 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
-R51
-Z55 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
-R44
-Z56 DEx7 stepper 16 edgedetectordflt 0 22 ecWh@@gjdFDcDS8gc@hVZ3
-Z57 DEx4 work 21 steppermotorregisters 0 22 _>B8Egz@^i=G7onnkCdBF3
-R15
+Z59 w1655915521
+Z60 DEx7 stepper 26 steppermotorregistersender 0 22 0Ug]7fMTH>mRl1=OWgU@R0
+Z61 DEx7 stepper 27 sendactualangledeltamanager 0 22 onnOKK77MIB9J7jSRX@O?1
+Z62 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+R58
+Z63 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+R50
+Z64 DEx7 stepper 16 edgedetectordflt 0 22 ecWh@@gjdFDcDS8gc@hVZ3
+Z65 DEx4 work 21 steppermotorregisters 0 22 _>B8Egz@^i=G7onnkCdBF3
+R13
 R2
 R3
 R4
 R5
 R6
-Z58 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg
-Z59 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg
+Z66 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg
+Z67 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/steppermotorregisters_struct.vhg
 l126
 L21
-Z60 V`ndk<QW;A289mfYBUTLLE2
-Z61 !s100 =GZ2WmTl5@WlR3[WX9JGo2
+Z68 V`ndk<QW;A289mfYBUTLLE2
+Z69 !s100 =GZ2WmTl5@WlR3[WX9JGo2
 R8
 33
-R16
-!i10b 1
-R33
-R34
-R40
-!i113 0
-R13
 R14
-Esteppermotorregistersender
-R30
+!i10b 1
 R15
+R45
+R57
+!i113 0
+R11
+R12
+Esteppermotorregistersender
+R31
+R13
 R2
 R3
 R4
@@ -609,35 +609,35 @@ V0Ug]7fMTH>mRl1=OWgU@R0
 !s100 PETMUj<NO0ocN_cOQP^0<3
 R8
 33
-R16
+R32
 !i10b 1
-R33
-R34
-R40
+R37
+R38
+R39
 !i113 0
-R13
-R14
+R11
+R12
 Artl
-R15
-Z62 DEx4 work 26 steppermotorregistersender 0 22 0Ug]7fMTH>mRl1=OWgU@R0
+R13
+Z70 DEx4 work 26 steppermotorregistersender 0 22 0Ug]7fMTH>mRl1=OWgU@R0
 R2
 R4
 R5
 R6
 R3
-Z63 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd
-Z64 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd
+Z71 8C:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd
+Z72 FC:/dev/eln_kart_sodimm200/Prefs/../Stepper/hdl/stepperMotorRegisterSender_rtl.vhd
 l31
 L14
-Z65 VI5cPNN:_HK=TL:h]aLf_J0
-Z66 !s100 ICWdi`BJ`P_:_7?^CK4a[3
+Z73 VI5cPNN:_HK=TL:h]aLf_J0
+Z74 !s100 ICWdi`BJ`P_:_7?^CK4a[3
 R8
 33
-R16
-!i10b 1
-R33
-R34
-R40
-!i113 0
-R13
 R14
+!i10b 1
+R15
+R45
+R57
+!i113 0
+R11
+R12

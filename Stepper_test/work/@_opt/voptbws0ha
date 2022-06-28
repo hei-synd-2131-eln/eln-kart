@@ -1,0 +1,70 @@
+m255
+K4
+z0
+13
+cModel Technology
+dC:/dev/eln_kart_sodimm200/Scripts
+Pgates
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+w1652181941
+Z2 dC:/temp/eda/axel.amand/Libraries/gates/work
+8C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/gates_pkg.vhd
+FC:/dev/eln_kart_sodimm200/Libs/Gates/hdl/gates_pkg.vhd
+l0
+L4
+V_Hi4cf]jV7iZg:nQ1?Yc60
+!s100 nB8UU>391kYo0GHWLaZFU1
+Z3 OE;C;10.7c;67
+32
+!s110 1656427476
+!i10b 1
+!s108 1656427476.000000
+!s90 -work|gates|-nologo|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files2|
+!s107 C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/gates_pkg.vhd|
+!i113 0
+o-nologo -work gates
+Z4 tExplicit 1 CvgOpt 0
+Eor2
+Z5 w1655905788
+Z6 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+R0
+R1
+R2
+8C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_entity.vhg
+FC:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_entity.vhg
+l0
+L14
+V^1IGZ^`hi>1NzM>_OS>[m1
+!s100 32WkMO<Ym8l?Ga@0HzEJf0
+R3
+33
+!s110 1656427292
+!i10b 1
+!s108 1656427292.000000
+!s90 -work|gates|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files4|
+!s107 C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_sim.vhd|C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_entity.vhg|
+!i113 0
+Z7 o-nologo -work gates -2008
+R4
+Asim
+R6
+R0
+R1
+DEx4 work 3 or2 0 22 ^1IGZ^`hi>1NzM>_OS>[m1
+8C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_sim.vhd
+FC:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_sim.vhd
+l2
+L1
+V3oLE1K4zhMLaJ2EWLbf=g2
+!s100 IY`97i7>E9hPCA`_6:0H`1
+R3
+33
+!s110 1656427317
+!i10b 1
+!s108 1656427317.000000
+!s90 -work|gates|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
+!s107 C:/dev/eln_kart_sodimm200/Libs/Gates/hdl/or2_sim.vhd|
+!i113 0
+R7
+R4

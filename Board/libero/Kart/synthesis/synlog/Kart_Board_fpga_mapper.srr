@@ -1,18 +1,18 @@
-# Tue Jun 28 15:59:52 2022
+# Tue Jun 28 16:51:37 2022
 
-Synopsys Microsemi Technology Mapper, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
-Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version L-2016.09M-SP1-5
+Synopsys Microsemi Technology Mapper, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
 
-Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
-Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
 
 
-Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
 
 
 
@@ -25,27 +25,27 @@ Available hyper_sources - for debug and ip models
 
 Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 112MB peak: 113MB)
 
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[6] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[7] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[8] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[9] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[10] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[11] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[12] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[13] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[14] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[15] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1550:28:1550:47|Found 16-bit incrementor, 'un3_prescalercounter[15:0]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1555:28:1555:58|Found 16 by 16 bit less-than operator ('<') un7_prescalerdone (in view: work.dcMotorPrescaler(rtl))
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1625:4:1625:5|Found counter in view:work.dcMotorPwm(masterversion) instance sawtooth[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1621:18:1621:45|Found 15-bit incrementor, 'un7_speedamplitude_1[14:0]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1642:18:1642:59|Found 4 by 4 bit less-than operator ('<') un10_pwmout (in view: work.dcMotorPwm(masterversion))
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[6] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[7] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[8] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[9] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[10] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[11] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[12] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[13] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[14] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[15] (in view: work.kartController(struct)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1550:28:1550:47|Found 16-bit incrementor, 'un3_prescalercounter[15:0]'
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1555:28:1555:58|Found 16 by 16 bit less-than operator ('<') un7_prescalerdone (in view: work.dcMotorPrescaler(rtl))
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1634:4:1634:5|Found counter in view:work.dcMotorPwm(std) instance sawtooth[3:0] 
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1630:18:1630:45|Found 15-bit incrementor, 'un7_speedamplitude_1[14:0]'
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1651:18:1651:59|Found 4 by 4 bit less-than operator ('<') un10_pwmout (in view: work.dcMotorPwm(std))
 Encoding state machine p_state[0:2] (in view: work.txRouter(rtl))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":8882:4:8882:5|Register bit p_addr[4] (in view view:work.txRouter(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":8946:4:8946:5|Register bit p_addr[4] (in view view:work.txRouter(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
 Encoding state machine fifoState[0:6] (in view: work.FIFO_bram(rtl))
 original code -> new code
    0000001 -> 0000001
@@ -55,86 +55,86 @@ original code -> new code
    0010000 -> 0010000
    0100000 -> 0100000
    1000000 -> 1000000
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7271:4:7271:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7271:4:7271:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[23] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[22] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[21] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[20] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[19] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[18] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[17] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[16] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[15] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[14] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[13] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[12] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[11] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[10] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[9] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[8] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[7] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[6] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[5] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[4] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[3] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[2] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7245:4:7245:5|Removing sequential instance dataOut[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7335:4:7335:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7335:4:7335:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[23] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[22] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[21] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[20] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[19] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[18] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[17] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[16] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[15] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[14] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[13] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[12] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[11] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[10] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[9] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[8] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[7] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[6] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[5] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[4] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[3] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[2] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7309:4:7309:5|Removing sequential instance dataOut[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
 
  Ram Decomposition Statistics for memoryarray[23:0]
 
  RAM 512x9 : 0
  RAM 512x9 : 0
-@W: FX107 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7197:9:7197:19|RAM memoryarray_tile[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@W: FX107 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7197:9:7197:19|RAM memoryarray_tile_0[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7261:9:7261:19|RAM memoryarray_tile[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7261:9:7261:19|RAM memoryarray_tile_0[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
 
  Ram Decomposition Statistics for memoryarray_1[23:0]
 
  RAM 512x9 : 0
  RAM 512x9 : 0
-@W: FX107 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7197:9:7197:19|RAM memoryarray_1_tile[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@W: FX107 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7197:9:7197:19|RAM memoryarray_1_tile_0[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7227:23:7227:37|Found 6-bit incrementor, 'un1_readcounter[5:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2268:4:2268:5|Found counter in view:work.i2cReceiver(rtl) instance bitCounter[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2699:26:2699:43|Found 5-bit incrementor, 'un4_dividercounter[4:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance sequenceCounter[4:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2538:4:2538:5|Found counter in view:work.batteryLevelSequencer(rtl) instance readCounter[2:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_retries[2:0] 
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 2 bits.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 3 bits.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO106 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2495:4:2495:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2432:4:2432:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_waitTimeout_cnt[17:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3143:4:3143:5|Found counter in view:work.hallCounters(masterversion) instance counterSet_1[15:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3500:4:3500:5|Found counter in view:work.rangerSubsignals(rtl) instance divideCount[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3466:28:3466:45|Found 22-bit incrementor, 'un2_timeoutcounter_1[21:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3686:2:3686:3|Found counter in view:work.hallCountManager(rtl) instance countCheck\.p_counterSet_0[10:0] 
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_51(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_51(rtl))
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_51(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_51(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count (in view: work.sendDeltaManager_16_100(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_100(rtl))
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_100(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_100(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3952:11:3952:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_579(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3953:12:3953:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_579(rtl))
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_579(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3948:6:3948:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_579(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3872:17:3872:23|Found 14-bit decrementor, 'un6_count[13:0]'
-@N: MF239 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3872:17:3872:23|Found 16-bit decrementor, 'un6_count[15:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4480:2:4480:3|Found counter in view:work.led_blinker(rtl) instance p_cnt[14:0] 
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4489:9:4489:25|Found 15 by 15 bit less-than operator ('<') blink\.un1_p_cnt (in view: work.led_blinker(rtl))
-Encoding state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion))
+@W: FX107 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7261:9:7261:19|RAM memoryarray_1_tile[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@W: FX107 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7261:9:7261:19|RAM memoryarray_1_tile_0[17:0] (in view: work.FIFO_bram(rtl)) does not have a read/write conflict check. Possible simulation mismatch. To resolve a read/write conflict, either set syn_ramstyle = rw_check, or enable the "Read Write Check on RAM" Implementation Option. For more information, search for "read/write conflict check" in Online Help.
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7291:23:7291:37|Found 6-bit incrementor, 'un1_readcounter[5:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2277:4:2277:5|Found counter in view:work.i2cReceiver(rtl) instance bitCounter[3:0] 
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2708:26:2708:43|Found 5-bit incrementor, 'un4_dividercounter[4:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2441:4:2441:5|Found counter in view:work.batteryLevelSequencer(rtl) instance sequenceCounter[4:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2547:4:2547:5|Found counter in view:work.batteryLevelSequencer(rtl) instance readCounter[2:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2441:4:2441:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_retries[2:0] 
+@N: MO106 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2504:4:2504:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO106 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2504:4:2504:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 2 bits.
+@N: MO106 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2504:4:2504:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 3 bits.
+@N: MO106 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2504:4:2504:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO106 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2504:4:2504:7|Found ROM .delname. (in view: work.batteryLevelSequencer(rtl)) with 22 words by 1 bit.
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2441:4:2441:5|Found counter in view:work.batteryLevelSequencer(rtl) instance p_waitTimeout_cnt[17:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3162:4:3162:5|Found counter in view:work.hallCounters(std) instance counterSet_1[15:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3520:4:3520:5|Found counter in view:work.rangerSubsignals(rtl) instance divideCount[3:0] 
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3486:28:3486:45|Found 22-bit incrementor, 'un2_timeoutcounter_1[21:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3706:2:3706:3|Found counter in view:work.hallCountManager(rtl) instance countCheck\.p_counterSet_0[10:0] 
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3972:11:3972:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_51(rtl))
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3973:12:3973:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_51(rtl))
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_51(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_51(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3972:11:3972:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count (in view: work.sendDeltaManager_16_100(rtl))
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3973:12:3973:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_100(rtl))
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_100(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_100(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3972:11:3972:72|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_p_last_count_1 (in view: work.sendDeltaManager_16_579(rtl))
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3973:12:3973:73|Found 17 by 17 bit less-than operator ('<') noDelta\.deltaSender\.un1_datain (in view: work.sendDeltaManager_16_579(rtl))
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[15] (in view view:work.sendDeltaManager_16_579(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3968:6:3968:7|Register bit p_last_count[14] (in view view:work.sendDeltaManager_16_579(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@N: MF239 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3892:17:3892:23|Found 14-bit decrementor, 'un6_count[13:0]'
+@N: MF239 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3892:17:3892:23|Found 16-bit decrementor, 'un6_count[15:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":4500:2:4500:3|Found counter in view:work.led_blinker(rtl) instance p_cnt[14:0] 
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":4509:9:4509:25|Found 15 by 15 bit less-than operator ('<') blink\.un1_p_cnt (in view: work.led_blinker(rtl))
+Encoding state machine rangerState[0:3] (in view: work.ultrasoundRanger(std))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3319:4:3319:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion)); safe FSM implementation is not required.
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3376:20:3376:35|Found 16-bit incrementor, 'un1_distance[1:16]'
+@N: MO225 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3339:4:3339:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(std)); safe FSM implementation is not required.
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3396:20:3396:35|Found 16-bit incrementor, 'un1_distance[1:16]'
 Encoding state machine turningState[0:5] (in view: work.angleDifference(masterversion))
 original code -> new code
    000001 -> 000001
@@ -144,18 +144,18 @@ original code -> new code
    010000 -> 010000
    100000 -> 100000
 @N: MF176 |Default generator successful 
-@N: MF238 :"c:\microsemi\libero_soc_v11.9\synplifypro\lib\vhd2008\numeric.vhd":2090:9:2090:12|Found 13-bit incrementor, 'inf_abs0_a_0[12:0]'
-@N: MO230 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":5815:4:5815:5|Found up-down counter in view:work.stepperCounter(masterversion) instance sMotorPosition[11:0]  
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6358:21:6358:51|Found 16 by 16 bit less-than operator ('<') un3_bigger (in view: work.stepperMotorDivider(rtl))
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6311:25:6311:41|Found 7-bit incrementor, 'un2_p_100kcounter[1:7]'
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6358:21:6358:40|Found 16-bit incrementor, 'un1_bigger[1:16]'
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6579:11:6581:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_p_lastsent_angle (in view: work.sendActualAngleDeltaManager(rtl))
-@N: MF179 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6583:11:6585:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_actualangle (in view: work.sendActualAngleDeltaManager(rtl))
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7963:4:7963:5|Found counter in view:work.serialPortReceiver(rtl) instance rxCounter[3:0] 
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7896:26:7896:43|Found 7-bit incrementor, 'un5_dividercounter[6:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7494:1:7494:2|Found counter in view:work.FrameComposer(rtl) instance shiftCnt[2:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7598:4:7598:5|Found counter in view:work.crc8itu_0(rtl) instance counter[3:0] 
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7804:3:7804:4|Found counter in view:work.frameReceiverHandler(rtl) instance watchdogCnt[12:0] 
+@N: MF238 :"c:\eda\microsemi\libero\synplifypro\lib\vhd2008\numeric.vhd":2090:9:2090:12|Found 13-bit incrementor, 'inf_abs0_a_0[12:0]'
+@N: MO230 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":5835:4:5835:5|Found up-down counter in view:work.stepperCounter(masterversion) instance sMotorPosition[11:0]  
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6422:21:6422:51|Found 16 by 16 bit less-than operator ('<') un3_bigger (in view: work.stepperMotorDivider(rtl))
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6375:25:6375:41|Found 7-bit incrementor, 'un2_p_100kcounter[1:7]'
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6422:21:6422:40|Found 16-bit incrementor, 'un1_bigger[1:16]'
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6643:11:6645:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_p_lastsent_angle (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MF179 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6647:11:6649:30|Found 13 by 13 bit less-than operator ('<') deltaSender\.un1_actualangle (in view: work.sendActualAngleDeltaManager(rtl))
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":8027:4:8027:5|Found counter in view:work.serialPortReceiver(rtl) instance rxCounter[3:0] 
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7960:26:7960:43|Found 7-bit incrementor, 'un5_dividercounter[6:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7558:1:7558:2|Found counter in view:work.FrameComposer(rtl) instance shiftCnt[2:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7662:4:7662:5|Found counter in view:work.crc8itu_0(rtl) instance counter[3:0] 
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7868:3:7868:4|Found counter in view:work.frameReceiverHandler(rtl) instance watchdogCnt[12:0] 
 Encoding state machine state[0:8] (in view: work.frameReceiverHandler(rtl))
 original code -> new code
    000000001 -> 000000001
@@ -167,8 +167,8 @@ original code -> new code
    001000000 -> 001000000
    010000000 -> 010000000
    100000000 -> 100000000
-@N: MF238 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":8415:26:8415:43|Found 7-bit incrementor, 'un4_dividercounter[6:0]'
-@N: MO231 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7598:4:7598:5|Found counter in view:work.crc8itu_1(rtl) instance counter[3:0] 
+@N: MF238 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":8479:26:8479:43|Found 7-bit incrementor, 'un4_dividercounter[6:0]'
+@N: MO231 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7662:4:7662:5|Found counter in view:work.crc8itu_1(rtl) instance counter[3:0] 
 Encoding state machine state[0:6] (in view: work.framePacker(rtl))
 original code -> new code
    0000001 -> 0000001
@@ -181,7 +181,7 @@ original code -> new code
 @N: MF794 |RAM memoryarray_1[23:0] required 2 registers during mapping 
 @N: MF794 |RAM memoryarray[23:0] required 2 registers during mapping 
 
-Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 121MB peak: 122MB)
+Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 122MB peak: 122MB)
 
 @W: BN132 :|Removing sequential instance I_board.I_txFIFO.dataOut_ret_23_0[23] because it is equivalent to instance I_board.I_txFIFO.dataOut_ret_23_0[22]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :|Removing sequential instance I_board.I_txFIFO.dataOut_ret_23_0[22] because it is equivalent to instance I_board.I_txFIFO.dataOut_ret_23_0[21]. To keep the instance, apply constraint syn_preserve=1 on the instance.
@@ -194,36 +194,33 @@ Starting factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; M
 @W: BN132 :|Removing sequential instance I_board.I_txFIFO.dataOut_ret_23_0[15] because it is equivalent to instance I_board.I_txFIFO.dataOut_ret_23_0[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :|Removing sequential instance I_board.I_txFIFO.dataOut_ret_23_0[14] because it is equivalent to instance I_board.I_txFIFO.dataOut_ret_23_0[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
-Finished factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 129MB peak: 129MB)
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 128MB peak: 129MB)
 
 
-Starting gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 128MB peak: 131MB)
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 129MB peak: 131MB)
+
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6749:4:6749:5|Register bit I_board.I_stepperController.I_registers.U_sender.p_addr_out[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":4217:4:4217:5|Register bit I_board.I_sensorsController.I_regs.U_sender.p_addr_out[6] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":2680:4:2680:5|Register bit I_board.I_sensorsController.I_battery.U_tx.sendStop (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 131MB peak: 139MB)
 
 
-Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 128MB peak: 131MB)
-
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":2671:4:2671:5|Register bit I_board.I_sensorsController.I_battery.U_tx.sendStop (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6685:4:6685:5|Register bit I_board.I_stepperController.I_registers.U_sender.p_addr_out[7] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-@W: MO160 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":4197:4:4197:5|Register bit I_board.I_sensorsController.I_regs.U_sender.p_addr_out[6] (in view view:work.Kart_Board(struct)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
-
-Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 131MB peak: 139MB)
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 133MB peak: 139MB)
 
 
-Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 132MB peak: 139MB)
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 149MB peak: 149MB)
 
 
-Finished Early Timing Optimization (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 147MB peak: 148MB)
-
-
-Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 146MB peak: 148MB)
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 148MB peak: 150MB)
 
 @N: MF794 |RAM memoryarray_1[23:0] required 2 registers during mapping 
 @N: MF794 |RAM memoryarray[23:0] required 2 registers during mapping 
 
-Finished preparing to map (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 145MB peak: 148MB)
+Finished preparing to map (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 147MB peak: 150MB)
 
 
-Finished technology mapping (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 160MB peak: 162MB)
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 168MB peak: 171MB)
 
 @N: MF322 |Retiming summary: 0 registers retimed to 1 
 
@@ -247,44 +244,44 @@ High Fanout Net Report
 Driver Instance / Pin Name                                                Fanout, notes                   
 ----------------------------------------------------------------------------------------------------------
 I21.Q / Q                                                                 980 : 978 asynchronous set/reset
-I_board.I_uartController.I_receiver.address[0] / Q                        54                              
-I_board.I_uartController.I_receiver.U_rx.rxDataValid / Q                  26                              
-I_board.I_uartController.I_receiver.U_handler.state[0] / Q                48                              
-I_board.I_uartController.I_receiver.U_handler.state[1] / Q                26                              
+I_board.I_uartController.I_receiver.address[0] / Q                        70                              
+I_board.I_uartController.I_receiver.address[2] / Q                        46                              
 I_board.I_sensorsController.I_range_freqdiv.count_en / Q                  37                              
 I_board.I_sensorsController.I_regs.U_2.p_sendhall[0] / Q                  35                              
+I_board.I_uartController.I_receiver.U_rx.rxDataValid / Q                  28                              
+I_board.I_uartController.I_receiver.U_handler.state[0] / Q                48                              
+I_board.I_uartController.I_receiver.U_handler.state[1] / Q                26                              
 I_board.I_txFIFO.dataOut_ret_0[0] / Q                                     48                              
 I_board.U_7.out1 / Y                                                      39                              
-I_board.I_sensorsController.I_range_freqdiv.un3_countpulse / Y            32                              
-I_board.I_sensorsController.I_battery.U_seq.op_gt.un2_txsendlt4 / Y       30                              
-I_board.I_stepperController.I_angleControl.I_cnt.G / Y                    25                              
 I_board.I_uartController.I_receiver.U_composer.un1_frameHolder_06 / Y     32                              
+I_board.I_stepperController.I_angleControl.I_cnt.G / Y                    25                              
+I_board.I_sensorsController.I_range_freqdiv.un3_countpulse / Y            32                              
 ==========================================================================================================
 
 @N: FP130 |Promoting Net clock_c on CLKBUF  clock_pad 
-@N: FP130 |Promoting Net resetSynch_n on CLKINT  I_66 
-@N: FP130 |Promoting Net I_board.addressIn[0] on CLKINT  I_67 
+@N: FP130 |Promoting Net resetSynch_n on CLKINT  I_70 
+@N: FP130 |Promoting Net I_board.addressIn[0] on CLKINT  I_71 
 
-Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 162MB peak: 164MB)
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 169MB peak: 171MB)
 
-Replicating Combinational Instance I_board.I_uartController.I_receiver.U_composer.un1_frameHolder_06, fanout 32 segments 2
-Replicating Combinational Instance I_board.I_stepperController.I_angleControl.I_cnt.G, fanout 25 segments 2
-Replicating Combinational Instance I_board.I_sensorsController.I_battery.U_seq.op_gt.un2_txsendlt4, fanout 30 segments 2
 Replicating Combinational Instance I_board.I_sensorsController.I_range_freqdiv.un3_countpulse, fanout 32 segments 2
+Replicating Combinational Instance I_board.I_stepperController.I_angleControl.I_cnt.G, fanout 25 segments 2
+Replicating Combinational Instance I_board.I_uartController.I_receiver.U_composer.un1_frameHolder_06, fanout 32 segments 2
 Replicating Combinational Instance I_board.U_7.out1, fanout 39 segments 2
 Replicating Sequential Instance I_board.I_txFIFO.dataOut_ret_0[0], fanout 48 segments 2
-Replicating Sequential Instance I_board.I_sensorsController.I_regs.U_2.p_sendhall[0], fanout 35 segments 2
-Replicating Sequential Instance I_board.I_sensorsController.I_range_freqdiv.count_en, fanout 37 segments 2
 Replicating Sequential Instance I_board.I_uartController.I_receiver.U_handler.state[1], fanout 26 segments 2
 Replicating Sequential Instance I_board.I_uartController.I_receiver.U_handler.state[0], fanout 49 segments 3
-Replicating Sequential Instance I_board.I_uartController.I_receiver.U_rx.rxDataValid, fanout 26 segments 2
+Replicating Sequential Instance I_board.I_uartController.I_receiver.U_rx.rxDataValid, fanout 28 segments 2
+Replicating Sequential Instance I_board.I_sensorsController.I_regs.U_2.p_sendhall[0], fanout 35 segments 2
+Replicating Sequential Instance I_board.I_sensorsController.I_range_freqdiv.count_en, fanout 37 segments 2
+Replicating Sequential Instance I_board.I_uartController.I_receiver.address[2], fanout 46 segments 2
 
 Added 0 Buffers
 Added 12 Cells via replication
-	Added 7 Sequential Cells via replication
-	Added 5 Combinational Cells via replication
+	Added 8 Sequential Cells via replication
+	Added 4 Combinational Cells via replication
 
-Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 163MB peak: 164MB)
+Finished restoring hierarchy (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 170MB peak: 171MB)
 
 
 
@@ -294,14 +291,14 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:
 #### START OF CLOCK OPTIMIZATION REPORT #####[
 
 Clock optimization not enabled
-1 non-gated/non-generated clock tree(s) driving 1006 clock pin(s) of sequential element(s)
+1 non-gated/non-generated clock tree(s) driving 1007 clock pin(s) of sequential element(s)
 1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
 0 instances converted, 4 sequential instances remain driven by gated/generated clocks
 
 =========================== Non-Gated/Non-Generated Clocks ============================
 Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
 ---------------------------------------------------------------------------------------
-@K:CKID0002       clock               port                   1006       batterySDaIn   
+@K:CKID0002       clock               port                   1007       batterySDaIn   
 =======================================================================================
 =================================================================================================================== Gated/Generated Clocks ===================================================================================================================
 Clock Tree ID     Driving Element                                                     Drive Element Type     Fanout     Sample Instance                                               Explanation                                                             
@@ -313,26 +310,26 @@ Clock Tree ID     Driving Element                                               
 ##### END OF CLOCK OPTIMIZATION REPORT ######]
 
 
-Start Writing Netlists (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:09s; Memory used current: 155MB peak: 164MB)
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 162MB peak: 171MB)
 
-Writing Analyst data base C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synwork\Kart_Board_m.srm
+Writing Analyst data base C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\synwork\Kart_Board_m.srm
 
-Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 158MB peak: 164MB)
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 171MB)
 
 Writing EDIF Netlist and constraint files
-L-2016.09M-SP1-5
+L-2016.09M-2
 
-Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 161MB peak: 164MB)
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 167MB peak: 171MB)
 
 
-Start final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 159MB peak: 164MB)
+Start final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 171MB)
 
 @W: MT420 |Found inferred clock Kart_Board|clock with period 10.00ns. Please declare a user-defined clock on object "p:clock"
 @W: MT420 |Found inferred clock coilControl|stepdelayed_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:I_board.I_stepperController.I_angleControl.I_phases.stepdelayed"
 
 
 ##### START OF TIMING REPORT #####[
-# Timing Report written on Tue Jun 28 16:00:03 2022
+# Timing Report written on Tue Jun 28 16:51:46 2022
 #
 
 
@@ -354,12 +351,12 @@ Performance Summary
 *******************
 
 
-Worst slack in design: -17.966
+Worst slack in design: -16.502
 
                                            Requested     Estimated     Requested     Estimated                 Clock        Clock              
 Starting Clock                             Frequency     Frequency     Period        Period        Slack       Type         Group              
 -----------------------------------------------------------------------------------------------------------------------------------------------
-Kart_Board|clock                           100.0 MHz     35.8 MHz      10.000        27.966        -17.966     inferred     Inferred_clkgroup_0
+Kart_Board|clock                           100.0 MHz     37.7 MHz      10.000        26.502        -16.502     inferred     Inferred_clkgroup_0
 coilControl|stepdelayed_inferred_clock     100.0 MHz     NA            10.000        NA            NA          inferred     Inferred_clkgroup_1
 ===============================================================================================================================================
 @N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
@@ -375,7 +372,7 @@ Clocks                                                    |    rise  to  rise   
 --------------------------------------------------------------------------------------------------------------------------------------------------
 Starting          Ending                                  |  constraint  slack    |  constraint  slack  |  constraint  slack  |  constraint  slack
 --------------------------------------------------------------------------------------------------------------------------------------------------
-Kart_Board|clock  Kart_Board|clock                        |  10.000      -17.966  |  No paths    -      |  No paths    -      |  No paths    -    
+Kart_Board|clock  Kart_Board|clock                        |  10.000      -16.502  |  No paths    -      |  No paths    -      |  No paths    -    
 Kart_Board|clock  coilControl|stepdelayed_inferred_clock  |  Diff grp    -        |  No paths    -      |  No paths    -      |  No paths    -    
 ==================================================================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
@@ -403,37 +400,37 @@ Starting Points with Worst Slack
 Instance                                                                               Reference            Type         Pin     Net                Time        Slack  
                                                                                        Clock                                                                           
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                     Kart_Board|clock     DFN1C0       Q       actual[2]          0.697       -17.966
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1]                     Kart_Board|clock     DFN1C0       Q       actual[1]          0.697       -17.883
-I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[2]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[2]     0.885       -17.313
-I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[1]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[1]     0.885       -17.177
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[0]                     Kart_Board|clock     DFN1C0       Q       actual[0]          0.697       -17.137
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7]                     Kart_Board|clock     DFN1C0       Q       actual[7]          0.697       -16.895
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[5]                     Kart_Board|clock     DFN1C0       Q       actual[5]          0.885       -16.769
-I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[0]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[0]     0.885       -16.744
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[4]                     Kart_Board|clock     DFN1C0       Q       actual[4]          0.697       -16.454
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[3]                     Kart_Board|clock     DFN1C0       Q       actual[3]          0.885       -16.389
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7]                     Kart_Board|clock     DFN1C0       Q       actual[7]          0.697       -16.502
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                     Kart_Board|clock     DFN1C0       Q       actual[2]          0.697       -16.195
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1]                     Kart_Board|clock     DFN1C0       Q       actual[1]          0.697       -16.114
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[0]                     Kart_Board|clock     DFN1C0       Q       actual[0]          0.697       -15.955
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[3]                     Kart_Board|clock     DFN1C0       Q       actual[3]          0.697       -15.938
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[5]                     Kart_Board|clock     DFN1C0       Q       actual[5]          0.885       -15.713
+I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[2]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[2]     0.885       -15.605
+I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[7]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[7]     0.885       -15.579
+I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[0]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[0]     0.885       -15.562
+I_board.I_stepperController.I_registers.U_manager.register_input\.p_registers_1[1]     Kart_Board|clock     DFN1E1C0     Q       targetAngle[1]     0.885       -15.469
 =======================================================================================================================================================================
 
 
 Ending Points with Worst Slack
 ******************************
 
-                                                                   Starting                                                           Required            
-Instance                                                           Reference            Type         Pin     Net                      Time         Slack  
-                                                                   Clock                                                                                  
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]     Kart_Board|clock     DFN1C0       D       p_addr_out_RNO[6]        9.311        -17.966
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[0]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[1]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[5]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[0]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[1]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[2]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[3]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[4]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-I_board.I_stepperController.I_registers.U_sender.p_data_out[5]     Kart_Board|clock     DFN1E1C0     E       p_request_0_sqmuxa_1     9.269        -17.012
-==========================================================================================================================================================
+                                                                   Starting                                                        Required            
+Instance                                                           Reference            Type         Pin     Net                   Time         Slack  
+                                                                   Clock                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+I_board.I_stepperController.I_registers.U_sender.p_state[0]        Kart_Board|clock     DFN1C0       D       p_state_RNO_1[0]      9.311        -16.502
+I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]     Kart_Board|clock     DFN1C0       D       p_addr_out_RNO[6]     9.311        -16.195
+I_board.I_stepperController.I_registers.U_sender.p_data_out[1]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[1]       9.353        -15.415
+I_board.I_stepperController.I_registers.U_sender.p_data_out[2]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[2]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[3]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[3]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[4]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[4]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[5]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[5]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[6]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[6]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[7]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[7]       9.353        -15.327
+I_board.I_stepperController.I_registers.U_sender.p_data_out[8]     Kart_Board|clock     DFN1E1C0     D       p_data_out_8[8]       9.353        -15.327
+=======================================================================================================================================================
 
 
 
@@ -447,66 +444,72 @@ Path information for path number 1:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.311
 
-    - Propagation time:                      27.277
+    - Propagation time:                      25.813
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     -17.966
+    = Slack (critical) :                     -16.502
 
-    Number of logic level(s):                14
-    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2] / Q
-    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_addr_out[6] / D
+    Number of logic level(s):                16
+    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7] / Q
+    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_state[0] / D
     The start point is clocked by            Kart_Board|clock [rising] on pin CLK
     The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
 
-Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
-Name                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                            DFN1C0     Q        Out     0.697     0.697       -         
-actual[2]                                                                                     Net        -        -       2.395     -           12        
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       A        In      -         3.092       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       Y        Out     0.645     3.738       -         
-N174                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      B        In      -         4.707       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.754     5.460       -         
-N224                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         6.429       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     7.047       -         
-I53_un1_Y                                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         7.434       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     8.043       -         
-N250                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         9.012       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     9.783       -         
-I74_un1_Y                                                                                     Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         10.752      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     11.528      -         
-N292                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         12.497      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     13.619      -         
-difference[12]                                                                                Net        -        -       2.610     -           16        
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[3]                  MX2B       S        In      -         16.229      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[3]                  MX2B       Y        Out     0.576     16.805      -         
-N_109                                                                                         Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       C        In      -         17.192      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.821     18.012      -         
-un11_reached_intlto12_i_a2_6_3                                                                Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         18.398      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     19.169      -         
-un11_reached_intlto12_i_a2_6                                                                  Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      A        In      -         20.591      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      Y        Out     0.618     21.209      -         
-p_request_0_sqmuxa_1_a0_3                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      A        In      -         21.595      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      Y        Out     0.618     22.213      -         
-p_state_RNIL8KAHQ[0]                                                                          Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        B        In      -         22.677      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        Y        Out     0.777     23.454      -         
-p_request_0_sqmuxa_1                                                                          Net        -        -       2.827     -           20        
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        A        In      -         26.281      -         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        Y        Out     0.610     26.891      -         
-p_addr_out_RNO[6]                                                                             Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                DFN1C0     D        In      -         27.277      -         
-==========================================================================================================================================================
-Total path delay (propagation time + setup) of 27.966 is 11.472(41.0%) logic and 16.494(59.0%) route.
+Instance / Net                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7]                              DFN1C0     Q        Out     0.697     0.697       -         
+actual[7]                                                                                       Net        -        -       2.664     -           17        
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I7_P0N          OR2A       A        In      -         3.362       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I7_P0N          OR2A       Y        Out     0.645     4.007       -         
+N189                                                                                            Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I21_Y           OA1A       C        In      -         4.976       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I21_Y           OA1A       Y        Out     0.486     5.463       -         
+N214                                                                                            Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I40_Y           NOR2B      B        In      -         6.431       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I40_Y           NOR2B      Y        Out     0.754     7.185       -         
+N237                                                                                            Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y_0     NOR2B      B        In      -         7.649       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y_0     NOR2B      Y        Out     0.754     8.403       -         
+ADD_13x13_fast_I75_un1_Y_0                                                                      Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y       NOR2B      A        In      -         8.789       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y       NOR2B      Y        Out     0.618     9.407       -         
+I75_un1_Y                                                                                       Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y_2         OR2        B        In      -         9.793       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y_2         OR2        Y        Out     0.777     10.570      -         
+ADD_13x13_fast_I75_Y_2                                                                          Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y           OR2        A        In      -         10.956      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y           OR2        Y        Out     0.610     11.566      -         
+N294                                                                                            Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I95_Y           XNOR2      B        In      -         11.952      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I95_Y           XNOR2      Y        Out     1.125     13.078      -         
+difference[10]                                                                                  Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_31                             AND3       C        In      -         14.615      -         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_31                             AND3       Y        Out     0.800     15.415      -         
+N_3                                                                                             Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_32                             XOR2       A        In      -         15.801      -         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_32                             XOR2       Y        Out     0.587     16.387      -         
+inf_abs0_a_0[11]                                                                                Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[11]                   MX2B       A        In      -         16.774      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[11]                   MX2B       Y        Out     0.683     17.457      -         
+N_101                                                                                           Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_9           NOR3A      C        In      -         17.920      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_9           NOR3A      Y        Out     0.770     18.691      -         
+un11_reached_intlto12_i_a2_9                                                                    Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2             NOR3B      B        In      -         19.660      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2             NOR3B      Y        Out     0.729     20.388      -         
+N_170                                                                                           Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i                OR2        A        In      -         21.357      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i                OR2        Y        Out     0.610     21.967      -         
+reached                                                                                         Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                             NOR2A      A        In      -         23.504      -         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                             NOR2A      Y        Out     0.754     24.258      -         
+sendReached                                                                                     Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                                 OA1A       B        In      -         24.644      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                                 OA1A       Y        Out     0.783     25.427      -         
+p_state_RNO_1[0]                                                                                Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state[0]                                     DFN1C0     D        In      -         25.813      -         
+============================================================================================================================================================
+Total path delay (propagation time + setup) of 26.502 is 12.871(48.6%) logic and 13.631(51.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -516,13 +519,13 @@ Path information for path number 2:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.311
 
-    - Propagation time:                      27.227
+    - Propagation time:                      25.506
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.916
+    = Slack (non-critical) :                 -16.195
 
     Number of logic level(s):                14
     Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2] / Q
-    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_addr_out[6] / D
+    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_state[0] / D
     The start point is clocked by            Kart_Board|clock [rising] on pin CLK
     The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
 
@@ -530,52 +533,52 @@ Instance / Net                                                                  
 Name                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                            DFN1C0     Q        Out     0.697     0.697       -         
-actual[2]                                                                                     Net        -        -       2.395     -           12        
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       A        In      -         3.092       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       Y        Out     0.645     3.738       -         
-N174                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      B        In      -         4.707       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.754     5.460       -         
-N224                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         6.429       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     7.047       -         
+actual[2]                                                                                     Net        -        -       2.447     -           13        
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       A        In      -         3.145       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       Y        Out     0.645     3.790       -         
+N174                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      B        In      -         4.253       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.754     5.007       -         
+N224                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         5.471       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     6.089       -         
 I53_un1_Y                                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         7.434       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     8.043       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         6.475       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     7.085       -         
 N250                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         9.012       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     9.783       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         8.054       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     8.824       -         
 I74_un1_Y                                                                                     Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         10.752      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     11.528      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         9.793       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     10.570      -         
 N292                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         12.497      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     13.619      -         
-difference[12]                                                                                Net        -        -       2.610     -           16        
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[6]                  MX2B       S        In      -         16.229      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[6]                  MX2B       Y        Out     0.576     16.805      -         
-N_106                                                                                         Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       B        In      -         17.192      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.770     17.962      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         11.539      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     12.660      -         
+difference[12]                                                                                Net        -        -       2.664     -           17        
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[4]                  MX2B       S        In      -         15.325      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[4]                  MX2B       Y        Out     0.576     15.901      -         
+N_108                                                                                         Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       C        In      -         16.365      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.821     17.185      -         
 un11_reached_intlto12_i_a2_6_3                                                                Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         18.348      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     19.119      -         
-un11_reached_intlto12_i_a2_6                                                                  Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      A        In      -         20.541      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      Y        Out     0.618     21.159      -         
-p_request_0_sqmuxa_1_a0_3                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      A        In      -         21.545      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      Y        Out     0.618     22.163      -         
-p_state_RNIL8KAHQ[0]                                                                          Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        B        In      -         22.627      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        Y        Out     0.777     23.404      -         
-p_request_0_sqmuxa_1                                                                          Net        -        -       2.827     -           20        
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        A        In      -         26.231      -         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        Y        Out     0.610     26.841      -         
-p_addr_out_RNO[6]                                                                             Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                DFN1C0     D        In      -         27.227      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         17.572      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     18.342      -         
+un11_reached_intlto12_i_a2_6                                                                  Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      A        In      -         19.311      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      Y        Out     0.770     20.081      -         
+N_170                                                                                         Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        A        In      -         21.050      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        Y        Out     0.610     21.660      -         
+reached                                                                                       Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      A        In      -         23.197      -         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      Y        Out     0.754     23.951      -         
+sendReached                                                                                   Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       B        In      -         24.337      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       Y        Out     0.783     25.120      -         
+p_state_RNO_1[0]                                                                              Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state[0]                                   DFN1C0     D        In      -         25.506      -         
 ==========================================================================================================================================================
-Total path delay (propagation time + setup) of 27.916 is 11.422(40.9%) logic and 16.494(59.1%) route.
+Total path delay (propagation time + setup) of 26.195 is 11.766(44.9%) logic and 14.429(55.1%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -585,66 +588,69 @@ Path information for path number 3:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.311
 
-    - Propagation time:                      27.194
+    - Propagation time:                      25.506
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.883
+    = Slack (non-critical) :                 -16.195
 
-    Number of logic level(s):                14
-    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1] / Q
+    Number of logic level(s):                15
+    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7] / Q
     Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_addr_out[6] / D
     The start point is clocked by            Kart_Board|clock [rising] on pin CLK
     The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
 
-Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
-Name                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1]                            DFN1C0     Q        Out     0.697     0.697       -         
-actual[1]                                                                                     Net        -        -       2.447     -           13        
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       A        In      -         3.145       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       Y        Out     0.645     3.790       -         
-N171                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      A        In      -         4.759       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.618     5.377       -         
-N224                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         6.346       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     6.964       -         
-I53_un1_Y                                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         7.350       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     7.960       -         
-N250                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         8.929       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     9.699       -         
-I74_un1_Y                                                                                     Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         10.668      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     11.445      -         
-N292                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         12.414      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     13.535      -         
-difference[12]                                                                                Net        -        -       2.610     -           16        
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[3]                  MX2B       S        In      -         16.145      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[3]                  MX2B       Y        Out     0.576     16.722      -         
-N_109                                                                                         Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       C        In      -         17.108      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.821     17.929      -         
-un11_reached_intlto12_i_a2_6_3                                                                Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         18.315      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     19.085      -         
-un11_reached_intlto12_i_a2_6                                                                  Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      A        In      -         20.507      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      Y        Out     0.618     21.125      -         
-p_request_0_sqmuxa_1_a0_3                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      A        In      -         21.512      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      Y        Out     0.618     22.130      -         
-p_state_RNIL8KAHQ[0]                                                                          Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        B        In      -         22.593      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        Y        Out     0.777     23.370      -         
-p_request_0_sqmuxa_1                                                                          Net        -        -       2.827     -           20        
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        A        In      -         26.198      -         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        Y        Out     0.610     26.807      -         
-p_addr_out_RNO[6]                                                                             Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                DFN1C0     D        In      -         27.194      -         
-==========================================================================================================================================================
-Total path delay (propagation time + setup) of 27.883 is 11.336(40.7%) logic and 16.546(59.3%) route.
+Instance / Net                                                                                             Pin      Pin               Arrival     No. of    
+Name                                                                                            Type       Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[7]                              DFN1C0     Q        Out     0.697     0.697       -         
+actual[7]                                                                                       Net        -        -       2.664     -           17        
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I7_P0N          OR2A       A        In      -         3.362       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I7_P0N          OR2A       Y        Out     0.645     4.007       -         
+N189                                                                                            Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I21_Y           OA1A       C        In      -         4.976       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I21_Y           OA1A       Y        Out     0.486     5.463       -         
+N214                                                                                            Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I40_Y           NOR2B      B        In      -         6.431       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I40_Y           NOR2B      Y        Out     0.754     7.185       -         
+N237                                                                                            Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y_0     NOR2B      B        In      -         7.649       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y_0     NOR2B      Y        Out     0.754     8.403       -         
+ADD_13x13_fast_I75_un1_Y_0                                                                      Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y       NOR2B      A        In      -         8.789       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_un1_Y       NOR2B      Y        Out     0.618     9.407       -         
+I75_un1_Y                                                                                       Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y_2         OR2        B        In      -         9.793       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y_2         OR2        Y        Out     0.777     10.570      -         
+ADD_13x13_fast_I75_Y_2                                                                          Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y           OR2        A        In      -         10.956      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I75_Y           OR2        Y        Out     0.610     11.566      -         
+N294                                                                                            Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I95_Y           XNOR2      B        In      -         11.952      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I95_Y           XNOR2      Y        Out     1.125     13.078      -         
+difference[10]                                                                                  Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_33                             AND3       B        In      -         14.615      -         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_33                             AND3       Y        Out     0.750     15.364      -         
+DWACT_FINC_E[7]                                                                                 Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_34                             NOR2B      A        In      -         15.751      -         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_34                             NOR2B      Y        Out     0.587     16.337      -         
+N_2                                                                                             Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_35                             XOR2       A        In      -         16.724      -         
+I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_35                             XOR2       Y        Out     0.491     17.214      -         
+inf_abs0_a_0[12]                                                                                Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.turningState_tr9_0_2_i_a2                     NOR2A      A        In      -         17.678      -         
+I_board.I_stepperController.I_angleControl.I_diff.turningState_tr9_0_2_i_a2                     NOR2A      Y        Out     0.754     18.432      -         
+N_134                                                                                           Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNILUVAP4[0]                           AO1        B        In      -         19.969      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNILUVAP4[0]                           AO1        Y        Out     0.718     20.687      -         
+p_request_0_sqmuxa_0                                                                            Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNIGJ4BPT[0]                           OR2        A        In      -         21.073      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNIGJ4BPT[0]                           OR2        Y        Out     0.610     21.683      -         
+p_request_0_sqmuxa_1                                                                            Net        -        -       2.827     -           20        
+I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                              OR2        A        In      -         24.510      -         
+I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                              OR2        Y        Out     0.610     25.120      -         
+p_addr_out_RNO[6]                                                                               Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                  DFN1C0     D        In      -         25.506      -         
+============================================================================================================================================================
+Total path delay (propagation time + setup) of 26.195 is 11.674(44.6%) logic and 14.521(55.4%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -654,66 +660,66 @@ Path information for path number 4:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.311
 
-    - Propagation time:                      27.144
+    - Propagation time:                      25.456
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.833
+    = Slack (non-critical) :                 -16.145
 
     Number of logic level(s):                14
-    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1] / Q
-    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_addr_out[6] / D
+    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2] / Q
+    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_state[0] / D
     The start point is clocked by            Kart_Board|clock [rising] on pin CLK
     The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
 
 Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
 Name                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1]                            DFN1C0     Q        Out     0.697     0.697       -         
-actual[1]                                                                                     Net        -        -       2.447     -           13        
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       A        In      -         3.145       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       Y        Out     0.645     3.790       -         
-N171                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      A        In      -         4.759       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.618     5.377       -         
-N224                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         6.346       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     6.964       -         
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                            DFN1C0     Q        Out     0.697     0.697       -         
+actual[2]                                                                                     Net        -        -       2.447     -           13        
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       A        In      -         3.145       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       Y        Out     0.645     3.790       -         
+N174                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      B        In      -         4.253       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.754     5.007       -         
+N224                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         5.471       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     6.089       -         
 I53_un1_Y                                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         7.350       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     7.960       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         6.475       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     7.085       -         
 N250                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         8.929       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     9.699       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         8.054       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     8.824       -         
 I74_un1_Y                                                                                     Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         10.668      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     11.445      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         9.793       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     10.570      -         
 N292                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         12.414      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     13.535      -         
-difference[12]                                                                                Net        -        -       2.610     -           16        
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[6]                  MX2B       S        In      -         16.145      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[6]                  MX2B       Y        Out     0.576     16.722      -         
-N_106                                                                                         Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       B        In      -         17.108      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.770     17.878      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         11.539      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     12.660      -         
+difference[12]                                                                                Net        -        -       2.664     -           17        
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[2]                  MX2B       S        In      -         15.325      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[2]                  MX2B       Y        Out     0.576     15.901      -         
+N_110                                                                                         Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       B        In      -         16.365      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.770     17.135      -         
 un11_reached_intlto12_i_a2_6_3                                                                Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         18.265      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     19.035      -         
-un11_reached_intlto12_i_a2_6                                                                  Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      A        In      -         20.457      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      Y        Out     0.618     21.075      -         
-p_request_0_sqmuxa_1_a0_3                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      A        In      -         21.462      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      Y        Out     0.618     22.080      -         
-p_state_RNIL8KAHQ[0]                                                                          Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        B        In      -         22.543      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        Y        Out     0.777     23.320      -         
-p_request_0_sqmuxa_1                                                                          Net        -        -       2.827     -           20        
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        A        In      -         26.148      -         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        Y        Out     0.610     26.757      -         
-p_addr_out_RNO[6]                                                                             Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                DFN1C0     D        In      -         27.144      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         17.522      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     18.292      -         
+un11_reached_intlto12_i_a2_6                                                                  Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      A        In      -         19.261      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      Y        Out     0.770     20.031      -         
+N_170                                                                                         Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        A        In      -         21.000      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        Y        Out     0.610     21.610      -         
+reached                                                                                       Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      A        In      -         23.147      -         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      Y        Out     0.754     23.901      -         
+sendReached                                                                                   Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       B        In      -         24.287      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       Y        Out     0.783     25.070      -         
+p_state_RNO_1[0]                                                                              Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state[0]                                   DFN1C0     D        In      -         25.456      -         
 ==========================================================================================================================================================
-Total path delay (propagation time + setup) of 27.833 is 11.286(40.5%) logic and 16.546(59.5%) route.
+Total path delay (propagation time + setup) of 26.145 is 11.716(44.8%) logic and 14.429(55.2%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -723,72 +729,66 @@ Path information for path number 5:
     + Clock delay at ending point:           0.000 (ideal)
     = Required time:                         9.311
 
-    - Propagation time:                      27.064
+    - Propagation time:                      25.425
     - Clock delay at starting point:         0.000 (ideal)
-    = Slack (non-critical) :                 -17.753
+    = Slack (non-critical) :                 -16.114
 
-    Number of logic level(s):                16
-    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2] / Q
-    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_addr_out[6] / D
+    Number of logic level(s):                14
+    Starting point:                          I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1] / Q
+    Ending point:                            I_board.I_stepperController.I_registers.U_sender.p_state[0] / D
     The start point is clocked by            Kart_Board|clock [rising] on pin CLK
     The end   point is clocked by            Kart_Board|clock [rising] on pin CLK
 
 Instance / Net                                                                                           Pin      Pin               Arrival     No. of    
 Name                                                                                          Type       Name     Dir     Delay     Time        Fan Out(s)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[2]                            DFN1C0     Q        Out     0.697     0.697       -         
-actual[2]                                                                                     Net        -        -       2.395     -           12        
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       A        In      -         3.092       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I2_P0N        OR2A       Y        Out     0.645     3.738       -         
-N174                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      B        In      -         4.707       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.754     5.460       -         
-N224                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         6.429       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     7.047       -         
+I_board.I_stepperController.I_angleControl.I_cnt.sMotorPosition[1]                            DFN1C0     Q        Out     0.697     0.697       -         
+actual[1]                                                                                     Net        -        -       2.502     -           14        
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       A        In      -         3.199       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I1_P0N        OR2A       Y        Out     0.645     3.844       -         
+N171                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      A        In      -         4.308       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I31_Y         NOR2B      Y        Out     0.618     4.926       -         
+N224                                                                                          Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      A        In      -         5.390       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_un1_Y     NOR2B      Y        Out     0.618     6.008       -         
 I53_un1_Y                                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         7.434       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     8.043       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        A        In      -         6.394       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I53_Y         OR2        Y        Out     0.610     7.004       -         
 N250                                                                                          Net        -        -       0.969     -           3         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I66_Y         AO1        B        In      -         9.012       -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I66_Y         AO1        Y        Out     0.718     9.731       -         
-N301                                                                                          Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I92_Y         XOR3       C        In      -         10.117      -         
-I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I92_Y         XOR3       Y        Out     1.184     11.301      -         
-difference[7]                                                                                 Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_21                           AND2       B        In      -         12.723      -         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_21                           AND2       Y        Out     0.754     13.477      -         
-DWACT_FINC_E[3]                                                                               Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_24                           AND3       C        In      -         13.940      -         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_24                           AND3       Y        Out     0.770     14.711      -         
-DWACT_FINC_E[4]                                                                               Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_25                           NOR2B      B        In      -         15.174      -         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_25                           NOR2B      Y        Out     0.754     15.928      -         
-N_5                                                                                           Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_26                           XOR2       A        In      -         16.314      -         
-I_board.I_stepperController.I_angleControl.I_diff.inf_abs0_a_0.I_26                           XOR2       Y        Out     0.587     16.901      -         
-inf_abs0_a_0[9]                                                                               Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[9]                  MX2B       A        In      -         17.287      -         
-I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[9]                  MX2B       Y        Out     0.683     17.970      -         
-N_103                                                                                         Net        -        -       1.422     -           4         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI58MQM3[0]                         NOR2A      B        In      -         19.392      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI58MQM3[0]                         NOR2A      Y        Out     0.464     19.856      -         
-p_request_0_sqmuxa_1_a0_2                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      B        In      -         20.242      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIHS6QIB[0]                         NOR2B      Y        Out     0.754     20.996      -         
-p_request_0_sqmuxa_1_a0_3                                                                     Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      A        In      -         21.382      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNIL8KAHQ[0]                         NOR2B      Y        Out     0.618     22.000      -         
-p_state_RNIL8KAHQ[0]                                                                          Net        -        -       0.464     -           2         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        B        In      -         22.464      -         
-I_board.I_stepperController.I_registers.U_sender.p_state_RNI0PREIV[0]                         OR2        Y        Out     0.777     23.241      -         
-p_request_0_sqmuxa_1                                                                          Net        -        -       2.827     -           20        
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        A        In      -         26.068      -         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out_RNO[6]                            OR2        Y        Out     0.610     26.678      -         
-p_addr_out_RNO[6]                                                                             Net        -        -       0.386     -           1         
-I_board.I_stepperController.I_registers.U_sender.p_addr_out[6]                                DFN1C0     D        In      -         27.064      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      C        In      -         7.973       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_un1_Y     NOR3C      Y        Out     0.770     8.743       -         
+I74_un1_Y                                                                                     Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        B        In      -         9.712       -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.ADD_13x13_fast_I74_Y         OR2        Y        Out     0.777     10.489      -         
+N292                                                                                          Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       B        In      -         11.458      -         
+I_board.I_stepperController.I_angleControl.I_diff.difference_0_0.m9                           AO13       Y        Out     1.121     12.579      -         
+difference[12]                                                                                Net        -        -       2.664     -           17        
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[4]                  MX2B       S        In      -         15.243      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_abs\.inf_abs0_i_0_m2[4]                  MX2B       Y        Out     0.576     15.820      -         
+N_108                                                                                         Net        -        -       0.464     -           2         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       C        In      -         16.283      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6_3       NOR3       Y        Out     0.821     17.104      -         
+un11_reached_intlto12_i_a2_6_3                                                                Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      C        In      -         17.490      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2_6         NOR3C      Y        Out     0.770     18.261      -         
+un11_reached_intlto12_i_a2_6                                                                  Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      A        In      -         19.230      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i_a2           NOR3B      Y        Out     0.770     20.000      -         
+N_170                                                                                         Net        -        -       0.969     -           3         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        A        In      -         20.969      -         
+I_board.I_stepperController.I_angleControl.I_diff.op_le\.un11_reached_intlto12_i              OR2        Y        Out     0.610     21.579      -         
+reached                                                                                       Net        -        -       1.537     -           5         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      A        In      -         23.116      -         
+I_board.I_stepperController.I_registers.U_0.pulse_delayed_RNILLG2NT                           NOR2A      Y        Out     0.754     23.869      -         
+sendReached                                                                                   Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       B        In      -         24.256      -         
+I_board.I_stepperController.I_registers.U_sender.p_state_RNO[0]                               OA1A       Y        Out     0.783     25.039      -         
+p_state_RNO_1[0]                                                                              Net        -        -       0.386     -           1         
+I_board.I_stepperController.I_registers.U_sender.p_state[0]                                   DFN1C0     D        In      -         25.425      -         
 ==========================================================================================================================================================
-Total path delay (propagation time + setup) of 27.753 is 12.685(45.7%) logic and 15.068(54.3%) route.
+Total path delay (propagation time + setup) of 26.114 is 11.631(44.5%) logic and 14.483(55.5%) route.
 Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
 
 
@@ -798,89 +798,85 @@ Path delay compensated for clock skew. Clock skew is added to clock-to-out value
 Timing exceptions that could not be applied
 None
 
-Finished final timing analysis (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 159MB peak: 164MB)
+Finished final timing analysis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 171MB)
 
 
-Finished timing report (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 159MB peak: 164MB)
+Finished timing report (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 165MB peak: 171MB)
 
 --------------------------------------------------------------------------------
 Target Part: AGLN250V5_VQFP100_STD
 Report for cell Kart_Board.struct
   Core Cell usage:
               cell count     area count*area
-              AND2    58      1.0       58.0
-             AND2A    29      1.0       29.0
-              AND3   149      1.0      149.0
+              AND2    68      1.0       68.0
+             AND2A    31      1.0       31.0
+              AND3   150      1.0      150.0
              AND3A     4      1.0        4.0
-               AO1   116      1.0      116.0
+               AO1   107      1.0      107.0
               AO13     9      1.0        9.0
-              AO15     1      1.0        1.0
-              AO1A    49      1.0       49.0
-              AO1B     4      1.0        4.0
-              AO1C    71      1.0       71.0
-              AO1D     3      1.0        3.0
-              AOI1    27      1.0       27.0
-             AOI1A    61      1.0       61.0
-             AOI1B     8      1.0        8.0
-               AX1    35      1.0       35.0
-              AX1A    12      1.0       12.0
-              AX1B     8      1.0        8.0
-              AX1C    40      1.0       40.0
-              AX1D     3      1.0        3.0
-              AX1E     3      1.0        3.0
-              AXO3     2      1.0        2.0
+              AO1A    41      1.0       41.0
+              AO1B     7      1.0        7.0
+              AO1C    72      1.0       72.0
+              AO1D     5      1.0        5.0
+              AOI1    26      1.0       26.0
+             AOI1A    65      1.0       65.0
+             AOI1B     5      1.0        5.0
+               AX1    36      1.0       36.0
+              AX1A    11      1.0       11.0
+              AX1B     5      1.0        5.0
+              AX1C    19      1.0       19.0
+              AX1D     4      1.0        4.0
+              AX1E     5      1.0        5.0
               AXO5     1      1.0        1.0
              AXOI3     1      1.0        1.0
-             AXOI5     1      1.0        1.0
             CLKINT     2      0.0        0.0
-               GND    76      0.0        0.0
-               INV    27      1.0       27.0
+               GND    73      0.0        0.0
+               INV    26      1.0       26.0
               MAJ3     4      1.0        4.0
-               MX2   188      1.0      188.0
-              MX2A     6      1.0        6.0
-              MX2B    23      1.0       23.0
+               MX2   174      1.0      174.0
+              MX2A     9      1.0        9.0
+              MX2B    22      1.0       22.0
               MX2C     7      1.0        7.0
-              NOR2   114      1.0      114.0
-             NOR2A   325      1.0      325.0
-             NOR2B   383      1.0      383.0
-              NOR3    48      1.0       48.0
-             NOR3A    97      1.0       97.0
-             NOR3B    69      1.0       69.0
-             NOR3C    96      1.0       96.0
-               OA1    65      1.0       65.0
-              OA1A    67      1.0       67.0
-              OA1B     8      1.0        8.0
-              OA1C    27      1.0       27.0
+              NOR2   116      1.0      116.0
+             NOR2A   326      1.0      326.0
+             NOR2B   335      1.0      335.0
+              NOR3    49      1.0       49.0
+             NOR3A   114      1.0      114.0
+             NOR3B   132      1.0      132.0
+             NOR3C    92      1.0       92.0
+               OA1    81      1.0       81.0
+              OA1A    66      1.0       66.0
+              OA1B     7      1.0        7.0
+              OA1C    23      1.0       23.0
               OAI1    15      1.0       15.0
-               OR2    67      1.0       67.0
-              OR2A   167      1.0      167.0
+               OR2    70      1.0       70.0
+              OR2A   179      1.0      179.0
               OR2B    21      1.0       21.0
-               OR3    87      1.0       87.0
-              OR3A     6      1.0        6.0
+               OR3   107      1.0      107.0
+              OR3A     8      1.0        8.0
               OR3B    13      1.0       13.0
               OR3C     3      1.0        3.0
-               VCC    76      0.0        0.0
-               XA1    34      1.0       34.0
-              XA1A     4      1.0        4.0
-              XA1B    74      1.0       74.0
-              XA1C     8      1.0        8.0
-             XNOR2   215      1.0      215.0
+               VCC    73      0.0        0.0
+               XA1    12      1.0       12.0
+              XA1A     2      1.0        2.0
+              XA1B   100      1.0      100.0
+              XA1C     9      1.0        9.0
+             XNOR2   218      1.0      218.0
                XO1     6      1.0        6.0
-              XOR2   198      1.0      198.0
+              XOR2   192      1.0      192.0
               XOR3     2      1.0        2.0
-             ZOR3I     1      1.0        1.0
 
 
-            DFN1C0   280      1.0      280.0
-          DFN1E0C0   131      1.0      131.0
+            DFN1C0   295      1.0      295.0
+          DFN1E0C0   148      1.0      148.0
           DFN1E0P0     1      1.0        1.0
             DFN1E1    16      1.0       16.0
-          DFN1E1C0   518      1.0      518.0
+          DFN1E1C0   497      1.0      497.0
           DFN1E1P0    30      1.0       30.0
-            DFN1P0    26      1.0       26.0
+            DFN1P0    16      1.0       16.0
          RAM512X18     4      0.0        0.0
                    -----          ----------
-             TOTAL  4330              4172.0
+             TOTAL  4367              4215.0
 
 
   IO Cell usage:
@@ -893,7 +889,7 @@ Report for cell Kart_Board.struct
              TOTAL    26
 
 
-Core Cells         : 4172 of 6144 (68%)
+Core Cells         : 4215 of 6144 (69%)
 IO Cells           : 26
 
   RAM/ROM Usage Summary
@@ -901,9 +897,9 @@ Block Rams : 4 of 8 (50%)
 
 Mapper successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:11s; Memory used current: 35MB peak: 164MB)
+At Mapper Exit (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 35MB peak: 171MB)
 
-Process took 0h:00m:11s realtime, 0h:00m:11s cputime
-# Tue Jun 28 16:00:03 2022
+Process took 0h:00m:09s realtime, 0h:00m:08s cputime
+# Tue Jun 28 16:51:46 2022
 
 ###########################################################]

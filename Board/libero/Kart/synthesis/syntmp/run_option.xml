@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <!-- 
   Synopsys, Inc.
-  Version L-2016.09M-SP1-5
-  Project file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\syntmp\run_option.xml
-  Written on Tue Jun 28 15:59:48 2022
+  Version L-2016.09M-2
+  Project file C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\syntmp\run_option.xml
+  Written on Tue Jun 28 16:51:34 2022
 
 
 --> 
 <project_attribute_list name="Project Settings"> 
      <option name="project_name" display_name="Project Name">Kart_Board_syn</option>
-     <option name="device_name" display_name="Device Name">synthesis: Microsemi IGLOO : AGLN250V5</option>
      <option name="impl_name" display_name="Implementation Name">synthesis</option>
      <option name="top_module" display_name="Top Module">work.Kart_Board</option>
      <option name="retiming" display_name="Retiming">0</option>
