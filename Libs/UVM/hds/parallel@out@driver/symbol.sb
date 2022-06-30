@@ -76,7 +76,7 @@ uid 2546,0
 *15 (LogPort
 port (LogicalPort
 decl (Decl
-n "driverTransaction"
+n "transaction"
 t "string"
 o 1
 suid 2071,0
@@ -405,23 +405,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hdl"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hdl"
 )
 (vvPair
 variable "HDSDir"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb.info"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb.user"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb.user"
 )
 (vvPair
 variable "SourceDir"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds"
 )
 (vvPair
 variable "appl"
@@ -445,27 +445,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver"
 )
 (vvPair
 variable "d_logical"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallelOutDriver"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallelOutDriver"
 )
 (vvPair
 variable "date"
-value "05/12/22"
+value "06/10/22"
 )
 (vvPair
 variable "day"
-value "Thu"
+value "Fri"
 )
 (vvPair
 variable "day_long"
-value "Thursday"
+value "Friday"
 )
 (vvPair
 variable "dd"
-value "12"
+value "10"
 )
 (vvPair
 variable "designName"
@@ -497,7 +497,7 @@ value "francois"
 )
 (vvPair
 variable "graphical_source_date"
-value "05/12/22"
+value "06/10/22"
 )
 (vvPair
 variable "graphical_source_group"
@@ -505,11 +505,11 @@ value "francois"
 )
 (vvPair
 variable "graphical_source_host"
-value "Hyperion"
+value "Aphrodite"
 )
 (vvPair
 variable "graphical_source_time"
-value "15:53:50"
+value "12:26:40"
 )
 (vvPair
 variable "group"
@@ -517,7 +517,7 @@ value "francois"
 )
 (vvPair
 variable "host"
-value "Hyperion"
+value "Aphrodite"
 )
 (vvPair
 variable "language"
@@ -553,7 +553,7 @@ value "U:\\ELN_Board\\Synthesis"
 )
 (vvPair
 variable "mm"
-value "05"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -561,19 +561,19 @@ value "parallelOutDriver"
 )
 (vvPair
 variable "month"
-value "May"
+value "Jun"
 )
 (vvPair
 variable "month_long"
-value "May"
+value "June"
 )
 (vvPair
 variable "p"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallel@out@driver/symbol.sb"
 )
 (vvPair
 variable "p_logical"
-value "/home/francois/Documents/HEVs/Projets/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallelOutDriver/symbol.sb"
+value "/home/francois/Documents/HEVs/Projects/NGRW/FPGA/Prefs/../Libs/UVM/hds/parallelOutDriver/symbol.sb"
 )
 (vvPair
 variable "package_name"
@@ -653,7 +653,7 @@ value "symbol"
 )
 (vvPair
 variable "time"
-value "15:53:50"
+value "12:26:40"
 )
 (vvPair
 variable "unit"
@@ -720,8 +720,9 @@ uid 2518,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,12300,34500,13200"
-st "parallelOut       : OUT    std_uLogic_vector (lineNb-1 downto 0)"
+xt "2000,12300,31500,13200"
+st "parallelOut : OUT    std_uLogic_vector (lineNb-1 downto 0)
+"
 )
 thePort (LogicalPort
 m 1
@@ -755,9 +756,9 @@ uid 2915,0
 va (VaSet
 font "courier,12,0"
 )
-xt "48000,38300,60500,39700"
-st "driverTransaction"
-blo "48000,39500"
+xt "48000,38300,56400,39600"
+st "transaction"
+blo "48000,39300"
 tm "CptPortNameMgr"
 )
 )
@@ -766,12 +767,13 @@ uid 2916,0
 va (VaSet
 font "courier,8,0"
 )
-xt "2000,11400,20500,12300"
-st "driverTransaction : IN     string  ;"
+xt "2000,11400,17500,12300"
+st "transaction : IN     string  ;
+"
 )
 thePort (LogicalPort
 decl (Decl
-n "driverTransaction"
+n "transaction"
 t "string"
 o 1
 suid 2071,0
@@ -1221,8 +1223,8 @@ tm "PackageList"
 )
 ]
 )
-windowSize "595,235,1912,1088"
-viewArea "-1500,-1500,96960,62400"
+windowSize "587,494,1904,1347"
+viewArea "-1500,-1500,89302,57430"
 cachedDiagramExtent "0,0,98000,66000"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -1509,7 +1511,7 @@ xt "0,9400,0,9400"
 tm "SyDeclarativeTextMgr"
 )
 )
-lastUid 3385,0
+lastUid 3408,0
 okToSyncOnLoad 1
 OkToSyncGenericsOnLoad 1
 activeModelName "Symbol"
