@@ -1,5 +1,6 @@
 [Concat]
 Board = $HDS_PROJECT_DIR/../Board/concat
+DcMotor_test = $HDS_PROJECT_DIR\..\DcMotor_test\concat
 Kart_test = $HDS_PROJECT_DIR/../Kart_test/concat
 Stepper = $HDS_PROJECT_DIR/../Stepper/concat
 [ModelSim]

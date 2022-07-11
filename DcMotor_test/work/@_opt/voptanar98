@@ -9,35 +9,35 @@ Z0 DPx4 kart 12 kart_student 0 22 b``JVNJzW8MD1aa`?<U<Q3
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z4 w1655982954
+Z4 w1657268453
 Z5 dC:/temp/eda/axel.amand/Kart/Kart/work
 Z6 8C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_pkg.vhd
 Z7 FC:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_pkg.vhd
 l0
 L17
-VDz_P[Yo1QB;0T1gR9iNmI1
-!s100 OinFSbi8P_nLR_3Ah<<V`0
+VQl:93P?VmK3BiY:Bd>nn:0
+!s100 4>0E:fk=8BGlcLIIhk7kf1
 Z8 OE;C;10.7c;67
 33
 b1
-Z9 !s110 1655982963
+Z9 !s110 1657268455
 !i10b 1
-Z10 !s108 1655982963.000000
+Z10 !s108 1657268455.000000
 Z11 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
 Z12 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_pkg.vhd|
 !i113 0
 Z13 o-nologo -work Kart -2008
 Z14 tExplicit 1 CvgOpt 0
 Bbody
-DPx4 work 4 kart 0 22 Dz_P[Yo1QB;0T1gR9iNmI1
+DPx4 work 4 kart 0 22 Ql:93P?VmK3BiY:Bd>nn:0
 R0
 R1
 R2
 R3
 l0
-L365
-Vb`XaU5TE:IC]k?TdVA<nB1
-!s100 [fQ=h7Y`TOf^i_`Lb2[oa1
+L375
+VNjf2h@]iWY>XZmfOJTdk61
+!s100 c;OO9fVNLZU5Y<^Zkc_C72
 R8
 33
 R9
@@ -61,9 +61,9 @@ Vb``JVNJzW8MD1aa`?<U<Q3
 !s100 o>UM1W`:BTHPiT>DWiFQd0
 R8
 33
-Z15 !s110 1655982382
+Z15 !s110 1657268125
 !i10b 1
-Z16 !s108 1655982382.000000
+Z16 !s108 1657268125.000000
 R11
 Z17 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_pkg.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_Student_pkg_body.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/Kart_Student_pkg.vhd|
 !i113 0
@@ -93,7 +93,7 @@ R14
 Ekartcontroller
 w1655982404
 R0
-Z18 DPx4 kart 4 kart 0 22 _k@SZJC2kiB[eSIOMmIYd1
+Z18 DPx4 kart 4 kart 0 22 Ql:93P?VmK3BiY:Bd>nn:0
 R1
 R2
 R3
@@ -106,16 +106,16 @@ V_5cDoKFk]1o@o1O8C?55O0
 !s100 Wm4XM[PK;`gadN[ja4g^_3
 R8
 33
-!s110 1655982416
+Z19 !s110 1657270735
 !i10b 1
-!s108 1655982416.000000
-R11
+Z20 !s108 1657270735.000000
+!s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files6|
 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/kartcontroller_entity.vhg|
 !i113 0
 R13
 R14
 Astruct
-w1655982412
+w1656933147
 DEx4 uart 14 uartcontroller 0 22 6@IM=RT9Ccc<hCj<U7z`[1
 DEx4 kart 8 txrouter 0 22 k>mS658Z]6L_ZSO9k1hJP3
 DEx7 stepper 22 steppermotorcontroller 0 22 37AAz<YWKXYPPkj<o_zhH3
@@ -126,10 +126,10 @@ DEx5 gates 18 bufferulogicvector 0 22 QP07LoXM9_<W:Wad``HhX0
 DEx5 gates 8 and2inv2 0 22 ^_FQ<BOUoa><M9ie0kFX:1
 DEx6 memory 9 fifo_bram 0 22 b9_>zkMO6=HM1`2TTlfF:1
 DEx4 work 14 kartcontroller 0 22 _5cDoKFk]1o@o1O8C?55O0
-Z19 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
+Z21 DPx5 gates 5 gates 0 22 _Hi4cf]jV7iZg:nQ1?Yc60
 R0
 R18
-Z20 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
+Z22 DPx6 common 9 commonlib 0 22 3=C6agcVJY[ii4=3AEgYR1
 R1
 R2
 R3
@@ -141,19 +141,19 @@ Vn1@d4g4SVFXRhj2CbaTRY2
 !s100 ;W338BHo7>m@C?e[Ig9RF2
 R8
 33
-Z21 !s110 1655982455
+Z23 !s110 1657270739
 !i10b 1
-Z22 !s108 1655982455.000000
-Z23 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files10|
-Z24 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/kartcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/txRouter_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/txrouter_entity.vhg|
+Z24 !s108 1657270739.000000
+Z25 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files33|
+Z26 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/kartcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/txRouter_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/txrouter_entity.vhg|
 !i113 0
 R13
 R14
 Ereg_addr_decoder
-Z25 w1655905784
+Z27 w1655905784
 R0
-Z26 DPx4 kart 4 kart 0 22 Dz_P[Yo1QB;0T1gR9iNmI1
-R20
+R18
+R22
 R1
 R2
 R3
@@ -166,22 +166,22 @@ VIzXJ?M@gU4_k>OU=VoScQ1
 !s100 NihgWcY]0hC?>>4d9h0Pd0
 R8
 33
-Z27 !s110 1655982972
+R19
 !i10b 1
-Z28 !s108 1655982972.000000
-Z29 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
-Z30 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_entity.vhg|
+R20
+Z28 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files8|
+Z29 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registerManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registermanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_entity.vhg|
 !i113 0
 R13
 R14
 Artl
-R20
+R22
 DEx4 work 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
 R0
 R1
 R2
 R3
-R26
+R18
 8C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/reg_addr_decoder_rtl.vhd
 l18
@@ -190,19 +190,19 @@ V@aVP<3@M`5bae@FiFIg^V3
 !s100 bM:nbXYR<QId>If38DUZ51
 R8
 33
-R27
+R19
 !i10b 1
+R20
 R28
 R29
-R30
 !i113 0
 R13
 R14
 Eregistermanager
-R25
+R27
 R0
-R26
-R20
+R18
+R22
 R1
 R2
 R3
@@ -215,22 +215,22 @@ V7Z>^VZIjd[dSJZ[bMWb8=3
 !s100 NfJHEjJiSa4;_<58LzL>D1
 R8
 33
-Z31 !s110 1655982976
+R19
 !i10b 1
-Z32 !s108 1655982976.000000
-Z33 !s90 -work|Kart|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files5|
-Z34 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registerManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registermanager_entity.vhg|
+R20
+R28
+R29
 !i113 0
 R13
 R14
 Artl
-R20
+R22
 DEx4 work 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
 R0
 R1
 R2
 R3
-R26
+R18
 8C:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registerManager_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Prefs/../Kart/hdl/registerManager_rtl.vhd
 l20
@@ -239,20 +239,20 @@ VUl]XEakLjV<hio]BBNiCG1
 !s100 :GZRZa6dB0g6LeCLXkEPG1
 R8
 33
-R31
+R19
 !i10b 1
-R32
-R33
-R34
+R20
+R28
+R29
 !i113 0
 R13
 R14
 Etxrouter
-Z35 w1655905789
-R19
+Z30 w1655905789
+R21
 R0
 R18
-R20
+R22
 R1
 R2
 R3
@@ -265,17 +265,17 @@ Vk>mS658Z]6L_ZSO9k1hJP3
 !s100 >nZOf;CSePYS^A0eXF:Fg2
 R8
 33
-R21
-!i10b 1
-R22
 R23
+!i10b 1
 R24
+R25
+R26
 !i113 0
 R13
 R14
 Artl
-R19
-R20
+R21
+R22
 DEx4 work 8 txrouter 0 22 k>mS658Z]6L_ZSO9k1hJP3
 R0
 R1
@@ -290,11 +290,11 @@ VnA0RJi]QW0CfTQkmOo5Wm2
 !s100 N?gI0g=liQXSUn84HVE_22
 R8
 33
-R21
-!i10b 1
-R22
 R23
+!i10b 1
 R24
+R25
+R26
 !i113 0
 R13
 R14

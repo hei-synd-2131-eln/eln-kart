@@ -44,7 +44,7 @@ set_io  Rx_BLE          -pinname 3      -fixed yes      -DIRECTION Input	-RES_PU
 #set_io  PM1_7           -pinname 19     -fixed yes      -DIRECTION Output
 #set_io  PM1_8           -pinname 20     -fixed yes      -DIRECTION Input	-RES_PULL Down
 
-set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PULL Down
+#set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PULL Down
 #set_io  PM2_2           -pinname 28     -fixed yes      -DIRECTION Input	 -RES_PULL Down
 #set_io  PM2_3           -pinname 29     -fixed yes      -DIRECTION Output
 #set_io  PM2_4           -pinname 30     -fixed yes      -DIRECTION Input	 -RES_PULL Down
@@ -71,10 +71,10 @@ set_io  SCL_proxy       -pinname 27     -fixed yes      -DIRECTION Input	-RES_PU
 #set_io  PM5_2           -pinname 61     -fixed yes      -DIRECTION Input
 #set_io  PM5_3           -pinname 62     -fixed yes      -DIRECTION Input
 set_io  distancePulse    -pinname 63     -fixed yes      -DIRECTION Input
-set_io  {endSwitches[1]} -pinname 64     -fixed yes      -DIRECTION Input
-#set_io  PM5_6           -pinname 69     -fixed yes      -DIRECTION Input
+#set_io  {endSwitches[1]} -pinname 64     -fixed yes      -DIRECTION Input
+set_io  stepperEnd       -pinname 69     -fixed yes      -DIRECTION Input	 -RES_PULL Up
 #set_io  PM5_7           -pinname 70     -fixed yes      -DIRECTION Input
-#set_io  PM5_8           -pinname 71     -fixed yes      -DIRECTION Input
+set_io  {halls[1]}       -pinname 71     -fixed yes      -DIRECTION Input
 
 #set_io  PM6_1           -pinname 72     -fixed yes      -DIRECTION Output
 #set_io  PM6_2           -pinname 73     -fixed yes      -DIRECTION Output
@@ -89,7 +89,7 @@ set_io  coil1           -pinname 82     -fixed yes      -DIRECTION Output
 set_io  coil2           -pinname 83     -fixed yes      -DIRECTION Output
 set_io  coil3           -pinname 84     -fixed yes      -DIRECTION Output
 set_io  coil4           -pinname 85     -fixed yes      -DIRECTION Output
-set_io  {halls[1]}      -pinname 86     -fixed yes      -DIRECTION Input
+#set_io  PM7_5           -pinname 86     -fixed yes      -DIRECTION Input
 #set_io  PM7_6           -pinname 90     -fixed yes      -DIRECTION Input
 #set_io  PM7_7           -pinname 91     -fixed yes      -DIRECTION Input
 #set_io  PM7_8           -pinname 92     -fixed yes      -DIRECTION Input
@@ -98,7 +98,7 @@ set_io  dc_A            -pinname 93     -fixed yes      -DIRECTION Output
 set_io  dc_B            -pinname 94     -fixed yes      -DIRECTION Output
 #set_io  PM8_3           -pinname 95     -fixed yes      -DIRECTION Input
 #set_io  PM8_4           -pinname 96     -fixed yes      -DIRECTION Input
-set_io  stepperEnd      -pinname 97     -fixed yes      -DIRECTION Input	-RES_PULL Up
+#set_io  PM8_5           -pinname 97     -fixed yes      -DIRECTION Input	-RES_PULL Up
 #set_io  PM8_6           -pinname 98     -fixed yes      -DIRECTION Input
 # CANNOT BE USED ON AGL250 ! #set_io  PM8_7           -pinname 99     -fixed yes      -DIRECTION Input
 # CANNOT BE USED ON AGL250 ! #set_io  PM8_8           -pinname 100    -fixed yes      -DIRECTION Input

@@ -1,9 +1,9 @@
 
-Starting:    C:\eda\Microsemi\Libero\SynplifyPro\bin64\mbin\synbatch.exe
-Install:     C:\eda\Microsemi\Libero\SynplifyPro
-Hostname:    WEA20305
-Date:        Tue Jun 28 16:51:34 2022
-Version:     L-2016.09M-2
+Starting:    C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.9\SynplifyPro
+Hostname:    WE7860
+Date:        Fri Jul 08 15:50:00 2022
+Version:     L-2016.09M-SP1-5
 
 Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log Kart_Board_syn.tcl
 ProductType: synplify_pro
@@ -16,9 +16,9 @@ License Option: actel_oem
 Running in Vendor Mode
 
 
-Implementation not found: synthesis
+auto_infer_blackbox is not supported in current product.
 
-log file: "C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.srr"
+log file: "C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.srr"
 
 Running: synthesis in foreground
 
@@ -28,47 +28,47 @@ Running Kart_Board_syn|synthesis
 
 
 Running: compile (Compile) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:34 2022
+# Fri Jul 08 15:50:00 2022
 
 
 Running: compile_flow (Compile Process) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:34 2022
+# Fri Jul 08 15:50:00 2022
 
 
 Running: compiler (Compile Input) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:34 2022
+# Fri Jul 08 15:50:00 2022
 
-Copied C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\synwork\Kart_Board_comp.srs to C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.srs
+Copied C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synwork\Kart_Board_comp.srs to C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.srs
 
 
 compiler completed
-# Tue Jun 28 16:51:36 2022
+# Fri Jul 08 15:50:03 2022
 
 Return Code: 0
-Run Time:00h:00m:02s
+Run Time:00h:00m:03s
 
 
 Running: multi_srs_gen (Multi-srs Generator) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:36 2022
+# Fri Jul 08 15:50:03 2022
 
 
 multi_srs_gen completed
-# Tue Jun 28 16:51:36 2022
+# Fri Jul 08 15:50:03 2022
 
 Return Code: 0
 Run Time:00h:00m:00s
 
-Copied C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\synwork\Kart_Board_mult.srs to C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.srs
+Copied C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synwork\Kart_Board_mult.srs to C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.srs
 
 Complete: Compile Process on Kart_Board_syn|synthesis
 
 
 Running: premap (Pre-mapping) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:36 2022
+# Fri Jul 08 15:50:03 2022
 
 
 premap completed with warnings
-# Tue Jun 28 16:51:37 2022
+# Fri Jul 08 15:50:04 2022
 
 Return Code: 1
 Run Time:00h:00m:01s
@@ -77,28 +77,26 @@ Complete: Compile on Kart_Board_syn|synthesis
 
 
 Running: map (Map) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:37 2022
+# Fri Jul 08 15:50:04 2022
 
 License granted for 4 parallel jobs
 
 
 Running: fpga_mapper (Map & Optimize) on Kart_Board_syn|synthesis
-# Tue Jun 28 16:51:37 2022
+# Fri Jul 08 15:50:04 2022
 
-Copied C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\synwork\Kart_Board_m.srm to C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.srm
+Copied C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synwork\Kart_Board_m.srm to C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.srm
 
 
 fpga_mapper completed with warnings
-# Tue Jun 28 16:51:46 2022
+# Fri Jul 08 15:50:19 2022
 
 Return Code: 1
-Run Time:00h:00m:09s
+Run Time:00h:00m:15s
 
 Complete: Map on Kart_Board_syn|synthesis
 
 Complete: Logic Synthesis on Kart_Board_syn|synthesis
-
-Copied C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.srr to C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\backup\Kart_Board.srr
 
 TCL script complete: "Kart_Board_syn.tcl"
 

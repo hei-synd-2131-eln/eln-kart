@@ -204,8 +204,18 @@ PACKAGE Kart IS
   constant STP_testPrescalerBitNb : positive := TESTMODE_PRESCALER_BIT_NB;
   constant STP_dividerBitNb : positive := 16;
   constant STP_angleBitNb : positive := 12;
-      -- The stepper base frequency which the prescaler is then applied to
+    -- The stepper base frequency which the prescaler is then applied to
   constant STP_MAX_FREQ : real := 100.0E3;
+    -- Output coil PWM freq, too high input freqs will be wiped away
+  constant STP_PWM_FREQ : real := 30.0E3;
+    -- Output coil DC
+  constant STP_PWM_DC : real := 0.75;
+    -- Output coil PWM cnt target
+  constant STP_PWM_CNT_TARGET : positive :=
+    positive(CLOCK_FREQUENCY / STP_PWM_FREQ);
+    -- Output coil DC cnt target
+  constant STP_PWM_CNT_ON : positive := positive(
+    real(STP_PWM_CNT_TARGET) * STP_PWM_DC);
 
 
   --------------------------------------------

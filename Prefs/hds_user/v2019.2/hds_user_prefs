@@ -1147,8 +1147,8 @@ second "subl \"%(p)\""
 )
 ]
 defaultTextPrintingCmd "Enscript"
-win32DefaultEditor "Notepad++"
-win32DefaultViewer "Notepad++"
+win32DefaultEditor "Sublime"
+win32DefaultViewer "Sublime"
 unixDefaultEditor "Builtin"
 unixDefaultViewer "Builtin"
 defaultVerilogDialect 5
@@ -1585,7 +1585,6 @@ tasksMenubarOrder [
 "USER:Generate"
 ]
 tasksShortcutbarOrder [
-"Setup DesignChecker"
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""
@@ -6355,12 +6354,6 @@ activeViewpointIdx 0
 )
 ]
 ViewpointsOnOutlookBar [
-"Requirements"
-"Default Viewpoint"
-"Version Management"
-"HDL Files"
-"Logical Objects"
-"All Views"
 ]
 lastActiveViewpoint "Default Viewpoint"
 expandedTemplateNodes [
@@ -6375,7 +6368,7 @@ size 181
 )
 ]
 displayHierarchy 0
-xPos 1
+xPos 0
 yPos 1
 width 1936
 height 1066

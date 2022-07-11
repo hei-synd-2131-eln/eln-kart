@@ -7,7 +7,7 @@ Z0 dC:/dev/eln_kart_sodimm200/Kart/DcMotor/work
 Edcmotorcontroller
 Z1 w1655982405
 Z2 DPx4 kart 12 kart_student 0 22 b``JVNJzW8MD1aa`?<U<Q3
-Z3 DPx4 kart 4 kart 0 22 Dz_P[Yo1QB;0T1gR9iNmI1
+Z3 DPx4 kart 4 kart 0 22 Ql:93P?VmK3BiY:Bd>nn:0
 Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -20,10 +20,10 @@ V`e6V8>M77V?`n11fiERg^2
 !s100 9S9T`QAU[N>4J;lL7<=H03
 Z8 OE;C;10.7c;67
 33
-Z9 !s110 1655985618
+Z9 !s110 1657270735
 !i10b 1
-Z10 !s108 1655985618.000000
-Z11 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+Z10 !s108 1657270735.000000
+Z11 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files10|
 Z12 !s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregistersender_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_entity.vhg|
 !i113 0
 Z13 o-nologo -work DcMotor -2008
@@ -92,11 +92,11 @@ Vc<91>5FgKE^[FDS6`>z7j0
 !s100 Z2GQ39<JmKXBghQ<RinoX2
 R8
 33
-R19
+Z23 !s110 1656427781
 !i10b 1
-R20
-R21
-R22
+Z24 !s108 1656427781.000000
+Z25 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files8|
+Z26 !s107 C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorRegisterSender_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorPwm_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../DcMotor/hdl/dcMotorPrescaler_RTL.vhd|
 !i113 0
 R13
 R14
@@ -135,11 +135,11 @@ VKFjGVmKQX>@]NmTWJYQn50
 !s100 L5R74cLVhYPmb@SXIlZlg2
 R8
 33
-R19
+R23
 !i10b 1
-R20
-R21
-R22
+R24
+R25
+R26
 !i113 0
 R13
 R14
@@ -159,7 +159,7 @@ R8
 !s110 1652776863
 !i10b 1
 !s108 1652776863.000000
-!s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files8|
+R25
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorcontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorpwm_studentversion.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorpwm_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/dcmotorregisters_struct.vhg|
 !i113 0
 R13
@@ -273,10 +273,10 @@ R12
 R13
 R14
 Efuzzy_0010_truthtable
-Z23 w1652359855
+Z27 w1652359855
 R16
 R17
-Z24 DPx4 kart 4 kart 0 22 GW<?D7CSVINQ4OB]=mGG`3
+Z28 DPx4 kart 4 kart 0 22 GW<?D7CSVINQ4OB]=mGG`3
 R4
 R5
 R6
@@ -289,18 +289,18 @@ V]]KRMO7;`4U=FnbB:9l;O1
 !s100 =adE=YM4[6RP9Eh7>eQna2
 R8
 33
-Z25 !s110 1652359856
+Z29 !s110 1652359856
 !i10b 1
-Z26 !s108 1652359856.000000
-Z27 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
-Z28 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthTable_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthtable_entity.vhg|
+Z30 !s108 1652359856.000000
+Z31 !s90 -work|DcMotor|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
+Z32 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthTable_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthtable_entity.vhg|
 !i113 0
 R13
 R14
 Artl
 R16
 R17
-R24
+R28
 R4
 R5
 R6
@@ -313,11 +313,11 @@ V]8i1d4SM4B7Gz`4InS3_Y3
 !s100 @8;g4;2?XIII2=8FA4e^[2
 R8
 33
-R25
+R29
 !i10b 1
-R26
-R27
-R28
+R30
+R31
+R32
 !i113 0
 R13
 R14
@@ -325,7 +325,7 @@ Efuzzy_0010_truthvalue
 w1652359486
 R16
 R17
-R24
+R28
 R4
 R5
 R6
@@ -341,7 +341,7 @@ R8
 !s110 1652359488
 !i10b 1
 !s108 1652359488.000000
-R27
+R31
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthValue_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../DcMotor/hdl/fuzzy_0010_truthvalue_entity.vhg|
 !i113 0
 R13

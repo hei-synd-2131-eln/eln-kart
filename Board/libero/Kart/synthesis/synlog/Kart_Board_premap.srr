@@ -1,14 +1,14 @@
-# Tue Jun 28 16:51:36 2022
+# Fri Jul 08 15:50:03 2022
 
-Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 1920R, Built Nov 17 2016 09:40:34
-Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
-Product Version L-2016.09M-2
+Synopsys Microsemi Technology Pre-mapping, Version mapact, Build 2172R, Built Oct 30 2017 10:54:39
+Copyright (C) 1994-2017 Synopsys, Inc. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-SP1-5
 
 Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
 
 @A: MF827 |No constraint file specified.
-@L: C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board_scck.rpt 
-Printing clock  summary report in "C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board_scck.rpt" file 
+@L: C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board_scck.rpt 
+Printing clock  summary report in "C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board_scck.rpt" file 
 @N: MF248 |Running in 64-bit mode.
 @N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
 
@@ -20,14 +20,12 @@ Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0
 Renaming user netlist hierarchy view:work.and2(sim) to avoid clashing with Microsemi library name
 Renaming user netlist hierarchy view:work.xor2(sim) to avoid clashing with Microsemi library name
 Renaming user netlist hierarchy view:work.or2(sim) to avoid clashing with Microsemi library name
-Renaming user netlist hierarchy view:work.DFFE(sim) to avoid clashing with Microsemi library name
-Renaming user netlist hierarchy view:work.DFF(sim) to avoid clashing with Microsemi library name
-@N: BN115 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":5597:4:5597:21|Removing instance I_batteryRefresher (in view: work.sensorsController(struct)) of type view:work.freqDividerWForceOnStart(rtl) because it does not drive other instances.
-@N: BN115 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":9679:4:9679:5|Removing instance I5 (in view: work.Kart_Board(struct)) of type view:work.logic0(sim) because it does not drive other instances.
-@N: BN115 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":9683:4:9683:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1(sim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7558:1:7558:2|Removing sequential instance shiftInput\.frameHolder_4[7:0] (in view: work.FrameComposer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":5739:4:5739:21|Removing instance I_batteryRefresher (in view: work.sensorsController(struct)) of type view:work.freqDividerWForceOnStart(rtl) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":9810:4:9810:5|Removing instance I5 (in view: work.Kart_Board(struct)) of type view:work.logic0(sim) because it does not drive other instances.
+@N: BN115 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":9814:4:9814:5|Removing instance I3 (in view: work.Kart_Board(struct)) of type view:work.logic1(sim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7656:1:7656:2|Removing sequential instance shiftInput\.frameHolder_4[7:0] (in view: work.FrameComposer(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 
-Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 116MB)
 
 
 
@@ -37,17 +35,17 @@ Clock Summary
 Start                                      Requested     Requested     Clock        Clock                   Clock
 Clock                                      Frequency     Period        Type         Group                   Load 
 -----------------------------------------------------------------------------------------------------------------
-Kart_Board|clock                           100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1086 
+Kart_Board|clock                           100.0 MHz     10.000        inferred     Inferred_clkgroup_0     1126 
 coilControl|stepdelayed_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     4    
 =================================================================================================================
 
-@W: MT530 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Found inferred clock Kart_Board|clock which controls 1086 sequential elements including I_board.I_cregController.I_cregRegisters.I_registers.register_input\.p_registers_0[15:0]. This clock has no specified timing constraint which may adversely impact design performance. 
-@W: MT530 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":6125:4:6125:5|Found inferred clock coilControl|stepdelayed_inferred_clock which controls 4 sequential elements including I_board.I_stepperController.I_angleControl.I_phases.coil3. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1079:4:1079:5|Found inferred clock Kart_Board|clock which controls 1126 sequential elements including I4.i_coil4. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":6214:4:6214:5|Found inferred clock coilControl|stepdelayed_inferred_clock which controls 4 sequential elements including I_board.I_stepperController.I_angleControl.I_phases.coil3. This clock has no specified timing constraint which may adversely impact design performance. 
 
 Finished Pre Mapping Phase.
-@N: BN225 |Writing default property annotation file C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\Kart_Board.sap.
+@N: BN225 |Writing default property annotation file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board.sap.
 
-Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 115MB)
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 114MB peak: 116MB)
 
 Encoding state machine p_state[0:2] (in view: work.txRouter(rtl))
 original code -> new code
@@ -63,15 +61,15 @@ original code -> new code
    0010000 -> 0010000
    0100000 -> 0100000
    1000000 -> 1000000
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7335:4:7335:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":7335:4:7335:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
-Encoding state machine rangerState[0:3] (in view: work.ultrasoundRanger(std))
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7433:4:7433:5|Removing sequential instance fifoState[0] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":7433:4:7433:5|Removing sequential instance fifoState[1] (in view: work.FIFO_bram(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+Encoding state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion))
 original code -> new code
    00 -> 00
    01 -> 01
    10 -> 10
    11 -> 11
-@N: MO225 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":3339:4:3339:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(std)); safe FSM implementation is not required.
+@N: MO225 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":3481:4:3481:5|There are no possible illegal states for state machine rangerState[0:3] (in view: work.ultrasoundRanger(masterversion)); safe FSM implementation is not required.
 Encoding state machine turningState[0:5] (in view: work.angleDifference(masterversion))
 original code -> new code
    000001 -> 000001
@@ -100,26 +98,26 @@ original code -> new code
    0010000 -> 0010000
    0100000 -> 0100000
    1000000 -> 1000000
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[6] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[7] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[8] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[9] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[10] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[11] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[12] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[13] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[14] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
-@N: BN362 :"c:\users\axel.amand\desktop\eln-kart-master\board\concat\kart.vhd":1290:4:1290:5|Removing sequential instance register_input\.p_registers_0[15] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[6] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[7] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[8] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[9] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[10] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[11] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[12] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[13] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[14] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\dev\eln_kart_sodimm200\board\concat\kart.vhd":1452:4:1452:5|Removing sequential instance register_input\.p_registers_0[15] (in view: work.registerManager_1(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 None
 None
 
-Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 115MB peak: 116MB)
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 116MB peak: 117MB)
 
 Pre-mapping successful!
 
-At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 116MB)
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 30MB peak: 117MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Tue Jun 28 16:51:37 2022
+# Fri Jul 08 15:50:04 2022
 
 ###########################################################]

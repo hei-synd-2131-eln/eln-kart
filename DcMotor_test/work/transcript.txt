@@ -1,5 +1,5 @@
 # vsim -f hds_args.tmp -foreign "hdsInit C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll" -pli ""C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll"" 
-# Start time: 14:00:41 on Jun 23,2022
+# Start time: 13:40:50 on Jul 08,2022
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Note: (vsim-3865) Due to PLI being present, full design access is being specified.
 # ** Note: (vopt-143) Recognized 1 FSM in architecture body "dcMotorRegisterSender(rtl)".
@@ -25,7 +25,75 @@
 #    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_tester
 # Loading work.dcmotorcontroller_tester(test)#1
 # Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
-# do C:/dev/eln_kart_sodimm200/Simulation/DCMotor/dcMotorController.do
+# do C:/dev/eln_kart_sodimm200/Simulation/Kart/kartStudent.do
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/clock'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 3
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/reset'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 4
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_tester/I_transReader/target'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 5
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_tester/I_transReader/info'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 6
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_dcMotorController/prescaler'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 10
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_dcMotorController/speed'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 11
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/pwm'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 12
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/forwards'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 13
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/clockDivider'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 14
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/stepEn'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 15
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_tester/I_stepper/testMode'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 16
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/targetAngle'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 17
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/actual'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 18
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/reached'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 19
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/stepperEnd'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 20
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_stepperController/I_angleControl/I_phases/enCoils'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 21
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/coil1'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 22
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/coil2'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 23
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/coil3'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 24
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/coil4'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 25
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/testMode'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 26
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/endSwitches'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 27
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/leds'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 28
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/I_regs/U_2/sendHall'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 29
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/hallPulses'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 30
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/zeroPos'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 31
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/hallCount'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 32
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/distancePulse'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 33
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/rangerDistance'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 34
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_tester/batterySClOut'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 35
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_tester/batterySDaIn'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 36
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/battery250uv'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 37
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/I_sensorsController/current250uA'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 38
+# ** Error: (vish-4014) No objects found matching '/kartcontroller_tb/I_Kart/hwOrientation'.
+# Executing ONERROR command at macro C:\dev\eln_kart_sodimm200\Simulation\Kart\kartStudent.do line 39
 # 
 # 
 # 
@@ -139,5 +207,43 @@
 #    Time: 19241100 ns  Iteration: 0  Process: /dcmotorcontroller_tb/I_tester/line__67 File: C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd
 # 0
 # Break in Process line__67 at C:/dev/eln_kart_sodimm200/Prefs/../DcMotor_test/hdl/dcMotorController_tester_test.vhd line 445
-# End time: 14:02:13 on Jun 23,2022, Elapsed time: 0:01:32
-# Errors: 1, Warnings: 11
+add wave -position end  sim:/kart/STP_MAX_FREQ
+add wave -position end  sim:/kart/STP_PWM_NB_STEPS
+add wave -position end  sim:/kart/STP_PWM_DC
+add wave -position end  sim:/kart/STP_PWM_CNT_TARGET
+add wave -position end  sim:/kart/STP_PWM_CNT_ON
+restart
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading C:/eda/MentorGraphics/HDS/resources/downstream/modelsim/ModelSim_32Bit.dll
+run
+# 
+# 
+# 
+# ----------------------------------------------------------------
+# -- Starting testbench
+# --
+# 
+# Setting hardware hardwareOrientation at time 0 us
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_regs/U_manager
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_regs/U_sender
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /dcmotorcontroller_tb/I_DC/I_div
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."<=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# ** Warning: NUMERIC_STD.">=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /dcmotorcontroller_tb/I_DC/I_div
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 3  Instance: /dcmotorcontroller_tb/I_DC/I_pwm
+# End time: 13:44:10 on Jul 08,2022, Elapsed time: 0:03:20
+# Errors: 102, Warnings: 10

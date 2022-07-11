@@ -5,11 +5,11 @@ The file contains the area information from mapper to be displayed as part of th
 *******************************************************************************************-->
 <report_table display_priority="1" name="Area Summary">
 <report_link name="Detailed report">
-<data>C:\Temp\eda\axel.amand\Kart\Board\libero\Kart\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_resourceusage.rpt</data>
+<data>C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_resourceusage.rpt</data>
 <title>Report for cell</title>
 </report_link>
 <parameter tooltip="Total Core Cells used" name="Core Cells">
-<data>4215</data>
+<data>4422</data>
 </parameter>
 <parameter tooltip="Total IO Cells used" name="IO Cells">
 <data>26</data>
