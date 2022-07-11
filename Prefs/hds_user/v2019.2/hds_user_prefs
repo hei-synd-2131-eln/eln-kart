@@ -1226,6 +1226,7 @@ projectPaths [
 "D:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\hds.hdp"
 "C:\\dev\\eln_kart_sodimm200\\Kart\\Prefs\\hds.hdp"
 "C:\\dev\\eln_kart_sodimm200\\Prefs\\hds.hdp"
+"C:\\Users\\axel.amand\\Desktop\\kart\\eln_kart_sodimm200\\Prefs\\hds.hdp"
 ]
 libMappingsRootDir "$HDS_PROJECT_DIR/../"
 teamLibMappingsRootDir ""
@@ -1585,6 +1586,7 @@ tasksMenubarOrder [
 "USER:Generate"
 ]
 tasksShortcutbarOrder [
+"Setup DesignChecker"
 "\"USER:ModelSim Compile\""
 "\"USER:ModelSim Flow\""
 "\"USER:ModelSim Simulate\""

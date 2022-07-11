@@ -78,7 +78,7 @@ Z22 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rt
 R13
 R14
 Astruct
-Z23 w1655905786
+Z23 w1657520985
 Z24 DEx3 i2c 14 i2ctransmitter 0 22 Ml`aF<LFFggGUO1OcBTPZ3
 Z25 DEx3 i2c 11 i2creceiver 0 22 MT_^:@E0oR7Om2c2YUz=h3
 DEx7 sensors 21 batterylevelsequencer 0 22 icHR0O^b>UZ3FE[VjRfcO0
@@ -88,19 +88,20 @@ R17
 R5
 R6
 R7
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg
+Z26 dC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Sensors/work
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg
 l84
 L20
 VZoDH1UfQ:Dg4gg2`>RBka0
 !s100 C;HX;nd943IkT>_VJUoBK1
-R8
+Z27 OL;C;10.7a;67
 33
-R19
+Z28 !s110 1657520997
 !i10b 1
-R20
-R21
-R22
+Z29 !s108 1657520996.000000
+Z30 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files17|
+Z31 !s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|
 !i113 0
 R13
 R14
@@ -129,6 +130,7 @@ R22
 R13
 R14
 Artl
+Z32 w1657520868
 DEx4 work 21 batterylevelsequencer 0 22 icHR0O^b>UZ3FE[VjRfcO0
 R16
 R17
@@ -136,26 +138,27 @@ R5
 R6
 R7
 R3
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd
 l67
 L17
 V2]A05R>2:FKhWI[:13:S41
 !s100 eVo4YF:5THfm6mA8BV3b73
-R8
+R27
 33
-R19
+!s110 1657520996
 !i10b 1
-R20
-R21
-R22
+R29
+!s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files15|
+!s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd|
 !i113 0
 R13
 R14
 Efreqdividerautoreset
-Z26 w1655899563
+Z33 w1655899563
 R2
-Z27 DPx4 kart 4 kart 0 22 W>IICk9?HO^kXYNBg=W0G1
+Z34 DPx4 kart 4 kart 0 22 W>IICk9?HO^kXYNBg=W0G1
 R5
 R6
 R7
@@ -168,36 +171,36 @@ Vl=UaFfhV1E]QO2D<c;>jP0
 !s100 k_IC==@QH00ae<YY52@JY1
 R8
 33
-Z28 !s110 1655900008
+Z35 !s110 1655900008
 !i10b 1
-Z29 !s108 1655900008.000000
+Z36 !s108 1655900008.000000
 R21
-Z30 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/senddeltamanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcounters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelsequencer_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_entity.vhg|
+Z37 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/senddeltamanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcounters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batteryLevelSequencer_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelsequencer_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_entity.vhg|
 !i113 0
 R13
 R14
 Artl
 w1655899767
 R2
-R27
-Z31 DEx4 work 20 freqdividerautoreset 0 22 l=UaFfhV1E]QO2D<c;>jP0
+R34
+Z38 DEx4 work 20 freqdividerautoreset 0 22 l=UaFfhV1E]QO2D<c;>jP0
 R5
 R6
 R7
 R3
-Z32 8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
-Z33 FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
+8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
+FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
 l8
 L4
 Vn;ITY[MbLk9CQ:WT8C=e_3
 !s100 ]MDjD7E;Fg3=mm:dD]dfA2
 R8
 33
-R28
+R35
 !i10b 1
-R29
+R36
 R21
-R30
+R37
 !i113 0
 R13
 R14
@@ -207,7 +210,7 @@ DPx4 kart 4 kart 0 22 DMK>_J`ZWAOO19IaQGR[j0
 R5
 R6
 R7
-R31
+R38
 8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_generatedinstance.vhg
 FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_generatedinstance.vhg
 l5
@@ -219,7 +222,7 @@ R8
 !s110 1655899570
 !i10b 1
 !s108 1655899570.000000
-Z34 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files18|
+Z39 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files18|
 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_generatedinstance.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerautoreset_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundranger_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcounters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|
 !i113 0
 R13
@@ -232,20 +235,20 @@ R17
 R5
 R6
 R7
-R18
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg
 l0
 L18
 VB_UkAH7o^QM1TW=lf4G^h2
 !s100 a[f9:eRUeMCNKd9jC0F>i2
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R29
+R30
+R31
 !i113 0
 R13
 R14
@@ -258,24 +261,24 @@ R5
 R6
 R7
 R3
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd
 l14
 L6
 VkSP^VhB@::Pe70IFOVUQ^2
 !s100 kKdT:lSX?M_4eoPMCRRoJ1
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R29
+R30
+R31
 !i113 0
 R13
 R14
 Ehallcounters
-R23
+Z40 w1655905786
 R16
 R17
 R5
@@ -299,31 +302,32 @@ R22
 R13
 R14
 Amasterversion
-w1655972028
+R32
 R16
 R17
 R5
 R6
 R7
 DEx4 work 12 hallcounters 0 22 WnW_:h;CK]e<7TQ^E;?@i0
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd
 l7
 L1
 Vel;f]f;WCkXoAVze0MgGH0
 !s100 R7Cd[V>[h]ZbV5o>gzgQh3
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R29
+R30
+R31
 !i113 0
 R13
 R14
 Ehallcountmanager
-w1655965602
+R23
 R2
 R3
 R16
@@ -331,25 +335,24 @@ R17
 R5
 R6
 R7
-R18
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg
 l0
 L20
 VaDhgCSYd`9IEK@lfKZRR32
 !s100 Um5YX2GQL4PKC<:C1F?S;0
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+Z41 !s108 1657520997.000000
+Z42 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files19|
+Z43 !s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg|
 !i113 0
 R13
 R14
 Artl
-w1655971682
 R2
 R3
 DEx4 work 16 hallcountmanager 0 22 aDhgCSYd`9IEK@lfKZRR32
@@ -358,26 +361,26 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd
 l37
 L14
 VeT5a5_>Dha4j4zZ:FQ^GU2
 !s100 fdN?YY?kmaaB?S8DEO_5o3
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R42
+R43
 !i113 0
 R13
 R14
 Ehallcountmanager1
 w1653480249
 R2
-Z35 DPx4 kart 4 kart 0 22 N07Ed3TCNnnN1@XeIK8h:3
+Z44 DPx4 kart 4 kart 0 22 N07Ed3TCNnnN1@XeIK8h:3
 R5
 R6
 R7
@@ -393,7 +396,7 @@ R8
 !s110 1653480253
 !i10b 1
 !s108 1653480253.000000
-Z36 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
+Z45 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files0|
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCountManager1_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallcountmanager1_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|
 !i113 0
 R13
@@ -405,7 +408,7 @@ DEx4 work 17 hallcountmanager1 0 22 Yi_5;a:odFz]jCmE_VPB12
 R5
 R6
 R7
-R35
+R44
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCountManager1_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCountManager1_rtl.vhd
 l21
@@ -414,11 +417,11 @@ Vb1_Pf04MA?4ULoTP<3YXI2
 !s100 DQa1Q8NZdSlk_;ba5SlIU1
 R8
 33
-Z37 !s110 1653480886
+Z46 !s110 1653480886
 !i10b 1
-Z38 !s108 1653480886.000000
-R36
-Z39 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCountManager1_rtl.vhd|
+Z47 !s108 1653480886.000000
+R45
+Z48 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCountManager1_rtl.vhd|
 !i113 0
 R13
 R14
@@ -448,7 +451,7 @@ R22
 R13
 R14
 Artl
-w1655974322
+R32
 R2
 DEx4 work 16 hallpulsesfilter 0 22 ;0UF;F;F8H:A9?GQT^:kj0
 R3
@@ -457,24 +460,25 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd
 l8
 L7
 VBBQ@4P1b4O`GSi9_F@Ozc2
 !s100 B@3a?WDlf^XA@X8@j6L[f2
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R29
+R30
+R31
 !i113 0
 R13
 R14
 Eled_blinker
-R23
+R40
 R2
 R3
 R16
@@ -494,38 +498,40 @@ R8
 R19
 !i10b 1
 R20
-Z40 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files9|
-Z41 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_entity.vhg|
+Z49 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files9|
+Z50 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_entity.vhg|
 !i113 0
 R13
 R14
 Artl
+R32
 R2
-Z42 DEx4 work 11 led_blinker 0 22 7CVGSTz3YFlU@C:oe@6o`0
+Z51 DEx4 work 11 led_blinker 0 22 7CVGSTz3YFlU@C:oe@6o`0
 R3
 R16
 R5
 R6
 R7
 R17
-Z43 8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd
-Z44 FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd
 l22
 L17
-Z45 VL=n`cAz3ja:0j;cl[KFXY0
-Z46 !s100 39U<;on@naJo3KYKKGN5=2
-R8
+Z52 VL=n`cAz3ja:0j;cl[KFXY0
+Z53 !s100 39U<;on@naJo3KYKKGN5=2
+R27
 33
-R19
+Z54 !s110 1657520998
 !i10b 1
-R20
-R40
-R41
+Z55 !s108 1657520998.000000
+Z56 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files24|
+!s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|
 !i113 0
 R13
 R14
 Eproximitysensorinterface
-Z47 w1655905787
+Z57 w1655905787
 R5
 R6
 R7
@@ -538,84 +544,86 @@ Vj2ElF89;Y4VW[9^d>32I`0
 !s100 ;>[[foS0f6VjSCR[oTcSk0
 R8
 33
-Z48 !s110 1655905796
+!s110 1655905796
 !i10b 1
-Z49 !s108 1655905796.000000
-Z50 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files23|
-Z51 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_entity.vhg|
+!s108 1655905796.000000
+!s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files23|
+!s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_entity.vhg|
 !i113 0
 R13
 R14
 Astruct
+Z58 w1657520987
 R25
-DEx7 sensors 24 proximitysensorsequencer 0 22 8nCVV^RYcESJz;C:P]:jG3
+Z59 DEx7 sensors 24 proximitysensorsequencer 0 22 8nCVV^RYcESJz;C:P]:jG3
 R24
-DEx4 work 24 proximitysensorinterface 0 22 j2ElF89;Y4VW[9^d>32I`0
+Z60 DEx4 work 24 proximitysensorinterface 0 22 j2ElF89;Y4VW[9^d>32I`0
 R5
 R6
 R7
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg
 l88
 L17
-V:Joe3kT<l=0626cLimK^E1
-!s100 T1n[:cI_jSKaf_VZzD3dQ2
-R8
+Z61 V:Joe3kT<l=0626cLimK^E1
+Z62 !s100 T1n[:cI_jSKaf_VZzD3dQ2
+R27
 33
-Z52 !s110 1656427783
+R54
 !i10b 1
-Z53 !s108 1656427783.000000
-Z54 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files19|
-Z55 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|
+R55
+R56
+Z63 !s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorinterface_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/led_blinker_rtl.vhd|
 !i113 0
 R13
 R14
 Eproximitysensorsequencer
-R47
+Z64 w1657520986
 R5
 R6
 R7
-R18
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitysensorsequencer_entity.vhg
 l0
 L13
 V8nCVV^RYcESJz;C:P]:jG3
 !s100 X2WA4GU6i__IkUTl3YmU01
-R8
+R27
 33
-R48
+R54
 !i10b 1
-R49
-R50
-R51
+R55
+R56
+R63
 !i113 0
 R13
 R14
 Artl
-DEx4 work 24 proximitysensorsequencer 0 22 8nCVV^RYcESJz;C:P]:jG3
+Z65 DEx4 work 24 proximitysensorsequencer 0 22 8nCVV^RYcESJz;C:P]:jG3
 R5
 R6
 R7
 R3
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/proximitySensorSequencer_RTL.vhd
 l35
 L4
-VedTL<PojbCSCUnXjGVS7O3
-!s100 _;`dCSH@Ne8W[LRO9DoBP1
-R8
+Z66 VedTL<PojbCSCUnXjGVS7O3
+Z67 !s100 _;`dCSH@Ne8W[LRO9DoBP1
+R27
 33
-R52
-!i10b 1
-R53
 R54
+!i10b 1
 R55
+R56
+R63
 !i113 0
 R13
 R14
 Erangersubsignals
-Z56 w1655974350
+w1655974350
 R2
 R16
 R17
@@ -640,6 +648,7 @@ R22
 R13
 R14
 Artl
+R32
 R2
 DEx4 work 16 rangersubsignals 0 22 m@ZYOohAC];8Qm7idf<CN2
 R3
@@ -648,24 +657,25 @@ R5
 R6
 R7
 R17
-R32
-R33
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd
 l21
 L7
 V_lK2DJ2;HeEKB8zhND51e0
 !s100 cloO<S0gFd2G14jcNSXX10
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R29
+R30
+R31
 !i113 0
 R13
 R14
 Erangervalidator
-Z57 w1655915519
+R64
 R2
 R3
 R16
@@ -673,20 +683,20 @@ R17
 R5
 R6
 R7
-R18
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangervalidator_entity.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangervalidator_entity.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangervalidator_entity.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangervalidator_entity.vhg
 l0
 L20
 Vk_[mcBT]a:gm70[ZSP7dA0
 !s100 ]>?hj6HBAH@iZXkd9H:`]1
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+Z68 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files22|
+Z69 !s107 C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangerValidator_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangervalidator_entity.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd|
 !i113 0
 R13
 R14
@@ -699,24 +709,24 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangerValidator_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangerValidator_rtl.vhd
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangerValidator_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangerValidator_rtl.vhd
 l9
 L4
 Vcl`IMUMj3TFcIC_nY>1M01
 !s100 Gh^Q1QeeMH4M_G[bi_C:@0
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R68
+R69
 !i113 0
 R13
 R14
 Esenddeltamanager
-R23
+R40
 R2
 R3
 R16
@@ -742,6 +752,7 @@ R22
 R13
 R14
 Artl
+R32
 R2
 R3
 DEx4 work 16 senddeltamanager 0 22 jMKO]XJ18U2b_[GYQ;jQe1
@@ -750,24 +761,25 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
 l20
 L14
 VVJI_U_BK;j:zjGBa6iF0=0
 !s100 oHCKEYEBf;jf4QF^0SYk;1
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R68
+R69
 !i113 0
 R13
 R14
 Esendendswitchesonchange
-R23
+R64
 R2
 R3
 R16
@@ -775,20 +787,20 @@ R17
 R5
 R6
 R7
-R18
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg
 l0
 L20
 V:cONcA=B0Y>=>T5Eo1cM73
 !s100 8z73N0nL3F9fK5?R7Z7mz1
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R68
+R69
 !i113 0
 R13
 R14
@@ -801,26 +813,26 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd
 l15
 L14
 VFjQL;`o;9>>f>iH1N[e2W3
 !s100 WeQHCC43n3QTO0K`C`[_;3
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R68
+R69
 !i113 0
 R13
 R14
 Esendendswitchesonchange2
-Z58 w1653480141
+Z70 w1653480141
 R2
-R35
+R44
 R5
 R6
 R7
@@ -833,11 +845,11 @@ V?9BE8HIojlkh21Ql[<;bn1
 !s100 @kYNM8oiaZC9oQ`z<AInO2
 R8
 33
-Z59 !s110 1653480145
+Z71 !s110 1653480145
 !i10b 1
-Z60 !s108 1653480145.000000
-R36
-Z61 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange2_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange2_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|
+Z72 !s108 1653480145.000000
+R45
+Z73 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange2_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange2_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|
 !i113 0
 R13
 R14
@@ -847,7 +859,7 @@ DEx4 work 24 sendendswitchesonchange2 0 22 ?9BE8HIojlkh21Ql[<;bn1
 R5
 R6
 R7
-R35
+R44
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange2_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange2_rtl.vhd
 l15
@@ -856,17 +868,17 @@ V@3<SLcd40:<fMG7;`TzII0
 !s100 =cd0b5QGZB<NEO_?@ffEE1
 R8
 33
-R59
+R71
 !i10b 1
-R60
-R36
-R61
+R72
+R45
+R73
 !i113 0
 R13
 R14
 Ageneratedinstance
 R2
-R35
+R44
 R5
 R6
 R7
@@ -882,17 +894,17 @@ R8
 !s110 1653480083
 !i10b 1
 !s108 1653480083.000000
-R36
+R45
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange2_generatedinstance.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange2_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|
 !i113 0
 R13
 R14
 w1653480079
 Esendhallcountdeltamanager
-Z62 w1652798912
+Z74 w1652798912
 R2
 R3
-Z63 DPx4 kart 4 kart 0 22 AH=FR98hJedcMgQeJJRCT0
+Z75 DPx4 kart 4 kart 0 22 AH=FR98hJedcMgQeJJRCT0
 R5
 R6
 R7
@@ -905,11 +917,11 @@ V?UR<XFLP8YGm6OJ40`b5=0
 !s100 KDJOeL]fiN4XVU]XTM3_M0
 R8
 33
-Z64 !s110 1652953320
+Z76 !s110 1652953320
 !i10b 1
-Z65 !s108 1652953320.000000
-Z66 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files26|
-Z67 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendhallcountdeltamanager_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/abortSendHallCount_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/abortsendhallcount_entity.vhg|
+Z77 !s108 1652953320.000000
+Z78 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files26|
+Z79 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendhallcountdeltamanager_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/abortSendHallCount_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/abortsendhallcount_entity.vhg|
 !i113 0
 R13
 R14
@@ -920,7 +932,7 @@ DEx4 work 25 sendhallcountdeltamanager 0 22 ?UR<XFLP8YGm6OJ40`b5=0
 R5
 R6
 R7
-R63
+R75
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountDeltaManager_rtl.vhd
 l18
@@ -929,19 +941,19 @@ Vh@CXRQQ1`1l9NH_K1:?cP3
 !s100 ngzAceX8d0;i@Wf?:4iFW0
 R8
 33
-R64
+R76
 !i10b 1
-R65
-R66
-R67
+R77
+R78
+R79
 !i113 0
 R13
 R14
 Esendhallcountonchange
-Z68 w1652787527
+Z80 w1652787527
 R2
 R3
-Z69 DPx4 kart 4 kart 0 22 D4=mi]PJI`TMN7]R]Eo]<1
+Z81 DPx4 kart 4 kart 0 22 D4=mi]PJI`TMN7]R]Eo]<1
 R5
 R6
 R7
@@ -954,11 +966,11 @@ VJ>P3SmY>HGgBY?XC2@9Vo0
 !s100 [h9nz[7eDD1LQ[Z[0^zle0
 R8
 33
-Z70 !s110 1652789490
+Z82 !s110 1652789490
 !i10b 1
-Z71 !s108 1652789490.000000
-Z72 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
-Z73 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendhallcountonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|
+Z83 !s108 1652789490.000000
+Z84 !s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files3|
+Z85 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendhallcountonchange_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendEndSwitchesOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendendswitchesonchange_entity.vhg|
 !i113 0
 R13
 R14
@@ -969,7 +981,7 @@ DEx4 work 21 sendhallcountonchange 0 22 J>P3SmY>HGgBY?XC2@9Vo0
 R5
 R6
 R7
-R69
+R81
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountOnChange_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendHallCountOnChange_rtl.vhd
 l15
@@ -978,19 +990,19 @@ VmzT[E6TQNg^8aEc8[;cLN0
 !s100 PaX^Z`9C[n>GMMA`kY9Nn0
 R8
 33
-R70
+R82
 !i10b 1
-R71
-R72
-R73
+R83
+R84
+R85
 !i113 0
 R13
 R14
 Esendrangefinderonchange
-Z74 w1652788115
+Z86 w1652788115
 R2
 R3
-Z75 DPx4 kart 4 kart 0 22 SDnhcmfgz0d@7fWiZVNAU3
+Z87 DPx4 kart 4 kart 0 22 SDnhcmfgz0d@7fWiZVNAU3
 R5
 R6
 R7
@@ -1003,11 +1015,11 @@ V=o0XGW]N_]FZCWkE^zcCd3
 !s100 iS_W^PU:Dh;k:>hZFkF7`0
 R8
 33
-Z76 !s110 1653322381
+Z88 !s110 1653322381
 !i10b 1
-Z77 !s108 1653322381.000000
-R40
-Z78 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|
+Z89 !s108 1653322381.000000
+R49
+Z90 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorsregisterssend_entity.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendrangefinderonchange_entity.vhg|
 !i113 0
 R13
 R14
@@ -1018,7 +1030,7 @@ DEx4 work 23 sendrangefinderonchange 0 22 =o0XGW]N_]FZCWkE^zcCd3
 R5
 R6
 R7
-R75
+R87
 8C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd
 FC:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sendRangeFinderOnChange_rtl.vhd
 l18
@@ -1027,11 +1039,11 @@ VJ0_?b:38GeRL_je:]dJkl2
 !s100 DXSUN8nRc:Dlm`k_R]?Ff2
 R8
 33
-R76
+R88
 !i10b 1
-R77
-R40
-R78
+R89
+R49
+R90
 !i113 0
 R13
 R14
@@ -1060,35 +1072,36 @@ R22
 R13
 R14
 Astruct
-Z79 w1655982410
-Z80 DEx7 sensors 24 proximitysensorinterface 0 22 j2ElF89;Y4VW[9^d>32I`0
-Z81 DEx7 sensors 16 ultrasoundranger 0 22 TK7oIIREAn:^c8fI2;B_U3
-Z82 DEx7 sensors 16 sensorsregisters 0 22 FbGM5NLBILnK9PG0b_bnf2
-Z83 DEx7 sensors 16 rangersubsignals 0 22 m@ZYOohAC];8Qm7idf<CN2
-Z84 DEx7 sensors 16 hallpulsesfilter 0 22 ;0UF;F;F8H:A9?GQT^:kj0
-Z85 DEx7 sensors 12 hallcounters 0 22 WnW_:h;CK]e<7TQ^E;?@i0
-Z86 DEx7 sensors 24 freqdividerwforceonstart 0 22 B_UkAH7o^QM1TW=lf4G^h2
-Z87 DEx7 sensors 21 batterylevelinterface 0 22 zmRFUo`ZUPO;]@TzGS>bP3
-Z88 DEx4 work 17 sensorscontroller 0 22 zF8JnL9W?[9U77oQ:L9oh1
+R58
+Z91 DEx7 sensors 24 proximitysensorinterface 0 22 j2ElF89;Y4VW[9^d>32I`0
+Z92 DEx7 sensors 16 ultrasoundranger 0 22 TK7oIIREAn:^c8fI2;B_U3
+Z93 DEx7 sensors 16 sensorsregisters 0 22 FbGM5NLBILnK9PG0b_bnf2
+Z94 DEx7 sensors 16 rangersubsignals 0 22 m@ZYOohAC];8Qm7idf<CN2
+Z95 DEx7 sensors 16 hallpulsesfilter 0 22 ;0UF;F;F8H:A9?GQT^:kj0
+Z96 DEx7 sensors 12 hallcounters 0 22 WnW_:h;CK]e<7TQ^E;?@i0
+Z97 DEx7 sensors 24 freqdividerwforceonstart 0 22 B_UkAH7o^QM1TW=lf4G^h2
+Z98 DEx7 sensors 21 batterylevelinterface 0 22 zmRFUo`ZUPO;]@TzGS>bP3
+Z99 DEx4 work 17 sensorscontroller 0 22 zF8JnL9W?[9U77oQ:L9oh1
 R2
 R16
 R17
 R5
 R6
 R7
-Z89 8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg
-Z90 FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorscontroller_struct.vhg
 l167
 L21
-Z91 V0eeT2MR=i;J8:n<L[K^[K0
-Z92 !s100 ;FfK_jM0enHS:2X>SN4M41
-R8
+Z100 V0eeT2MR=i;J8:n<L[K^[K0
+Z101 !s100 ;FfK_jM0enHS:2X>SN4M41
+R27
 33
-R19
+R54
 !i10b 1
-R20
-R40
-R41
+R55
+R56
+R63
 !i113 0
 R13
 R14
@@ -1096,9 +1109,9 @@ Astruct1
 w1653477933
 DEx7 sensors 16 ultrasoundranger 0 22 ^AW9eHA>k0oTU<lO]:2`@0
 DEx7 sensors 24 proximitysensorinterface 0 22 Ii=3Mc:_J`_kGfQij@CCl0
-R85
-Z93 DEx10 sequential 11 freqdivider 0 22 m9;iIV136i2`6?j<dBC990
-R87
+R96
+Z102 DEx10 sequential 11 freqdivider 0 22 m9;iIV136i2`6?j<dBC990
+R98
 DEx4 work 17 sensorscontroller 0 22 ^=:O0adK_;mh;lB4]J3R93
 R4
 R2
@@ -1116,7 +1129,7 @@ R8
 !s110 1653477936
 !i10b 1
 !s108 1653477936.000000
-R36
+R45
 !s107 C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/sensorscontroller_struct1.vhg|C:/dev/eln_kart_sodimm200/Kart/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|
 !i113 0
 R13
@@ -1147,20 +1160,20 @@ R22
 R13
 R14
 Astruct
-Z94 w1655982409
-Z95 DEx7 sensors 11 led_blinker 0 22 7CVGSTz3YFlU@C:oe@6o`0
-Z96 DEx7 stepper 15 anyedgedetector 0 22 N]ccj:1KG;J^Vd^?MY?XJ1
-Z97 DEx5 gates 17 transulogunsigned 0 22 0MOY`R0[EldK8jAT1XmBT1
-Z98 DEx7 sensors 20 sensorsregisterssend 0 22 6^D_5hD?CZ1Y_m29K@EU;0
-Z99 DEx7 sensors 23 sendendswitchesonchange 0 22 :cONcA=B0Y>=>T5Eo1cM73
-Z100 DEx7 sensors 16 senddeltamanager 0 22 jMKO]XJ18U2b_[GYQ;jQe1
-Z101 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
-Z102 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
-Z103 DEx7 sensors 15 rangervalidator 0 22 k_[mcBT]a:gm70[ZSP7dA0
-Z104 DEx7 sensors 16 hallcountmanager 0 22 aDhgCSYd`9IEK@lfKZRR32
-R93
-Z105 DEx5 gates 8 and2inv1 0 22 0<Mh0BdG<<]_5fz]Pnk:72
-Z106 DEx4 work 16 sensorsregisters 0 22 FbGM5NLBILnK9PG0b_bnf2
+R64
+Z103 DEx7 sensors 11 led_blinker 0 22 7CVGSTz3YFlU@C:oe@6o`0
+Z104 DEx7 stepper 15 anyedgedetector 0 22 N]ccj:1KG;J^Vd^?MY?XJ1
+Z105 DEx5 gates 17 transulogunsigned 0 22 0MOY`R0[EldK8jAT1XmBT1
+Z106 DEx7 sensors 20 sensorsregisterssend 0 22 6^D_5hD?CZ1Y_m29K@EU;0
+Z107 DEx7 sensors 23 sendendswitchesonchange 0 22 :cONcA=B0Y>=>T5Eo1cM73
+Z108 DEx7 sensors 16 senddeltamanager 0 22 jMKO]XJ18U2b_[GYQ;jQe1
+Z109 DEx4 kart 15 registermanager 0 22 7Z>^VZIjd[dSJZ[bMWb8=3
+Z110 DEx4 kart 16 reg_addr_decoder 0 22 IzXJ?M@gU4_k>OU=VoScQ1
+Z111 DEx7 sensors 15 rangervalidator 0 22 k_[mcBT]a:gm70[ZSP7dA0
+Z112 DEx7 sensors 16 hallcountmanager 0 22 aDhgCSYd`9IEK@lfKZRR32
+R102
+Z113 DEx5 gates 8 and2inv1 0 22 0<Mh0BdG<<]_5fz]Pnk:72
+Z114 DEx4 work 16 sensorsregisters 0 22 FbGM5NLBILnK9PG0b_bnf2
 R2
 R3
 R16
@@ -1168,38 +1181,39 @@ R17
 R5
 R6
 R7
-Z107 8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg
-Z108 FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_struct.vhg
 l210
 L25
-Z109 VYZLB@DjLFP<;jBVWGf9Nb3
-Z110 !s100 U[7i9PMoU;`K2Y4MbLDXh0
-R8
+Z115 VYZLB@DjLFP<;jBVWGf9Nb3
+Z116 !s100 U[7i9PMoU;`K2Y4MbLDXh0
+R27
 33
-R19
+R54
 !i10b 1
-R20
-R40
-R41
+R55
+R56
+R63
 !i113 0
 R13
 R14
 Astruct1
 w1653480882
-R95
-R96
-R97
-R98
+R103
+R104
+R105
+R106
 DEx7 sensors 24 sendendswitchesonchange2 0 22 ?9BE8HIojlkh21Ql[<;bn1
 DEx7 sensors 16 senddeltamanager 0 22 f74C8:2c@4b;@0n9Ig:Oi1
-R101
+R109
 R3
-R102
+R110
 DEx7 sensors 17 hallcountmanager1 0 22 Yi_5;a:odFz]jCmE_VPB12
-R93
-R106
+R102
+R114
 R2
-R35
+R44
 R5
 R6
 R7
@@ -1211,17 +1225,17 @@ VflCDSflTV7:0R1B=zegX@3
 !s100 j8obDaUTOd<JQ6YL5Z`^I2
 R8
 33
-R37
+R46
 !i10b 1
-R38
-R36
-R39
+R47
+R45
+R48
 !i113 0
 R13
 R14
 R0
 Esensorsregisterssend
-R23
+R40
 R2
 R3
 R16
@@ -1247,6 +1261,7 @@ R22
 R13
 R14
 Artl
+R32
 R2
 R3
 DEx4 work 20 sensorsregisterssend 0 22 6^D_5hD?CZ1Y_m29K@EU;0
@@ -1255,24 +1270,25 @@ R5
 R6
 R7
 R17
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsRegistersSend_rtl.vhd
 l31
 L14
 VYAnPaZ3_BzdMH9E`jQ_gD1
 !s100 GPe=2in^BL];9UcjUJhPY2
-R8
+R27
 33
-R19
+R28
 !i10b 1
-R20
-R21
-R22
+R41
+R68
+R69
 !i113 0
 R13
 R14
 Eultrasoundranger
-R23
+R40
 R5
 R6
 R7
@@ -1288,30 +1304,32 @@ R8
 !s110 1655905795
 !i10b 1
 !s108 1655905795.000000
-R34
+R39
 !s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCountManager_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcountmanager_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/sensorsregisters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/rangersubsignals_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundranger_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallcounters_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqdividerwforceonstart_entity.vhg|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|
 !i113 0
 R13
 R14
 Amasterversion
+R32
 DEx4 work 16 ultrasoundranger 0 22 TK7oIIREAn:^c8fI2;B_U3
 R5
 R6
 R7
 R3
-8C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd
-FC:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd
+R26
+8C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd
+FC:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd
 l15
 L4
 Vd_g?]RF<L;C]kTH9G7dc`0
 !s100 DG:TQZ_KDnD2zEVZPh?_z3
-R8
+R27
 33
-!s110 1656427782
+R28
 !i10b 1
-!s108 1656427781.000000
-!s90 -work|Sensors|-nologo|-2008|-f|C:/Users/AXEL~1.AMA/AppData/Local/Temp/Files12|
-!s107 C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerAutoreset_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/ultrasoundRanger_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallPulsesFilter_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/hallCounters_RTL.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/freqDividerWForceOnStart_rtl.vhd|C:/dev/eln_kart_sodimm200/Prefs/../Sensors/hdl/batterylevelinterface_struct.vhg|
+R29
+R30
+R31
 !i113 0
 R13
 R14
