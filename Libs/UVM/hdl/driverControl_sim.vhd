@@ -14,6 +14,8 @@ BEGIN
     file driverFile : text;
     variable driverLine : line;
     variable preComment : line;
+    variable severityLevel_line : line;
+    variable severityLevel : severity_level;
     variable command : line;
     variable delay : time;
     variable address : line;
@@ -38,27 +40,42 @@ BEGIN
         if verbosity > 1 then
           print(command.all & ":" & driverLine.all);
         end if;
-
+                                               -- update test information string
         if command.all = "info" then
           if verbosity > 0 then
             print("Info: " & driverLine.all);
           end if;
           testInfo <= pad(driverLine.all, testInfo'length);
-
+                                                  -- advance to a specified time
         elsif command.all = "at" then
           if verbosity > 0 then
             print(cr & "Advancing simulation to time " & driverLine.all);
           end if;
           delay := sscanf(driverLine.all);
           wait for delay - now;
-
+                                               -- advance with a given time step
         elsif command.all = "wait" then
           if verbosity > 0 then
             print(cr &"Advancing simulation of step " & driverLine.all);
           end if;
           delay := sscanf(driverLine.all);
           wait for delay;
-
+                                                     -- simulate false assertion
+        elsif command.all = "assert" then
+          read_first(driverLine, severityLevel_line);
+          if severityLevel_line.all = "note" then
+            severityLevel := note;
+          elsif severityLevel_line.all = "warning" then
+            severityLevel := warning;
+          elsif severityLevel_line.all = "error" then
+            severityLevel := error;
+          else
+            severityLevel := failure;
+          end if;
+          assert false
+            report driverLine.all
+            severity severityLevel;
+                                                         -- output a transaction
         else
           driverTransaction <= pad(" ", driverTransaction'length);
           wait for 0 ns;

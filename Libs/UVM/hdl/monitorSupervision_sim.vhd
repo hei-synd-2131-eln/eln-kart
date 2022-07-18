@@ -25,7 +25,7 @@ BEGIN
     file monitorFile : text;
     variable transactionLine : line;
   begin
-    wait on monitorTransaction;
+    wait on monitorTransaction'transaction;
     if verbosity > 0 then
       print("  " & monitorTransaction);
     end if;

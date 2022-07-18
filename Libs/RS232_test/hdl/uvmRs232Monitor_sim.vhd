@@ -65,12 +65,12 @@ BEGIN
       );
     elsif rising_edge(rxReceived) then
       monitorTransaction <= pad(
-        "sent " & sprintf("%02X", rxWord),
+        reportStart & " sent " & sprintf("%02X", rxWord),
         monitorTransaction'length
       );
     elsif rising_edge(txReceived) then
       monitorTransaction <= pad(
-        "received " & sprintf("%02X", txWord),
+        reportStart & " received " & sprintf("%02X", txWord),
         monitorTransaction'length
       );
     end if;
