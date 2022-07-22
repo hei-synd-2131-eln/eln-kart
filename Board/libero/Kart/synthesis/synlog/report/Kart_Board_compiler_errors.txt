@@ -1,2 +1,14 @@
-@E: CD738 :"C:\Microsemi\Libero_SoC_v11.9\SynplifyPro\lib\vhd2008\std.vhd":0:0:0:0|Integer 0 out of range 1 to 2147483647
+@E: CL219 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Multiple non-tristate drivers for net endswOut(4) in endSwitchesSelector
+@E: CL219 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Multiple non-tristate drivers for net endswOut(3) in endSwitchesSelector
+@E: CL219 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Multiple non-tristate drivers for net endswOut(2) in endSwitchesSelector
+@E: CL219 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Multiple non-tristate drivers for net endswOut(1) in endSwitchesSelector
+@E: CL219 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1225:8:1225:15|Multiple non-tristate drivers for net hallsOut(1) in hallDataSelector
+@E: CL229 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Unresolved tristate drivers for net endswOut(1) in endSwitchesSelector
+@E: CL229 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Unresolved tristate drivers for net endswOut(2) in endSwitchesSelector
+@E: CL229 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Unresolved tristate drivers for net endswOut(3) in endSwitchesSelector
+@E: CL229 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1285:8:1285:15|Unresolved tristate drivers for net endswOut(4) in endSwitchesSelector
+@E: CL229 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1225:8:1225:15|Unresolved tristate drivers for net hallsOut(1) in hallDataSelector
+@E: MF420 |Netlist read from file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synwork\layer0.srs failed
+@E: Could not find specified top level Kart_Board (library: work, cell: Kart_Board)Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+@E::Error while linking, aborting.
 

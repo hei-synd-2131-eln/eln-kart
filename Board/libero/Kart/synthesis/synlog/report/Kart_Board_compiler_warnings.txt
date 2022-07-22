@@ -1,93 +1,49 @@
-@W: CD908 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9031:8:9031:8|Cannot access external symbol p_addr in a pure function. Change the function type to impure
-@W: CD908 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9032:8:9032:8|Cannot access external symbol p_data in a pure function. Change the function type to impure
-@W: CD908 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9033:8:9033:8|Cannot access external symbol p_state in a pure function. Change the function type to impure
-@W: CD908 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9033:33:9033:33|Cannot access external symbol full in a pure function. Change the function type to impure
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":514:8:514:16|Nil range port will be removed: sda_proxy (1 to 0)
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9827:4:9827:10|Port proxysdain of entity work.kartcontroller has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9827:4:9827:10|Port proxysclin of entity work.kartcontroller has a width of 0
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9518:11:9518:21|Signal proxysclout is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9519:11:9519:20|Signal proxysclin is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9520:11:9520:20|Signal proxysdain is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9521:11:9521:21|Signal proxysdaout is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1220:8:1220:17|Nil range port will be removed: proxysclin (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1221:8:1221:17|Nil range port will be removed: proxysdain (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1235:8:1235:18|Nil range port will be removed: proxysclout (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1236:8:1236:18|Nil range port will be removed: proxysdaout (1 to 0)
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9409:4:9409:22|Port proxysdain of entity work.sensorscontroller has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":9409:4:9409:22|Port proxysclin of entity work.sensorscontroller has a width of 0
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6865:30:6865:53|Index value 0 to 31 could be out of prefix range 1 downto 0. 
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6847:4:6847:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6847:4:6847:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6847:4:6847:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6847:4:6847:5|Pruning register bits 4 to 2 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6613:9:6613:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6614:9:6614:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6613:9:6613:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6614:9:6614:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1457:8:1457:34|Index value 0 to 31 could be out of prefix range 1 downto 0. 
-@W: CG296 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6212:14:6212:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
-@W: CG290 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":6214:7:6214:11|Referenced variable reset is not in sensitivity list.
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2280:8:2280:17|Nil range port will be removed: proxysclin (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2281:8:2281:17|Nil range port will be removed: proxysdain (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2288:8:2288:18|Nil range port will be removed: proxysclout (1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2289:8:2289:18|Nil range port will be removed: proxysdaout (1 to 0)
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5779:4:5779:9|Port proximity of entity work.sensorsregisters has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5779:4:5779:9|Port ambientlight of entity work.sensorsregisters has a width of 0
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5583:11:5583:22|Signal ambientlight is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5592:11:5592:19|Signal proximity is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":3700:8:3700:19|Nil range port will be removed: ambientlight (-1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":3707:8:3707:16|Nil range port will be removed: proximity (-1 to 0)
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4994:4:4994:11|Port sendproximities of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4994:4:4994:11|Port sendambients of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4994:4:4994:11|Port proximity of entity work.sensorsregisterssend has a width of 0
-@W: CD328 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4994:4:4994:11|Port ambientlight of entity work.sensorsregisterssend has a width of 0
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4707:11:4707:22|Signal sendambients is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4712:11:4712:25|Signal sendproximities is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4290:8:4290:19|Nil range port will be removed: ambientlight (-1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4297:8:4297:16|Nil range port will be removed: proximity (-1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4301:8:4301:19|Nil range port will be removed: sendambients (-1 to 0)
-@W: CD854 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4306:8:4306:22|Nil range port will be removed: sendproximities (-1 to 0)
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4378:30:4378:53|Index value 0 to 31 could be out of prefix range 4 downto 0. 
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4359:4:4359:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL260 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4359:4:4359:5|Pruning register bit 4 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4102:9:4102:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4103:9:4103:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4102:9:4102:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4103:9:4103:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4102:9:4102:12|Signal p_di is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4103:9:4103:12|Signal p_lc is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CL279 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":4240:4:4240:5|Pruning register bits 15 to 14 of rangerOut(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1457:8:1457:34|Index value 0 to 31 could be out of prefix range 4 downto 0. 
-@W: CD638 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2575:9:2575:12|Signal p_ok is undriven. Either assign the signal a value or remove the signal declaration.
-@W: CL271 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2730:4:2730:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL271 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2730:4:2730:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CL279 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2594:4:2594:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CD434 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":2866:38:2866:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1953:28:1953:51|Index value 0 to 31 could be out of prefix range 1 downto 0. 
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1936:4:1936:5|Optimizing register bit p_addr_out(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1936:4:1936:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1936:4:1936:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL190 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1936:4:1936:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: CL279 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1936:4:1936:5|Pruning register bits 4 to 1 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
-@W: CD610 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1457:8:1457:34|Index value 0 to 31 could be out of prefix range 0 downto 0. 
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1338:8:1338:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1405:8:1405:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1338:8:1338:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1648:8:1648:20|Input port bits 15 to 6 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1648:8:1648:20|Input port bits 3 to 1 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL169 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":3207:4:3207:5|Pruning unused register once. Make sure that there are no unused intermediate registers.
-@W: CL169 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":3207:4:3207:5|Pruning unused register count(24 downto 0). Make sure that there are no unused intermediate registers.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1338:8:1338:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1405:8:1405:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1338:8:1338:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":1405:8:1405:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5866:8:5866:20|Input port bits 15 to 5 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL247 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":5866:8:5866:20|Input port bit 0 of hworientation(15 downto 0) is unused 
-@W: CL246 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":7827:8:7827:12|Input port bits 39 to 8 of frame(39 downto 0) are unused. Assign logic for all port bits or change the input port size.
-@W: CL158 :"C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\concat\Kart.vhd":514:8:514:16|Inout SDA_proxy is unused
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6387:30:6387:53|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6369:4:6369:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6369:4:6369:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6369:4:6369:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6369:4:6369:5|Pruning register bits 4 to 2 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6135:9:6135:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6136:9:6136:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6135:9:6135:25|Signal rising_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":6136:9:6136:26|Signal falling_detected_s is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1580:8:1580:34|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@W: CG296 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5734:14:5734:20|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5736:7:5736:11|Referenced variable reset is not in sensitivity list.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4496:30:4496:53|Index value 0 to 31 could be out of prefix range 3 downto 0. 
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4477:4:4477:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL260 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4477:4:4477:5|Pruning register bit 4 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":4362:4:4362:5|Pruning register bits 15 to 14 of rangerOut(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1580:8:1580:34|Index value 0 to 31 could be out of prefix range 3 downto 0. 
+@W: CD638 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2694:9:2694:12|Signal p_ok is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2849:4:2849:5|Pruning unused bits 7 to 6 of p_curr_high_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2849:4:2849:5|Pruning unused bits 7 to 6 of p_volt_high_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Optimizing register bit p_curr(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Optimizing register bit p_curr(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Optimizing register bit p_volt(14) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Optimizing register bit p_volt(15) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Pruning register bits 15 to 14 of p_volt(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2713:4:2713:5|Pruning register bits 15 to 14 of p_curr(15 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD434 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2985:38:2985:42|Signal send1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2076:28:2076:51|Index value 0 to 31 could be out of prefix range 1 downto 0. 
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2059:4:2059:5|Optimizing register bit p_addr_out(1) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2059:4:2059:5|Optimizing register bit p_addr_out(2) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2059:4:2059:5|Optimizing register bit p_addr_out(3) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL190 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2059:4:2059:5|Optimizing register bit p_addr_out(4) to a constant 0. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: CL279 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":2059:4:2059:5|Pruning register bits 4 to 1 of p_addr_out(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CD610 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1580:8:1580:34|Index value 0 to 31 could be out of prefix range 0 downto 0. 
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1461:8:1461:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1528:8:1528:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1461:8:1461:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1771:8:1771:20|Input port bits 15 to 6 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1771:8:1771:20|Input port bits 3 to 1 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3326:4:3326:5|Pruning unused register once. Make sure that there are no unused intermediate registers.
+@W: CL169 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":3326:4:3326:5|Pruning unused register count(24 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1461:8:1461:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1528:8:1528:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1461:8:1461:14|Input port bits 4 to 0 of address(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":1528:8:1528:16|Input port bits 7 to 5 of addressin(7 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5388:8:5388:20|Input port bits 15 to 5 of hworientation(15 downto 0) are unused. Assign logic for all port bits or change the input port size.
+@W: CL247 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":5388:8:5388:20|Input port bit 0 of hworientation(15 downto 0) is unused 
+@W: CL246 :"C:\dev\eln_kart_sodimm200\Board\concat\Kart.vhd":7349:8:7349:12|Input port bits 39 to 8 of frame(39 downto 0) are unused. Assign logic for all port bits or change the input port size.
 

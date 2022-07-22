@@ -74,24 +74,6 @@ BEGIN
                     to_integer(unsigned(addressIn(REG_ADDR_REG_RANGE)))
                     - SENS_HALLCNT_EXT_REG_POS
                   );
-              elsif p_int_reg_addr >= SENS_PROXIMITY_EXT_REG_POS and
-                  p_int_reg_addr < SENS_PROXIMITY_EXT_REG_POS + SENS_proximitySensorNb then
-                p_data_out <= std_ulogic_vector(proximity(
-                  (((to_integer(unsigned(addressIn(REG_ADDR_REG_RANGE)))
-                  - SENS_PROXIMITY_EXT_REG_POS)+1)
-                  * SENS_proximityBitNb) downto 
-                  ((to_integer(unsigned(addressIn(REG_ADDR_REG_RANGE)))
-                  - SENS_PROXIMITY_EXT_REG_POS)
-                  * SENS_proximityBitNb)));
-              elsif p_int_reg_addr >= SENS_AMBIENTLIGHT_EXT_REG_POS and
-                  p_int_reg_addr < SENS_AMBIENTLIGHT_EXT_REG_POS + SENS_proximitySensorNb then
-                p_data_out <= std_ulogic_vector(ambientLight(
-                  (((to_integer(unsigned(addressIn(REG_ADDR_REG_RANGE)))
-                  - SENS_AMBIENTLIGHT_EXT_REG_POS)+1)
-                  * SENS_ambientLightBitNb) - 1 downto 
-                  ((to_integer(unsigned(addressIn(REG_ADDR_REG_RANGE)))
-                  - SENS_AMBIENTLIGHT_EXT_REG_POS)
-                  * SENS_ambientLightBitNb)));
               else
                 p_state <= idle;
               end if;
@@ -139,34 +121,7 @@ BEGIN
                 p_data_out <= hallReg(index);
               end if;
             end loop;
-
-            for index in 0 to SENS_proximitySensorNb-1 loop
-              if sendProximities(index) = '1' and hasSent = '0' then
-                hasSent := '1';
-                p_addr_out <= regExtAddrBegin & std_ulogic_vector(
-                to_unsigned(SENS_PROXIMITY_EXT_REG_POS + index,
-                  REG_ADDR_MAXNBREG_BITS));
-                p_request <= '1';
-                p_state <= request;
-                p_data_out <= std_ulogic_vector(
-                  proximity((index+1) * SENS_proximityBitNb - 1 downto index * SENS_proximityBitNb)
-                );
-              end if;
-            end loop;
-
-            for index in 0 to SENS_proximitySensorNb-1 loop
-              if sendAmbients(index) = '1' and hasSent = '0' then
-                hasSent := '1';
-                p_addr_out <= regExtAddrBegin & std_ulogic_vector(
-                to_unsigned(SENS_AMBIENTLIGHT_EXT_REG_POS + index,
-                  REG_ADDR_MAXNBREG_BITS));
-                p_request <= '1';
-                p_state <= request;
-                p_data_out <= std_ulogic_vector(
-                  ambientLight((index+1) * SENS_ambientLightBitNb - 1 downto index * SENS_ambientLightBitNb)
-                );
-              end if;
-            end loop;
+            
           end if;
 
         when request =>

@@ -97,9 +97,9 @@ BEGIN
     end if;
   end process coil_ctrl;
 
-  coil1 <= i_coil1;
-  coil2 <= i_coil2;
-  coil3 <= i_coil3;
-  coil4 <= i_coil4;
+  coil1 <= not(i_coil1);
+  coil2 <= not(i_coil2);
+  coil3 <= not(i_coil3);
+  coil4 <= not(i_coil4);
 
 END ARCHITECTURE rtl;

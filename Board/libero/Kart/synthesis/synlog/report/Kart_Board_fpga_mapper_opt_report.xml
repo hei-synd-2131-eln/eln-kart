@@ -7,14 +7,14 @@ The file contains the optimization information from mapper to be displayed as pa
 <parameter tooltip="Retiming summary: Registers Before / After retiming" name="Retiming">
 <data>0 / 1</data>
 <report_link name="more">
-<data>C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\libero\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_retiming.rpt</data>
+<data>C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_retiming.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>
 </report_link>
 </parameter>
 <parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
 <data>1 / 1</data>
 <report_link name="more">
-<data>C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\libero\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_combined_clk.rpt</data>
+<data>C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\synlog\report\Kart_Board_fpga_mapper_combined_clk.rpt</data>
 <title>START OF CLOCK OPTIMIZATION REPORT</title>
 </report_link>
 </parameter>

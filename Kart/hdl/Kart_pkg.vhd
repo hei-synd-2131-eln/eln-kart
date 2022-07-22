@@ -18,11 +18,28 @@ PACKAGE Kart IS
 
 -- Redefine student constants to make them available through this package
   constant TESTMODE_PRESCALER_BIT_NB : positive := TESTMODE_PRESCALER_BIT_NB;
-  constant NUMBER_OF_LEDS : positive := NUMBER_OF_LEDS;
-  constant NUMBER_OF_HALL_SENSORS : positive := NUMBER_OF_HALL_SENSORS;
-  constant NUMBER_OF_EXT_END_SWITCHES : positive := NUMBER_OF_EXT_END_SWITCHES;
-  constant NUMBER_OF_PROXIMITY_SENSORS : natural := NUMBER_OF_PROXIMITY_SENSORS;
   constant HALLSENS_2PULSES_PER_TURN : std_ulogic := HALLSENS_2PULSES_PER_TURN;
+  constant STD_HALL_NUMBERS : positive := STD_HALL_NUMBERS;
+  function check_hall_count(size : positive) return std_ulogic;
+  constant STD_ENDSW_NUMBER : positive := STD_ENDSW_NUMBER;
+  function check_endsw_count(size : positive) return std_ulogic;
+
+-- Sensors
+    -- If changed, the memory layout would change -> need a new smartphone and PC app
+    -- The number of leds (or any output requiring a symmetrical PWM)
+  constant NUMBER_OF_LEDS : positive := 4;
+
+    -- The number of hall sensors
+  constant NUMBER_OF_HALL_SENSORS : positive := 2;
+
+    -- The number of external end switches (or any 0 - 3.3V input signal)
+    -- A signal is sent to the smartphone on either rising or falling edge
+  constant NUMBER_OF_EXT_END_SWITCHES : positive := 16;
+      -- IN CURRENT OLD AN NEW PROTOCOL CONFIGURATION, END SWITCHES
+      -- CAN ONLY BE USED "INTERNALLY" -> INHIBIT THE SEND EVENTS 
+  constant INHIBIT_ENDSW_SEND : std_ulogic := '1'; 
+
+
 
 --------------------------------------------------------------------------------
 -- YOUUUUUUUUU SHALL NOTTTTTTT TOUCH
@@ -225,31 +242,23 @@ PACKAGE Kart IS
     -- Required for registers definition
   constant SENS_ledNb : positive := NUMBER_OF_LEDS;
   constant SENS_hallSensorNb : positive := NUMBER_OF_HALL_SENSORS;
-  constant SENS_proximitySensorNb : natural := NUMBER_OF_PROXIMITY_SENSORS;
   constant SENS_endSwitchNb : positive := NUMBER_OF_EXT_END_SWITCHES;
   
   constant REG_SENS_ADDR : natural := 2;
     -- How many writable registers
-  constant SENS_REG_COUNT : positive := 1 + SENS_ledNb;
+  constant SENS_REG_COUNT : positive := SENS_ledNb;
     -- Total count of register
   constant SENS_TOT_REG_COUNT : positive :=
-    SENS_REG_COUNT + SENS_hallSensorNb + 2 * SENS_proximitySensorNb + 4;
+    SENS_REG_COUNT + SENS_hallSensorNb +  4;
       
   -- Regs defs
-  constant SENS_REFRESH_PROXI_REG_POS : natural := 0;
-  constant SENS_LEDS_REG_POS : natural := 1; -- up to SENS_ledNb
-  constant SENS_BATTERY_EXT_REG_POS : natural := SENS_ledNb + 1;
-  constant SENS_CURRENT_EXT_REG_POS : natural := SENS_ledNb + 2;
-  constant SENS_RANGEFNDR_EXT_REG_POS : natural := SENS_ledNb + 3;
-  constant SENS_ENDSWITCHES_EXT_REG_POS : natural := SENS_ledNb + 4;
-  constant SENS_HALLCNT_EXT_REG_POS : natural := SENS_ledNb + 5;
-    -- up to SENS_ledNb + SENS_hallSensorNb + 4
-  constant SENS_PROXIMITY_EXT_REG_POS : natural :=
-    SENS_ledNb + SENS_hallSensorNb + 5;
-    -- up to SENS_ledNb + SENS_hallSensorNb + SENS_proximitySensorNb + 4
-  constant SENS_AMBIENTLIGHT_EXT_REG_POS : natural :=
-    SENS_ledNb + SENS_hallSensorNb + SENS_proximitySensorNb + 5;
-    -- up to SENS_ledNb + SENS_hallSensorNb + 2 * SENS_proximitySensorNb + 4
+  constant SENS_LEDS_REG_POS : natural := 0; -- up to SENS_ledNb-1
+  constant SENS_BATTERY_EXT_REG_POS : natural := SENS_ledNb;
+  constant SENS_CURRENT_EXT_REG_POS : natural := SENS_ledNb + 1;
+  constant SENS_RANGEFNDR_EXT_REG_POS : natural := SENS_ledNb + 2;
+  constant SENS_ENDSWITCHES_EXT_REG_POS : natural := SENS_ledNb + 3;
+  constant SENS_HALLCNT_EXT_REG_POS : natural := SENS_ledNb + 4;
+      -- up to SENS_ledNb+4+SENS_hallSensorNb-1
 
   -- Event based definitions
   --|||||||||||||||
@@ -275,10 +284,7 @@ PACKAGE Kart IS
   constant SENS_HALL_CLOCK_DIVIDER : positive := 4*CLOCK_1MS_DIVIDER;
         -- Number of clocks the signal must be stable for registering
   constant SENS_HALL_NB_CLOCKS_FILTER : positive := 7;
-    -- Delta for proximities, unknown unit
-  constant SENS_PROXI_DELTA : positive := 255;
-    -- Delta for ambient, unknown unit
-  constant SENS_AMBIENT_DELTA : positive := 255;
+
   --|||||||||||||||
   --|||||||||||||||
         -- Delta in "register unit"
@@ -335,19 +341,6 @@ PACKAGE Kart IS
       -- If should count 2 pulses per turn or only 1
   constant SENS_HALL_COUNTS_2PULSES_P_TURN : std_ulogic
     := HALLSENS_2PULSES_PER_TURN;
-    -- Proximity
-  constant SENS_proximityBaseAddress: natural := 16;
-  constant SENS_ambientLightBitNb: positive := 16;
-  constant SENS_proximityBitNb: positive := 16;
-      -- I2C baudrate
-  --|||||||||||||||
-  --|||||||||||||||
-  constant SENS_proximityBaudRate: real := 100.0E3;
-  --|||||||||||||||
-  --|||||||||||||||
-  constant SENS_proximityBaudRateDivide: positive :=
-    integer(CLOCK_FREQUENCY/SENS_proximityBaudRate / 4.0);
-
 
   --------------------------------------------
 
@@ -400,5 +393,29 @@ package body Kart is
 
   constant SENS_HALLCOUNT_TURN_DELTA : positive :=
     hall_check(SENS_HALLCOUNT_HALF_TURN_DELTA);
+
+
+  function check_hall_count(size : positive) return std_ulogic is
+  begin
+    assert(STD_HALL_NUMBERS <= SENS_hallSensorNb)
+      report
+      "The number of hall sensors cannot exceed " & positive'image(SENS_hallSensorNb)
+      severity failure;
+    return '1';
+  end function check_hall_count;
+
+  constant STD_HALL_NUMBERS_OK : std_ulogic := check_hall_count(STD_HALL_NUMBERS);
+
+
+  function check_endsw_count(size : positive) return std_ulogic is
+  begin
+    assert(STD_ENDSW_NUMBER <= SENS_endSwitchNb)
+      report
+      "The number of inputs (a.k.a end switches) cannot exceed " & positive'image(SENS_endSwitchNb)
+      severity failure;
+    return '1';
+  end function check_endsw_count;
+  
+  constant STD_ENDSW_NUMBER_OK : std_ulogic := check_endsw_count(STD_ENDSW_NUMBER);
 
 end package body Kart;

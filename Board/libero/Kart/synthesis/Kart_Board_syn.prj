@@ -1,11 +1,11 @@
 #--  Synopsys, Inc.
-#--  Version L-2016.09M-2
-#--  Project file C:\Users\axel.amand\Desktop\kart\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board_syn.prj
-#--  Written on Mon Jul 11 08:32:20 2022
+#--  Version L-2016.09M-SP1-5
+#--  Project file C:\dev\eln_kart_sodimm200\Board\libero\Kart\synthesis\Kart_Board_syn.prj
+#--  Written on Fri Jul 22 17:52:34 2022
 
 
 #project files
-add_file -vhdl -lib work "C:/Users/axel.amand/Desktop/kart/eln_kart_sodimm200/Board/concat/Kart.vhd"
+add_file -vhdl -lib work "C:/dev/eln_kart_sodimm200/Board/concat/Kart.vhd"
 
 
 
@@ -21,6 +21,7 @@ set_option -part_companion ""
 
 #compilation/mapping options
 set_option -use_fsm_explorer 0
+set_option -top_module "work.Kart_Board"
 
 # hdl_compiler_options
 set_option -distributed_compile 0

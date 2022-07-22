@@ -76,10 +76,10 @@ set_io  stepperEnd       -pinname 69     -fixed yes      -DIRECTION Input	 -RES_
 #set_io  PM5_7           -pinname 70     -fixed yes      -DIRECTION Input
 set_io  {halls[1]}       -pinname 71     -fixed yes      -DIRECTION Input
 
-#set_io  PM6_1           -pinname 72     -fixed yes      -DIRECTION Output
-#set_io  PM6_2           -pinname 73     -fixed yes      -DIRECTION Output
-#set_io  PM6_3           -pinname 76     -fixed yes      -DIRECTION Output
-#set_io  PM6_4           -pinname 77     -fixed yes      -DIRECTION Output
+set_io  {endSwitches[1]} -pinname 72     -fixed yes      -DIRECTION Input	 -RES_PULL Up
+set_io  {endSwitches[2]} -pinname 73     -fixed yes      -DIRECTION Input	 -RES_PULL Up
+set_io  {endSwitches[3]} -pinname 76     -fixed yes      -DIRECTION Input	 -RES_PULL Up
+set_io  {endSwitches[4]} -pinname 77     -fixed yes      -DIRECTION Input	 -RES_PULL Up
 set_io  {leds[1]}       -pinname 78     -fixed yes      -DIRECTION Output
 set_io  {leds[2]}       -pinname 79     -fixed yes      -DIRECTION Output
 set_io  {leds[3]}       -pinname 80     -fixed yes      -DIRECTION Output

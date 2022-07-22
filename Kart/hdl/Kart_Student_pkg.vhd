@@ -23,23 +23,14 @@ PACKAGE Kart_Student IS
     -- when it overflows, i.e. a pulse each 2**n / 10MHz => n = 8 : 25.6 [us]
   constant TESTMODE_PRESCALER_BIT_NB : positive := 8;
 
-  -- Sensors
-    -- The number of leds (or any output requiring a symmetrical PWM)
-  constant NUMBER_OF_LEDS : positive := 4;
-
-    -- The number of hall sensors
-  constant NUMBER_OF_HALL_SENSORS : positive := 1;
-
-    -- The number of external end switches (or any 0 - 3.3V input signal)
-    -- A signal is sent to the smartphone on either rising or falling edge
-  constant NUMBER_OF_EXT_END_SWITCHES : positive := 1;
-
-    -- The number of proximity sensors used
-    -- NORMALLY NONE
-  constant NUMBER_OF_PROXIMITY_SENSORS : natural := 0;
-
     -- If the hallCounters block generates 2 pulses per turn (on rising AND 
     --  falling edges of the hallPulses) or only one
   constant HALLSENS_2PULSES_PER_TURN : std_ulogic := '1';
+
+    -- The number of hall sensors used
+  constant STD_HALL_NUMBERS : positive := 1;
+
+    -- The number of inputs (a.k.a end switches in the program) wired
+  constant STD_ENDSW_NUMBER : positive := 4;
 
 END Kart_Student;
